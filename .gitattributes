@@ -1,0 +1,6 @@
+# Fins de ligne normalisees en LF, dans le depot comme dans la copie de
+# travail : le projet est developpe sous Windows mais la CI tourne sous Linux.
+* text=auto eol=lf
+
+# Les images ne doivent jamais etre converties.
+*.png -text
