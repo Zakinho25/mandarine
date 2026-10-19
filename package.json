@@ -15,7 +15,12 @@
     "coverage": "vitest run --coverage",
     "check:domain": "node scripts/check-domain-purity.mjs",
     "check": "npm run lint && npm run check:domain && tsc -b && npm run test",
-    "icons": "node scripts/make-icons.mjs"
+    "icons": "node scripts/make-icons.mjs",
+    "data:fetch": "tsx scripts/data/01-fetch.ts",
+    "data:normalize": "tsx scripts/data/02-normalize.ts",
+    "data:merge": "tsx scripts/data/03-merge.ts",
+    "data:build": "tsx scripts/data/04-build.ts",
+    "data": "npm run data:fetch && npm run data:normalize && npm run data:merge && npm run data:build"
   },
   "dependencies": {
     "hanzi-writer": "^3.7.3",
@@ -40,6 +45,7 @@
     "oxlint": "^1.88.0",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "~7.0.2",
     "vite": "^8.3.4",
     "vite-plugin-pwa": "^2.0.0",

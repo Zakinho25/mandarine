@@ -2,6 +2,7 @@ import { createHashRouter } from 'react-router-dom'
 import { Layout } from './Layout'
 import { ParcoursScreen } from '@/features/parcours/ParcoursScreen'
 import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
+import { NiveauScreen } from '@/features/vocabulaire/NiveauScreen'
 import { Placeholder } from '@/ui/Placeholder'
 
 /**
@@ -18,6 +19,7 @@ export const router = createHashRouter([
     element: <Layout />,
     children: [
       { index: true, element: <ParcoursScreen /> },
+      { path: 'niveau/:level', element: <NiveauScreen /> },
       {
         path: 'revisions',
         element: (

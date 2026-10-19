@@ -60,10 +60,73 @@ Le code qui a besoin du navigateur va dans `data/`, `ui/` ou `features/`.
 - Le pinyin est stocké sous sa **forme numérotée** (`ni3 hao3`). Les
   diacritiques sont toujours dérivés par `toDiacritics`, jamais stockés.
 
+## Le pipeline de données
+
+```bash
+npm run data      # les quatre étapes, depuis le réseau jusqu'à public/content/
+```
+
+| Étape | Commande | Rôle |
+| --- | --- | --- |
+| 1 | `npm run data:fetch` | Télécharge dans `scripts/data/raw/` (ignoré par git) et vérifie les empreintes |
+| 2 | `npm run data:normalize` | Ramène chaque source à des structures typées, sans rien joindre |
+| 3 | `npm run data:merge` | Joint, réaligne les tons, écrit `docs/rapport-donnees.md` |
+| 4 | `npm run data:build` | Écrit `public/content/` |
+
+Les fichiers de `public/content/` ne se modifient **jamais** à la main : ils
+sont régénérés. Une correction va dans `scripts/data/overrides.ts`, avec sa
+justification. Le pipeline échoue si une correction ne s'applique plus à aucun
+mot — une correction devenue inutile serait un bug silencieux.
+
 ## Journal des décisions
 
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
+
+### 2026-10-19 — Le syllabus d'examen de 2025, pas le standard de 2021
+Deux documents coexistent, et ils ne disent pas la même chose. Le standard
+d'enseignement *GF 0025-2021* place **2 245 mots** au niveau 3 ; le syllabus
+d'examen publié en **novembre 2025** en place **1 000**. Ce n'est pas une
+révision de l'un par l'autre : ce sont deux textes, l'un pour l'enseignement,
+l'autre pour l'examen. **Pourquoi le second :** c'est lui qui définit ce que
+« HSK 3 » veut dire pour qui passe l'examen.
+
+**Piège évité :** la majorité des jeux de données publics encodent les niveaux
+de 2021. Les importer sans regarder aurait donné un parcours deux fois plus
+long que prévu. Les deux niveaux sont donc stockés sur chaque mot
+(`hsk2025` et `hsk2021`), et le réglage « Programme visé » choisit lequel
+pilote le parcours.
+
+### 2026-10-19 — La provenance est vérifiée, pas supposée
+Le pipeline télécharge le PDF officiel du syllabus et compare son empreinte
+SHA-256 à celle que déclare la transcription utilisée. Elles correspondent.
+**Pourquoi :** une transcription communautaire d'un document officiel est
+invérifiable sur parole ; une empreinte, elle, se vérifie. Le PDF n'est jamais
+redistribué.
+
+### 2026-10-19 — Le dictionnaire découpe, le syllabus donne les tons
+学生 est `xue2 sheng5` au dictionnaire et `xuéshēng` au syllabus. Le
+dictionnaire note souvent la prononciation courante, à ton neutre ; le syllabus
+imprime le ton de citation. **Décision :** le syllabus fait autorité sur les
+tons, le dictionnaire sur le découpage en syllabes — qu'on ne peut pas déduire
+d'une suite de lettres accentuées collées. C'est le rôle de
+`scripts/data/lib/retone.ts`, qui épargne 一 et 不 : le syllabus en imprime la
+forme **après** sandhi, et cette règle doit rester visible pour être enseignée.
+
+### 2026-10-19 — On affiche ce qui se prononce, pas la forme de citation
+不客气 est stocké `bu4 ke4 qi5` et se prononce `bú kèqi`. Afficher la forme de
+citation reviendrait à enseigner un ton faux, dans une application dont les
+tons sont le sujet principal. `annotateMarked` affiche donc la forme accentuée
+du syllabus, en la découpant grâce à la forme numérotée. La forme de citation
+reste visible dans le détail du mot, parce que c'est elle que le sandhi
+transforme.
+
+### 2026-10-19 — `tsx` pour les scripts de données
+**Pourquoi :** les scripts importent le module pinyin de `src/domain/`, qui est
+en TypeScript. Node 20 ne sait pas l'exécuter directement. L'alternative aurait
+été de dupliquer la logique du pinyin en JavaScript — deux sources de vérité
+pour la conversion des tons, c'est-à-dire la garantie qu'elles divergent.
+Les scripts sont typés par `tsconfig.scripts.json` et testés comme le reste.
 
 ### 2026-10-19 — Site web installable plutôt qu'application native
 Le projet a démarré en React Native + Expo. Basculé en application web (Vite +

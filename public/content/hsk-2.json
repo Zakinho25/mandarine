@@ -1,0 +1,4710 @@
+{
+ "format": "mandarine-contenu",
+ "version": 1,
+ "generatedAt": "2026-10-19T11:13:25.578Z",
+ "level": 2,
+ "examTrack": "hsk3_2025",
+ "count": 200,
+ "attribution": [
+  {
+   "what": "Vocabulaire, niveaux et classes grammaticales",
+   "source": "《新版HSK考试大纲》 (nouveau syllabus HSK), novembre 2025",
+   "by": "Center for Language Education and Cooperation",
+   "licence": "Document officiel — droits réservés, usage personnel"
+  },
+  {
+   "what": "Définitions françaises",
+   "source": "CFDICT",
+   "by": "Chine Informations",
+   "licence": "CC BY-SA 3.0",
+   "url": "https://chine.in/mandarin/dictionnaire/CFDICT/"
+  },
+  {
+   "what": "Formes traditionnelles et pinyin numéroté",
+   "source": "ivankra/hsk30, d’après le standard GF 0025-2021",
+   "by": "Ivan Krasilnikov",
+   "licence": "MIT",
+   "url": "https://github.com/ivankra/hsk30"
+  }
+ ],
+ "lexemes": [
+  {
+   "id": "啊-a5",
+   "simplified": "啊",
+   "traditional": "啊",
+   "pinyinNum": "a5",
+   "pinyinMark": "a",
+   "pos": [
+    {
+     "label": "particule",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "(particule modale montrant l'affirmation, l'approbation, le consentement...)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "爱好-ai4hao4",
+   "simplified": "爱好",
+   "traditional": "愛好",
+   "pinyinNum": "ai4 hao4",
+   "pinyinMark": "àihào",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "loisir",
+    "hobby",
+    "passe-temps favori",
+    "avoir du gout pour",
+    "prédilection",
+    "préférence"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "白色-bai2se4",
+   "simplified": "白色",
+   "traditional": "白色",
+   "pinyinNum": "bai2 se4",
+   "pinyinMark": "báisè",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "blanc",
+    "couleur blanche"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "班-ban1",
+   "simplified": "班",
+   "traditional": "班",
+   "pinyinNum": "ban1",
+   "pinyinMark": "bān",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "classe",
+    "équipe",
+    "relais",
+    "escouade",
+    "rang",
+    "régulier"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "帮-bang1",
+   "simplified": "帮",
+   "traditional": "幫",
+   "pinyinNum": "bang1",
+   "pinyinMark": "bāng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "aider",
+    "assister",
+    "ensemble (n.m.)",
+    "groupe",
+    "bande",
+    "(classificateur pour désigner un groupe de personnes, parfois avec un sens péjoratif : gang, bande, clique)",
+    "engagé",
+    "embauché",
+    "enveloppe externe"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "帮忙-bang1mang2",
+   "simplified": "帮忙",
+   "traditional": "幫忙",
+   "pinyinNum": "bang1 mang2",
+   "pinyinMark": "bāngmáng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "aider",
+    "rendre service",
+    "donner un coup de main"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "包-bao1",
+   "simplified": "包",
+   "traditional": "包",
+   "pinyinNum": "bao1",
+   "pinyinMark": "bāo",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "envelopper",
+    "empaqueter",
+    "encercler",
+    "contenir",
+    "embrasser",
+    "se charger de",
+    "garantir",
+    "affréter",
+    "louer",
+    "sac",
+    "paquet",
+    "bosse",
+    "enflure"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "本子-ben3zi5",
+   "simplified": "本子",
+   "traditional": "本子",
+   "pinyinNum": "ben3 zi5",
+   "pinyinMark": "běnzi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "cahier"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "比-bi3",
+   "simplified": "比",
+   "traditional": "比",
+   "pinyinNum": "bi3",
+   "pinyinMark": "bǐ",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "préposition",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "par rapport à",
+    "en comparaison avec",
+    "rapport",
+    "que",
+    "à",
+    "comparer",
+    "rivaliser avec",
+    "considérer comme"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "笔-bi3",
+   "simplified": "笔",
+   "traditional": "筆",
+   "pinyinNum": "bi3",
+   "pinyinMark": "bǐ",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "stylo",
+    "crayon",
+    "pinceau",
+    "écrire ou composer",
+    "traits composant les caractères chinois",
+    "(classificateur des sommes d'argent et des affaires financières)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "别-bie2",
+   "simplified": "别",
+   "traditional": "別",
+   "pinyinNum": "bie2",
+   "pinyinMark": "bié",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "ne pas...",
+    "défense de",
+    "partir",
+    "autre",
+    "différence",
+    "différent"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "不错-bu4cuo4",
+   "simplified": "不错",
+   "traditional": "不錯",
+   "pinyinNum": "bu4 cuo4",
+   "pinyinMark": "búcuò",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "correct",
+    "pas mal",
+    "plutôt bien"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "不好意思-bu4hao3yi4si5",
+   "simplified": "不好意思",
+   "traditional": "不好意思",
+   "pinyinNum": "bu4 hao3 yi4 si5",
+   "pinyinMark": "bù hǎoyìsi",
+   "pos": [],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "se sentir gêné",
+    "être mal à l'aise",
+    "être embarrassé",
+    "hésiter à faire qch",
+    "être désolé",
+    "pardon",
+    "timide",
+    "confus"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "长-chang2",
+   "simplified": "长",
+   "traditional": "長",
+   "pinyinNum": "chang2",
+   "pinyinMark": "cháng",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "long",
+    "longueur",
+    "durable"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "车站-che1zhan4",
+   "simplified": "车站",
+   "traditional": "車站",
+   "pinyinNum": "che1 zhan4",
+   "pinyinMark": "chēzhàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "gare",
+    "station",
+    "arrêt"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "出-chu1",
+   "simplified": "出",
+   "traditional": "出",
+   "pinyinNum": "chu1",
+   "pinyinMark": "chū",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "sortir",
+    "dépasser",
+    "délivrer",
+    "forger (caractère, talent...)",
+    "produire",
+    "paraître",
+    "surgir",
+    "(classificateur pour les pièces de théâtre, les opéras)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "出国-chu1guo2",
+   "simplified": "出国",
+   "traditional": "出國",
+   "pinyinNum": "chu1 guo2",
+   "pinyinMark": "chūguó",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "aller",
+    "partir à l'étranger"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "出来-chu1lai2",
+   "simplified": "出来",
+   "traditional": "出來",
+   "pinyinNum": "chu1 lai2",
+   "pinyinMark": "chūlái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "émerger",
+    "apparaitre"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "出门-chu1men2",
+   "simplified": "出门",
+   "traditional": "出門",
+   "pinyinNum": "chu1 men2",
+   "pinyinMark": "chūmén",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "déplacement",
+    "en dérangement",
+    "(se) déplacer",
+    "partir en voyage",
+    "sortir",
+    "bouger (ailleurs)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "出去-chu1qu4",
+   "simplified": "出去",
+   "traditional": "出去",
+   "pinyinNum": "chu1 qu4",
+   "pinyinMark": "chūqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "sortir",
+    "quitter"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "床-chuang2",
+   "simplified": "床",
+   "traditional": "床",
+   "pinyinNum": "chuang2",
+   "pinyinMark": "chuáng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "lit",
+    "couche"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "词-ci2",
+   "simplified": "词",
+   "traditional": "詞",
+   "pinyinNum": "ci2",
+   "pinyinMark": "cí",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "mot",
+    "terme",
+    "expression",
+    "phrase courte",
+    "paroles"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "次-ci4",
+   "simplified": "次",
+   "traditional": "次",
+   "pinyinNum": "ci4",
+   "pinyinMark": "cì",
+   "pos": [
+    {
+     "label": "classificateur",
+     "secondary": false
+    },
+    {
+     "label": "adjectif",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "fois",
+    "(classificateur pour les événements)",
+    "ordre",
+    "second",
+    "de mauvaise qualité",
+    "inférieur"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "从-cong2",
+   "simplified": "从",
+   "traditional": "從",
+   "pinyinNum": "cong2",
+   "pinyinMark": "cóng",
+   "pos": [
+    {
+     "label": "préposition",
+     "secondary": false
+    },
+    {
+     "label": "adverbe",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "(à partir) de",
+    "depuis",
+    "jamais",
+    "suivre",
+    "obéir à",
+    "s'engager dans",
+    "se joindre à",
+    "secondaire",
+    "accessoire"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "从小-cong2xiao3",
+   "simplified": "从小",
+   "traditional": "從小",
+   "pinyinNum": "cong2 xiao3",
+   "pinyinMark": "cóngxiǎo",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "depuis son enfance"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "错-cuo4",
+   "simplified": "错",
+   "traditional": "錯",
+   "pinyinNum": "cuo4",
+   "pinyinMark": "cuò",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "erreur",
+    "faute",
+    "se tromper",
+    "erroné",
+    "mauvais"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "打-da3",
+   "simplified": "打",
+   "traditional": "打",
+   "pinyinNum": "da3",
+   "pinyinMark": "dǎ",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "frapper",
+    "battre",
+    "briser",
+    "casser",
+    "mélanger",
+    "taper",
+    "donner un coup",
+    "fabriquer",
+    "depuis",
+    "à partir de"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "打车-da3che1",
+   "simplified": "打车",
+   "traditional": "打車",
+   "pinyinNum": "da3 che1",
+   "pinyinMark": "dǎchē",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "prendre un taxi (en ville)",
+    "faire du stop"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "打开-da3kai1",
+   "simplified": "打开",
+   "traditional": "打開",
+   "pinyinNum": "da3 kai1",
+   "pinyinMark": "dǎkāi",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "ouvrir",
+    "déplier",
+    "allumer"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "但-dan4",
+   "simplified": "但",
+   "traditional": "但",
+   "pinyinNum": "dan4",
+   "pinyinMark": "dàn",
+   "pos": [
+    {
+     "label": "conjonction",
+     "secondary": false
+    },
+    {
+     "label": "adverbe",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "mais",
+    "cependant"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "但是-dan4shi4",
+   "simplified": "但是",
+   "traditional": "但是",
+   "pinyinNum": "dan4 shi4",
+   "pinyinMark": "dànshì",
+   "pos": [
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "mais",
+    "cependant",
+    "alors que"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "得-de5",
+   "simplified": "得",
+   "traditional": "得",
+   "pinyinNum": "de5",
+   "pinyinMark": "de",
+   "pos": [
+    {
+     "label": "particule",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "(complément de manière)",
+    "(exprime un résultat, une possibilité, un degré ou un aboutissement)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "地-de5",
+   "simplified": "地",
+   "traditional": "地",
+   "pinyinNum": "de5",
+   "pinyinMark": "de",
+   "pos": [
+    {
+     "label": "particule",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "(particule placée devant le verbe qui transforme un adjectif en adverbe)",
+    "-ment"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "等-deng3",
+   "simplified": "等",
+   "traditional": "等",
+   "pinyinNum": "deng3",
+   "pinyinMark": "děng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "préposition",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "classe",
+    "échelon",
+    "sorte",
+    "genre",
+    "etc.",
+    "et autres",
+    "être égal à",
+    "attendre",
+    "quand",
+    "à savoir"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "地铁-di4tie3",
+   "simplified": "地铁",
+   "traditional": "地鐵",
+   "pinyinNum": "di4 tie3",
+   "pinyinMark": "dìtiě",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "métro"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "点-dian3-336",
+   "simplified": "点",
+   "traditional": "點",
+   "pinyinNum": "dian3",
+   "pinyinMark": "diǎn",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": true
+    },
+    {
+     "label": "classificateur",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "un peu",
+    "un point",
+    "marquer",
+    "allumer",
+    "coup de l'horloge",
+    "faire un signe de la tête",
+    "commander"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "懂-dong3",
+   "simplified": "懂",
+   "traditional": "懂",
+   "pinyinNum": "dong3",
+   "pinyinMark": "dǒng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "comprendre",
+    "savoir"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "动-dong4",
+   "simplified": "动",
+   "traditional": "動",
+   "pinyinNum": "dong4",
+   "pinyinMark": "dòng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "bouger",
+    "se mouvoir",
+    "toucher à",
+    "déplacer",
+    "agir",
+    "se mettre en action"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "饭馆-fan4guan3",
+   "simplified": "饭馆",
+   "traditional": "飯館",
+   "pinyinNum": "fan4 guan3",
+   "pinyinMark": "fànguǎn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "restaurant"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "飞-fei1",
+   "simplified": "飞",
+   "traditional": "飛",
+   "pinyinNum": "fei1",
+   "pinyinMark": "fēi",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "voler (avec des ailes)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "高-gao1",
+   "simplified": "高",
+   "traditional": "高",
+   "pinyinNum": "gao1",
+   "pinyinMark": "gāo",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "haut",
+    "élevé",
+    "grand",
+    "supérieur"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "高中-gao1zhong1",
+   "simplified": "高中",
+   "traditional": "高中",
+   "pinyinNum": "gao1 zhong1",
+   "pinyinMark": "gāozhōng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "lycée (deuxième cycle de l'école secondaire)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "告诉-gao4su5",
+   "simplified": "告诉",
+   "traditional": "告訴",
+   "pinyinNum": "gao4 su5",
+   "pinyinMark": "gàosu",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "dire",
+    "faire savoir",
+    "raconter"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "个子-ge4zi5",
+   "simplified": "个子",
+   "traditional": "個子",
+   "pinyinNum": "ge4 zi5",
+   "pinyinMark": "gèzi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "taille",
+    "stature"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "跟-gen1",
+   "simplified": "跟",
+   "traditional": "跟",
+   "pinyinNum": "gen1",
+   "pinyinMark": "gēn",
+   "pos": [
+    {
+     "label": "préposition",
+     "secondary": false
+    },
+    {
+     "label": "conjonction",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": true
+    },
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "suivre",
+    "talon",
+    "avec",
+    "comme"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "公交车-gong1jiao1che1",
+   "simplified": "公交车",
+   "traditional": "公交車",
+   "pinyinNum": "gong1 jiao1 che1",
+   "pinyinMark": "gōngjiāochē",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "véhicule de transport public",
+    "bus"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "过-guo4",
+   "simplified": "过",
+   "traditional": "過",
+   "pinyinNum": "guo4",
+   "pinyinMark": "guò",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "traverser",
+    "passer (du temps)",
+    "(utilisé après le verbe pour indiquer une action passée)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "过来-guo4lai2",
+   "simplified": "过来",
+   "traditional": "過來",
+   "pinyinNum": "guo4 lai2",
+   "pinyinMark": "guòlái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "faire un saut",
+    "passer",
+    "contrôler",
+    "manipuler",
+    "manier",
+    "être capable de s'occuper de",
+    "se débrouiller"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "过年-guo4nian2",
+   "simplified": "过年",
+   "traditional": "過年",
+   "pinyinNum": "guo4 nian2",
+   "pinyinMark": "guònián",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "passer le Nouvel An"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "过去-guo4qu4",
+   "simplified": "过去",
+   "traditional": "過去",
+   "pinyinNum": "guo4 qu4",
+   "pinyinMark": "guòqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "par le passé",
+    "ancien",
+    "précédent",
+    "aller plus loin",
+    "passer par"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "过-guo5",
+   "simplified": "过",
+   "traditional": "過",
+   "pinyinNum": "guo5",
+   "pinyinMark": "guo",
+   "pos": [
+    {
+     "label": "particule",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "(marqueur d'action expérimentée)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "还是-hai2shi5",
+   "simplified": "还是",
+   "traditional": "還是",
+   "pinyinNum": "hai2 shi5",
+   "pinyinMark": "háishi",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    },
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "ou (bien)(dans phrase interrogative)",
+    "encore",
+    "toujours",
+    "néanmoins",
+    "quand même",
+    "tout de même",
+    "il vaudrait mieux"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "黑色-hei1se4",
+   "simplified": "黑色",
+   "traditional": "黑色",
+   "pinyinNum": "hei1 se4",
+   "pinyinMark": "hēisè",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "noir",
+    "couleur noire"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "红茶-hong2cha2",
+   "simplified": "红茶",
+   "traditional": "紅茶",
+   "pinyinNum": "hong2 cha2",
+   "pinyinMark": "hóngchá",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "thé noir"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "红色-hong2se4",
+   "simplified": "红色",
+   "traditional": "紅色",
+   "pinyinNum": "hong2 se4",
+   "pinyinMark": "hóngsè",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "couleur rouge",
+    "rouge"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "后面-hou4mian4",
+   "simplified": "后面",
+   "traditional": "後面",
+   "pinyinNum": "hou4 mian4",
+   "pinyinMark": "hòumiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "arrière",
+    "derrière",
+    "plus tard",
+    "ensuite"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "花-hua1",
+   "simplified": "花",
+   "traditional": "花",
+   "pinyinNum": "hua1",
+   "pinyinMark": "huā",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "fleur",
+    "dépenser",
+    "luxure",
+    "(nom de famille)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "花-hua1-358",
+   "simplified": "花",
+   "traditional": "花",
+   "pinyinNum": "hua1",
+   "pinyinMark": "huā",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "adjectif",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "fleur",
+    "dépenser",
+    "luxure",
+    "(nom de famille)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "画-hua4",
+   "simplified": "画",
+   "traditional": "畫",
+   "pinyinNum": "hua4",
+   "pinyinMark": "huà",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "dessin",
+    "peinture",
+    "magazine",
+    "dessiner",
+    "peindre"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "坏-huai4",
+   "simplified": "坏",
+   "traditional": "壞",
+   "pinyinNum": "huai4",
+   "pinyinMark": "huài",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "mauvais",
+    "méchant",
+    "cassé",
+    "très",
+    "terriblement",
+    "fort",
+    "s'abimer",
+    "se détériorer",
+    "se détruire",
+    "mauvaise intention",
+    "mauvais tour"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "回来-hui2lai2",
+   "simplified": "回来",
+   "traditional": "回來",
+   "pinyinNum": "hui2 lai2",
+   "pinyinMark": "huílái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "revenir"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "回去-hui2qu4",
+   "simplified": "回去",
+   "traditional": "回去",
+   "pinyinNum": "hui2 qu4",
+   "pinyinMark": "huíqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "retourner",
+    "revenir en arrière"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "机场-ji1chang3",
+   "simplified": "机场",
+   "traditional": "機場",
+   "pinyinNum": "ji1 chang3",
+   "pinyinMark": "jīchǎng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "aéroport"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "机票-ji1piao4",
+   "simplified": "机票",
+   "traditional": "機票",
+   "pinyinNum": "ji1 piao4",
+   "pinyinMark": "jīpiào",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "billet d'avion"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "记得-ji4de5",
+   "simplified": "记得",
+   "traditional": "記得",
+   "pinyinNum": "ji4 de5",
+   "pinyinMark": "jìde",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "se rappeler",
+    "se souvenir",
+    "garder la mémoire de"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "间-jian1",
+   "simplified": "间",
+   "traditional": "間",
+   "pinyinNum": "jian1",
+   "pinyinMark": "jiān",
+   "pos": [
+    {
+     "label": "classificateur",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "intervalle",
+    "travée",
+    "durant",
+    "pièce (d'une maison, etc.)",
+    "chambre",
+    "(classificateur des maisons et des chambres)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "教-jiao1",
+   "simplified": "教",
+   "traditional": "教",
+   "pinyinNum": "jiao1",
+   "pinyinMark": "jiāo",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "enseigner",
+    "apprendre qch à qqn"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "教室-jiao4shi4",
+   "simplified": "教室",
+   "traditional": "教室",
+   "pinyinNum": "jiao4 shi4",
+   "pinyinMark": "jiàoshì",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "(salle de) classe"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "介绍-jie4shao4",
+   "simplified": "介绍",
+   "traditional": "介紹",
+   "pinyinNum": "jie4 shao4",
+   "pinyinMark": "jièshào",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "présenter",
+    "introduire",
+    "recommander",
+    "suggérer",
+    "faire savoir",
+    "faire part de",
+    "recommandation",
+    "présentation",
+    "proposition",
+    "précepte",
+    "discipline"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "进-jin4",
+   "simplified": "进",
+   "traditional": "進",
+   "pinyinNum": "jin4",
+   "pinyinMark": "jìn",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "entrer",
+    "progresser",
+    "présenter",
+    "recommander"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "近-jin4",
+   "simplified": "近",
+   "traditional": "近",
+   "pinyinNum": "jin4",
+   "pinyinMark": "jìn",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "proche",
+    "approximativement",
+    "intime"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "进来-jin4lai2",
+   "simplified": "进来",
+   "traditional": "進來",
+   "pinyinNum": "jin4 lai2",
+   "pinyinMark": "jìnlái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "entrer"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "进去-jin4qu4",
+   "simplified": "进去",
+   "traditional": "進去",
+   "pinyinNum": "jin4 qu4",
+   "pinyinMark": "jìnqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "entrer",
+    "insérer"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "经常-jing1chang2",
+   "simplified": "经常",
+   "traditional": "經常",
+   "pinyinNum": "jing1 chang2",
+   "pinyinMark": "jīngcháng",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "souvent",
+    "constamment",
+    "de façon régulière",
+    "courant",
+    "d'ordinaire",
+    "habituellement"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "酒店-jiu3dian4",
+   "simplified": "酒店",
+   "traditional": "酒店",
+   "pinyinNum": "jiu3 dian4",
+   "pinyinMark": "jiǔdiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "hôtel",
+    "boutique de vin"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "就-jiu4",
+   "simplified": "就",
+   "traditional": "就",
+   "pinyinNum": "jiu4",
+   "pinyinMark": "jiù",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    },
+    {
+     "label": "préposition",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "déjà",
+    "aussitôt",
+    "immédiatement",
+    "alors",
+    "même si",
+    "entreprendre",
+    "accomplir",
+    "s'approcher de",
+    "en fonction de"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "咖啡-ka1fei1",
+   "simplified": "咖啡",
+   "traditional": "咖啡",
+   "pinyinNum": "ka1 fei1",
+   "pinyinMark": "kāfēi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "café"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "开始-kai1shi3",
+   "simplified": "开始",
+   "traditional": "開始",
+   "pinyinNum": "kai1 shi3",
+   "pinyinMark": "kāishǐ",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "commencement",
+    "début",
+    "commencer",
+    "débuter"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "开学-kai1xue2",
+   "simplified": "开学",
+   "traditional": "開學",
+   "pinyinNum": "kai1 xue2",
+   "pinyinMark": "kāixué",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "rentrée des classes"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "考-kao3",
+   "simplified": "考",
+   "traditional": "考",
+   "pinyinNum": "kao3",
+   "pinyinMark": "kǎo",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "examiner",
+    "interroger",
+    "subir un examen",
+    "passer un examen"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "考试-kao3shi4",
+   "simplified": "考试",
+   "traditional": "考試",
+   "pinyinNum": "kao3 shi4",
+   "pinyinMark": "kǎoshì",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "examen",
+    "épreuve"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "可能-ke3neng2",
+   "simplified": "可能",
+   "traditional": "可能",
+   "pinyinNum": "ke3 neng2",
+   "pinyinMark": "kěnéng",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "possible",
+    "probable",
+    "peut-être",
+    "probablement"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "裤子-ku4zi5",
+   "simplified": "裤子",
+   "traditional": "褲子",
+   "pinyinNum": "ku4 zi5",
+   "pinyinMark": "kùzi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "pantalon",
+    "culotte"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "快-kuai4",
+   "simplified": "快",
+   "traditional": "快",
+   "pinyinNum": "kuai4",
+   "pinyinMark": "kuài",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    },
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "rapide",
+    "vite",
+    "rapidement",
+    "se hâter",
+    "accélérer",
+    "bientôt",
+    "prompt"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "快乐-kuai4le4",
+   "simplified": "快乐",
+   "traditional": "快樂",
+   "pinyinNum": "kuai4 le4",
+   "pinyinMark": "kuàilè",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "heureux",
+    "joyeux"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "快要-kuai4yao4",
+   "simplified": "快要",
+   "traditional": "快要",
+   "pinyinNum": "kuai4 yao4",
+   "pinyinMark": "kuàiyào",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "presque",
+    "près",
+    "presque tout"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "篮球-lan2qiu2",
+   "simplified": "篮球",
+   "traditional": "籃球",
+   "pinyinNum": "lan2 qiu2",
+   "pinyinMark": "lánqiú",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "basketball",
+    "basket-ball"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "累-lei4",
+   "simplified": "累",
+   "traditional": "累",
+   "pinyinNum": "lei4",
+   "pinyinMark": "lèi",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    },
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "fatiguer",
+    "causer",
+    "impliquer",
+    "lasser",
+    "crevé (fatigue)",
+    "fatigué",
+    "épuisé",
+    "las"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "离-li2",
+   "simplified": "离",
+   "traditional": "離",
+   "pinyinNum": "li2",
+   "pinyinMark": "lí",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "distant de",
+    "quitter",
+    "se séparer",
+    "(un des huit trigrammes)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "里面-li3mian4",
+   "simplified": "里面",
+   "traditional": "裡面",
+   "pinyinNum": "li3 mian4",
+   "pinyinMark": "lǐmiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "dedans",
+    "à l'intérieur"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "楼-lou2",
+   "simplified": "楼",
+   "traditional": "樓",
+   "pinyinNum": "lou2",
+   "pinyinMark": "lóu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "bâtiment",
+    "étage",
+    "pavillon",
+    "maison à étages"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "路-lu4",
+   "simplified": "路",
+   "traditional": "路",
+   "pinyinNum": "lu4",
+   "pinyinMark": "lù",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "chemin",
+    "route",
+    "trajet",
+    "distance",
+    "moyen",
+    "issue",
+    "ligne",
+    "(classificateur pour les lignes d'autobus)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "路上-lu4shang5",
+   "simplified": "路上",
+   "traditional": "路上",
+   "pinyinNum": "lu4 shang5",
+   "pinyinMark": "lùshang",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "en route",
+    "sur la route"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "旅游-lü3you2",
+   "simplified": "旅游",
+   "traditional": "旅遊",
+   "pinyinNum": "lü3 you2",
+   "pinyinMark": "lǚyóu",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "voyager",
+    "voyage",
+    "tourisme"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "绿茶-lü4cha2",
+   "simplified": "绿茶",
+   "traditional": "綠茶",
+   "pinyinNum": "lü4 cha2",
+   "pinyinMark": "lǜchá",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "thé vert"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "绿色-lü4se4",
+   "simplified": "绿色",
+   "traditional": "綠色",
+   "pinyinNum": "lü4 se4",
+   "pinyinMark": "lǜsè",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "adjectif",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "vert",
+    "couleur verte"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "慢-man4",
+   "simplified": "慢",
+   "traditional": "慢",
+   "pinyinNum": "man4",
+   "pinyinMark": "màn",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "lent",
+    "lentement"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "没意思-mei2yi4si5",
+   "simplified": "没意思",
+   "traditional": "沒意思",
+   "pinyinNum": "mei2 yi4 si5",
+   "pinyinMark": "méi yìsi",
+   "pos": [],
+   "hsk2025": 2,
+   "hsk2021": 7,
+   "glossFr": [
+    "ennuyant",
+    "sans intérêt"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "每-mei3",
+   "simplified": "每",
+   "traditional": "每",
+   "pinyinNum": "mei3",
+   "pinyinMark": "měi",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    },
+    {
+     "label": "adverbe",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "chaque",
+    "chacun",
+    "tous"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "门-men2",
+   "simplified": "门",
+   "traditional": "門",
+   "pinyinNum": "men2",
+   "pinyinMark": "mén",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "porte",
+    "entrée",
+    "voie",
+    "moyen",
+    "famille (classification)",
+    "école de pensée",
+    "classe",
+    "catégorie",
+    "(classificateur pour les branches du savoir, les domaines de la connaissance, les sciences, les techniques)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "门口-men2kou3",
+   "simplified": "门口",
+   "traditional": "門口",
+   "pinyinNum": "men2 kou3",
+   "pinyinMark": "ménkǒu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "entrée",
+    "porte d'entrée"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "门票-men2piao4",
+   "simplified": "门票",
+   "traditional": "門票",
+   "pinyinNum": "men2 piao4",
+   "pinyinMark": "ménpiào",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "billet d'entrée"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "面-mian4",
+   "simplified": "面",
+   "traditional": "麵",
+   "pinyinNum": "mian4",
+   "pinyinMark": "miàn",
+   "pos": [
+    {
+     "label": "suffixe",
+     "secondary": false
+    },
+    {
+     "label": "verbe",
+     "secondary": true
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": null,
+   "glossFr": [
+    "face",
+    "surface",
+    "aspect",
+    "farine",
+    "nouilles",
+    "(classificateur pour les objets plans ou susceptibles d'être étendus : drapeaux, miroirs, pans de mur, gongs)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "名-ming2",
+   "simplified": "名",
+   "traditional": "名",
+   "pinyinNum": "ming2",
+   "pinyinMark": "míng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "nom",
+    "nomination",
+    "place",
+    "réputé",
+    "célèbre",
+    "(classificateur pour les membres de certains groupes sociaux comptés ès qualité : étudiants, journalistes, etc.)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "拿-na2",
+   "simplified": "拿",
+   "traditional": "拿",
+   "pinyinNum": "na2",
+   "pinyinMark": "ná",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "prendre",
+    "tenir",
+    "capturer",
+    "saisir"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "那么-na4me5",
+   "simplified": "那么",
+   "traditional": "那麼",
+   "pinyinNum": "na4 me5",
+   "pinyinMark": "nàme",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    },
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "aussi",
+    "tant",
+    "alors"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "那样-na4yang4",
+   "simplified": "那样",
+   "traditional": "那樣",
+   "pinyinNum": "na4 yang4",
+   "pinyinMark": "nàyàng",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "ainsi",
+    "tel"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "奶茶-nai3cha2",
+   "simplified": "奶茶",
+   "traditional": "奶茶",
+   "pinyinNum": "nai3 cha2",
+   "pinyinMark": "nǎichá",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "thé au lait"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "奶奶-nai3nai5",
+   "simplified": "奶奶",
+   "traditional": "奶奶",
+   "pinyinNum": "nai3 nai5",
+   "pinyinMark": "nǎinai",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "bonne-maman",
+    "nichons",
+    "doudounes",
+    "lolos",
+    "nénés",
+    "nénets"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "男孩儿-nan2hai2r5",
+   "simplified": "男孩儿",
+   "traditional": "男孩兒",
+   "pinyinNum": "nan2 hai2 r5",
+   "pinyinMark": "nánháir",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "garçon"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "鸟-niao3",
+   "simplified": "鸟",
+   "traditional": "鳥",
+   "pinyinNum": "niao3",
+   "pinyinMark": "niǎo",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "oiseau",
+    "(196e radical)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "女孩儿-nü3hai2r5",
+   "simplified": "女孩儿",
+   "traditional": "女孩兒",
+   "pinyinNum": "nü3 hai2 r5",
+   "pinyinMark": "nǚháir",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "fille (enfant)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "旁边-pang2bian1",
+   "simplified": "旁边",
+   "traditional": "旁邊",
+   "pinyinNum": "pang2 bian1",
+   "pinyinMark": "pángbiān",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "latéral",
+    "côté",
+    "sur le côté",
+    "à côté",
+    "tout près"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "跑-pao3",
+   "simplified": "跑",
+   "traditional": "跑",
+   "pinyinNum": "pao3",
+   "pinyinMark": "pǎo",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "courir",
+    "s'enfuir",
+    "s'échapper"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "跑步-pao3bu4",
+   "simplified": "跑步",
+   "traditional": "跑步",
+   "pinyinNum": "pao3 bu4",
+   "pinyinMark": "pǎobù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "courir",
+    "faire du jogging"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "票-piao4",
+   "simplified": "票",
+   "traditional": "票",
+   "pinyinNum": "piao4",
+   "pinyinMark": "piào",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "ticket",
+    "billet",
+    "bulletin de vote"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "妻子-qi1zi5",
+   "simplified": "妻子",
+   "traditional": "妻子",
+   "pinyinNum": "qi1 zi5",
+   "pinyinMark": "qīzi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 4,
+   "glossFr": [
+    "femme (partenaire)",
+    "épouse"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "起来-qi3lai2",
+   "simplified": "起来",
+   "traditional": "起來|起來",
+   "pinyinNum": "qi3 lai2",
+   "pinyinMark": "qǐlái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "se relever",
+    "se lever"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "前面-qian2mian4",
+   "simplified": "前面",
+   "traditional": "前面",
+   "pinyinNum": "qian2 mian4",
+   "pinyinMark": "qiánmiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "(en) avant",
+    "devant",
+    "ci-dessus"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "晴-qing2",
+   "simplified": "晴",
+   "traditional": "晴",
+   "pinyinNum": "qing2",
+   "pinyinMark": "qíng",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "clair",
+    "beau temps",
+    "éclaircie",
+    "s'éclaircir (pour le ciel)",
+    "serein"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "球-qiu2",
+   "simplified": "球",
+   "traditional": "球",
+   "pinyinNum": "qiu2",
+   "pinyinMark": "qiú",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "globe",
+    "balle",
+    "ballon"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "让-rang4",
+   "simplified": "让",
+   "traditional": "讓",
+   "pinyinNum": "rang4",
+   "pinyinMark": "ràng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "préposition",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "céder",
+    "faire des concessions",
+    "autoriser",
+    "permettre",
+    "laisser faire",
+    "demander de (faire qch)",
+    "dire de (faire qch)",
+    "par"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "肉-rou4",
+   "simplified": "肉",
+   "traditional": "肉",
+   "pinyinNum": "rou4",
+   "pinyinMark": "ròu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "viande",
+    "chair",
+    "pulpe"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "商场-shang1chang3",
+   "simplified": "商场",
+   "traditional": "商場",
+   "pinyinNum": "shang1 chang3",
+   "pinyinMark": "shāngchǎng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "centre commercial"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "上来-shang4lai2",
+   "simplified": "上来",
+   "traditional": "上來",
+   "pinyinNum": "shang4 lai2",
+   "pinyinMark": "shànglái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "monter vers soi",
+    "Viens ! (à qqn plus bas que soi)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "上面-shang4mian4",
+   "simplified": "上面",
+   "traditional": "上面",
+   "pinyinNum": "shang4 mian4",
+   "pinyinMark": "shàngmiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "au dessus de",
+    "mentionné ci-dessus"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "上去-shang4qu4",
+   "simplified": "上去",
+   "traditional": "上去",
+   "pinyinNum": "shang4 qu4",
+   "pinyinMark": "shàngqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "(placé après un verbe pour indiquer une action de bas en haut ou une longue distance)",
+    "monter"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "上网-shang4wang3",
+   "simplified": "上网",
+   "traditional": "上網",
+   "pinyinNum": "shang4 wang3",
+   "pinyinMark": "shàngwǎng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "être connecté",
+    "être en ligne",
+    "naviguer sur Internet",
+    "surfer sur la toile"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "身体-shen1ti3",
+   "simplified": "身体",
+   "traditional": "身體",
+   "pinyinNum": "shen1 ti3",
+   "pinyinMark": "shēntǐ",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "corps",
+    "santé"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "生日-sheng1ri4",
+   "simplified": "生日",
+   "traditional": "生日",
+   "pinyinNum": "sheng1 ri4",
+   "pinyinMark": "shēngrì",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "anniversaire"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "时-shi2",
+   "simplified": "时",
+   "traditional": "時",
+   "pinyinNum": "shi2",
+   "pinyinMark": "shí",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "temps",
+    "heure",
+    "souvent",
+    "actuel",
+    "courant",
+    "occasion"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "事情-shi4qing5",
+   "simplified": "事情",
+   "traditional": "事情",
+   "pinyinNum": "shi4 qing5",
+   "pinyinMark": "shìqing",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "affaire",
+    "chose (immatérielle)",
+    "besogne"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "手-shou3",
+   "simplified": "手",
+   "traditional": "手",
+   "pinyinNum": "shou3",
+   "pinyinMark": "shǒu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "main",
+    "ouvrier",
+    "(64e radical)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "手表-shou3biao3",
+   "simplified": "手表",
+   "traditional": "手錶",
+   "pinyinNum": "shou3 biao3",
+   "pinyinMark": "shǒubiǎo",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "montre (horlogerie)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "书包-shu1bao1",
+   "simplified": "书包",
+   "traditional": "書包",
+   "pinyinNum": "shu1 bao1",
+   "pinyinMark": "shūbāo",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "cartable"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "舒服-shu1fu5",
+   "simplified": "舒服",
+   "traditional": "舒服",
+   "pinyinNum": "shu1 fu5",
+   "pinyinMark": "shūfu",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "confortable",
+    "à l'aise",
+    "agréable",
+    "en bonne santé",
+    "bien portant"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "送-song4",
+   "simplified": "送",
+   "traditional": "送",
+   "pinyinNum": "song4",
+   "pinyinMark": "sòng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "envoyer",
+    "apporter (à qqn)",
+    "livrer",
+    "offrir",
+    "reconduire"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "虽然-sui1ran2",
+   "simplified": "虽然",
+   "traditional": "雖然",
+   "pinyinNum": "sui1 ran2",
+   "pinyinMark": "suīrán",
+   "pos": [
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "bien que",
+    "quoique",
+    "même si"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "所以-suo3yi3",
+   "simplified": "所以",
+   "traditional": "所以",
+   "pinyinNum": "suo3 yi3",
+   "pinyinMark": "suǒyǐ",
+   "pos": [
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "par conséquent",
+    "c'est pourquoi",
+    "ce par quoi",
+    "ainsi",
+    "(c'est) la raison pour laquelle"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "疼-teng2",
+   "simplified": "疼",
+   "traditional": "疼",
+   "pinyinNum": "teng2",
+   "pinyinMark": "téng",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    },
+    {
+     "label": "verbe",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "avoir mal",
+    "(qch) faire mal",
+    "chérir",
+    "douloureux",
+    "endolori"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "踢-ti1",
+   "simplified": "踢",
+   "traditional": "踢",
+   "pinyinNum": "ti1",
+   "pinyinMark": "tī",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 6,
+   "glossFr": [
+    "donner un coup de pied",
+    "jouer (avec une balle au pied)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "题-ti2",
+   "simplified": "题",
+   "traditional": "題",
+   "pinyinNum": "ti2",
+   "pinyinMark": "tí",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "sujet",
+    "titre",
+    "question",
+    "inscrire"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "条-tiao2",
+   "simplified": "条",
+   "traditional": "條",
+   "pinyinNum": "tiao2",
+   "pinyinMark": "tiáo",
+   "pos": [
+    {
+     "label": "classificateur",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "(classificateur pour les objets longs ou fins : ruban, rivière, route, serpents, dragons, poissons, chiens, pantalons, robes...)",
+    "bande",
+    "petite branche",
+    "brindille",
+    "clause",
+    "article",
+    "point"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "跳舞-tiao4wu3",
+   "simplified": "跳舞",
+   "traditional": "跳舞",
+   "pinyinNum": "tiao4 wu3",
+   "pinyinMark": "tiàowǔ",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "danser"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "头-tou2",
+   "simplified": "头",
+   "traditional": "頭",
+   "pinyinNum": "tou2",
+   "pinyinMark": "tóu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": true
+    },
+    {
+     "label": "adjectif",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "tête",
+    "caboche",
+    "extrémité",
+    "chef",
+    "premier",
+    "aspect",
+    "(classificateur pour le bétail)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "外国-wai4guo2",
+   "simplified": "外国",
+   "traditional": "外國",
+   "pinyinNum": "wai4 guo2",
+   "pinyinMark": "wàiguó",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "pays étranger"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "外面-wai4mian4",
+   "simplified": "外面",
+   "traditional": "外面",
+   "pinyinNum": "wai4 mian4",
+   "pinyinMark": "wàimiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "surface",
+    "extérieur",
+    "apparence extérieure"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "完-wan2",
+   "simplified": "完",
+   "traditional": "完",
+   "pinyinNum": "wan2",
+   "pinyinMark": "wán",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "terminer",
+    "finir",
+    "s'épuiser",
+    "complet",
+    "entier",
+    "intact"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "万-wan4",
+   "simplified": "万",
+   "traditional": "萬",
+   "pinyinNum": "wan4",
+   "pinyinMark": "wàn",
+   "pos": [
+    {
+     "label": "numéral",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "dix mille",
+    "absolument",
+    "un grand nombre de",
+    "(nom de famille)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "往-wang3",
+   "simplified": "往",
+   "traditional": "往",
+   "pinyinNum": "wang3",
+   "pinyinMark": "wǎng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "préposition",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "ancien",
+    "passé",
+    "aller",
+    "se rendre",
+    "en direction de",
+    "vers"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "网上-wang3shang5",
+   "simplified": "网上",
+   "traditional": "網上",
+   "pinyinNum": "wang3 shang5",
+   "pinyinMark": "wǎngshang",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "en ligne",
+    "sur internet"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "忘-wang4",
+   "simplified": "忘",
+   "traditional": "忘",
+   "pinyinNum": "wang4",
+   "pinyinMark": "wàng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "oublier"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "位-wei4",
+   "simplified": "位",
+   "traditional": "位",
+   "pinyinNum": "wei4",
+   "pinyinMark": "wèi",
+   "pos": [
+    {
+     "label": "classificateur",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "position",
+    "emplacement",
+    "(classificateur pour les personnes, avec une nuance de respect, de déférence)",
+    "place",
+    "siège"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "为什么-wei4shen2me5",
+   "simplified": "为什么",
+   "traditional": "為什麼",
+   "pinyinNum": "wei4 shen2 me5",
+   "pinyinMark": "wèi shénme",
+   "pos": [],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "pourquoi"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "希望-xi1wang4",
+   "simplified": "希望",
+   "traditional": "希望",
+   "pinyinNum": "xi1 wang4",
+   "pinyinMark": "xīwàng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "espérer",
+    "désirer",
+    "espoir",
+    "espérance",
+    "promesse"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "洗-xi3",
+   "simplified": "洗",
+   "traditional": "洗",
+   "pinyinNum": "xi3",
+   "pinyinMark": "xǐ",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "laver",
+    "nettoyer",
+    "massacrer",
+    "développer (une photo)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "洗手间-xi3shou3jian1",
+   "simplified": "洗手间",
+   "traditional": "洗手間",
+   "pinyinNum": "xi3 shou3 jian1",
+   "pinyinMark": "xǐshǒujiān",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "toilettes",
+    "WC",
+    "water"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "下来-xia4lai2",
+   "simplified": "下来",
+   "traditional": "下來",
+   "pinyinNum": "xia4 lai2",
+   "pinyinMark": "xiàlái",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "descendre (du point de vue de qqn vers qui on se déplace)",
+    "viens ! (à qqn plus haut que soi)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "下面-xia4mian4",
+   "simplified": "下面",
+   "traditional": "下面",
+   "pinyinNum": "xia4 mian4",
+   "pinyinMark": "xiàmiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "bouillir les nouilles"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "下去-xia4qu4",
+   "simplified": "下去",
+   "traditional": "下去",
+   "pinyinNum": "xia4 qu4",
+   "pinyinMark": "xiàqù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "descendre",
+    "débarquer",
+    "continuer",
+    "passer (par une ouverture)",
+    "avaler",
+    "quitter un emploi",
+    "(suffixe verbal indiquant la continuité ou un mouvement descendant)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "小孩儿-xiao3hai2r5",
+   "simplified": "小孩儿",
+   "traditional": "小孩兒",
+   "pinyinNum": "xiao3 hai2 r5",
+   "pinyinMark": "xiǎoháir",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "petit enfant",
+    "enfants"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "小时候-xiao3shi2hou5",
+   "simplified": "小时候",
+   "traditional": "小時候",
+   "pinyinNum": "xiao3 shi2 hou5",
+   "pinyinMark": "xiǎoshíhou",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "dans son enfance"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "笑-xiao4",
+   "simplified": "笑",
+   "traditional": "笑",
+   "pinyinNum": "xiao4",
+   "pinyinMark": "xiào",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "rire",
+    "sourire",
+    "ridiculiser"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "姓-xing4",
+   "simplified": "姓",
+   "traditional": "姓",
+   "pinyinNum": "xing4",
+   "pinyinMark": "xìng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "nom de famille"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "姓名-xing4ming2",
+   "simplified": "姓名",
+   "traditional": "姓名",
+   "pinyinNum": "xing4 ming2",
+   "pinyinMark": "xìngmíng",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "nom et prénom",
+    "noms",
+    "nom complet"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "颜色-yan2se4",
+   "simplified": "颜色",
+   "traditional": "顏色",
+   "pinyinNum": "yan2 se4",
+   "pinyinMark": "yánsè",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "couleur",
+    "apparence",
+    "expression faciale",
+    "pigment",
+    "colorant"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "眼睛-yan3jing5",
+   "simplified": "眼睛",
+   "traditional": "眼睛",
+   "pinyinNum": "yan3 jing5",
+   "pinyinMark": "yǎnjing",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "oeil",
+    "yeux"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "药-yao4",
+   "simplified": "药",
+   "traditional": "藥",
+   "pinyinNum": "yao4",
+   "pinyinMark": "yào",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "médicament",
+    "remède",
+    "empoisonner"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "药店-yao4dian4",
+   "simplified": "药店",
+   "traditional": "藥店",
+   "pinyinNum": "yao4 dian4",
+   "pinyinMark": "yàodiàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "pharmacie"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "爷爷-ye2ye5",
+   "simplified": "爷爷",
+   "traditional": "爺爺",
+   "pinyinNum": "ye2 ye5",
+   "pinyinMark": "yéye",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "grand-père"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "一会儿-yi1hui4r5",
+   "simplified": "一会儿",
+   "traditional": "一會兒",
+   "pinyinNum": "yi1 hui4 r5",
+   "pinyinMark": "yíhuìr",
+   "pos": [
+    {
+     "label": "numéral-classificateur",
+     "secondary": false
+    },
+    {
+     "label": "adverbe",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": null,
+   "glossFr": [
+    "un moment",
+    "un instant",
+    "dans un moment",
+    "bientôt",
+    "tantôt... tantôt"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "已经-yi3jing1",
+   "simplified": "已经",
+   "traditional": "已經",
+   "pinyinNum": "yi3 jing1",
+   "pinyinMark": "yǐjīng",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "déjà"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "一起-yi1qi3",
+   "simplified": "一起",
+   "traditional": "一起",
+   "pinyinNum": "yi1 qi3",
+   "pinyinMark": "yìqǐ",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "ensemble",
+    "avec",
+    "en compagnie de",
+    "en tout"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": true
+  },
+  {
+   "id": "意思-yi4si5",
+   "simplified": "意思",
+   "traditional": "意思",
+   "pinyinNum": "yi4 si5",
+   "pinyinMark": "yìsi",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "sens",
+    "opinion",
+    "intention",
+    "signification",
+    "souhait",
+    "sentiment"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "阴-yin1",
+   "simplified": "阴",
+   "traditional": "陰",
+   "pinyinNum": "yin1",
+   "pinyinMark": "yīn",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "Yin (principe féminin, opposé du Yang)",
+    "ombre",
+    "ubac (versant d'une montagne le moins exposé au soleil)",
+    "nuageux",
+    "sombre",
+    "lunaire",
+    "sournois",
+    "sinistre",
+    "négatif (électricité)",
+    "(nom de famille)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "因为-yin1wei4",
+   "simplified": "因为",
+   "traditional": "因為",
+   "pinyinNum": "yin1 wei4",
+   "pinyinMark": "yīnwèi",
+   "pos": [
+    {
+     "label": "préposition",
+     "secondary": false
+    },
+    {
+     "label": "conjonction",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "car",
+    "parce que",
+    "à cause de",
+    "par suite de",
+    "en raison de"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "游-you2",
+   "simplified": "游",
+   "traditional": "游",
+   "pinyinNum": "you2",
+   "pinyinMark": "yóu",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "nager",
+    "visiter",
+    "faire du tourisme"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "游泳-you2yong3",
+   "simplified": "游泳",
+   "traditional": "游泳",
+   "pinyinNum": "you2 yong3",
+   "pinyinMark": "yóuyǒng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "nager",
+    "natation"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "有意思-you3yi4si5",
+   "simplified": "有意思",
+   "traditional": "有意思",
+   "pinyinNum": "you3 yi4 si5",
+   "pinyinMark": "yǒu yìsi",
+   "pos": [],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "intéressant",
+    "amusant"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "有时-you3shi2",
+   "simplified": "有时",
+   "traditional": "有時",
+   "pinyinNum": "you3 shi2",
+   "pinyinMark": "yǒushí",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": null,
+   "glossFr": [
+    "parfois",
+    "de temps en temps"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "右-you4",
+   "simplified": "右",
+   "traditional": "右",
+   "pinyinNum": "you4",
+   "pinyinMark": "yòu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "droite",
+    "côté droit"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "右边-you4bian5",
+   "simplified": "右边",
+   "traditional": "右邊",
+   "pinyinNum": "you4 bian5",
+   "pinyinMark": "yòubian",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "côté droit",
+    "à droite"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "鱼-yu2",
+   "simplified": "鱼",
+   "traditional": "魚",
+   "pinyinNum": "yu2",
+   "pinyinMark": "yú",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "poisson",
+    "(195e radical)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "远-yuan3",
+   "simplified": "远",
+   "traditional": "遠",
+   "pinyinNum": "yuan3",
+   "pinyinMark": "yuǎn",
+   "pos": [
+    {
+     "label": "adjectif",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "éloigné",
+    "loin"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "运动-yun4dong4",
+   "simplified": "运动",
+   "traditional": "運動",
+   "pinyinNum": "yun4 dong4",
+   "pinyinMark": "yùndòng",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    },
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "sport",
+    "mouvement",
+    "faire des exercices physiques",
+    "bouger"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "站-zhan4",
+   "simplified": "站",
+   "traditional": "站",
+   "pinyinNum": "zhan4",
+   "pinyinMark": "zhàn",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "se tenir debout",
+    "rester debout",
+    "s'arrêter",
+    "gare",
+    "arrêt",
+    "station"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "丈夫-zhang4fu5",
+   "simplified": "丈夫",
+   "traditional": "丈夫",
+   "pinyinNum": "zhang4 fu5",
+   "pinyinMark": "zhàngfu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 4,
+   "glossFr": [
+    "mari",
+    "époux"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "这么-zhe4me5",
+   "simplified": "这么",
+   "traditional": "這麼",
+   "pinyinNum": "zhe4 me5",
+   "pinyinMark": "zhème",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "ainsi",
+    "comme ça",
+    "de cette façon"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "这样-zhe4yang4",
+   "simplified": "这样",
+   "traditional": "這樣",
+   "pinyinNum": "zhe4 yang4",
+   "pinyinMark": "zhèyàng",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "ainsi",
+    "de cette façon"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "着-zhe5",
+   "simplified": "着",
+   "traditional": "著",
+   "pinyinNum": "zhe5",
+   "pinyinMark": "zhe",
+   "pos": [
+    {
+     "label": "particule",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "(marque le déroulement d'une action)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "正-zheng4",
+   "simplified": "正",
+   "traditional": "正",
+   "pinyinNum": "zheng4",
+   "pinyinMark": "zhèng",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    },
+    {
+     "label": "adjectif",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "droit",
+    "positif",
+    "correct",
+    "justement",
+    "précisément"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "周-zhou1",
+   "simplified": "周",
+   "traditional": "週",
+   "pinyinNum": "zhou1",
+   "pinyinMark": "zhōu",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    },
+    {
+     "label": "classificateur",
+     "secondary": true
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "semaine",
+    "cercle",
+    "circonférence",
+    "entourer",
+    "de tous les côtés",
+    "attentif",
+    "(nom de famille)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "准备-zhun3bei4",
+   "simplified": "准备",
+   "traditional": "準備",
+   "pinyinNum": "zhun3 bei4",
+   "pinyinMark": "zhǔnbèi",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "préparer",
+    "s'apprêter à",
+    "projeter",
+    "compter faire qch"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "自己-zi4ji3",
+   "simplified": "自己",
+   "traditional": "自己",
+   "pinyinNum": "zi4 ji3",
+   "pinyinMark": "zìjǐ",
+   "pos": [
+    {
+     "label": "pronom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 2,
+   "glossFr": [
+    "soi-même",
+    "en personne",
+    "personnellement",
+    "personnel",
+    "propre"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "走-zou3",
+   "simplified": "走",
+   "traditional": "走",
+   "pinyinNum": "zou3",
+   "pinyinMark": "zǒu",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "marcher",
+    "y aller",
+    "partir",
+    "aller",
+    "visiter",
+    "quitter",
+    "(156e radical)"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "走路-zou3lu4",
+   "simplified": "走路",
+   "traditional": "走路",
+   "pinyinNum": "zou3 lu4",
+   "pinyinMark": "zǒulù",
+   "pos": [
+    {
+     "label": "verbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "marcher",
+    "aller à pied"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "足球-zu2qiu2",
+   "simplified": "足球",
+   "traditional": "足球",
+   "pinyinNum": "zu2 qiu2",
+   "pinyinMark": "zúqiú",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 3,
+   "glossFr": [
+    "football",
+    "ballon de foot"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "最-zui4",
+   "simplified": "最",
+   "traditional": "最",
+   "pinyinNum": "zui4",
+   "pinyinMark": "zuì",
+   "pos": [
+    {
+     "label": "adverbe",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "le plus"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "左-zuo3",
+   "simplified": "左",
+   "traditional": "左",
+   "pinyinNum": "zuo3",
+   "pinyinMark": "zuǒ",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "gauche",
+    "opposé"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  },
+  {
+   "id": "左边-zuo3bian5",
+   "simplified": "左边",
+   "traditional": "左邊",
+   "pinyinNum": "zuo3 bian5",
+   "pinyinMark": "zuǒbian",
+   "pos": [
+    {
+     "label": "nom",
+     "secondary": false
+    }
+   ],
+   "hsk2025": 2,
+   "hsk2021": 1,
+   "glossFr": [
+    "côté gauche",
+    "à gauche"
+   ],
+   "contentStatus": "auto_checked",
+   "glossApprox": false
+  }
+ ]
+}

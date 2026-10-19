@@ -30,3 +30,7 @@ coverage
 
 # Donnees brutes du pipeline (jalon 2) : volumineuses, retelechargeables
 scripts/data/raw/
+
+# Donnees brutes et intermediaires du pipeline (jalon 2)
+scripts/data/raw/
+scripts/data/work/

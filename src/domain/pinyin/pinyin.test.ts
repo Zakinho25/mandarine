@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   annotate,
+  annotateMarked,
   applyToneMark,
   isStructurallyValidSyllable,
   normalizeUmlaut,
@@ -182,6 +183,59 @@ describe('annotate', () => {
 
   it('renvoie une liste vide pour une chaîne vide', () => {
     expect(annotate('')).toEqual([])
+  })
+})
+
+describe('annotateMarked', () => {
+  it('affiche le ton réellement prononcé, sandhi compris', () => {
+    // La forme de citation donnerait `bù` ; on prononce `bú`. Afficher la
+    // citation reviendrait à enseigner un ton faux dans une application
+    // dont les tons sont le sujet principal.
+    expect(annotateMarked('bu4 ke4 qi5', 'búkèqi')).toEqual([
+      { text: 'bú', tone: 2 },
+      { text: 'kè', tone: 4 },
+      { text: 'qi', tone: 5 },
+    ])
+  })
+
+  it('découpe une suite de lettres collées grâce à la forme numérotée', () => {
+    expect(annotateMarked('ba4 ba5', 'bàba')).toEqual([
+      { text: 'bà', tone: 4 },
+      { text: 'ba', tone: 5 },
+    ])
+  })
+
+  it('conserve espaces et apostrophes', () => {
+    expect(annotateMarked('ni3 hao3', 'nǐ hǎo')).toEqual([
+      { text: 'nǐ', tone: 3 },
+      { text: ' ', tone: undefined },
+      { text: 'hǎo', tone: 3 },
+    ])
+    expect(annotateMarked('xi1 an1', "xī'ān")).toEqual([
+      { text: 'xī', tone: 1 },
+      { text: "'", tone: undefined },
+      { text: 'ān', tone: 1 },
+    ])
+  })
+
+  it('gère le suffixe érhua', () => {
+    expect(annotateMarked('hao3 wan2 r5', 'hǎowánr')).toEqual([
+      { text: 'hǎo', tone: 3 },
+      { text: 'wán', tone: 2 },
+      { text: 'r', tone: 5 },
+    ])
+  })
+
+  it('laisse la lecture secondaire non colorée', () => {
+    expect(annotateMarked('shei2', 'shéi/shuí')).toEqual([
+      { text: 'shéi', tone: 2 },
+      { text: '/shuí', tone: undefined },
+    ])
+  })
+
+  it('renonce plutôt que d’inventer un découpage', () => {
+    expect(annotateMarked('ni3 hao3', 'zàijiàn')).toBeUndefined()
+    expect(annotateMarked('', 'nǐhǎo')).toBeUndefined()
   })
 })
 

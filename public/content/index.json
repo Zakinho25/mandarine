@@ -1,0 +1,53 @@
+{
+  "format": "mandarine-index",
+  "version": 1,
+  "generatedAt": "2026-10-19T11:13:25.584Z",
+  "source": {
+    "document": "《新版HSK考试大纲》 — nouveau syllabus HSK",
+    "publishedBy": "Center for Language Education and Cooperation",
+    "publishedOn": "2025-11",
+    "note": "Empreinte SHA-256 du PDF officiel vérifiée lors du téléchargement."
+  },
+  "levels": [
+    {
+      "level": 1,
+      "file": "hsk-1.json",
+      "count": 300,
+      "cumulative": 300
+    },
+    {
+      "level": 2,
+      "file": "hsk-2.json",
+      "count": 200,
+      "cumulative": 500
+    },
+    {
+      "level": 3,
+      "file": "hsk-3.json",
+      "count": 500,
+      "cumulative": 1000
+    }
+  ],
+  "attribution": [
+    {
+      "what": "Vocabulaire, niveaux et classes grammaticales",
+      "source": "《新版HSK考试大纲》 (nouveau syllabus HSK), novembre 2025",
+      "by": "Center for Language Education and Cooperation",
+      "licence": "Document officiel — droits réservés, usage personnel"
+    },
+    {
+      "what": "Définitions françaises",
+      "source": "CFDICT",
+      "by": "Chine Informations",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://chine.in/mandarin/dictionnaire/CFDICT/"
+    },
+    {
+      "what": "Formes traditionnelles et pinyin numéroté",
+      "source": "ivankra/hsk30, d’après le standard GF 0025-2021",
+      "by": "Ivan Krasilnikov",
+      "licence": "MIT",
+      "url": "https://github.com/ivankra/hsk30"
+    }
+  ]
+}

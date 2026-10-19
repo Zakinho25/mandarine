@@ -1,5 +1,6 @@
 export {
   annotate,
+  annotateMarked,
   applyToneMark,
   normalizeUmlaut,
   PinyinError,

@@ -198,6 +198,66 @@ export function annotate(numbered: string): PinyinToken[] {
   return tokens
 }
 
+const LETTER_TEST = new RegExp(`[${LETTERS}${MARKED_VOWEL_CHARS}]`)
+
+/** Ton porté par une syllabe déjà accentuée ; neutre si aucune marque. */
+function toneOfMarked(span: string): Tone {
+  for (const character of span) {
+    const unmarked = unmarkVowel(character)
+    if (unmarked !== undefined) return unmarked.tone
+  }
+  return 5
+}
+
+/**
+ * Annote un pinyin **déjà accentué**, en se servant d'un pinyin numéroté pour
+ * savoir où coupent les syllabes.
+ *
+ * Pourquoi les deux : la forme numérotée est celle de citation, avant sandhi
+ * tonal. 不客气 s'y écrit `bu4 ke4 qi5`, alors qu'on prononce `bú kèqi`.
+ * Afficher la forme de citation reviendrait à enseigner un ton faux. Mais la
+ * forme accentuée seule est indécoupable : rien n'y marque la frontière des
+ * syllabes. D'où la répartition : **le numéroté découpe, l'accentué donne le
+ * ton et le texte affiché.**
+ *
+ * Renvoie `undefined` si les deux formes ne s'alignent pas — l'appelant
+ * retombe alors sur `annotate`, plutôt que d'afficher un découpage inventé.
+ */
+export function annotateMarked(
+  numbered: string,
+  marked: string,
+): PinyinToken[] | undefined {
+  const syllables = splitNumbered(numbered)
+  if (syllables.length === 0) return undefined
+
+  const source = normalizeUmlaut(marked.normalize('NFC'))
+  const tokens: PinyinToken[] = []
+  let cursor = 0
+
+  for (const syllable of syllables) {
+    // Espaces, apostrophes et tirets séparent les syllabes : on les conserve.
+    const separatorStart = cursor
+    while (cursor < source.length && !LETTER_TEST.test(source.charAt(cursor))) {
+      cursor += 1
+    }
+    if (cursor > separatorStart) {
+      tokens.push({ text: source.slice(separatorStart, cursor), tone: undefined })
+    }
+
+    const base = stripTone(syllable)
+    const span = source.slice(cursor, cursor + base.length)
+    if (stripTone(span).toLowerCase() !== base.toLowerCase()) return undefined
+
+    tokens.push({ text: span, tone: toneOfMarked(span) })
+    cursor += base.length
+  }
+
+  if (cursor < source.length) {
+    tokens.push({ text: source.slice(cursor), tone: undefined })
+  }
+  return tokens
+}
+
 /** Retire toute marque de ton, chiffre comme diacritique : `hǎo` et `hao3` donnent `hao`. */
 export function stripTone(input: string): string {
   let out = ''
