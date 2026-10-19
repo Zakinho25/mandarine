@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # `legacy-peer-deps` vient du .npmrc du dépôt : npm 10 plante sinon sur
+      # la résolution des dépendances de pair de Vite 8.
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Pureté de la couche domaine
+        run: npm run check:domain
+
+      - name: Typage
+        run: npx tsc -b
+
+      - name: Tests et couverture de la logique pédagogique
+        run: npm run coverage
+
+      - name: Build de production
+        run: npm run build

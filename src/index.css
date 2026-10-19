@@ -1,0 +1,184 @@
+@import 'tailwindcss';
+
+/* ===========================================================================
+   Jetons de typographie
+
+   Aucune police n'est téléchargée : on s'appuie sur les polices chinoises
+   déjà présentes sur le système (PingFang SC sur iPhone et Mac, Microsoft
+   YaHei sur Windows). Elles sont d'excellente qualité, s'affichent hors ligne
+   et ne coûtent ni octet de téléchargement ni euro.
+   =========================================================================== */
+@theme {
+  --font-sans:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-hanzi:
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC',
+    'Source Han Sans SC', sans-serif;
+}
+
+/* ===========================================================================
+   Couleurs — thème clair par défaut
+   =========================================================================== */
+:root {
+  color-scheme: light;
+
+  --surface: #fbfaf7;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f2efe8;
+  --border: #e2ddd3;
+  --text: #1c1917;
+  --text-muted: #6b6560;
+  --accent: #a8481a;
+  --accent-soft: #fbeade;
+  --accent-contrast: #ffffff;
+
+  /* Couleurs des tons — convention la plus répandue (Pleco, MDBG) */
+  --tone-1: #c62828;
+  --tone-2: #8a5a00;
+  --tone-3: #15803d;
+  --tone-4: #1d4ed8;
+  --tone-5: #6b6560;
+
+  /* Échelle de la police chinoise, réglable dans les préférences */
+  --hanzi-scale: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --surface: #0b0d12;
+    --surface-raised: #151922;
+    --surface-sunken: #080a0e;
+    --border: #262c38;
+    --text: #f1efea;
+    --text-muted: #a0a0a8;
+    --accent: #f08a4b;
+    --accent-soft: #2a1d14;
+    --accent-contrast: #16110c;
+
+    --tone-1: #ff8a80;
+    --tone-2: #e0a33a;
+    --tone-3: #5ddb8e;
+    --tone-4: #8ab4ff;
+    --tone-5: #a0a0a8;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --surface: #0b0d12;
+  --surface-raised: #151922;
+  --surface-sunken: #080a0e;
+  --border: #262c38;
+  --text: #f1efea;
+  --text-muted: #a0a0a8;
+  --accent: #f08a4b;
+  --accent-soft: #2a1d14;
+  --accent-contrast: #16110c;
+
+  --tone-1: #ff8a80;
+  --tone-2: #e0a33a;
+  --tone-3: #5ddb8e;
+  --tone-4: #8ab4ff;
+  --tone-5: #a0a0a8;
+}
+
+/* ---------------------------------------------------------------------------
+   Palette alternative : évite l'opposition rouge / vert, qui est la confusion
+   la plus fréquente (deutéranopie). Proposée dans les préférences.
+   --------------------------------------------------------------------------- */
+:root[data-tones='daltonien'] {
+  --tone-1: #1d4ed8;
+  --tone-2: #0f766e;
+  --tone-3: #b45309;
+  --tone-4: #a21caf;
+  --tone-5: #6b6560;
+}
+
+/* Même palette, éclaircie pour le fond sombre. Les deux sélecteurs ci-dessous
+   sont plus spécifiques que celui du thème clair : ils gagnent la cascade. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light'])[data-tones='daltonien'] {
+    --tone-1: #8ab4ff;
+    --tone-2: #5ecfc0;
+    --tone-3: #f0b64b;
+    --tone-4: #e879f9;
+    --tone-5: #a0a0a8;
+  }
+}
+
+:root[data-theme='dark'][data-tones='daltonien'] {
+  --tone-1: #8ab4ff;
+  --tone-2: #5ecfc0;
+  --tone-3: #f0b64b;
+  --tone-4: #e879f9;
+  --tone-5: #a0a0a8;
+}
+
+/* ---------------------------------------------------------------------------
+   Option sans couleur : exigée pour l'accessibilité. Le diacritique et le
+   chiffre de ton restent toujours affichés, la couleur n'est qu'une
+   redondance — jamais la seule porteuse de l'information (WCAG 1.4.1).
+   --------------------------------------------------------------------------- */
+:root[data-tones='aucune'] {
+  --tone-1: var(--text);
+  --tone-2: var(--text);
+  --tone-3: var(--text);
+  --tone-4: var(--text);
+  --tone-5: var(--text);
+}
+
+/* Taille de la police chinoise */
+:root[data-hanzi='moyen'] {
+  --hanzi-scale: 1.2;
+}
+:root[data-hanzi='grand'] {
+  --hanzi-scale: 1.45;
+}
+
+/* ===========================================================================
+   Base
+   =========================================================================== */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  /* Encoches et barre de geste de l'iPhone */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) 0
+    env(safe-area-inset-left);
+}
+
+/* Caractères chinois : taille pilotée par la préférence de l'utilisateur */
+.hanzi {
+  font-family: var(--font-hanzi);
+  font-size: calc(1em * var(--hanzi-scale));
+  line-height: 1.5;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

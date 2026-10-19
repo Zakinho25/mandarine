@@ -1,0 +1,56 @@
+{
+  "format": "mandarine-contenu",
+  "version": 1,
+  "contentStatus": "demo",
+  "note": "Contenu de DÉMONSTRATION du jalon 1, saisi à la main pour vérifier l'affichage. Il ne provient d'aucune source lexicographique et sera entièrement remplacé au jalon 2 par la liste HSK officielle importée par script.",
+  "lexemes": [
+    {
+      "id": "ni3hao3-你好",
+      "simplified": "你好",
+      "pinyinNum": "ni3 hao3",
+      "glossFr": "bonjour",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    },
+    {
+      "id": "xie4xie5-谢谢",
+      "simplified": "谢谢",
+      "pinyinNum": "xie4xie5",
+      "glossFr": "merci",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    },
+    {
+      "id": "lao3shi1-老师",
+      "simplified": "老师",
+      "pinyinNum": "lao3shi1",
+      "glossFr": "professeur, enseignant",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    },
+    {
+      "id": "xue2xi2-学习",
+      "simplified": "学习",
+      "pinyinNum": "xue2xi2",
+      "glossFr": "étudier, apprendre",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    },
+    {
+      "id": "zhong1guo2-中国",
+      "simplified": "中国",
+      "pinyinNum": "zhong1guo2",
+      "glossFr": "la Chine",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    },
+    {
+      "id": "nü3er2-女儿",
+      "simplified": "女儿",
+      "pinyinNum": "nü3'er2",
+      "glossFr": "fille (par rapport aux parents)",
+      "hsk3Level": 1,
+      "contentStatus": "demo"
+    }
+  ]
+}
