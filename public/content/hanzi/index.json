@@ -1,0 +1,9133 @@
+{
+ "format": "mandarine-hanzi",
+ "version": 1,
+ "generatedAt": "2026-10-19T14:49:24.214Z",
+ "count": 655,
+ "attribution": {
+  "source": "Make Me a Hanzi",
+  "by": "Shaunak Kishore",
+  "licence": "Arphic Public License",
+  "url": "https://github.com/skishore/makemeahanzi"
+ },
+ "characters": [
+  {
+   "character": "一",
+   "strokeCount": 1,
+   "radical": "一",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "七",
+   "strokeCount": 2,
+   "radical": "一",
+   "decomposition": "⿻一乚",
+   "parts": [
+    "一",
+    "乚"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "万",
+   "strokeCount": 3,
+   "radical": "一",
+   "decomposition": "⿱一？",
+   "parts": [
+    "一"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "丈",
+   "strokeCount": 3,
+   "radical": "一",
+   "decomposition": "⿻一又",
+   "parts": [
+    "一",
+    "又"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "三",
+   "strokeCount": 3,
+   "radical": "一",
+   "decomposition": "⿱一二",
+   "parts": [
+    "一",
+    "二"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "上",
+   "strokeCount": 3,
+   "radical": "一",
+   "decomposition": "⿱⺊一",
+   "parts": [
+    "⺊",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "下",
+   "strokeCount": 3,
+   "radical": "一",
+   "decomposition": "⿱一卜",
+   "parts": [
+    "一",
+    "卜"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "不",
+   "strokeCount": 4,
+   "radical": "一",
+   "decomposition": "⿱一？",
+   "parts": [
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "且",
+   "strokeCount": 5,
+   "radical": "一",
+   "decomposition": "⿱月一",
+   "parts": [
+    "月",
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "世",
+   "strokeCount": 5,
+   "radical": "一",
+   "decomposition": "⿻廿？",
+   "parts": [
+    "廿"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "业",
+   "strokeCount": 5,
+   "radical": "一",
+   "decomposition": "⿱？一",
+   "parts": [
+    "一"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "东",
+   "strokeCount": 5,
+   "radical": "一",
+   "decomposition": "⿻七小",
+   "parts": [
+    "七",
+    "小"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "丢",
+   "strokeCount": 6,
+   "radical": "一",
+   "decomposition": "⿱王厶",
+   "parts": [
+    "王",
+    "厶"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "两",
+   "strokeCount": 7,
+   "radical": "一",
+   "decomposition": "⿱一⿻冂从",
+   "parts": [
+    "一",
+    "冂",
+    "从"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "个",
+   "strokeCount": 3,
+   "radical": "丨",
+   "decomposition": "⿱人丨",
+   "parts": [
+    "人",
+    "丨"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "中",
+   "strokeCount": 4,
+   "radical": "丨",
+   "decomposition": "⿻口丨",
+   "parts": [
+    "口",
+    "丨"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "为",
+   "strokeCount": 4,
+   "radical": "丶",
+   "decomposition": "⿻丶⿴力丶",
+   "parts": [
+    "丶",
+    "力",
+    "丶"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "主",
+   "strokeCount": 5,
+   "radical": "丶",
+   "decomposition": "⿱丶王",
+   "parts": [
+    "丶",
+    "王"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "久",
+   "strokeCount": 3,
+   "radical": "丿",
+   "decomposition": "⿻勹？",
+   "parts": [
+    "勹"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "么",
+   "strokeCount": 3,
+   "radical": "丿",
+   "decomposition": "⿱丿厶",
+   "parts": [
+    "丿",
+    "厶"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "乎",
+   "strokeCount": 5,
+   "radical": "丿",
+   "decomposition": "⿻丿⿻？丷",
+   "parts": [
+    "丿",
+    "丷"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "乐",
+   "strokeCount": 5,
+   "radical": "丿",
+   "decomposition": "⿻⿱丿？小",
+   "parts": [
+    "丿",
+    "小"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "九",
+   "strokeCount": 2,
+   "radical": "乙",
+   "decomposition": "⿻丿乙",
+   "parts": [
+    "丿",
+    "乙"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "也",
+   "strokeCount": 3,
+   "radical": "乚",
+   "decomposition": "⿻？乚",
+   "parts": [
+    "乚"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "习",
+   "strokeCount": 3,
+   "radical": "冫",
+   "decomposition": "⿹？冫",
+   "parts": [
+    "冫"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "书",
+   "strokeCount": 4,
+   "radical": "丨",
+   "decomposition": "⿻？丨",
+   "parts": [
+    "丨"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "买",
+   "strokeCount": 6,
+   "radical": "大",
+   "decomposition": "⿱乛头",
+   "parts": [
+    "乛",
+    "头"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "了",
+   "strokeCount": 2,
+   "radical": "亅",
+   "decomposition": "⿱乛亅",
+   "parts": [
+    "乛",
+    "亅"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "事",
+   "strokeCount": 8,
+   "radical": "亅",
+   "decomposition": "⿻⿳一口彐亅",
+   "parts": [
+    "一",
+    "口",
+    "彐",
+    "亅"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "二",
+   "strokeCount": 2,
+   "radical": "二",
+   "decomposition": "⿱一一",
+   "parts": [
+    "一",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "于",
+   "strokeCount": 3,
+   "radical": "二",
+   "decomposition": "⿻二亅",
+   "parts": [
+    "二",
+    "亅"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "五",
+   "strokeCount": 4,
+   "radical": "二",
+   "decomposition": "⿴二？",
+   "parts": [
+    "二"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "些",
+   "strokeCount": 8,
+   "radical": "二",
+   "decomposition": "⿱此二",
+   "parts": [
+    "此",
+    "二"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "二",
+   "phonetic": "此",
+   "hasStrokes": true
+  },
+  {
+   "character": "交",
+   "strokeCount": 6,
+   "radical": "亠",
+   "decomposition": "⿱六乂",
+   "parts": [
+    "六",
+    "乂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "亮",
+   "strokeCount": 9,
+   "radical": "亠",
+   "decomposition": "⿳亠口⿱冖几",
+   "parts": [
+    "亠",
+    "口",
+    "冖",
+    "几"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "人",
+   "strokeCount": 2,
+   "radical": "人",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "什",
+   "strokeCount": 4,
+   "radical": "亻",
+   "decomposition": "⿰亻十",
+   "parts": [
+    "亻",
+    "十"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "今",
+   "strokeCount": 4,
+   "radical": "人",
+   "decomposition": "⿱人？",
+   "parts": [
+    "人"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "介",
+   "strokeCount": 4,
+   "radical": "人",
+   "decomposition": "⿱人？",
+   "parts": [
+    "人"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "从",
+   "strokeCount": 4,
+   "radical": "人",
+   "decomposition": "⿰人人",
+   "parts": [
+    "人",
+    "人"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "他",
+   "strokeCount": 5,
+   "radical": "亻",
+   "decomposition": "⿰亻也",
+   "parts": [
+    "亻",
+    "也"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "以",
+   "strokeCount": 4,
+   "radical": "人",
+   "decomposition": "⿰？人",
+   "parts": [
+    "人"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "们",
+   "strokeCount": 5,
+   "radical": "亻",
+   "decomposition": "⿰亻门",
+   "parts": [
+    "亻",
+    "门"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "亻",
+   "phonetic": "门",
+   "hasStrokes": true
+  },
+  {
+   "character": "件",
+   "strokeCount": 6,
+   "radical": "亻",
+   "decomposition": "⿰亻牛",
+   "parts": [
+    "亻",
+    "牛"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "休",
+   "strokeCount": 6,
+   "radical": "亻",
+   "decomposition": "⿰亻木",
+   "parts": [
+    "亻",
+    "木"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "会",
+   "strokeCount": 6,
+   "radical": "人",
+   "decomposition": "⿱人云",
+   "parts": [
+    "人",
+    "云"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "伞",
+   "strokeCount": 6,
+   "radical": "人",
+   "decomposition": "⿱人？",
+   "parts": [
+    "人"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "但",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻旦",
+   "parts": [
+    "亻",
+    "旦"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": null,
+   "phonetic": "旦",
+   "hasStrokes": true
+  },
+  {
+   "character": "位",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻立",
+   "parts": [
+    "亻",
+    "立"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "住",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻主",
+   "parts": [
+    "亻",
+    "主"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "体",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻本",
+   "parts": [
+    "亻",
+    "本"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "作",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻乍",
+   "parts": [
+    "亻",
+    "乍"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "你",
+   "strokeCount": 7,
+   "radical": "亻",
+   "decomposition": "⿰亻尔",
+   "parts": [
+    "亻",
+    "尔"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "便",
+   "strokeCount": 9,
+   "radical": "亻",
+   "decomposition": "⿰亻更",
+   "parts": [
+    "亻",
+    "更"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "信",
+   "strokeCount": 9,
+   "radical": "亻",
+   "decomposition": "⿰亻言",
+   "parts": [
+    "亻",
+    "言"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "候",
+   "strokeCount": 10,
+   "radical": "亻",
+   "decomposition": "⿰亻矦",
+   "parts": [
+    "亻",
+    "矦"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "亻",
+   "phonetic": "矦",
+   "hasStrokes": true
+  },
+  {
+   "character": "借",
+   "strokeCount": 10,
+   "radical": "亻",
+   "decomposition": "⿰亻昔",
+   "parts": [
+    "亻",
+    "昔"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "亻",
+   "phonetic": "昔",
+   "hasStrokes": true
+  },
+  {
+   "character": "假",
+   "strokeCount": 11,
+   "radical": "亻",
+   "decomposition": "⿰亻叚",
+   "parts": [
+    "亻",
+    "叚"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "做",
+   "strokeCount": 11,
+   "radical": "亻",
+   "decomposition": "⿰亻故",
+   "parts": [
+    "亻",
+    "故"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "健",
+   "strokeCount": 10,
+   "radical": "亻",
+   "decomposition": "⿰亻建",
+   "parts": [
+    "亻",
+    "建"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "像",
+   "strokeCount": 13,
+   "radical": "亻",
+   "decomposition": "⿰亻象",
+   "parts": [
+    "亻",
+    "象"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "亻",
+   "phonetic": "象",
+   "hasStrokes": true
+  },
+  {
+   "character": "儿",
+   "strokeCount": 2,
+   "radical": "儿",
+   "decomposition": "⿰丿乚",
+   "parts": [
+    "丿",
+    "乚"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "元",
+   "strokeCount": 4,
+   "radical": "儿",
+   "decomposition": "⿱二儿",
+   "parts": [
+    "二",
+    "儿"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "先",
+   "strokeCount": 6,
+   "radical": "儿",
+   "decomposition": "⿱⿰？土儿",
+   "parts": [
+    "土",
+    "儿"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "全",
+   "strokeCount": 6,
+   "radical": "入",
+   "decomposition": "⿱入玉",
+   "parts": [
+    "入",
+    "玉"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "八",
+   "strokeCount": 2,
+   "radical": "八",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "公",
+   "strokeCount": 4,
+   "radical": "八",
+   "decomposition": "⿱八厶",
+   "parts": [
+    "八",
+    "厶"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "六",
+   "strokeCount": 4,
+   "radical": "八",
+   "decomposition": "⿱亠八",
+   "parts": [
+    "亠",
+    "八"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "共",
+   "strokeCount": 6,
+   "radical": "八",
+   "decomposition": "⿳廾一八",
+   "parts": [
+    "廾",
+    "一",
+    "八"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "关",
+   "strokeCount": 6,
+   "radical": "丷",
+   "decomposition": "⿱丷天",
+   "parts": [
+    "丷",
+    "天"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "兴",
+   "strokeCount": 6,
+   "radical": "八",
+   "decomposition": "⿳⺍一八",
+   "parts": [
+    "⺍",
+    "一",
+    "八"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "其",
+   "strokeCount": 8,
+   "radical": "八",
+   "decomposition": "⿱甘⿱一八",
+   "parts": [
+    "甘",
+    "一",
+    "八"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "典",
+   "strokeCount": 8,
+   "radical": "八",
+   "decomposition": "⿱曲八",
+   "parts": [
+    "曲",
+    "八"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "养",
+   "strokeCount": 9,
+   "radical": "丷",
+   "decomposition": "⿱羊儿",
+   "parts": [
+    "羊",
+    "儿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "儿",
+   "phonetic": "羊",
+   "hasStrokes": true
+  },
+  {
+   "character": "再",
+   "strokeCount": 6,
+   "radical": "冂",
+   "decomposition": "⿱一冉",
+   "parts": [
+    "一",
+    "冉"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "冒",
+   "strokeCount": 9,
+   "radical": "冂",
+   "decomposition": "⿱日目",
+   "parts": [
+    "日",
+    "目"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "目",
+   "phonetic": "冃",
+   "hasStrokes": true
+  },
+  {
+   "character": "写",
+   "strokeCount": 5,
+   "radical": "冖",
+   "decomposition": "⿱冖与",
+   "parts": [
+    "冖",
+    "与"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "冬",
+   "strokeCount": 5,
+   "radical": "⺀",
+   "decomposition": "⿱夂⺀",
+   "parts": [
+    "夂",
+    "⺀"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "冰",
+   "strokeCount": 6,
+   "radical": "冫",
+   "decomposition": "⿰冫水",
+   "parts": [
+    "冫",
+    "水"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "决",
+   "strokeCount": 6,
+   "radical": "冫",
+   "decomposition": "⿰冫夬",
+   "parts": [
+    "冫",
+    "夬"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "冷",
+   "strokeCount": 7,
+   "radical": "冫",
+   "decomposition": "⿰冫令",
+   "parts": [
+    "冫",
+    "令"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冫",
+   "phonetic": "令",
+   "hasStrokes": true
+  },
+  {
+   "character": "净",
+   "strokeCount": 8,
+   "radical": "冫",
+   "decomposition": "⿰冫争",
+   "parts": [
+    "冫",
+    "争"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冫",
+   "phonetic": "争",
+   "hasStrokes": true
+  },
+  {
+   "character": "准",
+   "strokeCount": 10,
+   "radical": "冫",
+   "decomposition": "⿰冫隹",
+   "parts": [
+    "冫",
+    "隹"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冫",
+   "phonetic": "隹",
+   "hasStrokes": true
+  },
+  {
+   "character": "凉",
+   "strokeCount": 10,
+   "radical": "冫",
+   "decomposition": "⿰冫京",
+   "parts": [
+    "冫",
+    "京"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冫",
+   "phonetic": "京",
+   "hasStrokes": true
+  },
+  {
+   "character": "凌",
+   "strokeCount": 10,
+   "radical": "冫",
+   "decomposition": "⿰冫夌",
+   "parts": [
+    "冫",
+    "夌"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冫",
+   "phonetic": "夌",
+   "hasStrokes": true
+  },
+  {
+   "character": "几",
+   "strokeCount": 2,
+   "radical": "几",
+   "decomposition": "⿰丿乙",
+   "parts": [
+    "丿",
+    "乙"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "出",
+   "strokeCount": 5,
+   "radical": "凵",
+   "decomposition": "⿱屮凵",
+   "parts": [
+    "屮",
+    "凵"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "分",
+   "strokeCount": 4,
+   "radical": "刀",
+   "decomposition": "⿱八刀",
+   "parts": [
+    "八",
+    "刀"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "刚",
+   "strokeCount": 6,
+   "radical": "刂",
+   "decomposition": "⿰冈刂",
+   "parts": [
+    "冈",
+    "刂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "刂",
+   "phonetic": "冈",
+   "hasStrokes": true
+  },
+  {
+   "character": "初",
+   "strokeCount": 7,
+   "radical": "刀",
+   "decomposition": "⿰衤刀",
+   "parts": [
+    "衤",
+    "刀"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "别",
+   "strokeCount": 7,
+   "radical": "刂",
+   "decomposition": "⿰另刂",
+   "parts": [
+    "另",
+    "刂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "刮",
+   "strokeCount": 8,
+   "radical": "刂",
+   "decomposition": "⿰舌刂",
+   "parts": [
+    "舌",
+    "刂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "刂",
+   "phonetic": "舌",
+   "hasStrokes": true
+  },
+  {
+   "character": "到",
+   "strokeCount": 8,
+   "radical": "刂",
+   "decomposition": "⿰至刂",
+   "parts": [
+    "至",
+    "刂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "至",
+   "phonetic": "刂",
+   "hasStrokes": true
+  },
+  {
+   "character": "刷",
+   "strokeCount": 8,
+   "radical": "刂",
+   "decomposition": "⿰⿸尸巾刂",
+   "parts": [
+    "尸",
+    "巾",
+    "刂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "刻",
+   "strokeCount": 8,
+   "radical": "刂",
+   "decomposition": "⿰亥刂",
+   "parts": [
+    "亥",
+    "刂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "刂",
+   "phonetic": "亥",
+   "hasStrokes": true
+  },
+  {
+   "character": "前",
+   "strokeCount": 9,
+   "radical": "刂",
+   "decomposition": "⿱⿱丷一刖",
+   "parts": [
+    "丷",
+    "一",
+    "刖"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "力",
+   "strokeCount": 2,
+   "radical": "力",
+   "decomposition": "⿻丿？",
+   "parts": [
+    "丿"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "办",
+   "strokeCount": 4,
+   "radical": "力",
+   "decomposition": "⿻力八",
+   "parts": [
+    "力",
+    "八"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "力",
+   "phonetic": "八",
+   "hasStrokes": true
+  },
+  {
+   "character": "加",
+   "strokeCount": 5,
+   "radical": "力",
+   "decomposition": "⿰力口",
+   "parts": [
+    "力",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "务",
+   "strokeCount": 5,
+   "radical": "夂",
+   "decomposition": "⿱夂力",
+   "parts": [
+    "夂",
+    "力"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "动",
+   "strokeCount": 6,
+   "radical": "力",
+   "decomposition": "⿰云力",
+   "parts": [
+    "云",
+    "力"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "力",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "助",
+   "strokeCount": 7,
+   "radical": "力",
+   "decomposition": "⿰且力",
+   "parts": [
+    "且",
+    "力"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "力",
+   "phonetic": "且",
+   "hasStrokes": true
+  },
+  {
+   "character": "努",
+   "strokeCount": 7,
+   "radical": "力",
+   "decomposition": "⿱奴力",
+   "parts": [
+    "奴",
+    "力"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "力",
+   "phonetic": "奴",
+   "hasStrokes": true
+  },
+  {
+   "character": "勺",
+   "strokeCount": 3,
+   "radical": "勹",
+   "decomposition": "⿹勹丶",
+   "parts": [
+    "勹",
+    "丶"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "包",
+   "strokeCount": 5,
+   "radical": "勹",
+   "decomposition": "⿹勹巳",
+   "parts": [
+    "勹",
+    "巳"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "化",
+   "strokeCount": 4,
+   "radical": "匕",
+   "decomposition": "⿰亻匕",
+   "parts": [
+    "亻",
+    "匕"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "北",
+   "strokeCount": 5,
+   "radical": "匕",
+   "decomposition": "⿰？匕",
+   "parts": [
+    "匕"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "区",
+   "strokeCount": 4,
+   "radical": "匸",
+   "decomposition": "⿷匸乂",
+   "parts": [
+    "匸",
+    "乂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "医",
+   "strokeCount": 7,
+   "radical": "匸",
+   "decomposition": "⿷匸矢",
+   "parts": [
+    "匸",
+    "矢"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "矢",
+   "phonetic": "匸",
+   "hasStrokes": true
+  },
+  {
+   "character": "十",
+   "strokeCount": 2,
+   "radical": "十",
+   "decomposition": "⿻一丨",
+   "parts": [
+    "一",
+    "丨"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "千",
+   "strokeCount": 3,
+   "radical": "十",
+   "decomposition": "⿱丿十",
+   "parts": [
+    "丿",
+    "十"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "午",
+   "strokeCount": 4,
+   "radical": "十",
+   "decomposition": "⿻丿干",
+   "parts": [
+    "丿",
+    "干"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "半",
+   "strokeCount": 5,
+   "radical": "十",
+   "decomposition": "⿻丷牛",
+   "parts": [
+    "丷",
+    "牛"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "单",
+   "strokeCount": 8,
+   "radical": "丷",
+   "decomposition": "⿱丷？",
+   "parts": [
+    "丷"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "卖",
+   "strokeCount": 8,
+   "radical": "十",
+   "decomposition": "⿱十买",
+   "parts": [
+    "十",
+    "买"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "买",
+   "phonetic": "买",
+   "hasStrokes": true
+  },
+  {
+   "character": "南",
+   "strokeCount": 9,
+   "radical": "十",
+   "decomposition": "⿱十⿵冂⿱丷干",
+   "parts": [
+    "十",
+    "冂",
+    "丷",
+    "干"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "卡",
+   "strokeCount": 5,
+   "radical": "卜",
+   "decomposition": "⿱上卜",
+   "parts": [
+    "上",
+    "卜"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "卫",
+   "strokeCount": 3,
+   "radical": "乛",
+   "decomposition": "⿱乛一",
+   "parts": [
+    "乛",
+    "一"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "历",
+   "strokeCount": 4,
+   "radical": "厂",
+   "decomposition": "⿸厂力",
+   "parts": [
+    "厂",
+    "力"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "厤",
+   "phonetic": "力",
+   "hasStrokes": true
+  },
+  {
+   "character": "去",
+   "strokeCount": 5,
+   "radical": "厶",
+   "decomposition": "⿱土厶",
+   "parts": [
+    "土",
+    "厶"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "参",
+   "strokeCount": 8,
+   "radical": "厶",
+   "decomposition": "⿱⿱厶大彡",
+   "parts": [
+    "厶",
+    "大",
+    "彡"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": null,
+   "phonetic": "彡",
+   "hasStrokes": true
+  },
+  {
+   "character": "又",
+   "strokeCount": 2,
+   "radical": "又",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "友",
+   "strokeCount": 4,
+   "radical": "又",
+   "decomposition": "⿸？又",
+   "parts": [
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "双",
+   "strokeCount": 4,
+   "radical": "又",
+   "decomposition": "⿰又又",
+   "parts": [
+    "又",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "发",
+   "strokeCount": 5,
+   "radical": "又",
+   "decomposition": "⿸？又",
+   "parts": [
+    "又"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "叔",
+   "strokeCount": 8,
+   "radical": "又",
+   "decomposition": "⿰⿱上小又",
+   "parts": [
+    "上",
+    "小",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "受",
+   "strokeCount": 8,
+   "radical": "又",
+   "decomposition": "⿳爫冖又",
+   "parts": [
+    "爫",
+    "冖",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "变",
+   "strokeCount": 8,
+   "radical": "又",
+   "decomposition": "⿱亦又",
+   "parts": [
+    "亦",
+    "又"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "口",
+   "strokeCount": 3,
+   "radical": "口",
+   "decomposition": "⿱冂一",
+   "parts": [
+    "冂",
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "句",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿹勹口",
+   "parts": [
+    "勹",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "只",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿱口八",
+   "parts": [
+    "口",
+    "八"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "叫",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿰口丩",
+   "parts": [
+    "口",
+    "丩"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "丩",
+   "hasStrokes": true
+  },
+  {
+   "character": "可",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿻丁口",
+   "parts": [
+    "丁",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "丁",
+   "phonetic": "口",
+   "hasStrokes": true
+  },
+  {
+   "character": "史",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿻口乂",
+   "parts": [
+    "口",
+    "乂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "右",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿸？口",
+   "parts": [
+    "口"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "号",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿱口丂",
+   "parts": [
+    "口",
+    "丂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "丂",
+   "hasStrokes": true
+  },
+  {
+   "character": "司",
+   "strokeCount": 5,
+   "radical": "口",
+   "decomposition": "⿹？口",
+   "parts": [
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "吃",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿰口乞",
+   "parts": [
+    "口",
+    "乞"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "乞",
+   "hasStrokes": true
+  },
+  {
+   "character": "合",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿱亼口",
+   "parts": [
+    "亼",
+    "口"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "同",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿵凡口",
+   "parts": [
+    "凡",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "名",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿸夕口",
+   "parts": [
+    "夕",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "后",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿸？口",
+   "parts": [
+    "口"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "向",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿵？口",
+   "parts": [
+    "口"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "吗",
+   "strokeCount": 6,
+   "radical": "口",
+   "decomposition": "⿰口马",
+   "parts": [
+    "口",
+    "马"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "马",
+   "hasStrokes": true
+  },
+  {
+   "character": "吧",
+   "strokeCount": 7,
+   "radical": "口",
+   "decomposition": "⿰口巴",
+   "parts": [
+    "口",
+    "巴"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "巴",
+   "hasStrokes": true
+  },
+  {
+   "character": "听",
+   "strokeCount": 7,
+   "radical": "口",
+   "decomposition": "⿰口斤",
+   "parts": [
+    "口",
+    "斤"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "告",
+   "strokeCount": 7,
+   "radical": "口",
+   "decomposition": "⿱牛口",
+   "parts": [
+    "牛",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "员",
+   "strokeCount": 7,
+   "radical": "口",
+   "decomposition": "⿱口贝",
+   "parts": [
+    "口",
+    "贝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "贝",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "呢",
+   "strokeCount": 8,
+   "radical": "口",
+   "decomposition": "⿰口尼",
+   "parts": [
+    "口",
+    "尼"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "尼",
+   "hasStrokes": true
+  },
+  {
+   "character": "周",
+   "strokeCount": 8,
+   "radical": "口",
+   "decomposition": "⿵冂⿱土口",
+   "parts": [
+    "冂",
+    "土",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "和",
+   "strokeCount": 8,
+   "radical": "口",
+   "decomposition": "⿰禾口",
+   "parts": [
+    "禾",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "禾",
+   "hasStrokes": true
+  },
+  {
+   "character": "咖",
+   "strokeCount": 8,
+   "radical": "口",
+   "decomposition": "⿰口加",
+   "parts": [
+    "口",
+    "加"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "加",
+   "hasStrokes": true
+  },
+  {
+   "character": "咱",
+   "strokeCount": 9,
+   "radical": "口",
+   "decomposition": "⿰口自",
+   "parts": [
+    "口",
+    "自"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "自",
+   "hasStrokes": true
+  },
+  {
+   "character": "响",
+   "strokeCount": 9,
+   "radical": "口",
+   "decomposition": "⿰口向",
+   "parts": [
+    "口",
+    "向"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "向",
+   "hasStrokes": true
+  },
+  {
+   "character": "哥",
+   "strokeCount": 10,
+   "radical": "口",
+   "decomposition": "⿱可可",
+   "parts": [
+    "可",
+    "可"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "哪",
+   "strokeCount": 9,
+   "radical": "口",
+   "decomposition": "⿰口那",
+   "parts": [
+    "口",
+    "那"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "那",
+   "hasStrokes": true
+  },
+  {
+   "character": "哭",
+   "strokeCount": 10,
+   "radical": "口",
+   "decomposition": "⿱⿰口口犬",
+   "parts": [
+    "口",
+    "口",
+    "犬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "唱",
+   "strokeCount": 11,
+   "radical": "口",
+   "decomposition": "⿰口昌",
+   "parts": [
+    "口",
+    "昌"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "昌",
+   "hasStrokes": true
+  },
+  {
+   "character": "商",
+   "strokeCount": 11,
+   "radical": "口",
+   "decomposition": "⿱⿱亠丷冏",
+   "parts": [
+    "亠",
+    "丷",
+    "冏"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "冏",
+   "phonetic": "章",
+   "hasStrokes": true
+  },
+  {
+   "character": "啊",
+   "strokeCount": 10,
+   "radical": "口",
+   "decomposition": "⿰口阿",
+   "parts": [
+    "口",
+    "阿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "阿",
+   "hasStrokes": true
+  },
+  {
+   "character": "啡",
+   "strokeCount": 11,
+   "radical": "口",
+   "decomposition": "⿰口非",
+   "parts": [
+    "口",
+    "非"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "非",
+   "hasStrokes": true
+  },
+  {
+   "character": "啤",
+   "strokeCount": 11,
+   "radical": "口",
+   "decomposition": "⿰口卑",
+   "parts": [
+    "口",
+    "卑"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "卑",
+   "hasStrokes": true
+  },
+  {
+   "character": "喂",
+   "strokeCount": 12,
+   "radical": "口",
+   "decomposition": "⿰口畏",
+   "parts": [
+    "口",
+    "畏"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "畏",
+   "hasStrokes": true
+  },
+  {
+   "character": "喜",
+   "strokeCount": 12,
+   "radical": "口",
+   "decomposition": "⿱壴口",
+   "parts": [
+    "壴",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "喝",
+   "strokeCount": 12,
+   "radical": "口",
+   "decomposition": "⿰口曷",
+   "parts": [
+    "口",
+    "曷"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "曷",
+   "hasStrokes": true
+  },
+  {
+   "character": "嘴",
+   "strokeCount": 16,
+   "radical": "口",
+   "decomposition": "⿰口觜",
+   "parts": [
+    "口",
+    "觜"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "觜",
+   "hasStrokes": true
+  },
+  {
+   "character": "四",
+   "strokeCount": 5,
+   "radical": "囗",
+   "decomposition": "⿴囗儿",
+   "parts": [
+    "囗",
+    "儿"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "回",
+   "strokeCount": 6,
+   "radical": "囗",
+   "decomposition": "⿴囗口",
+   "parts": [
+    "囗",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "因",
+   "strokeCount": 6,
+   "radical": "囗",
+   "decomposition": "⿴囗大",
+   "parts": [
+    "囗",
+    "大"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "园",
+   "strokeCount": 7,
+   "radical": "囗",
+   "decomposition": "⿴囗元",
+   "parts": [
+    "囗",
+    "元"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "囗",
+   "phonetic": "元",
+   "hasStrokes": true
+  },
+  {
+   "character": "国",
+   "strokeCount": 8,
+   "radical": "囗",
+   "decomposition": "⿴囗玉",
+   "parts": [
+    "囗",
+    "玉"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "图",
+   "strokeCount": 8,
+   "radical": "囗",
+   "decomposition": "⿴囗冬",
+   "parts": [
+    "囗",
+    "冬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "在",
+   "strokeCount": 6,
+   "radical": "土",
+   "decomposition": "⿸才土",
+   "parts": [
+    "才",
+    "土"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "才",
+   "hasStrokes": true
+  },
+  {
+   "character": "地",
+   "strokeCount": 6,
+   "radical": "土",
+   "decomposition": "⿰土也",
+   "parts": [
+    "土",
+    "也"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "也",
+   "hasStrokes": true
+  },
+  {
+   "character": "场",
+   "strokeCount": 6,
+   "radical": "土",
+   "decomposition": "⿰土勿",
+   "parts": [
+    "土",
+    "勿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "昜",
+   "hasStrokes": true
+  },
+  {
+   "character": "坏",
+   "strokeCount": 7,
+   "radical": "土",
+   "decomposition": "⿰土不",
+   "parts": [
+    "土",
+    "不"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "不",
+   "hasStrokes": true
+  },
+  {
+   "character": "坐",
+   "strokeCount": 7,
+   "radical": "土",
+   "decomposition": "⿻从土",
+   "parts": [
+    "从",
+    "土"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "块",
+   "strokeCount": 7,
+   "radical": "土",
+   "decomposition": "⿰土夬",
+   "parts": [
+    "土",
+    "夬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "夬",
+   "hasStrokes": true
+  },
+  {
+   "character": "坚",
+   "strokeCount": 7,
+   "radical": "土",
+   "decomposition": "⿱⿰？又土",
+   "parts": [
+    "又",
+    "土"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "城",
+   "strokeCount": 9,
+   "radical": "土",
+   "decomposition": "⿰土成",
+   "parts": [
+    "土",
+    "成"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "成",
+   "hasStrokes": true
+  },
+  {
+   "character": "境",
+   "strokeCount": 14,
+   "radical": "土",
+   "decomposition": "⿰土竟",
+   "parts": [
+    "土",
+    "竟"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "土",
+   "phonetic": "竟",
+   "hasStrokes": true
+  },
+  {
+   "character": "士",
+   "strokeCount": 3,
+   "radical": "士",
+   "decomposition": "？",
+   "parts": [],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "声",
+   "strokeCount": 7,
+   "radical": "士",
+   "decomposition": "⿱士？",
+   "parts": [
+    "士"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "处",
+   "strokeCount": 5,
+   "radical": "夂",
+   "decomposition": "⿺夂卜",
+   "parts": [
+    "夂",
+    "卜"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "备",
+   "strokeCount": 8,
+   "radical": "夂",
+   "decomposition": "⿱夂田",
+   "parts": [
+    "夂",
+    "田"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "复",
+   "strokeCount": 9,
+   "radical": "夊",
+   "decomposition": "⿱亻⿱日夂",
+   "parts": [
+    "亻",
+    "日",
+    "夂"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "夏",
+   "strokeCount": 10,
+   "radical": "夊",
+   "decomposition": "⿳一自夂",
+   "parts": [
+    "一",
+    "自",
+    "夂"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "外",
+   "strokeCount": 5,
+   "radical": "夕",
+   "decomposition": "⿰夕卜",
+   "parts": [
+    "夕",
+    "卜"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "多",
+   "strokeCount": 6,
+   "radical": "夕",
+   "decomposition": "⿱夕夕",
+   "parts": [
+    "夕",
+    "夕"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "大",
+   "strokeCount": 3,
+   "radical": "大",
+   "decomposition": "⿻一人",
+   "parts": [
+    "一",
+    "人"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "天",
+   "strokeCount": 4,
+   "radical": "大",
+   "decomposition": "⿱一大",
+   "parts": [
+    "一",
+    "大"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "太",
+   "strokeCount": 4,
+   "radical": "大",
+   "decomposition": "⿵大丶",
+   "parts": [
+    "大",
+    "丶"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "夫",
+   "strokeCount": 4,
+   "radical": "大",
+   "decomposition": "⿻一大",
+   "parts": [
+    "一",
+    "大"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "头",
+   "strokeCount": 5,
+   "radical": "大",
+   "decomposition": "⿻⺀大",
+   "parts": [
+    "⺀",
+    "大"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "大",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "奇",
+   "strokeCount": 8,
+   "radical": "大",
+   "decomposition": "⿱大可",
+   "parts": [
+    "大",
+    "可"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "女",
+   "strokeCount": 3,
+   "radical": "女",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "奶",
+   "strokeCount": 5,
+   "radical": "女",
+   "decomposition": "⿰女乃",
+   "parts": [
+    "女",
+    "乃"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "乃",
+   "hasStrokes": true
+  },
+  {
+   "character": "她",
+   "strokeCount": 6,
+   "radical": "女",
+   "decomposition": "⿰女也",
+   "parts": [
+    "女",
+    "也"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "好",
+   "strokeCount": 6,
+   "radical": "女",
+   "decomposition": "⿰女子",
+   "parts": [
+    "女",
+    "子"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "如",
+   "strokeCount": 6,
+   "radical": "女",
+   "decomposition": "⿰女口",
+   "parts": [
+    "女",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "妈",
+   "strokeCount": 6,
+   "radical": "女",
+   "decomposition": "⿰女马",
+   "parts": [
+    "女",
+    "马"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "马",
+   "hasStrokes": true
+  },
+  {
+   "character": "妹",
+   "strokeCount": 8,
+   "radical": "女",
+   "decomposition": "⿰女未",
+   "parts": [
+    "女",
+    "未"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "未",
+   "hasStrokes": true
+  },
+  {
+   "character": "妻",
+   "strokeCount": 8,
+   "radical": "女",
+   "decomposition": "⿱⿻十彐女",
+   "parts": [
+    "十",
+    "彐",
+    "女"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "始",
+   "strokeCount": 8,
+   "radical": "女",
+   "decomposition": "⿰女台",
+   "parts": [
+    "女",
+    "台"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "台",
+   "hasStrokes": true
+  },
+  {
+   "character": "姐",
+   "strokeCount": 8,
+   "radical": "女",
+   "decomposition": "⿰女且",
+   "parts": [
+    "女",
+    "且"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "且",
+   "hasStrokes": true
+  },
+  {
+   "character": "姓",
+   "strokeCount": 8,
+   "radical": "女",
+   "decomposition": "⿰女生",
+   "parts": [
+    "女",
+    "生"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "生",
+   "hasStrokes": true
+  },
+  {
+   "character": "姨",
+   "strokeCount": 9,
+   "radical": "女",
+   "decomposition": "⿰女夷",
+   "parts": [
+    "女",
+    "夷"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "夷",
+   "hasStrokes": true
+  },
+  {
+   "character": "婚",
+   "strokeCount": 11,
+   "radical": "女",
+   "decomposition": "⿰女昏",
+   "parts": [
+    "女",
+    "昏"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "女",
+   "phonetic": "昏",
+   "hasStrokes": true
+  },
+  {
+   "character": "子",
+   "strokeCount": 3,
+   "radical": "子",
+   "decomposition": "⿻了一",
+   "parts": [
+    "了",
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "字",
+   "strokeCount": 6,
+   "radical": "子",
+   "decomposition": "⿱宀子",
+   "parts": [
+    "宀",
+    "子"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "季",
+   "strokeCount": 8,
+   "radical": "子",
+   "decomposition": "⿱禾子",
+   "parts": [
+    "禾",
+    "子"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "学",
+   "strokeCount": 8,
+   "radical": "子",
+   "decomposition": "⿱⿱⺍冖子",
+   "parts": [
+    "⺍",
+    "冖",
+    "子"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "孩",
+   "strokeCount": 9,
+   "radical": "子",
+   "decomposition": "⿰子亥",
+   "parts": [
+    "子",
+    "亥"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "子",
+   "phonetic": "亥",
+   "hasStrokes": true
+  },
+  {
+   "character": "它",
+   "strokeCount": 5,
+   "radical": "宀",
+   "decomposition": "⿱宀匕",
+   "parts": [
+    "宀",
+    "匕"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "安",
+   "strokeCount": 6,
+   "radical": "宀",
+   "decomposition": "⿱宀女",
+   "parts": [
+    "宀",
+    "女"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "完",
+   "strokeCount": 7,
+   "radical": "宀",
+   "decomposition": "⿱宀元",
+   "parts": [
+    "宀",
+    "元"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "宀",
+   "phonetic": "元",
+   "hasStrokes": true
+  },
+  {
+   "character": "定",
+   "strokeCount": 8,
+   "radical": "宀",
+   "decomposition": "⿱宀疋",
+   "parts": [
+    "宀",
+    "疋"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "宜",
+   "strokeCount": 8,
+   "radical": "宀",
+   "decomposition": "⿱宀且",
+   "parts": [
+    "宀",
+    "且"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "实",
+   "strokeCount": 8,
+   "radical": "宀",
+   "decomposition": "⿱宀头",
+   "parts": [
+    "宀",
+    "头"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "客",
+   "strokeCount": 9,
+   "radical": "宀",
+   "decomposition": "⿱宀各",
+   "parts": [
+    "宀",
+    "各"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "室",
+   "strokeCount": 9,
+   "radical": "宀",
+   "decomposition": "⿱宀至",
+   "parts": [
+    "宀",
+    "至"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "宀",
+   "phonetic": "至",
+   "hasStrokes": true
+  },
+  {
+   "character": "害",
+   "strokeCount": 10,
+   "radical": "宀",
+   "decomposition": "⿱宀⿱丰口",
+   "parts": [
+    "宀",
+    "丰",
+    "口"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "家",
+   "strokeCount": 10,
+   "radical": "宀",
+   "decomposition": "⿱宀豕",
+   "parts": [
+    "宀",
+    "豕"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "宀",
+   "phonetic": "豕",
+   "hasStrokes": true
+  },
+  {
+   "character": "容",
+   "strokeCount": 10,
+   "radical": "宀",
+   "decomposition": "⿱宀谷",
+   "parts": [
+    "宀",
+    "谷"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "宀",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "宾",
+   "strokeCount": 10,
+   "radical": "宀",
+   "decomposition": "⿱宀兵",
+   "parts": [
+    "宀",
+    "兵"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "对",
+   "strokeCount": 5,
+   "radical": "寸",
+   "decomposition": "⿰又寸",
+   "parts": [
+    "又",
+    "寸"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "封",
+   "strokeCount": 9,
+   "radical": "寸",
+   "decomposition": "⿰圭寸",
+   "parts": [
+    "圭",
+    "寸"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "小",
+   "strokeCount": 3,
+   "radical": "小",
+   "decomposition": "⿻亅八",
+   "parts": [
+    "亅",
+    "八"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "少",
+   "strokeCount": 4,
+   "radical": "小",
+   "decomposition": "⿱小丿",
+   "parts": [
+    "小",
+    "丿"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "尝",
+   "strokeCount": 9,
+   "radical": "⺌",
+   "decomposition": "⿱尚云",
+   "parts": [
+    "尚",
+    "云"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "云",
+   "phonetic": "尚",
+   "hasStrokes": true
+  },
+  {
+   "character": "就",
+   "strokeCount": 12,
+   "radical": "尢",
+   "decomposition": "⿰京尤",
+   "parts": [
+    "京",
+    "尤"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "尤",
+   "phonetic": "京",
+   "hasStrokes": true
+  },
+  {
+   "character": "层",
+   "strokeCount": 7,
+   "radical": "尸",
+   "decomposition": "⿸尸云",
+   "parts": [
+    "尸",
+    "云"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "居",
+   "strokeCount": 8,
+   "radical": "户",
+   "decomposition": "⿸户古",
+   "parts": [
+    "户",
+    "古"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "户",
+   "phonetic": "古",
+   "hasStrokes": true
+  },
+  {
+   "character": "屋",
+   "strokeCount": 9,
+   "radical": "尸",
+   "decomposition": "⿸尸至",
+   "parts": [
+    "尸",
+    "至"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "展",
+   "strokeCount": 10,
+   "radical": "尸",
+   "decomposition": "⿸尸⿻？衣",
+   "parts": [
+    "尸",
+    "衣"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "山",
+   "strokeCount": 3,
+   "radical": "山",
+   "decomposition": "⿶凵丨",
+   "parts": [
+    "凵",
+    "丨"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "岁",
+   "strokeCount": 6,
+   "radical": "山",
+   "decomposition": "⿱山夕",
+   "parts": [
+    "山",
+    "夕"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "工",
+   "strokeCount": 3,
+   "radical": "工",
+   "decomposition": "⿱一丄",
+   "parts": [
+    "一",
+    "丄"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "左",
+   "strokeCount": 5,
+   "radical": "工",
+   "decomposition": "⿸？工",
+   "parts": [
+    "工"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "差",
+   "strokeCount": 9,
+   "radical": "工",
+   "decomposition": "⿸羊工",
+   "parts": [
+    "羊",
+    "工"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "己",
+   "strokeCount": 3,
+   "radical": "己",
+   "decomposition": "⿱？乚",
+   "parts": [
+    "乚"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "已",
+   "strokeCount": 3,
+   "radical": "己",
+   "decomposition": "？",
+   "parts": [],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "市",
+   "strokeCount": 5,
+   "radical": "巾",
+   "decomposition": "⿱亠巾",
+   "parts": [
+    "亠",
+    "巾"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "师",
+   "strokeCount": 6,
+   "radical": "巾",
+   "decomposition": "⿰刂帀",
+   "parts": [
+    "刂",
+    "帀"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "希",
+   "strokeCount": 7,
+   "radical": "巾",
+   "decomposition": "⿱乂布",
+   "parts": [
+    "乂",
+    "布"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "带",
+   "strokeCount": 9,
+   "radical": "巾",
+   "decomposition": "⿱卅⿱冖巾",
+   "parts": [
+    "卅",
+    "冖",
+    "巾"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "帮",
+   "strokeCount": 9,
+   "radical": "巾",
+   "decomposition": "⿱邦巾",
+   "parts": [
+    "邦",
+    "巾"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "常",
+   "strokeCount": 11,
+   "radical": "巾",
+   "decomposition": "⿱尚巾",
+   "parts": [
+    "尚",
+    "巾"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "巾",
+   "phonetic": "尚",
+   "hasStrokes": true
+  },
+  {
+   "character": "干",
+   "strokeCount": 3,
+   "radical": "十",
+   "decomposition": "⿱一十",
+   "parts": [
+    "一",
+    "十"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "平",
+   "strokeCount": 5,
+   "radical": "广",
+   "decomposition": "⿻干丷",
+   "parts": [
+    "干",
+    "丷"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "年",
+   "strokeCount": 6,
+   "radical": "干",
+   "decomposition": "⿻干？",
+   "parts": [
+    "干"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "床",
+   "strokeCount": 7,
+   "radical": "广",
+   "decomposition": "⿸广木",
+   "parts": [
+    "广",
+    "木"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "应",
+   "strokeCount": 7,
+   "radical": "广",
+   "decomposition": "⿸广⿱⺍一",
+   "parts": [
+    "广",
+    "⺍",
+    "一"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "店",
+   "strokeCount": 8,
+   "radical": "广",
+   "decomposition": "⿸广占",
+   "parts": [
+    "广",
+    "占"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "广",
+   "phonetic": "占",
+   "hasStrokes": true
+  },
+  {
+   "character": "康",
+   "strokeCount": 11,
+   "radical": "广",
+   "decomposition": "⿸广隶",
+   "parts": [
+    "广",
+    "隶"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "开",
+   "strokeCount": 4,
+   "radical": "廾",
+   "decomposition": "⿱一廾",
+   "parts": [
+    "一",
+    "廾"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "弟",
+   "strokeCount": 7,
+   "radical": "弓",
+   "decomposition": "⿱丷⿻弓？",
+   "parts": [
+    "丷",
+    "弓"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "张",
+   "strokeCount": 7,
+   "radical": "弓",
+   "decomposition": "⿰弓长",
+   "parts": [
+    "弓",
+    "长"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "弓",
+   "phonetic": "长",
+   "hasStrokes": true
+  },
+  {
+   "character": "当",
+   "strokeCount": 6,
+   "radical": "⺌",
+   "decomposition": "⿱⺌彐",
+   "parts": [
+    "⺌",
+    "彐"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "影",
+   "strokeCount": 15,
+   "radical": "彡",
+   "decomposition": "⿰景彡",
+   "parts": [
+    "景",
+    "彡"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "彡",
+   "phonetic": "景",
+   "hasStrokes": true
+  },
+  {
+   "character": "往",
+   "strokeCount": 8,
+   "radical": "彳",
+   "decomposition": "⿰彳⿱？王",
+   "parts": [
+    "彳",
+    "王"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "彳",
+   "phonetic": "王",
+   "hasStrokes": true
+  },
+  {
+   "character": "很",
+   "strokeCount": 9,
+   "radical": "彳",
+   "decomposition": "⿰彳艮",
+   "parts": [
+    "彳",
+    "艮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "彳",
+   "phonetic": "艮",
+   "hasStrokes": true
+  },
+  {
+   "character": "得",
+   "strokeCount": 11,
+   "radical": "彳",
+   "decomposition": "⿰彳⿱旦寸",
+   "parts": [
+    "彳",
+    "旦",
+    "寸"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "心",
+   "strokeCount": 4,
+   "radical": "心",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "必",
+   "strokeCount": 5,
+   "radical": "心",
+   "decomposition": "⿻心丿",
+   "parts": [
+    "心",
+    "丿"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "忘",
+   "strokeCount": 7,
+   "radical": "心",
+   "decomposition": "⿱亡心",
+   "parts": [
+    "亡",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "亡",
+   "hasStrokes": true
+  },
+  {
+   "character": "忙",
+   "strokeCount": 6,
+   "radical": "忄",
+   "decomposition": "⿰忄亡",
+   "parts": [
+    "忄",
+    "亡"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "快",
+   "strokeCount": 7,
+   "radical": "忄",
+   "decomposition": "⿰忄夬",
+   "parts": [
+    "忄",
+    "夬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "怎",
+   "strokeCount": 9,
+   "radical": "心",
+   "decomposition": "⿱乍心",
+   "parts": [
+    "乍",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "乍",
+   "hasStrokes": true
+  },
+  {
+   "character": "怕",
+   "strokeCount": 8,
+   "radical": "忄",
+   "decomposition": "⿰忄白",
+   "parts": [
+    "忄",
+    "白"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "忄",
+   "phonetic": "白",
+   "hasStrokes": true
+  },
+  {
+   "character": "思",
+   "strokeCount": 9,
+   "radical": "心",
+   "decomposition": "⿱田心",
+   "parts": [
+    "田",
+    "心"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "急",
+   "strokeCount": 9,
+   "radical": "心",
+   "decomposition": "⿱刍心",
+   "parts": [
+    "刍",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "刍",
+   "hasStrokes": true
+  },
+  {
+   "character": "怪",
+   "strokeCount": 8,
+   "radical": "忄",
+   "decomposition": "⿰忄圣",
+   "parts": [
+    "忄",
+    "圣"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "总",
+   "strokeCount": 9,
+   "radical": "心",
+   "decomposition": "⿳丷口心",
+   "parts": [
+    "丷",
+    "口",
+    "心"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "息",
+   "strokeCount": 10,
+   "radical": "心",
+   "decomposition": "⿱自心",
+   "parts": [
+    "自",
+    "心"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "您",
+   "strokeCount": 11,
+   "radical": "心",
+   "decomposition": "⿱你心",
+   "parts": [
+    "你",
+    "心"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "情",
+   "strokeCount": 11,
+   "radical": "忄",
+   "decomposition": "⿰忄青",
+   "parts": [
+    "忄",
+    "青"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "忄",
+   "phonetic": "青",
+   "hasStrokes": true
+  },
+  {
+   "character": "惯",
+   "strokeCount": 11,
+   "radical": "忄",
+   "decomposition": "⿰忄贯",
+   "parts": [
+    "忄",
+    "贯"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "忄",
+   "phonetic": "贯",
+   "hasStrokes": true
+  },
+  {
+   "character": "想",
+   "strokeCount": 13,
+   "radical": "心",
+   "decomposition": "⿱相心",
+   "parts": [
+    "相",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "相",
+   "hasStrokes": true
+  },
+  {
+   "character": "意",
+   "strokeCount": 13,
+   "radical": "心",
+   "decomposition": "⿱音心",
+   "parts": [
+    "音",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "音",
+   "hasStrokes": true
+  },
+  {
+   "character": "感",
+   "strokeCount": 13,
+   "radical": "心",
+   "decomposition": "⿱咸心",
+   "parts": [
+    "咸",
+    "心"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "愿",
+   "strokeCount": 14,
+   "radical": "心",
+   "decomposition": "⿸原心",
+   "parts": [
+    "原",
+    "心"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "心",
+   "phonetic": "原",
+   "hasStrokes": true
+  },
+  {
+   "character": "慢",
+   "strokeCount": 14,
+   "radical": "忄",
+   "decomposition": "⿰忄曼",
+   "parts": [
+    "忄",
+    "曼"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "忄",
+   "phonetic": "曼",
+   "hasStrokes": true
+  },
+  {
+   "character": "懂",
+   "strokeCount": 15,
+   "radical": "忄",
+   "decomposition": "⿰忄董",
+   "parts": [
+    "忄",
+    "董"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "忄",
+   "phonetic": "董",
+   "hasStrokes": true
+  },
+  {
+   "character": "戏",
+   "strokeCount": 6,
+   "radical": "戈",
+   "decomposition": "⿰又戈",
+   "parts": [
+    "又",
+    "戈"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "成",
+   "strokeCount": 6,
+   "radical": "戈",
+   "decomposition": "⿰丁戈",
+   "parts": [
+    "丁",
+    "戈"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "我",
+   "strokeCount": 7,
+   "radical": "戈",
+   "decomposition": "⿰扌戈",
+   "parts": [
+    "扌",
+    "戈"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "或",
+   "strokeCount": 8,
+   "radical": "戈",
+   "decomposition": "⿹戈⿱口一",
+   "parts": [
+    "戈",
+    "口",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "房",
+   "strokeCount": 8,
+   "radical": "户",
+   "decomposition": "⿸户方",
+   "parts": [
+    "户",
+    "方"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "户",
+   "phonetic": "方",
+   "hasStrokes": true
+  },
+  {
+   "character": "所",
+   "strokeCount": 8,
+   "radical": "户",
+   "decomposition": "⿰户斤",
+   "parts": [
+    "户",
+    "斤"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "手",
+   "strokeCount": 4,
+   "radical": "手",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "才",
+   "strokeCount": 3,
+   "radical": "扌",
+   "decomposition": "⿻扌？",
+   "parts": [
+    "扌"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "打",
+   "strokeCount": 5,
+   "radical": "扌",
+   "decomposition": "⿰扌丁",
+   "parts": [
+    "扌",
+    "丁"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "丁",
+   "hasStrokes": true
+  },
+  {
+   "character": "扫",
+   "strokeCount": 6,
+   "radical": "扌",
+   "decomposition": "⿰扌彐",
+   "parts": [
+    "扌",
+    "彐"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "找",
+   "strokeCount": 7,
+   "radical": "扌",
+   "decomposition": "⿰扌戈",
+   "parts": [
+    "扌",
+    "戈"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "把",
+   "strokeCount": 7,
+   "radical": "扌",
+   "decomposition": "⿰扌巴",
+   "parts": [
+    "扌",
+    "巴"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "巴",
+   "hasStrokes": true
+  },
+  {
+   "character": "护",
+   "strokeCount": 7,
+   "radical": "扌",
+   "decomposition": "⿰扌户",
+   "parts": [
+    "扌",
+    "户"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "报",
+   "strokeCount": 7,
+   "radical": "扌",
+   "decomposition": "⿰扌⿸卩又",
+   "parts": [
+    "扌",
+    "卩",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "担",
+   "strokeCount": 8,
+   "radical": "扌",
+   "decomposition": "⿰扌旦",
+   "parts": [
+    "扌",
+    "旦"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "旦",
+   "hasStrokes": true
+  },
+  {
+   "character": "拍",
+   "strokeCount": 8,
+   "radical": "扌",
+   "decomposition": "⿰扌白",
+   "parts": [
+    "扌",
+    "白"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "白",
+   "hasStrokes": true
+  },
+  {
+   "character": "择",
+   "strokeCount": 8,
+   "radical": "扌",
+   "decomposition": "⿰扌？",
+   "parts": [
+    "扌"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "拿",
+   "strokeCount": 10,
+   "radical": "手",
+   "decomposition": "⿱合手",
+   "parts": [
+    "合",
+    "手"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "手",
+   "phonetic": "合",
+   "hasStrokes": true
+  },
+  {
+   "character": "持",
+   "strokeCount": 9,
+   "radical": "扌",
+   "decomposition": "⿰扌寺",
+   "parts": [
+    "扌",
+    "寺"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "寺",
+   "hasStrokes": true
+  },
+  {
+   "character": "挺",
+   "strokeCount": 9,
+   "radical": "扌",
+   "decomposition": "⿰扌廷",
+   "parts": [
+    "扌",
+    "廷"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "廷",
+   "hasStrokes": true
+  },
+  {
+   "character": "换",
+   "strokeCount": 10,
+   "radical": "扌",
+   "decomposition": "⿰扌奂",
+   "parts": [
+    "扌",
+    "奂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "奂",
+   "hasStrokes": true
+  },
+  {
+   "character": "据",
+   "strokeCount": 11,
+   "radical": "扌",
+   "decomposition": "⿰扌居",
+   "parts": [
+    "扌",
+    "居"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "居",
+   "hasStrokes": true
+  },
+  {
+   "character": "接",
+   "strokeCount": 11,
+   "radical": "扌",
+   "decomposition": "⿰扌妾",
+   "parts": [
+    "扌",
+    "妾"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "妾",
+   "hasStrokes": true
+  },
+  {
+   "character": "提",
+   "strokeCount": 12,
+   "radical": "扌",
+   "decomposition": "⿰扌是",
+   "parts": [
+    "扌",
+    "是"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "是",
+   "hasStrokes": true
+  },
+  {
+   "character": "搬",
+   "strokeCount": 13,
+   "radical": "扌",
+   "decomposition": "⿰扌般",
+   "parts": [
+    "扌",
+    "般"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "扌",
+   "phonetic": "般",
+   "hasStrokes": true
+  },
+  {
+   "character": "收",
+   "strokeCount": 6,
+   "radical": "攵",
+   "decomposition": "⿰丩攵",
+   "parts": [
+    "丩",
+    "攵"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "攵",
+   "phonetic": "丩",
+   "hasStrokes": true
+  },
+  {
+   "character": "放",
+   "strokeCount": 8,
+   "radical": "攵",
+   "decomposition": "⿰方攵",
+   "parts": [
+    "方",
+    "攵"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "攵",
+   "phonetic": "方",
+   "hasStrokes": true
+  },
+  {
+   "character": "故",
+   "strokeCount": 9,
+   "radical": "攵",
+   "decomposition": "⿰古攵",
+   "parts": [
+    "古",
+    "攵"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "攵",
+   "phonetic": "古",
+   "hasStrokes": true
+  },
+  {
+   "character": "教",
+   "strokeCount": 11,
+   "radical": "攵",
+   "decomposition": "⿰孝攵",
+   "parts": [
+    "孝",
+    "攵"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "攵",
+   "phonetic": "孝",
+   "hasStrokes": true
+  },
+  {
+   "character": "数",
+   "strokeCount": 13,
+   "radical": "攵",
+   "decomposition": "⿰娄攵",
+   "parts": [
+    "娄",
+    "攵"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "攵",
+   "phonetic": "娄",
+   "hasStrokes": true
+  },
+  {
+   "character": "文",
+   "strokeCount": 4,
+   "radical": "文",
+   "decomposition": "⿱亠乂",
+   "parts": [
+    "亠",
+    "乂"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "料",
+   "strokeCount": 10,
+   "radical": "斗",
+   "decomposition": "⿰米斗",
+   "parts": [
+    "米",
+    "斗"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "斤",
+   "strokeCount": 4,
+   "radical": "斤",
+   "decomposition": "⿸厂下",
+   "parts": [
+    "厂",
+    "下"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "新",
+   "strokeCount": 13,
+   "radical": "斤",
+   "decomposition": "⿰亲斤",
+   "parts": [
+    "亲",
+    "斤"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "方",
+   "strokeCount": 4,
+   "radical": "方",
+   "decomposition": "⿱亠？",
+   "parts": [
+    "亠"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "旁",
+   "strokeCount": 10,
+   "radical": "方",
+   "decomposition": "⿱立方",
+   "parts": [
+    "立",
+    "方"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "立",
+   "phonetic": "方",
+   "hasStrokes": true
+  },
+  {
+   "character": "旅",
+   "strokeCount": 10,
+   "radical": "方",
+   "decomposition": "⿰方⿱？氏",
+   "parts": [
+    "方",
+    "氏"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "日",
+   "strokeCount": 4,
+   "radical": "日",
+   "decomposition": "⿴口一",
+   "parts": [
+    "口",
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "旧",
+   "strokeCount": 5,
+   "radical": "日",
+   "decomposition": "⿰丨日",
+   "parts": [
+    "丨",
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "早",
+   "strokeCount": 6,
+   "radical": "日",
+   "decomposition": "⿱日十",
+   "parts": [
+    "日",
+    "十"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "时",
+   "strokeCount": 7,
+   "radical": "日",
+   "decomposition": "⿰日寸",
+   "parts": [
+    "日",
+    "寸"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "日",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "明",
+   "strokeCount": 8,
+   "radical": "日",
+   "decomposition": "⿰日月",
+   "parts": [
+    "日",
+    "月"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "易",
+   "strokeCount": 8,
+   "radical": "日",
+   "decomposition": "⿱日勿",
+   "parts": [
+    "日",
+    "勿"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "星",
+   "strokeCount": 9,
+   "radical": "日",
+   "decomposition": "⿱日生",
+   "parts": [
+    "日",
+    "生"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "日",
+   "phonetic": "生",
+   "hasStrokes": true
+  },
+  {
+   "character": "春",
+   "strokeCount": 9,
+   "radical": "日",
+   "decomposition": "⿱？日",
+   "parts": [
+    "日"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "日",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "昨",
+   "strokeCount": 9,
+   "radical": "日",
+   "decomposition": "⿰日乍",
+   "parts": [
+    "日",
+    "乍"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "日",
+   "phonetic": "乍",
+   "hasStrokes": true
+  },
+  {
+   "character": "是",
+   "strokeCount": 9,
+   "radical": "日",
+   "decomposition": "⿱日疋",
+   "parts": [
+    "日",
+    "疋"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "晚",
+   "strokeCount": 11,
+   "radical": "日",
+   "decomposition": "⿰日免",
+   "parts": [
+    "日",
+    "免"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "晴",
+   "strokeCount": 12,
+   "radical": "日",
+   "decomposition": "⿰日青",
+   "parts": [
+    "日",
+    "青"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "日",
+   "phonetic": "青",
+   "hasStrokes": true
+  },
+  {
+   "character": "更",
+   "strokeCount": 7,
+   "radical": "曰",
+   "decomposition": "⿱一⿻曰乂",
+   "parts": [
+    "一",
+    "曰",
+    "乂"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "最",
+   "strokeCount": 12,
+   "radical": "曰",
+   "decomposition": "⿱日取",
+   "parts": [
+    "日",
+    "取"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "月",
+   "strokeCount": 4,
+   "radical": "月",
+   "decomposition": "⿵冂二",
+   "parts": [
+    "冂",
+    "二"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "有",
+   "strokeCount": 6,
+   "radical": "月",
+   "decomposition": "⿸？月",
+   "parts": [
+    "月"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": null,
+   "phonetic": "月",
+   "hasStrokes": true
+  },
+  {
+   "character": "朋",
+   "strokeCount": 8,
+   "radical": "月",
+   "decomposition": "⿰月月",
+   "parts": [
+    "月",
+    "月"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "服",
+   "strokeCount": 8,
+   "radical": "月",
+   "decomposition": "⿰月⿸卩又",
+   "parts": [
+    "月",
+    "卩",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "望",
+   "strokeCount": 11,
+   "radical": "月",
+   "decomposition": "⿱⿰亡月王",
+   "parts": [
+    "亡",
+    "月",
+    "王"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "期",
+   "strokeCount": 12,
+   "radical": "月",
+   "decomposition": "⿰其月",
+   "parts": [
+    "其",
+    "月"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "月",
+   "phonetic": "其",
+   "hasStrokes": true
+  },
+  {
+   "character": "末",
+   "strokeCount": 5,
+   "radical": "木",
+   "decomposition": "⿻木一",
+   "parts": [
+    "木",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "本",
+   "strokeCount": 5,
+   "radical": "木",
+   "decomposition": "⿻木一",
+   "parts": [
+    "木",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "朵",
+   "strokeCount": 6,
+   "radical": "木",
+   "decomposition": "⿱几木",
+   "parts": [
+    "几",
+    "木"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "机",
+   "strokeCount": 6,
+   "radical": "木",
+   "decomposition": "⿰木几",
+   "parts": [
+    "木",
+    "几"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "李",
+   "strokeCount": 7,
+   "radical": "木",
+   "decomposition": "⿱木子",
+   "parts": [
+    "木",
+    "子"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "子",
+   "hasStrokes": true
+  },
+  {
+   "character": "束",
+   "strokeCount": 7,
+   "radical": "木",
+   "decomposition": "⿻木口",
+   "parts": [
+    "木",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "条",
+   "strokeCount": 7,
+   "radical": "木",
+   "decomposition": "⿱夂木",
+   "parts": [
+    "夂",
+    "木"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "来",
+   "strokeCount": 7,
+   "radical": "木",
+   "decomposition": "⿻未丷",
+   "parts": [
+    "未",
+    "丷"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "杯",
+   "strokeCount": 8,
+   "radical": "木",
+   "decomposition": "⿰木不",
+   "parts": [
+    "木",
+    "不"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "不",
+   "hasStrokes": true
+  },
+  {
+   "character": "板",
+   "strokeCount": 8,
+   "radical": "木",
+   "decomposition": "⿰木反",
+   "parts": [
+    "木",
+    "反"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "反",
+   "hasStrokes": true
+  },
+  {
+   "character": "极",
+   "strokeCount": 7,
+   "radical": "木",
+   "decomposition": "⿰木及",
+   "parts": [
+    "木",
+    "及"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "及",
+   "hasStrokes": true
+  },
+  {
+   "character": "果",
+   "strokeCount": 8,
+   "radical": "木",
+   "decomposition": "⿱田木",
+   "parts": [
+    "田",
+    "木"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "查",
+   "strokeCount": 9,
+   "radical": "木",
+   "decomposition": "⿱木旦",
+   "parts": [
+    "木",
+    "旦"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "树",
+   "strokeCount": 9,
+   "radical": "木",
+   "decomposition": "⿰木对",
+   "parts": [
+    "木",
+    "对"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "对",
+   "hasStrokes": true
+  },
+  {
+   "character": "校",
+   "strokeCount": 10,
+   "radical": "木",
+   "decomposition": "⿰木交",
+   "parts": [
+    "木",
+    "交"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "交",
+   "hasStrokes": true
+  },
+  {
+   "character": "样",
+   "strokeCount": 10,
+   "radical": "木",
+   "decomposition": "⿰木羊",
+   "parts": [
+    "木",
+    "羊"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "羊",
+   "hasStrokes": true
+  },
+  {
+   "character": "根",
+   "strokeCount": 10,
+   "radical": "木",
+   "decomposition": "⿰木艮",
+   "parts": [
+    "木",
+    "艮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "艮",
+   "hasStrokes": true
+  },
+  {
+   "character": "桌",
+   "strokeCount": 10,
+   "radical": "木",
+   "decomposition": "⿱卓木",
+   "parts": [
+    "卓",
+    "木"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "梯",
+   "strokeCount": 11,
+   "radical": "木",
+   "decomposition": "⿰木弟",
+   "parts": [
+    "木",
+    "弟"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "弟",
+   "hasStrokes": true
+  },
+  {
+   "character": "检",
+   "strokeCount": 11,
+   "radical": "木",
+   "decomposition": "⿰木佥",
+   "parts": [
+    "木",
+    "佥"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "佥",
+   "hasStrokes": true
+  },
+  {
+   "character": "椅",
+   "strokeCount": 12,
+   "radical": "木",
+   "decomposition": "⿰木奇",
+   "parts": [
+    "木",
+    "奇"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "奇",
+   "hasStrokes": true
+  },
+  {
+   "character": "楚",
+   "strokeCount": 13,
+   "radical": "木",
+   "decomposition": "⿱林疋",
+   "parts": [
+    "林",
+    "疋"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "楼",
+   "strokeCount": 13,
+   "radical": "木",
+   "decomposition": "⿰木娄",
+   "parts": [
+    "木",
+    "娄"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "娄",
+   "hasStrokes": true
+  },
+  {
+   "character": "概",
+   "strokeCount": 13,
+   "radical": "木",
+   "decomposition": "⿰木既",
+   "parts": [
+    "木",
+    "既"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "木",
+   "phonetic": "既",
+   "hasStrokes": true
+  },
+  {
+   "character": "次",
+   "strokeCount": 6,
+   "radical": "欠",
+   "decomposition": "⿰冫欠",
+   "parts": [
+    "冫",
+    "欠"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "欢",
+   "strokeCount": 6,
+   "radical": "欠",
+   "decomposition": "⿰又欠",
+   "parts": [
+    "又",
+    "欠"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "歌",
+   "strokeCount": 14,
+   "radical": "欠",
+   "decomposition": "⿰哥欠",
+   "parts": [
+    "哥",
+    "欠"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "欠",
+   "phonetic": "哥",
+   "hasStrokes": true
+  },
+  {
+   "character": "正",
+   "strokeCount": 5,
+   "radical": "止",
+   "decomposition": "⿱一止",
+   "parts": [
+    "一",
+    "止"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "步",
+   "strokeCount": 7,
+   "radical": "止",
+   "decomposition": "⿱止？",
+   "parts": [
+    "止"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "段",
+   "strokeCount": 9,
+   "radical": "殳",
+   "decomposition": "⿰？殳",
+   "parts": [
+    "殳"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "每",
+   "strokeCount": 7,
+   "radical": "母",
+   "decomposition": "⿱？母",
+   "parts": [
+    "母"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": null,
+   "phonetic": "母",
+   "hasStrokes": true
+  },
+  {
+   "character": "比",
+   "strokeCount": 4,
+   "radical": "比",
+   "decomposition": "⿰匕匕",
+   "parts": [
+    "匕",
+    "匕"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "毛",
+   "strokeCount": 4,
+   "radical": "毛",
+   "decomposition": "⿻乇一",
+   "parts": [
+    "乇",
+    "一"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "气",
+   "strokeCount": 4,
+   "radical": "气",
+   "decomposition": "⿱亻？",
+   "parts": [
+    "亻"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "水",
+   "strokeCount": 4,
+   "radical": "水",
+   "decomposition": "⿻亅？",
+   "parts": [
+    "亅"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "求",
+   "strokeCount": 7,
+   "radical": "氺",
+   "decomposition": "⿻一氺",
+   "parts": [
+    "一",
+    "氺"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "汉",
+   "strokeCount": 5,
+   "radical": "氵",
+   "decomposition": "⿰氵又",
+   "parts": [
+    "氵",
+    "又"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "汽",
+   "strokeCount": 7,
+   "radical": "氵",
+   "decomposition": "⿰氵气",
+   "parts": [
+    "氵",
+    "气"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "沙",
+   "strokeCount": 7,
+   "radical": "氵",
+   "decomposition": "⿰氵少",
+   "parts": [
+    "氵",
+    "少"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "少",
+   "hasStrokes": true
+  },
+  {
+   "character": "没",
+   "strokeCount": 7,
+   "radical": "氵",
+   "decomposition": "⿰氵殳",
+   "parts": [
+    "氵",
+    "殳"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "殳",
+   "hasStrokes": true
+  },
+  {
+   "character": "河",
+   "strokeCount": 8,
+   "radical": "氵",
+   "decomposition": "⿰氵可",
+   "parts": [
+    "氵",
+    "可"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "可",
+   "hasStrokes": true
+  },
+  {
+   "character": "泉",
+   "strokeCount": 9,
+   "radical": "水",
+   "decomposition": "⿱白水",
+   "parts": [
+    "白",
+    "水"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "法",
+   "strokeCount": 8,
+   "radical": "氵",
+   "decomposition": "⿰氵去",
+   "parts": [
+    "氵",
+    "去"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "注",
+   "strokeCount": 8,
+   "radical": "氵",
+   "decomposition": "⿰氵主",
+   "parts": [
+    "氵",
+    "主"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "主",
+   "hasStrokes": true
+  },
+  {
+   "character": "泳",
+   "strokeCount": 8,
+   "radical": "氵",
+   "decomposition": "⿰氵永",
+   "parts": [
+    "氵",
+    "永"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "永",
+   "hasStrokes": true
+  },
+  {
+   "character": "洗",
+   "strokeCount": 9,
+   "radical": "氵",
+   "decomposition": "⿰氵先",
+   "parts": [
+    "氵",
+    "先"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "先",
+   "hasStrokes": true
+  },
+  {
+   "character": "活",
+   "strokeCount": 9,
+   "radical": "氵",
+   "decomposition": "⿰氵舌",
+   "parts": [
+    "氵",
+    "舌"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "舌",
+   "hasStrokes": true
+  },
+  {
+   "character": "海",
+   "strokeCount": 10,
+   "radical": "氵",
+   "decomposition": "⿰氵每",
+   "parts": [
+    "氵",
+    "每"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "每",
+   "hasStrokes": true
+  },
+  {
+   "character": "清",
+   "strokeCount": 11,
+   "radical": "氵",
+   "decomposition": "⿰氵青",
+   "parts": [
+    "氵",
+    "青"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "青",
+   "hasStrokes": true
+  },
+  {
+   "character": "渴",
+   "strokeCount": 12,
+   "radical": "氵",
+   "decomposition": "⿰氵曷",
+   "parts": [
+    "氵",
+    "曷"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "曷",
+   "hasStrokes": true
+  },
+  {
+   "character": "游",
+   "strokeCount": 12,
+   "radical": "氵",
+   "decomposition": "⿰氵斿",
+   "parts": [
+    "氵",
+    "斿"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "满",
+   "strokeCount": 13,
+   "radical": "氵",
+   "decomposition": "⿰氵⿱艹两",
+   "parts": [
+    "氵",
+    "艹",
+    "两"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "㒼",
+   "hasStrokes": true
+  },
+  {
+   "character": "漂",
+   "strokeCount": 14,
+   "radical": "氵",
+   "decomposition": "⿰氵票",
+   "parts": [
+    "氵",
+    "票"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "票",
+   "hasStrokes": true
+  },
+  {
+   "character": "演",
+   "strokeCount": 14,
+   "radical": "氵",
+   "decomposition": "⿰氵寅",
+   "parts": [
+    "氵",
+    "寅"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "寅",
+   "hasStrokes": true
+  },
+  {
+   "character": "澡",
+   "strokeCount": 16,
+   "radical": "氵",
+   "decomposition": "⿰氵喿",
+   "parts": [
+    "氵",
+    "喿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "喿",
+   "hasStrokes": true
+  },
+  {
+   "character": "激",
+   "strokeCount": 16,
+   "radical": "氵",
+   "decomposition": "⿰氵敫",
+   "parts": [
+    "氵",
+    "敫"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "氵",
+   "phonetic": "敫",
+   "hasStrokes": true
+  },
+  {
+   "character": "火",
+   "strokeCount": 4,
+   "radical": "火",
+   "decomposition": "⿻丷人",
+   "parts": [
+    "丷",
+    "人"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "灯",
+   "strokeCount": 6,
+   "radical": "火",
+   "decomposition": "⿰火丁",
+   "parts": [
+    "火",
+    "丁"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "火",
+   "phonetic": "丁",
+   "hasStrokes": true
+  },
+  {
+   "character": "点",
+   "strokeCount": 9,
+   "radical": "灬",
+   "decomposition": "⿱占灬",
+   "parts": [
+    "占",
+    "灬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "灬",
+   "phonetic": "占",
+   "hasStrokes": true
+  },
+  {
+   "character": "炼",
+   "strokeCount": 9,
+   "radical": "火",
+   "decomposition": "⿰火柬",
+   "parts": [
+    "火",
+    "柬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "火",
+   "phonetic": "柬",
+   "hasStrokes": true
+  },
+  {
+   "character": "烧",
+   "strokeCount": 10,
+   "radical": "火",
+   "decomposition": "⿰火尧",
+   "parts": [
+    "火",
+    "尧"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "火",
+   "phonetic": "尧",
+   "hasStrokes": true
+  },
+  {
+   "character": "热",
+   "strokeCount": 10,
+   "radical": "灬",
+   "decomposition": "⿱执灬",
+   "parts": [
+    "执",
+    "灬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "灬",
+   "phonetic": "执",
+   "hasStrokes": true
+  },
+  {
+   "character": "然",
+   "strokeCount": 12,
+   "radical": "灬",
+   "decomposition": "⿱肰灬",
+   "parts": [
+    "肰",
+    "灬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "灬",
+   "phonetic": "肰",
+   "hasStrokes": true
+  },
+  {
+   "character": "照",
+   "strokeCount": 13,
+   "radical": "灬",
+   "decomposition": "⿱昭灬",
+   "parts": [
+    "昭",
+    "灬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "灬",
+   "phonetic": "昭",
+   "hasStrokes": true
+  },
+  {
+   "character": "熊",
+   "strokeCount": 14,
+   "radical": "灬",
+   "decomposition": "⿱能灬",
+   "parts": [
+    "能",
+    "灬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "爬",
+   "strokeCount": 8,
+   "radical": "爪",
+   "decomposition": "⿺爪巴",
+   "parts": [
+    "爪",
+    "巴"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "爪",
+   "phonetic": "巴",
+   "hasStrokes": true
+  },
+  {
+   "character": "爱",
+   "strokeCount": 10,
+   "radical": "爫",
+   "decomposition": "⿱⿱爫冖友",
+   "parts": [
+    "爫",
+    "冖",
+    "友"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "爷",
+   "strokeCount": 6,
+   "radical": "父",
+   "decomposition": "⿱父卩",
+   "parts": [
+    "父",
+    "卩"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "父",
+   "phonetic": "耶",
+   "hasStrokes": true
+  },
+  {
+   "character": "爸",
+   "strokeCount": 8,
+   "radical": "父",
+   "decomposition": "⿱父巴",
+   "parts": [
+    "父",
+    "巴"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "父",
+   "phonetic": "巴",
+   "hasStrokes": true
+  },
+  {
+   "character": "片",
+   "strokeCount": 4,
+   "radical": "片",
+   "decomposition": "⿸？？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "牙",
+   "strokeCount": 4,
+   "radical": "牙",
+   "decomposition": "？",
+   "parts": [],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "牛",
+   "strokeCount": 4,
+   "radical": "牛",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "物",
+   "strokeCount": 8,
+   "radical": "牛",
+   "decomposition": "⿰牛勿",
+   "parts": [
+    "牛",
+    "勿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "牛",
+   "phonetic": "勿",
+   "hasStrokes": true
+  },
+  {
+   "character": "特",
+   "strokeCount": 10,
+   "radical": "牛",
+   "decomposition": "⿰牛寺",
+   "parts": [
+    "牛",
+    "寺"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "牛",
+   "phonetic": "寺",
+   "hasStrokes": true
+  },
+  {
+   "character": "狗",
+   "strokeCount": 8,
+   "radical": "犭",
+   "decomposition": "⿰犭句",
+   "parts": [
+    "犭",
+    "句"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "犭",
+   "phonetic": "句",
+   "hasStrokes": true
+  },
+  {
+   "character": "猫",
+   "strokeCount": 11,
+   "radical": "犭",
+   "decomposition": "⿰犭苗",
+   "parts": [
+    "犭",
+    "苗"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "犭",
+   "phonetic": "苗",
+   "hasStrokes": true
+  },
+  {
+   "character": "玩",
+   "strokeCount": 8,
+   "radical": "王",
+   "decomposition": "⿰王元",
+   "parts": [
+    "王",
+    "元"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "王",
+   "phonetic": "元",
+   "hasStrokes": true
+  },
+  {
+   "character": "环",
+   "strokeCount": 8,
+   "radical": "王",
+   "decomposition": "⿰王不",
+   "parts": [
+    "王",
+    "不"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "王",
+   "phonetic": "不",
+   "hasStrokes": true
+  },
+  {
+   "character": "现",
+   "strokeCount": 8,
+   "radical": "王",
+   "decomposition": "⿰王见",
+   "parts": [
+    "王",
+    "见"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "班",
+   "strokeCount": 10,
+   "radical": "王",
+   "decomposition": "⿲王刂王",
+   "parts": [
+    "王",
+    "刂",
+    "王"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "球",
+   "strokeCount": 11,
+   "radical": "王",
+   "decomposition": "⿰王求",
+   "parts": [
+    "王",
+    "求"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "王",
+   "phonetic": "求",
+   "hasStrokes": true
+  },
+  {
+   "character": "理",
+   "strokeCount": 11,
+   "radical": "王",
+   "decomposition": "⿰王里",
+   "parts": [
+    "王",
+    "里"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "王",
+   "phonetic": "里",
+   "hasStrokes": true
+  },
+  {
+   "character": "瓜",
+   "strokeCount": 5,
+   "radical": "瓜",
+   "decomposition": "⿵？厶",
+   "parts": [
+    "厶"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "瓶",
+   "strokeCount": 10,
+   "radical": "瓦",
+   "decomposition": "⿰并瓦",
+   "parts": [
+    "并",
+    "瓦"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "瓦",
+   "phonetic": "并",
+   "hasStrokes": true
+  },
+  {
+   "character": "甜",
+   "strokeCount": 11,
+   "radical": "甘",
+   "decomposition": "⿰舌甘",
+   "parts": [
+    "舌",
+    "甘"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "生",
+   "strokeCount": 5,
+   "radical": "生",
+   "decomposition": "⿻一土",
+   "parts": [
+    "一",
+    "土"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "用",
+   "strokeCount": 5,
+   "radical": "用",
+   "decomposition": "⿵冂？",
+   "parts": [
+    "冂"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "电",
+   "strokeCount": 5,
+   "radical": "曰",
+   "decomposition": "⿻曰乚",
+   "parts": [
+    "曰",
+    "乚"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "男",
+   "strokeCount": 7,
+   "radical": "田",
+   "decomposition": "⿱田力",
+   "parts": [
+    "田",
+    "力"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "画",
+   "strokeCount": 8,
+   "radical": "田",
+   "decomposition": "⿱一⿶凵田",
+   "parts": [
+    "一",
+    "凵",
+    "田"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "界",
+   "strokeCount": 9,
+   "radical": "田",
+   "decomposition": "⿱田介",
+   "parts": [
+    "田",
+    "介"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "田",
+   "phonetic": "介",
+   "hasStrokes": true
+  },
+  {
+   "character": "留",
+   "strokeCount": 10,
+   "radical": "田",
+   "decomposition": "⿱卯田",
+   "parts": [
+    "卯",
+    "田"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "疼",
+   "strokeCount": 10,
+   "radical": "疒",
+   "decomposition": "⿸疒冬",
+   "parts": [
+    "疒",
+    "冬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "疒",
+   "phonetic": "冬",
+   "hasStrokes": true
+  },
+  {
+   "character": "病",
+   "strokeCount": 10,
+   "radical": "疒",
+   "decomposition": "⿸疒丙",
+   "parts": [
+    "疒",
+    "丙"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "疒",
+   "phonetic": "丙",
+   "hasStrokes": true
+  },
+  {
+   "character": "瘦",
+   "strokeCount": 14,
+   "radical": "疒",
+   "decomposition": "⿸疒叟",
+   "parts": [
+    "疒",
+    "叟"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "疒",
+   "phonetic": "叟",
+   "hasStrokes": true
+  },
+  {
+   "character": "白",
+   "strokeCount": 5,
+   "radical": "白",
+   "decomposition": "⿻？日",
+   "parts": [
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "百",
+   "strokeCount": 6,
+   "radical": "白",
+   "decomposition": "⿱一白",
+   "parts": [
+    "一",
+    "白"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "一",
+   "phonetic": "白",
+   "hasStrokes": true
+  },
+  {
+   "character": "的",
+   "strokeCount": 8,
+   "radical": "白",
+   "decomposition": "⿰白勺",
+   "parts": [
+    "白",
+    "勺"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "盘",
+   "strokeCount": 11,
+   "radical": "皿",
+   "decomposition": "⿱舟皿",
+   "parts": [
+    "舟",
+    "皿"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "皿",
+   "phonetic": "般",
+   "hasStrokes": true
+  },
+  {
+   "character": "目",
+   "strokeCount": 5,
+   "radical": "目",
+   "decomposition": "⿴口二",
+   "parts": [
+    "口",
+    "二"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "直",
+   "strokeCount": 8,
+   "radical": "目",
+   "decomposition": "⿳十目一",
+   "parts": [
+    "十",
+    "目",
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "相",
+   "strokeCount": 9,
+   "radical": "目",
+   "decomposition": "⿰木目",
+   "parts": [
+    "木",
+    "目"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "看",
+   "strokeCount": 9,
+   "radical": "目",
+   "decomposition": "⿱手目",
+   "parts": [
+    "手",
+    "目"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "真",
+   "strokeCount": 10,
+   "radical": "目",
+   "decomposition": "⿱直几",
+   "parts": [
+    "直",
+    "几"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "眼",
+   "strokeCount": 11,
+   "radical": "目",
+   "decomposition": "⿰目艮",
+   "parts": [
+    "目",
+    "艮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "目",
+   "phonetic": "艮",
+   "hasStrokes": true
+  },
+  {
+   "character": "着",
+   "strokeCount": 11,
+   "radical": "目",
+   "decomposition": "⿸羊目",
+   "parts": [
+    "羊",
+    "目"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "睛",
+   "strokeCount": 13,
+   "radical": "目",
+   "decomposition": "⿰目青",
+   "parts": [
+    "目",
+    "青"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "目",
+   "phonetic": "青",
+   "hasStrokes": true
+  },
+  {
+   "character": "睡",
+   "strokeCount": 13,
+   "radical": "目",
+   "decomposition": "⿰目垂",
+   "parts": [
+    "目",
+    "垂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "目",
+   "phonetic": "垂",
+   "hasStrokes": true
+  },
+  {
+   "character": "知",
+   "strokeCount": 8,
+   "radical": "矢",
+   "decomposition": "⿰矢口",
+   "parts": [
+    "矢",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "矢",
+   "hasStrokes": true
+  },
+  {
+   "character": "短",
+   "strokeCount": 12,
+   "radical": "矢",
+   "decomposition": "⿰矢豆",
+   "parts": [
+    "矢",
+    "豆"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "矢",
+   "phonetic": "豆",
+   "hasStrokes": true
+  },
+  {
+   "character": "矮",
+   "strokeCount": 13,
+   "radical": "矢",
+   "decomposition": "⿰矢委",
+   "parts": [
+    "矢",
+    "委"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "矢",
+   "phonetic": "委",
+   "hasStrokes": true
+  },
+  {
+   "character": "矿",
+   "strokeCount": 8,
+   "radical": "石",
+   "decomposition": "⿰石广",
+   "parts": [
+    "石",
+    "广"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "石",
+   "phonetic": "广",
+   "hasStrokes": true
+  },
+  {
+   "character": "码",
+   "strokeCount": 8,
+   "radical": "石",
+   "decomposition": "⿰石马",
+   "parts": [
+    "石",
+    "马"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "石",
+   "phonetic": "马",
+   "hasStrokes": true
+  },
+  {
+   "character": "碗",
+   "strokeCount": 13,
+   "radical": "石",
+   "decomposition": "⿰石宛",
+   "parts": [
+    "石",
+    "宛"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "石",
+   "phonetic": "宛",
+   "hasStrokes": true
+  },
+  {
+   "character": "礼",
+   "strokeCount": 5,
+   "radical": "礻",
+   "decomposition": "⿰礻乚",
+   "parts": [
+    "礻",
+    "乚"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "礻",
+   "phonetic": "乚",
+   "hasStrokes": true
+  },
+  {
+   "character": "票",
+   "strokeCount": 11,
+   "radical": "示",
+   "decomposition": "⿱覀示",
+   "parts": [
+    "覀",
+    "示"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "离",
+   "strokeCount": 10,
+   "radical": "禸",
+   "decomposition": "⿱⿱亠凶禸",
+   "parts": [
+    "亠",
+    "凶",
+    "禸"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "秋",
+   "strokeCount": 9,
+   "radical": "禾",
+   "decomposition": "⿰禾火",
+   "parts": [
+    "禾",
+    "火"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "种",
+   "strokeCount": 9,
+   "radical": "禾",
+   "decomposition": "⿰禾中",
+   "parts": [
+    "禾",
+    "中"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "禾",
+   "phonetic": "中",
+   "hasStrokes": true
+  },
+  {
+   "character": "租",
+   "strokeCount": 10,
+   "radical": "禾",
+   "decomposition": "⿰禾且",
+   "parts": [
+    "禾",
+    "且"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "空",
+   "strokeCount": 8,
+   "radical": "穴",
+   "decomposition": "⿱穴工",
+   "parts": [
+    "穴",
+    "工"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "穴",
+   "phonetic": "工",
+   "hasStrokes": true
+  },
+  {
+   "character": "穿",
+   "strokeCount": 9,
+   "radical": "穴",
+   "decomposition": "⿱穴牙",
+   "parts": [
+    "穴",
+    "牙"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "牙",
+   "phonetic": "穴",
+   "hasStrokes": true
+  },
+  {
+   "character": "突",
+   "strokeCount": 9,
+   "radical": "穴",
+   "decomposition": "⿱穴犬",
+   "parts": [
+    "穴",
+    "犬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "站",
+   "strokeCount": 10,
+   "radical": "立",
+   "decomposition": "⿰立占",
+   "parts": [
+    "立",
+    "占"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "立",
+   "phonetic": "占",
+   "hasStrokes": true
+  },
+  {
+   "character": "笑",
+   "strokeCount": 10,
+   "radical": "⺮",
+   "decomposition": "⿱⺮夭",
+   "parts": [
+    "⺮",
+    "夭"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "笔",
+   "strokeCount": 10,
+   "radical": "⺮",
+   "decomposition": "⿱⺮毛",
+   "parts": [
+    "⺮",
+    "毛"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "第",
+   "strokeCount": 11,
+   "radical": "⺮",
+   "decomposition": "⿱⺮弟",
+   "parts": [
+    "⺮",
+    "弟"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "等",
+   "strokeCount": 12,
+   "radical": "⺮",
+   "decomposition": "⿱⺮寺",
+   "parts": [
+    "⺮",
+    "寺"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "答",
+   "strokeCount": 12,
+   "radical": "⺮",
+   "decomposition": "⿱⺮合",
+   "parts": [
+    "⺮",
+    "合"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "筷",
+   "strokeCount": 13,
+   "radical": "⺮",
+   "decomposition": "⿱⺮快",
+   "parts": [
+    "⺮",
+    "快"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺮",
+   "phonetic": "快",
+   "hasStrokes": true
+  },
+  {
+   "character": "简",
+   "strokeCount": 13,
+   "radical": "⺮",
+   "decomposition": "⿱⺮间",
+   "parts": [
+    "⺮",
+    "间"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺮",
+   "phonetic": "间",
+   "hasStrokes": true
+  },
+  {
+   "character": "算",
+   "strokeCount": 14,
+   "radical": "⺮",
+   "decomposition": "⿱⺮具",
+   "parts": [
+    "⺮",
+    "具"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "箱",
+   "strokeCount": 15,
+   "radical": "⺮",
+   "decomposition": "⿱⺮相",
+   "parts": [
+    "⺮",
+    "相"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺮",
+   "phonetic": "相",
+   "hasStrokes": true
+  },
+  {
+   "character": "篮",
+   "strokeCount": 16,
+   "radical": "⺮",
+   "decomposition": "⿱⺮监",
+   "parts": [
+    "⺮",
+    "监"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺮",
+   "phonetic": "监",
+   "hasStrokes": true
+  },
+  {
+   "character": "米",
+   "strokeCount": 6,
+   "radical": "米",
+   "decomposition": "⿻丷木",
+   "parts": [
+    "丷",
+    "木"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "糕",
+   "strokeCount": 16,
+   "radical": "米",
+   "decomposition": "⿰米羔",
+   "parts": [
+    "米",
+    "羔"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "米",
+   "phonetic": "羔",
+   "hasStrokes": true
+  },
+  {
+   "character": "糖",
+   "strokeCount": 16,
+   "radical": "米",
+   "decomposition": "⿰米唐",
+   "parts": [
+    "米",
+    "唐"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "米",
+   "phonetic": "唐",
+   "hasStrokes": true
+  },
+  {
+   "character": "系",
+   "strokeCount": 7,
+   "radical": "糸",
+   "decomposition": "⿱丿糸",
+   "parts": [
+    "丿",
+    "糸"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "糸",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "累",
+   "strokeCount": 11,
+   "radical": "糸",
+   "decomposition": "⿱田糸",
+   "parts": [
+    "田",
+    "糸"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "红",
+   "strokeCount": 6,
+   "radical": "纟",
+   "decomposition": "⿰纟工",
+   "parts": [
+    "纟",
+    "工"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "工",
+   "hasStrokes": true
+  },
+  {
+   "character": "级",
+   "strokeCount": 6,
+   "radical": "纟",
+   "decomposition": "⿰纟及",
+   "parts": [
+    "纟",
+    "及"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "及",
+   "hasStrokes": true
+  },
+  {
+   "character": "纸",
+   "strokeCount": 7,
+   "radical": "纟",
+   "decomposition": "⿰纟氏",
+   "parts": [
+    "纟",
+    "氏"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "氏",
+   "hasStrokes": true
+  },
+  {
+   "character": "练",
+   "strokeCount": 8,
+   "radical": "纟",
+   "decomposition": "⿰纟柬",
+   "parts": [
+    "纟",
+    "柬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "柬",
+   "hasStrokes": true
+  },
+  {
+   "character": "终",
+   "strokeCount": 8,
+   "radical": "纟",
+   "decomposition": "⿰纟冬",
+   "parts": [
+    "纟",
+    "冬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "冬",
+   "hasStrokes": true
+  },
+  {
+   "character": "绍",
+   "strokeCount": 8,
+   "radical": "纟",
+   "decomposition": "⿰纟召",
+   "parts": [
+    "纟",
+    "召"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "召",
+   "hasStrokes": true
+  },
+  {
+   "character": "经",
+   "strokeCount": 8,
+   "radical": "纟",
+   "decomposition": "⿰纟⿱？工",
+   "parts": [
+    "纟",
+    "工"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "工",
+   "hasStrokes": true
+  },
+  {
+   "character": "结",
+   "strokeCount": 9,
+   "radical": "纟",
+   "decomposition": "⿰纟吉",
+   "parts": [
+    "纟",
+    "吉"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "吉",
+   "hasStrokes": true
+  },
+  {
+   "character": "给",
+   "strokeCount": 9,
+   "radical": "纟",
+   "decomposition": "⿰纟合",
+   "parts": [
+    "纟",
+    "合"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "合",
+   "hasStrokes": true
+  },
+  {
+   "character": "绩",
+   "strokeCount": 11,
+   "radical": "纟",
+   "decomposition": "⿰纟责",
+   "parts": [
+    "纟",
+    "责"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "绿",
+   "strokeCount": 11,
+   "radical": "纟",
+   "decomposition": "⿰纟录",
+   "parts": [
+    "纟",
+    "录"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "纟",
+   "phonetic": "录",
+   "hasStrokes": true
+  },
+  {
+   "character": "网",
+   "strokeCount": 6,
+   "radical": "网",
+   "decomposition": "⿵冂⿰乂乂",
+   "parts": [
+    "冂",
+    "乂",
+    "乂"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "羊",
+   "strokeCount": 6,
+   "radical": "羊",
+   "decomposition": "⿱丷？",
+   "parts": [
+    "丷"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "羽",
+   "strokeCount": 6,
+   "radical": "羽",
+   "decomposition": "⿰习习",
+   "parts": [
+    "习",
+    "习"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "老",
+   "strokeCount": 6,
+   "radical": "老",
+   "decomposition": "⿱耂匕",
+   "parts": [
+    "耂",
+    "匕"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "考",
+   "strokeCount": 6,
+   "radical": "耂",
+   "decomposition": "⿸耂丂",
+   "parts": [
+    "耂",
+    "丂"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "耂",
+   "phonetic": "丂",
+   "hasStrokes": true
+  },
+  {
+   "character": "者",
+   "strokeCount": 8,
+   "radical": "耂",
+   "decomposition": "⿸耂日",
+   "parts": [
+    "耂",
+    "日"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "而",
+   "strokeCount": 6,
+   "radical": "而",
+   "decomposition": "？",
+   "parts": [],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "耳",
+   "strokeCount": 6,
+   "radical": "耳",
+   "decomposition": "⿻？二",
+   "parts": [
+    "二"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "聊",
+   "strokeCount": 11,
+   "radical": "耳",
+   "decomposition": "⿰耳卯",
+   "parts": [
+    "耳",
+    "卯"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "耳",
+   "phonetic": "卯",
+   "hasStrokes": true
+  },
+  {
+   "character": "聪",
+   "strokeCount": 15,
+   "radical": "耳",
+   "decomposition": "⿰耳总",
+   "parts": [
+    "耳",
+    "总"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "耳",
+   "phonetic": "总",
+   "hasStrokes": true
+  },
+  {
+   "character": "肉",
+   "strokeCount": 6,
+   "radical": "肉",
+   "decomposition": "⿻冂仌",
+   "parts": [
+    "冂",
+    "仌"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "育",
+   "strokeCount": 8,
+   "radical": "⺼",
+   "decomposition": "⿱⿱亠厶⺼",
+   "parts": [
+    "亠",
+    "厶",
+    "⺼"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "胖",
+   "strokeCount": 9,
+   "radical": "⺼",
+   "decomposition": "⿰⺼半",
+   "parts": [
+    "⺼",
+    "半"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺼",
+   "phonetic": "半",
+   "hasStrokes": true
+  },
+  {
+   "character": "能",
+   "strokeCount": 10,
+   "radical": "⺼",
+   "decomposition": "⿰⿱厶⺼⿱匕匕",
+   "parts": [
+    "厶",
+    "⺼",
+    "匕",
+    "匕"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "脏",
+   "strokeCount": 10,
+   "radical": "⺼",
+   "decomposition": "⿰⺼庄",
+   "parts": [
+    "⺼",
+    "庄"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺼",
+   "phonetic": "庄",
+   "hasStrokes": true
+  },
+  {
+   "character": "脑",
+   "strokeCount": 10,
+   "radical": "⺼",
+   "decomposition": "⿰⺼⿱亠凶",
+   "parts": [
+    "⺼",
+    "亠",
+    "凶"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺼",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "脚",
+   "strokeCount": 11,
+   "radical": "⺼",
+   "decomposition": "⿰⺼却",
+   "parts": [
+    "⺼",
+    "却"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺼",
+   "phonetic": "却",
+   "hasStrokes": true
+  },
+  {
+   "character": "脸",
+   "strokeCount": 11,
+   "radical": "⺼",
+   "decomposition": "⿰⺼佥",
+   "parts": [
+    "⺼",
+    "佥"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "⺼",
+   "phonetic": "佥",
+   "hasStrokes": true
+  },
+  {
+   "character": "腿",
+   "strokeCount": 13,
+   "radical": "⺼",
+   "decomposition": "⿰⺼退",
+   "parts": [
+    "⺼",
+    "退"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "自",
+   "strokeCount": 6,
+   "radical": "自",
+   "decomposition": "⿻目？",
+   "parts": [
+    "目"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "舒",
+   "strokeCount": 12,
+   "radical": "舌",
+   "decomposition": "⿰舍予",
+   "parts": [
+    "舍",
+    "予"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "舍",
+   "phonetic": "予",
+   "hasStrokes": true
+  },
+  {
+   "character": "舞",
+   "strokeCount": 14,
+   "radical": "舛",
+   "decomposition": "⿱無舛",
+   "parts": [
+    "無",
+    "舛"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "般",
+   "strokeCount": 10,
+   "radical": "舟",
+   "decomposition": "⿰舟殳",
+   "parts": [
+    "舟",
+    "殳"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "船",
+   "strokeCount": 11,
+   "radical": "舟",
+   "decomposition": "⿰舟⿱几口",
+   "parts": [
+    "舟",
+    "几",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "舟",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "色",
+   "strokeCount": 6,
+   "radical": "色",
+   "decomposition": "⿱⺈巴",
+   "parts": [
+    "⺈",
+    "巴"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "节",
+   "strokeCount": 5,
+   "radical": "艹",
+   "decomposition": "⿱艹？",
+   "parts": [
+    "艹"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "花",
+   "strokeCount": 7,
+   "radical": "艹",
+   "decomposition": "⿱艹化",
+   "parts": [
+    "艹",
+    "化"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "苹",
+   "strokeCount": 8,
+   "radical": "艹",
+   "decomposition": "⿱艹平",
+   "parts": [
+    "艹",
+    "平"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "平",
+   "hasStrokes": true
+  },
+  {
+   "character": "茶",
+   "strokeCount": 9,
+   "radical": "艹",
+   "decomposition": "⿱艹⿱人木",
+   "parts": [
+    "艹",
+    "人",
+    "木"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "草",
+   "strokeCount": 9,
+   "radical": "艹",
+   "decomposition": "⿱艹早",
+   "parts": [
+    "艹",
+    "早"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "早",
+   "hasStrokes": true
+  },
+  {
+   "character": "药",
+   "strokeCount": 9,
+   "radical": "艹",
+   "decomposition": "⿱艹约",
+   "parts": [
+    "艹",
+    "约"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "约",
+   "hasStrokes": true
+  },
+  {
+   "character": "菜",
+   "strokeCount": 11,
+   "radical": "艹",
+   "decomposition": "⿱艹采",
+   "parts": [
+    "艹",
+    "采"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "采",
+   "hasStrokes": true
+  },
+  {
+   "character": "蓝",
+   "strokeCount": 13,
+   "radical": "艹",
+   "decomposition": "⿱艹监",
+   "parts": [
+    "艹",
+    "监"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "监",
+   "hasStrokes": true
+  },
+  {
+   "character": "蕉",
+   "strokeCount": 15,
+   "radical": "艹",
+   "decomposition": "⿱艹焦",
+   "parts": [
+    "艹",
+    "焦"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "艹",
+   "phonetic": "焦",
+   "hasStrokes": true
+  },
+  {
+   "character": "虽",
+   "strokeCount": 9,
+   "radical": "虫",
+   "decomposition": "⿱口虫",
+   "parts": [
+    "口",
+    "虫"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "蛋",
+   "strokeCount": 11,
+   "radical": "虫",
+   "decomposition": "⿱疋虫",
+   "parts": [
+    "疋",
+    "虫"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "虫",
+   "phonetic": "延",
+   "hasStrokes": true
+  },
+  {
+   "character": "行",
+   "strokeCount": 6,
+   "radical": "行",
+   "decomposition": "⿰彳亍",
+   "parts": [
+    "彳",
+    "亍"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "街",
+   "strokeCount": 12,
+   "radical": "行",
+   "decomposition": "⿻行圭",
+   "parts": [
+    "行",
+    "圭"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "行",
+   "phonetic": "圭",
+   "hasStrokes": true
+  },
+  {
+   "character": "衣",
+   "strokeCount": 6,
+   "radical": "衣",
+   "decomposition": "⿱亠？",
+   "parts": [
+    "亠"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "表",
+   "strokeCount": 8,
+   "radical": "衣",
+   "decomposition": "⿱毛衣",
+   "parts": [
+    "毛",
+    "衣"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "衫",
+   "strokeCount": 8,
+   "radical": "衤",
+   "decomposition": "⿰衤彡",
+   "parts": [
+    "衤",
+    "彡"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "衤",
+   "phonetic": "彡",
+   "hasStrokes": true
+  },
+  {
+   "character": "衬",
+   "strokeCount": 8,
+   "radical": "衤",
+   "decomposition": "⿰衤寸",
+   "parts": [
+    "衤",
+    "寸"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "衤",
+   "phonetic": "寸",
+   "hasStrokes": true
+  },
+  {
+   "character": "被",
+   "strokeCount": 10,
+   "radical": "衤",
+   "decomposition": "⿰衤皮",
+   "parts": [
+    "衤",
+    "皮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "衤",
+   "phonetic": "皮",
+   "hasStrokes": true
+  },
+  {
+   "character": "裙",
+   "strokeCount": 12,
+   "radical": "衤",
+   "decomposition": "⿰衤君",
+   "parts": [
+    "衤",
+    "君"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "衤",
+   "phonetic": "君",
+   "hasStrokes": true
+  },
+  {
+   "character": "裤",
+   "strokeCount": 12,
+   "radical": "衤",
+   "decomposition": "⿰衤库",
+   "parts": [
+    "衤",
+    "库"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "衤",
+   "phonetic": "库",
+   "hasStrokes": true
+  },
+  {
+   "character": "西",
+   "strokeCount": 6,
+   "radical": "西",
+   "decomposition": "⿻兀囗",
+   "parts": [
+    "兀",
+    "囗"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "要",
+   "strokeCount": 9,
+   "radical": "覀",
+   "decomposition": "⿱覀女",
+   "parts": [
+    "覀",
+    "女"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "见",
+   "strokeCount": 4,
+   "radical": "见",
+   "decomposition": "⿵冂儿",
+   "parts": [
+    "冂",
+    "儿"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "视",
+   "strokeCount": 8,
+   "radical": "见",
+   "decomposition": "⿰礻见",
+   "parts": [
+    "礻",
+    "见"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "见",
+   "phonetic": "礻",
+   "hasStrokes": true
+  },
+  {
+   "character": "觉",
+   "strokeCount": 9,
+   "radical": "见",
+   "decomposition": "⿳⺍冖见",
+   "parts": [
+    "⺍",
+    "冖",
+    "见"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "见",
+   "phonetic": "⺍",
+   "hasStrokes": true
+  },
+  {
+   "character": "角",
+   "strokeCount": 7,
+   "radical": "角",
+   "decomposition": "⿱⺈用",
+   "parts": [
+    "⺈",
+    "用"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "解",
+   "strokeCount": 13,
+   "radical": "角",
+   "decomposition": "⿰角⿱刀牛",
+   "parts": [
+    "角",
+    "刀",
+    "牛"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "言",
+   "strokeCount": 7,
+   "radical": "言",
+   "decomposition": "⿱亠⿱二口",
+   "parts": [
+    "亠",
+    "二",
+    "口"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "认",
+   "strokeCount": 4,
+   "radical": "讠",
+   "decomposition": "⿰讠人",
+   "parts": [
+    "讠",
+    "人"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "人",
+   "hasStrokes": true
+  },
+  {
+   "character": "让",
+   "strokeCount": 5,
+   "radical": "讠",
+   "decomposition": "⿰讠上",
+   "parts": [
+    "讠",
+    "上"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "上",
+   "hasStrokes": true
+  },
+  {
+   "character": "议",
+   "strokeCount": 5,
+   "radical": "讠",
+   "decomposition": "⿰讠义",
+   "parts": [
+    "讠",
+    "义"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "义",
+   "hasStrokes": true
+  },
+  {
+   "character": "记",
+   "strokeCount": 5,
+   "radical": "讠",
+   "decomposition": "⿰讠己",
+   "parts": [
+    "讠",
+    "己"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "讲",
+   "strokeCount": 6,
+   "radical": "讠",
+   "decomposition": "⿰讠井",
+   "parts": [
+    "讠",
+    "井"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "井",
+   "hasStrokes": true
+  },
+  {
+   "character": "识",
+   "strokeCount": 7,
+   "radical": "讠",
+   "decomposition": "⿰讠只",
+   "parts": [
+    "讠",
+    "只"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "只",
+   "hasStrokes": true
+  },
+  {
+   "character": "诉",
+   "strokeCount": 7,
+   "radical": "讠",
+   "decomposition": "⿰讠斥",
+   "parts": [
+    "讠",
+    "斥"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "词",
+   "strokeCount": 7,
+   "radical": "讠",
+   "decomposition": "⿰讠司",
+   "parts": [
+    "讠",
+    "司"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "司",
+   "hasStrokes": true
+  },
+  {
+   "character": "试",
+   "strokeCount": 8,
+   "radical": "讠",
+   "decomposition": "⿰讠式",
+   "parts": [
+    "讠",
+    "式"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "式",
+   "hasStrokes": true
+  },
+  {
+   "character": "话",
+   "strokeCount": 8,
+   "radical": "讠",
+   "decomposition": "⿰讠舌",
+   "parts": [
+    "讠",
+    "舌"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "该",
+   "strokeCount": 8,
+   "radical": "讠",
+   "decomposition": "⿰讠亥",
+   "parts": [
+    "讠",
+    "亥"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "亥",
+   "hasStrokes": true
+  },
+  {
+   "character": "语",
+   "strokeCount": 9,
+   "radical": "讠",
+   "decomposition": "⿰讠吾",
+   "parts": [
+    "讠",
+    "吾"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "吾",
+   "hasStrokes": true
+  },
+  {
+   "character": "说",
+   "strokeCount": 9,
+   "radical": "讠",
+   "decomposition": "⿰讠兑",
+   "parts": [
+    "讠",
+    "兑"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "兑",
+   "hasStrokes": true
+  },
+  {
+   "character": "请",
+   "strokeCount": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠青",
+   "parts": [
+    "讠",
+    "青"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "青",
+   "hasStrokes": true
+  },
+  {
+   "character": "读",
+   "strokeCount": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠卖",
+   "parts": [
+    "讠",
+    "卖"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "课",
+   "strokeCount": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠果",
+   "parts": [
+    "讠",
+    "果"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "果",
+   "hasStrokes": true
+  },
+  {
+   "character": "谁",
+   "strokeCount": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠隹",
+   "parts": [
+    "讠",
+    "隹"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "隹",
+   "hasStrokes": true
+  },
+  {
+   "character": "调",
+   "strokeCount": 10,
+   "radical": "讠",
+   "decomposition": "⿰讠周",
+   "parts": [
+    "讠",
+    "周"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "周",
+   "hasStrokes": true
+  },
+  {
+   "character": "谢",
+   "strokeCount": 12,
+   "radical": "讠",
+   "decomposition": "⿰讠射",
+   "parts": [
+    "讠",
+    "射"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "讠",
+   "phonetic": "射",
+   "hasStrokes": true
+  },
+  {
+   "character": "贵",
+   "strokeCount": 9,
+   "radical": "贝",
+   "decomposition": "⿱⿱中一贝",
+   "parts": [
+    "中",
+    "一",
+    "贝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "贝",
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "赛",
+   "strokeCount": 14,
+   "radical": "贝",
+   "decomposition": "⿱宀⿱？贝",
+   "parts": [
+    "宀",
+    "贝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "贝",
+   "phonetic": "宀",
+   "hasStrokes": true
+  },
+  {
+   "character": "走",
+   "strokeCount": 7,
+   "radical": "走",
+   "decomposition": "⿱土止",
+   "parts": [
+    "土",
+    "止"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "起",
+   "strokeCount": 10,
+   "radical": "走",
+   "decomposition": "⿺走己",
+   "parts": [
+    "走",
+    "己"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "走",
+   "phonetic": "己",
+   "hasStrokes": true
+  },
+  {
+   "character": "超",
+   "strokeCount": 12,
+   "radical": "走",
+   "decomposition": "⿺走召",
+   "parts": [
+    "走",
+    "召"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "走",
+   "phonetic": "召",
+   "hasStrokes": true
+  },
+  {
+   "character": "越",
+   "strokeCount": 12,
+   "radical": "走",
+   "decomposition": "⿺走戉",
+   "parts": [
+    "走",
+    "戉"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "走",
+   "phonetic": "戉",
+   "hasStrokes": true
+  },
+  {
+   "character": "趣",
+   "strokeCount": 15,
+   "radical": "走",
+   "decomposition": "⿺走取",
+   "parts": [
+    "走",
+    "取"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "走",
+   "phonetic": "取",
+   "hasStrokes": true
+  },
+  {
+   "character": "足",
+   "strokeCount": 7,
+   "radical": "足",
+   "decomposition": "⿱口？",
+   "parts": [
+    "口"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "跑",
+   "strokeCount": 12,
+   "radical": "足",
+   "decomposition": "⿰足包",
+   "parts": [
+    "足",
+    "包"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "足",
+   "phonetic": "包",
+   "hasStrokes": true
+  },
+  {
+   "character": "跟",
+   "strokeCount": 13,
+   "radical": "足",
+   "decomposition": "⿰足艮",
+   "parts": [
+    "足",
+    "艮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "足",
+   "phonetic": "艮",
+   "hasStrokes": true
+  },
+  {
+   "character": "路",
+   "strokeCount": 13,
+   "radical": "足",
+   "decomposition": "⿰足各",
+   "parts": [
+    "足",
+    "各"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "足",
+   "phonetic": "各",
+   "hasStrokes": true
+  },
+  {
+   "character": "跳",
+   "strokeCount": 13,
+   "radical": "足",
+   "decomposition": "⿰足兆",
+   "parts": [
+    "足",
+    "兆"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "足",
+   "phonetic": "兆",
+   "hasStrokes": true
+  },
+  {
+   "character": "踢",
+   "strokeCount": 15,
+   "radical": "足",
+   "decomposition": "⿰足易",
+   "parts": [
+    "足",
+    "易"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "足",
+   "phonetic": "易",
+   "hasStrokes": true
+  },
+  {
+   "character": "身",
+   "strokeCount": 7,
+   "radical": "身",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "车",
+   "strokeCount": 4,
+   "radical": "车",
+   "decomposition": "⿻七十",
+   "parts": [
+    "七",
+    "十"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "轻",
+   "strokeCount": 9,
+   "radical": "车",
+   "decomposition": "⿰车⿱又工",
+   "parts": [
+    "车",
+    "又",
+    "工"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "车",
+   "phonetic": "工",
+   "hasStrokes": true
+  },
+  {
+   "character": "较",
+   "strokeCount": 10,
+   "radical": "车",
+   "decomposition": "⿰车交",
+   "parts": [
+    "车",
+    "交"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "车",
+   "phonetic": "交",
+   "hasStrokes": true
+  },
+  {
+   "character": "辆",
+   "strokeCount": 11,
+   "radical": "车",
+   "decomposition": "⿰车两",
+   "parts": [
+    "车",
+    "两"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "边",
+   "strokeCount": 5,
+   "radical": "辶",
+   "decomposition": "⿺辶力",
+   "parts": [
+    "辶",
+    "力"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "臱",
+   "hasStrokes": true
+  },
+  {
+   "character": "过",
+   "strokeCount": 6,
+   "radical": "辶",
+   "decomposition": "⿺辶寸",
+   "parts": [
+    "辶",
+    "寸"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "咼",
+   "hasStrokes": true
+  },
+  {
+   "character": "迎",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶卬",
+   "parts": [
+    "辶",
+    "卬"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "卬",
+   "hasStrokes": true
+  },
+  {
+   "character": "运",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶云",
+   "parts": [
+    "辶",
+    "云"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "云",
+   "hasStrokes": true
+  },
+  {
+   "character": "近",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶斤",
+   "parts": [
+    "辶",
+    "斤"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "斤",
+   "hasStrokes": true
+  },
+  {
+   "character": "还",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶不",
+   "parts": [
+    "辶",
+    "不"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "这",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶文",
+   "parts": [
+    "辶",
+    "文"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "进",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶井",
+   "parts": [
+    "辶",
+    "井"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "井",
+   "hasStrokes": true
+  },
+  {
+   "character": "远",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶元",
+   "parts": [
+    "辶",
+    "元"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "元",
+   "hasStrokes": true
+  },
+  {
+   "character": "迟",
+   "strokeCount": 7,
+   "radical": "辶",
+   "decomposition": "⿺辶尺",
+   "parts": [
+    "辶",
+    "尺"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "尺",
+   "hasStrokes": true
+  },
+  {
+   "character": "送",
+   "strokeCount": 9,
+   "radical": "辶",
+   "decomposition": "⿺辶关",
+   "parts": [
+    "辶",
+    "关"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "适",
+   "strokeCount": 9,
+   "radical": "辶",
+   "decomposition": "⿺辶舌",
+   "parts": [
+    "辶",
+    "舌"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "舌",
+   "hasStrokes": true
+  },
+  {
+   "character": "选",
+   "strokeCount": 9,
+   "radical": "辶",
+   "decomposition": "⿺辶先",
+   "parts": [
+    "辶",
+    "先"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "先",
+   "hasStrokes": true
+  },
+  {
+   "character": "遇",
+   "strokeCount": 12,
+   "radical": "辶",
+   "decomposition": "⿺辶禺",
+   "parts": [
+    "辶",
+    "禺"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "禺",
+   "hasStrokes": true
+  },
+  {
+   "character": "遍",
+   "strokeCount": 12,
+   "radical": "辶",
+   "decomposition": "⿺辶扁",
+   "parts": [
+    "辶",
+    "扁"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "扁",
+   "hasStrokes": true
+  },
+  {
+   "character": "道",
+   "strokeCount": 12,
+   "radical": "辶",
+   "decomposition": "⿺辶首",
+   "parts": [
+    "辶",
+    "首"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "辶",
+   "phonetic": "首",
+   "hasStrokes": true
+  },
+  {
+   "character": "那",
+   "strokeCount": 6,
+   "radical": "阝",
+   "decomposition": "⿰⿹？？阝",
+   "parts": [
+    "阝"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "邮",
+   "strokeCount": 7,
+   "radical": "阝",
+   "decomposition": "⿰由阝",
+   "parts": [
+    "由",
+    "阝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "由",
+   "hasStrokes": true
+  },
+  {
+   "character": "邻",
+   "strokeCount": 7,
+   "radical": "阝",
+   "decomposition": "⿰令阝",
+   "parts": [
+    "令",
+    "阝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "令",
+   "hasStrokes": true
+  },
+  {
+   "character": "都",
+   "strokeCount": 10,
+   "radical": "阝",
+   "decomposition": "⿰者阝",
+   "parts": [
+    "者",
+    "阝"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "者",
+   "hasStrokes": true
+  },
+  {
+   "character": "酒",
+   "strokeCount": 10,
+   "radical": "酉",
+   "decomposition": "⿰氵酉",
+   "parts": [
+    "氵",
+    "酉"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "里",
+   "strokeCount": 7,
+   "radical": "里",
+   "decomposition": "⿱田土",
+   "parts": [
+    "田",
+    "土"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "重",
+   "strokeCount": 9,
+   "radical": "里",
+   "decomposition": "⿻千里",
+   "parts": [
+    "千",
+    "里"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "钟",
+   "strokeCount": 9,
+   "radical": "钅",
+   "decomposition": "⿰钅中",
+   "parts": [
+    "钅",
+    "中"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "中",
+   "hasStrokes": true
+  },
+  {
+   "character": "钱",
+   "strokeCount": 10,
+   "radical": "钅",
+   "decomposition": "⿰钅戋",
+   "parts": [
+    "钅",
+    "戋"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "戋",
+   "hasStrokes": true
+  },
+  {
+   "character": "铁",
+   "strokeCount": 10,
+   "radical": "钅",
+   "decomposition": "⿰钅失",
+   "parts": [
+    "钅",
+    "失"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "失",
+   "hasStrokes": true
+  },
+  {
+   "character": "铅",
+   "strokeCount": 10,
+   "radical": "钅",
+   "decomposition": "⿰钅⿱几口",
+   "parts": [
+    "钅",
+    "几",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "几",
+   "hasStrokes": true
+  },
+  {
+   "character": "银",
+   "strokeCount": 11,
+   "radical": "钅",
+   "decomposition": "⿰钅艮",
+   "parts": [
+    "钅",
+    "艮"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "艮",
+   "hasStrokes": true
+  },
+  {
+   "character": "错",
+   "strokeCount": 13,
+   "radical": "钅",
+   "decomposition": "⿰钅昔",
+   "parts": [
+    "钅",
+    "昔"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "锻",
+   "strokeCount": 14,
+   "radical": "钅",
+   "decomposition": "⿰钅段",
+   "parts": [
+    "钅",
+    "段"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "钅",
+   "phonetic": "段",
+   "hasStrokes": true
+  },
+  {
+   "character": "长",
+   "strokeCount": 4,
+   "radical": "长",
+   "decomposition": "⿻？一",
+   "parts": [
+    "一"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "门",
+   "strokeCount": 3,
+   "radical": "门",
+   "decomposition": "⿰⿱丶丨？",
+   "parts": [
+    "丶",
+    "丨"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "问",
+   "strokeCount": 6,
+   "radical": "门",
+   "decomposition": "⿵门口",
+   "parts": [
+    "门",
+    "口"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "口",
+   "phonetic": "门",
+   "hasStrokes": true
+  },
+  {
+   "character": "间",
+   "strokeCount": 7,
+   "radical": "门",
+   "decomposition": "⿵门日",
+   "parts": [
+    "门",
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "闻",
+   "strokeCount": 9,
+   "radical": "门",
+   "decomposition": "⿵门耳",
+   "parts": [
+    "门",
+    "耳"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "耳",
+   "phonetic": "门",
+   "hasStrokes": true
+  },
+  {
+   "character": "阳",
+   "strokeCount": 6,
+   "radical": "阝",
+   "decomposition": "⿰阝日",
+   "parts": [
+    "阝",
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "阴",
+   "strokeCount": 6,
+   "radical": "阝",
+   "decomposition": "⿰阝月",
+   "parts": [
+    "阝",
+    "月"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "阿",
+   "strokeCount": 7,
+   "radical": "阝",
+   "decomposition": "⿰阝可",
+   "parts": [
+    "阝",
+    "可"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "可",
+   "hasStrokes": true
+  },
+  {
+   "character": "附",
+   "strokeCount": 7,
+   "radical": "阝",
+   "decomposition": "⿰阝付",
+   "parts": [
+    "阝",
+    "付"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "付",
+   "hasStrokes": true
+  },
+  {
+   "character": "院",
+   "strokeCount": 9,
+   "radical": "阝",
+   "decomposition": "⿰阝完",
+   "parts": [
+    "阝",
+    "完"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "阝",
+   "phonetic": "完",
+   "hasStrokes": true
+  },
+  {
+   "character": "除",
+   "strokeCount": 9,
+   "radical": "阝",
+   "decomposition": "⿰阝余",
+   "parts": [
+    "阝",
+    "余"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "难",
+   "strokeCount": 10,
+   "radical": "又",
+   "decomposition": "⿰又隹",
+   "parts": [
+    "又",
+    "隹"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "雨",
+   "strokeCount": 8,
+   "radical": "雨",
+   "decomposition": "⿻帀？",
+   "parts": [
+    "帀"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "雪",
+   "strokeCount": 11,
+   "radical": "雨",
+   "decomposition": "⿱雨彐",
+   "parts": [
+    "雨",
+    "彐"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "雨",
+   "phonetic": "彐",
+   "hasStrokes": true
+  },
+  {
+   "character": "零",
+   "strokeCount": 13,
+   "radical": "雨",
+   "decomposition": "⿱雨令",
+   "parts": [
+    "雨",
+    "令"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "雨",
+   "phonetic": "令",
+   "hasStrokes": true
+  },
+  {
+   "character": "需",
+   "strokeCount": 14,
+   "radical": "雨",
+   "decomposition": "⿱雨而",
+   "parts": [
+    "雨",
+    "而"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "静",
+   "strokeCount": 14,
+   "radical": "青",
+   "decomposition": "⿰青争",
+   "parts": [
+    "青",
+    "争"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "青",
+   "phonetic": "争",
+   "hasStrokes": true
+  },
+  {
+   "character": "非",
+   "strokeCount": 8,
+   "radical": "非",
+   "decomposition": "⿰？？",
+   "parts": [],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "面",
+   "strokeCount": 9,
+   "radical": "面",
+   "decomposition": "⿱？？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "鞋",
+   "strokeCount": 15,
+   "radical": "革",
+   "decomposition": "⿰革圭",
+   "parts": [
+    "革",
+    "圭"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "革",
+   "phonetic": "圭",
+   "hasStrokes": true
+  },
+  {
+   "character": "音",
+   "strokeCount": 9,
+   "radical": "音",
+   "decomposition": "⿱立日",
+   "parts": [
+    "立",
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "页",
+   "strokeCount": 6,
+   "radical": "页",
+   "decomposition": "⿱？贝",
+   "parts": [
+    "贝"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "须",
+   "strokeCount": 9,
+   "radical": "彡",
+   "decomposition": "⿰彡页",
+   "parts": [
+    "彡",
+    "页"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "顾",
+   "strokeCount": 10,
+   "radical": "页",
+   "decomposition": "⿰厄页",
+   "parts": [
+    "厄",
+    "页"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "页",
+   "phonetic": "厄",
+   "hasStrokes": true
+  },
+  {
+   "character": "题",
+   "strokeCount": 15,
+   "radical": "页",
+   "decomposition": "⿺是页",
+   "parts": [
+    "是",
+    "页"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "页",
+   "phonetic": "是",
+   "hasStrokes": true
+  },
+  {
+   "character": "颜",
+   "strokeCount": 15,
+   "radical": "页",
+   "decomposition": "⿰彦页",
+   "parts": [
+    "彦",
+    "页"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "页",
+   "phonetic": "彦",
+   "hasStrokes": true
+  },
+  {
+   "character": "风",
+   "strokeCount": 4,
+   "radical": "风",
+   "decomposition": "⿵几乂",
+   "parts": [
+    "几",
+    "乂"
+   ],
+   "origin": null,
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "飞",
+   "strokeCount": 3,
+   "radical": "飞",
+   "decomposition": "⿻？？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "饭",
+   "strokeCount": 7,
+   "radical": "饣",
+   "decomposition": "⿰饣反",
+   "parts": [
+    "饣",
+    "反"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "饣",
+   "phonetic": "反",
+   "hasStrokes": true
+  },
+  {
+   "character": "饮",
+   "strokeCount": 7,
+   "radical": "饣",
+   "decomposition": "⿰饣欠",
+   "parts": [
+    "饣",
+    "欠"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "饣",
+   "phonetic": "欠",
+   "hasStrokes": true
+  },
+  {
+   "character": "饱",
+   "strokeCount": 8,
+   "radical": "饣",
+   "decomposition": "⿰饣包",
+   "parts": [
+    "饣",
+    "包"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "饣",
+   "phonetic": "包",
+   "hasStrokes": true
+  },
+  {
+   "character": "饺",
+   "strokeCount": 9,
+   "radical": "饣",
+   "decomposition": "⿰饣交",
+   "parts": [
+    "饣",
+    "交"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "饣",
+   "phonetic": "交",
+   "hasStrokes": true
+  },
+  {
+   "character": "饿",
+   "strokeCount": 10,
+   "radical": "饣",
+   "decomposition": "⿰饣我",
+   "parts": [
+    "饣",
+    "我"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "馆",
+   "strokeCount": 11,
+   "radical": "饣",
+   "decomposition": "⿰饣官",
+   "parts": [
+    "饣",
+    "官"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "香",
+   "strokeCount": 9,
+   "radical": "香",
+   "decomposition": "⿱禾日",
+   "parts": [
+    "禾",
+    "日"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "马",
+   "strokeCount": 3,
+   "radical": "马",
+   "decomposition": "⿹？一",
+   "parts": [
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "骑",
+   "strokeCount": 11,
+   "radical": "马",
+   "decomposition": "⿰马奇",
+   "parts": [
+    "马",
+    "奇"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "马",
+   "phonetic": "奇",
+   "hasStrokes": true
+  },
+  {
+   "character": "高",
+   "strokeCount": 10,
+   "radical": "高",
+   "decomposition": "⿳亠口冋",
+   "parts": [
+    "亠",
+    "口",
+    "冋"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "鱼",
+   "strokeCount": 8,
+   "radical": "鱼",
+   "decomposition": "⿱⿱⺈田一",
+   "parts": [
+    "⺈",
+    "田",
+    "一"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "鲜",
+   "strokeCount": 14,
+   "radical": "鱼",
+   "decomposition": "⿰鱼羊",
+   "parts": [
+    "鱼",
+    "羊"
+   ],
+   "origin": "idéophonogramme",
+   "semantic": "鱼",
+   "phonetic": "羊",
+   "hasStrokes": true
+  },
+  {
+   "character": "鸟",
+   "strokeCount": 5,
+   "radical": "鸟",
+   "decomposition": "？",
+   "parts": [],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "鸡",
+   "strokeCount": 7,
+   "radical": "鸟",
+   "decomposition": "⿰又鸟",
+   "parts": [
+    "又",
+    "鸟"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "黄",
+   "strokeCount": 11,
+   "radical": "黄",
+   "decomposition": "⿱？⿱由八",
+   "parts": [
+    "由",
+    "八"
+   ],
+   "origin": "pictogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  },
+  {
+   "character": "黑",
+   "strokeCount": 12,
+   "radical": "黑",
+   "decomposition": "⿱？灬",
+   "parts": [
+    "灬"
+   ],
+   "origin": "idéogramme",
+   "semantic": null,
+   "phonetic": null,
+   "hasStrokes": true
+  }
+ ]
+}

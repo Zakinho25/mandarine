@@ -35,9 +35,9 @@ vi.mock('@/data/content', () => ({
   loadIndex: async () => ({
     levels: [{ level: 1, file: 'hsk-1.json', count: 2, cumulative: 2 }],
   }),
-  // Le vocabulaire doit couvrir plusieurs combinaisons de tons voisines :
-  // avec deux mots seulement, aucune proposition proche n'existe et
-  // l'exercice se réduit à une réponse unique.
+  // Chaque combinaison du jeu d'essai doit avoir au moins une voisine, sinon
+  // l'exercice ne peut proposer que la bonne réponse — et le test dépendrait
+  // du tirage. 再见 (4-4) a été écarté pour cette raison : il est isolé ici.
   loadLevel: async () => ({
     lexemes: [
       ['nihao', '你好', 'ni3 hao3', 'bonjour'],
@@ -45,7 +45,7 @@ vi.mock('@/data/content', () => ({
       ['laoshi', '老师', 'lao3 shi1', 'professeur'],
       ['meiyou', '没有', 'mei2 you3', 'ne pas avoir'],
       ['women', '我们', 'wo3 men5', 'nous'],
-      ['zaijian', '再见', 'zai4 jian4', 'au revoir'],
+      ['shijian', '时间', 'shi2 jian1', 'temps'],
     ].map(([id, simplified, pinyinNum, gloss]) => ({
       id,
       simplified,

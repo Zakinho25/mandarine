@@ -54,6 +54,26 @@ export const SOURCES: readonly Source[] = [
     note: 'Dictionnaire chinois-français, format CEDICT, pinyin déjà numéroté.',
   },
   {
+    key: 'hanziDictionary',
+    url: 'https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt',
+    file: 'makemeahanzi-dictionary.txt',
+    licence: 'Arphic Public License (données dérivées de polices Arphic)',
+    obligations:
+      'Conserver l’avis de licence. Les données dérivées restent sous la même' +
+      ' licence. L’usage commercial est autorisé mais conditionné.',
+    note: 'Décomposition, radical et étymologie structurelle de 9 574 caractères.',
+  },
+  {
+    key: 'hanziGraphics',
+    url: 'https://raw.githubusercontent.com/skishore/makemeahanzi/master/graphics.txt',
+    file: 'makemeahanzi-graphics.txt',
+    licence: 'Arphic Public License (données dérivées de polices Arphic)',
+    obligations: 'Mêmes obligations que le dictionnaire.',
+    note:
+      'Tracés et médianes de chaque trait, 29 Mo. Seuls les caractères du' +
+      ' vocabulaire HSK 1 à 3 sont extraits, et servis un par un à la demande.',
+  },
+  {
     key: 'syllabusPdf',
     url: 'https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf',
     file: 'nouveau-syllabus-hsk-2025.pdf',

@@ -83,6 +83,43 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-19 — Les tracés sont servis un par un, pas préchargés
+Les 655 caractères pèsent 3 Mo de tracés. **Pourquoi à la demande :**
+précharger ferait grossir l'installation de trois mégaoctets pour des
+caractères qu'on ne consultera peut-être jamais, alors qu'un caractère coûte
+3 Ko et se met en cache à la première consultation. L'index, lui, est léger
+(103 Ko) et préchargé. Les fichiers sont nommés par point de code
+(`u597d.json`) : un caractère chinois dans une URL demande un encodage, et
+dans un nom de fichier il dépend du système.
+
+### 2026-10-19 — Le sens d'un composant vient de deux sources
+D'abord la table rédigée (`src/data/composants.ts`), ensuite le vocabulaire
+lui-même quand le composant est un mot à part entière. **Pourquoi les deux :**
+女 a besoin d'une entrée écrite — son sens *en tant que composant* n'est pas
+forcément celui du mot — mais 不, 天 ou 可 tiennent leur traduction du lexique,
+et en écrire une seconde serait du travail en double qui finirait par diverger.
+
+**Ce qu'on assume :** 149 composants rares n'apparaissent qu'une fois chacun et
+restent sans traduction. L'application affiche alors le caractère nu et dit que
+le sens n'est pas renseigné. Inventer une glose serait pire. Le pipeline
+signale en revanche tout composant qui revient **au moins deux fois** sans
+entrée : c'est le seuil où le travail de rédaction vaut la peine.
+
+### 2026-10-19 — Pas de traduction approximative des étymologies
+La source décrit l'origine de chaque caractère par une phrase en anglais
+(`etymology.hint`). On ne l'utilise pas. On se sert uniquement des champs
+**structurels** `semantic` et `phonetic`, qui désignent des caractères et n'ont
+donc pas de langue : ils permettent d'écrire « 女 donne le sens, 马 donne le
+son » sans traduire. **Pourquoi :** une traduction automatique non relue dans
+une application d'apprentissage est exactement le genre de contenu faux
+présenté comme vrai que ce projet s'interdit.
+
+### 2026-10-19 — `hanzi-writer` avec nos données, pas son CDN
+La bibliothèque va chercher ses caractères sur un CDN par défaut. On lui passe
+un `charDataLoader` qui lit nos fichiers. **Pourquoi :** l'application doit
+fonctionner hors ligne, et dépendre d'un CDN tiers pour afficher un trait
+reviendrait à annuler tout le travail de mise en cache.
+
 ### 2026-10-19 — On fait lire des caractères, jamais du pinyin
 La synthèse vocale reçoit 你好, pas `ni3 hao3`. **Pourquoi :** une voix
 chinoise applique elle-même le sandhi tonal et prononce correctement ; lui

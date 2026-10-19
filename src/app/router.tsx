@@ -2,6 +2,7 @@ import { createHashRouter } from 'react-router-dom'
 import { Layout } from './Layout'
 import { ParcoursScreen } from '@/features/parcours/ParcoursScreen'
 import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
+import { CaractereScreen } from '@/features/caracteres/CaractereScreen'
 import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
 import { PrononciationScreen } from '@/features/prononciation/PrononciationScreen'
 import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
@@ -23,6 +24,7 @@ export const router = createHashRouter([
     children: [
       { index: true, element: <ParcoursScreen /> },
       { path: 'niveau/:level', element: <NiveauScreen /> },
+      { path: 'caractere/:character', element: <CaractereScreen /> },
       { path: 'prononciation', element: <PrononciationScreen /> },
       { path: 'prononciation/ecoute', element: <EcouteScreen /> },
       { path: 'revisions', element: <RevisionsScreen /> },

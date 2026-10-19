@@ -41,12 +41,34 @@ voyage **à l'intérieur** de chaque fichier de données, dans un champ
 `attribution`, et pas seulement dans ce document : une donnée séparée de sa
 licence finit toujours par être réutilisée sans elle.
 
+## Caractères
+
+| Source | Licence | Apport | Si usage commercial |
+| --- | --- | --- | --- |
+| [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) | **Arphic Public License** — les données dérivent de polices Arphic | Tracés et médianes de chaque trait, décomposition, clé et nature des 655 caractères des niveaux 1 à 3 | Autorisé mais **conditionné** : l'avis de licence doit être conservé et les données dérivées restent sous la même licence. À relire avant toute distribution payante. |
+
+Le pipeline télécharge `dictionary.txt` (décomposition, clé, étymologie
+structurelle) et `graphics.txt` (tracés, 29 Mo). Seuls les 655 caractères du
+vocabulaire sont extraits ; les 3 Mo qui en résultent sont servis un caractère
+à la fois. L'attribution voyage dans `public/content/hanzi/index.json`.
+
+**Ce qui n'est volontairement pas repris :** le champ `etymology.hint` de la
+source est une phrase en anglais. Plutôt que de la traduire approximativement
+ou de l'afficher telle quelle dans une application française, on n'utilise que
+les champs **structurels** — `semantic` et `phonetic` — qui désignent des
+caractères et n'ont donc pas de langue. C'est ce qui permet d'écrire « 女 donne
+le sens, 马 donne le son » sans traduire quoi que ce soit.
+
+Le sens français des composants (`src/data/composants.ts`) est rédigé pour ce
+projet. 149 composants rares restent sans traduction : l'application le dit au
+lieu d'inventer.
+
 ## Dépendances logicielles
 
 | Source | Licence | Usage |
 | --- | --- | --- |
 | [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) | MIT | Planification des révisions (jalon 3) |
-| [hanzi-writer](https://hanziwriter.org/) | MIT | Ordre des traits (jalon 5) |
+| [hanzi-writer](https://hanziwriter.org/) | MIT | Animation de l'ordre des traits (jalon 5) |
 | React, Vite, Tailwind, Zustand, idb, tsx | MIT | Socle technique |
 
 ## Pas encore utilisé

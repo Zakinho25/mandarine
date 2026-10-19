@@ -6,10 +6,11 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 4 sur 11 terminés.** L'application enseigne : les
-> **1 000 mots du HSK 3** sont révisables en répétition espacée, et le module
-> de prononciation couvre les tons, les initiales, les finales et le sandhi
-> tonal, avec des exercices d'écoute.
+> **État : jalons 1 à 5 sur 11 terminés.** L'application enseigne : les
+> **1 000 mots du HSK 3** sont révisables en répétition espacée, le module de
+> prononciation couvre les tons et le sandhi avec des exercices d'écoute, et
+> les **655 caractères** ont leur fiche avec l'ordre des traits animé et la
+> décomposition expliquée.
 
 ## Prérequis
 
@@ -105,7 +106,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       proches, correction du pinyin tolérante à la saisie mais stricte sur les tons
 - [x] **4. Pinyin et tons** — initiales, finales, exercices d'écoute, paires de
       tons, sandhi
-- [ ] **5. Caractères** — fiches, ordre des traits animé, décomposition
+- [x] **5. Caractères** — fiches, ordre des traits animé, décomposition en
+      composants avec leur sens en français
 - [ ] **6. Parcours et tableau de bord** — unités, progression, objectif
       quotidien
 - [ ] **7. Lecture graduée** — textes segmentés, dictionnaire au toucher

@@ -122,6 +122,22 @@ function MotRow({
             </>
           )}
 
+          <dt style={{ color: 'var(--text-muted)' }}>Caractères</dt>
+          <dd className="flex flex-wrap gap-2">
+            {[...lexeme.simplified].map((character, position) => (
+              <Link
+                // Un mot peut répéter un caractère (爸爸) : la position
+                // distingue les deux entrées.
+                key={`${character}-${String(position)}`}
+                to={`/caractere/${encodeURIComponent(character)}`}
+                className="hanzi rounded-lg border px-2 py-1 text-xl"
+                style={{ borderColor: 'var(--border)' }}
+              >
+                {character}
+              </Link>
+            ))}
+          </dd>
+
           {lexeme.pos.length > 0 && (
             <>
               <dt style={{ color: 'var(--text-muted)' }}>Nature</dt>

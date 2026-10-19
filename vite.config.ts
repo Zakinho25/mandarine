@@ -44,6 +44,10 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,json,woff2,png,svg}'],
+        // Les 655 fichiers de traces pesent 3 Mo : les precharger ferait
+        // grossir l'installation pour des caracteres qu'on ne consultera
+        // peut-etre jamais. Ils sont mis en cache a la premiere consultation.
+        globIgnores: ['**/content/hanzi/u*.json'],
         // Le contenu pedagogique est volumineux : on le met en cache a la demande.
         runtimeCaching: [
           {
