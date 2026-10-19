@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { loadIndex, type ContentIndex } from '@/data/content'
+import { computeProgress, type Progress } from '@/data/progress'
 import type { Tone } from '@/domain/pinyin'
 import { Pinyin } from '@/ui/Pinyin'
 import { LEVEL_GOALS, levelTitle } from '@/ui/levels'
@@ -10,13 +11,16 @@ const TONES: readonly Tone[] = [1, 2, 3, 4, 5]
 
 export function ParcoursScreen() {
   const [index, setIndex] = useState<ContentIndex | undefined>(undefined)
+  const [progress, setProgress] = useState<Progress | undefined>(undefined)
   const [error, setError] = useState<string | undefined>(undefined)
 
   useEffect(() => {
     let cancelled = false
-    loadIndex()
-      .then((file) => {
-        if (!cancelled) setIndex(file)
+    Promise.all([loadIndex(), computeProgress()])
+      .then(([file, stats]) => {
+        if (cancelled) return
+        setIndex(file)
+        setProgress(stats)
       })
       .catch((cause: unknown) => {
         if (!cancelled) setError(cause instanceof Error ? cause.message : String(cause))
@@ -45,9 +49,15 @@ export function ParcoursScreen() {
         </h2>
         <dl className="grid grid-cols-3 gap-4 text-center">
           {[
-            { label: `mots sur ${String(total)}`, value: '0' },
-            { label: 'minutes d’écoute', value: '0' },
-            { label: 'jours de suite', value: '0' },
+            {
+              label: `maîtrisés sur ${String(total)}`,
+              value: String(progress?.mastered ?? 0),
+            },
+            { label: 'mots rencontrés', value: String(progress?.seen ?? 0) },
+            {
+              label: 'minutes aujourd’hui',
+              value: String(progress?.minutesToday ?? 0),
+            },
           ].map((stat) => (
             // `flex-col-reverse` place le chiffre au-dessus du libellé tout en
             // gardant l'ordre `dt` puis `dd` attendu par un lecteur d'écran.
@@ -60,10 +70,21 @@ export function ParcoursScreen() {
           ))}
         </dl>
         <p className="mt-4 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-          Ces compteurs resteront à zéro jusqu’au jalon 3, qui apporte les révisions.
-          L’estimation de la date d’atteinte du HSK 3 n’apparaîtra qu’après quatorze
-          jours d’usage réel : une projection faite sur trois jours ne voudrait rien dire.
+          Un mot compte comme <strong>maîtrisé</strong> quand tu sais à la fois le
+          reconnaître et le produire, que sa stabilité dépasse 30 jours et que la
+          probabilité de t’en souvenir dépasse 90 %. Le compteur peut donc redescendre :
+          c’est le but. L’estimation de la date d’atteinte du HSK 3 n’apparaîtra qu’après
+          quatorze jours d’usage réel.
         </p>
+        {progress !== undefined && progress.dueNow > 0 && (
+          <Link
+            to="/revisions"
+            className="mt-4 flex min-h-12 items-center justify-center rounded-xl text-sm font-medium"
+            style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+          >
+            {progress.dueNow} carte{progress.dueNow > 1 ? 's' : ''} à revoir
+          </Link>
+        )}
       </section>
 
       <section className="mb-8">

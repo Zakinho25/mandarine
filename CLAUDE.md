@@ -83,6 +83,54 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-19 — `ts-fsrs` enfermé dans un seul fichier
+Toute la bibliothèque est confinée à `src/domain/srs/scheduler.ts`. Le reste de
+l'application ne connaît que `SrsState` et `Note` (encore / difficile /
+correct / facile). **Pourquoi :** c'est la couche d'abstraction demandée par le
+cahier des charges, et elle rend l'algorithme remplaçable sans toucher à
+l'interface. Les dates y sont des chaînes ISO en UTC, comme dans le stockage :
+elles se comparent dans l'ordre lexicographique, ce qui supprime toute
+conversion et toute surprise de fuseau horaire.
+
+### 2026-10-19 — Un ton faux est une erreur
+`checkPinyin` distingue quatre verdicts : exact, tons manquants, tons faux,
+faux. Un ton oublié vaut « difficile » — la syllabe est sue, la précision ne
+l'est pas. Un **ton faux relance la carte**. **Pourquoi :** dans une
+application dont les tons sont la priorité annoncée, accepter `ni hao` pour
+`nǐ hǎo` sans rien dire reviendrait à enseigner qu'ils sont facultatifs. La
+saisie reste libre : `ni3 hao3`, `ni3hao3`, `nihao`, `nǐhǎo`, `NǏHǍO` sont
+toutes lues correctement.
+
+### 2026-10-19 — On plafonne les mots nouveaux, jamais les révisions
+Le nombre de révisions dues est la conséquence de ce qu'on a appris les jours
+précédents ; le seul levier honnête est d'en introduire moins aujourd'hui. Le
+plafond est déduit de l'objectif quotidien (10 mots pour 20 minutes), et il
+compte des **mots**, pas des cartes — sinon il couperait un mot en deux. Les
+mots déjà découverts dans la journée sont comptés sur le journal, pour qu'une
+seconde session n'en ajoute pas une seconde fournée.
+
+### 2026-10-19 — Des distracteurs qu'on peut vraiment confondre
+Face à 爱 (`ài`), le QCM propose 菜 (`cài`), 带 (`dài`), 太 (`tài`) : même ton,
+même finale. **Pourquoi :** proposer 图书馆 face à 爱 ne teste rien, l'élève
+élimine par la longueur sans lire. Le score de proximité combine schéma tonal,
+caractère partagé, initiale et finale. Règle d'équité : **jamais un mot qui
+partage un sens avec la cible**, sinon la « mauvaise » réponse serait
+défendable.
+
+### 2026-10-19 — Identifiants de cartes déterministes
+Une carte a pour identifiant `lexeme:<mot>:<compétence>`. **Pourquoi :**
+recréer les cartes d'un mot devient idempotent, sans risque de doublon, et deux
+appareils qui apprennent le même mot aboutissent au même identifiant — ce qui
+facilitera une synchronisation plutôt que de la compliquer. Le journal de
+révisions garde des UUID v7 : il est en ajout seul, et ses entrées n'ont pas
+d'équivalent ailleurs.
+
+### 2026-10-19 — Deux compétences au jalon 3, pas cinq
+Seules `zh_fr` (reconnaître) et `fr_zh` (produire) sont actives. `audio_fr` et
+`tone` attendent le module audio du jalon 4 : une carte d'écoute sans son
+fiable serait une carte cassée. `write` reste désactivée, le nouveau HSK
+n'exigeant pas l'écriture manuscrite avant le niveau 5.
+
 ### 2026-10-19 — Le syllabus d'examen de 2025, pas le standard de 2021
 Deux documents coexistent, et ils ne disent pas la même chose. Le standard
 d'enseignement *GF 0025-2021* place **2 245 mots** au niveau 3 ; le syllabus

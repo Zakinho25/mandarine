@@ -6,10 +6,10 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 et 2 sur 11 terminés.** Le socle technique est en place et
-> les **1 000 mots du HSK 3** sont importés, avec leurs définitions françaises.
-> On peut les parcourir et les chercher, mais l'application n'enseigne pas
-> encore : les révisions arrivent au jalon 3.
+> **État : jalons 1 à 3 sur 11 terminés.** L'application enseigne : les
+> **1 000 mots du HSK 3** sont importés et révisables en répétition espacée,
+> avec deux compétences par mot, des QCM à distracteurs proches et une
+> correction du pinyin qui distingue le ton oublié du ton faux.
 
 ## Prérequis
 
@@ -101,7 +101,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       IndexedDB, sauvegarde, PWA installable, CI, module pinyin testé
 - [x] **2. Données** — les 1 000 mots du syllabus 2025, définitions françaises,
       pipeline reproductible, validation en CI
-- [ ] **3. Révisions** — moteur FSRS, cartes par compétence, session de révision
+- [x] **3. Révisions** — moteur FSRS, deux cartes par mot, distracteurs
+      proches, correction du pinyin tolérante à la saisie mais stricte sur les tons
 - [ ] **4. Pinyin et tons** — initiales, finales, exercices d'écoute, paires de
       tons, sandhi
 - [ ] **5. Caractères** — fiches, ordre des traits animé, décomposition
@@ -115,9 +116,10 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
 
 ## Ce que l'application ne fait pas
 
-- Elle n'enseigne pas encore : on peut consulter et chercher les 1 000 mots,
-  mais aucune révision n'est planifiée avant le jalon 3.
-- Elle n'a pas encore d'audio : la prononciation arrive avec le module de tons.
+- Elle n'a pas encore d'audio : les cartes d'écoute et l'entraînement aux tons
+  arrivent au jalon 4. Deux compétences sur cinq sont donc actives.
+- Elle ne propose pas encore de parcours guidé : les mots sont introduits dans
+  l'ordre du syllabus, pas par fréquence d'usage.
 - Les définitions sont reprises d'un dictionnaire : leur conformité au niveau
   est vérifiée par script, leur justesse de nuance ne l'est pas.
 - Elle ne contient aucune intelligence artificielle. Les dialogues du jalon 8

@@ -13,44 +13,35 @@
  * chose dans cette application qui ne se régénère pas.
  */
 
+import type { Verdict } from '@/domain/srs/grading'
+import type { Note, SrsState, SrsStateKind } from '@/domain/srs/scheduler'
+import type { CardSkill, CardTargetKind } from '@/domain/srs/cards'
+
 /** Horodatage ISO 8601 en UTC. */
 export type Timestamp = string
 
-/** Compétence évaluée par une carte. Une même cible en a plusieurs. */
-export type CardSkill =
-  /** Caractère vu, sens à retrouver. */
-  | 'zh_fr'
-  /** Mot entendu, sens à retrouver. */
-  | 'audio_fr'
-  /** Sens donné, caractère ou pinyin à produire. */
-  | 'fr_zh'
-  /** Ton à identifier à l'oreille. */
-  | 'tone'
-  /** Tracé à écrire (désactivé par défaut). */
-  | 'write'
-
-export type CardTargetKind = 'lexeme' | 'hanzi' | 'sentence' | 'tone_pair'
+export type { CardSkill, CardTargetKind }
 
 /** États FSRS, tels que les numérote `ts-fsrs`. */
-export type CardState = 0 | 1 | 2 | 3
+export type CardState = SrsStateKind
 
-export interface CardRecord {
+/**
+ * Une carte stockée.
+ *
+ * L'identifiant est **déterministe** : c'est `cardKey(cible, compétence)`.
+ * Recréer les cartes d'un mot est donc idempotent, sans risque de doublon, et
+ * deux appareils qui apprennent le même mot aboutissent au même identifiant —
+ * ce qui facilitera une synchronisation plutôt que de la compliquer.
+ *
+ * Le journal de révisions, lui, garde des UUID v7 : il est en ajout seul, et
+ * ses entrées n'ont pas d'équivalent sur un autre appareil.
+ */
+export interface CardRecord extends SrsState {
   readonly id: string
   readonly targetKind: CardTargetKind
-  /** Identifiant stable dans le contenu, par exemple `hao3-好`. */
+  /** Identifiant stable dans le contenu, par exemple `爱-ai4`. */
   readonly targetId: string
   readonly skill: CardSkill
-
-  // État FSRS
-  readonly due: Timestamp
-  readonly stability: number | null
-  readonly difficulty: number | null
-  readonly elapsedDays: number
-  readonly scheduledDays: number
-  readonly reps: number
-  readonly lapses: number
-  readonly state: CardState
-  readonly lastReview: Timestamp | null
 
   readonly suspendedAt: Timestamp | null
   readonly createdAt: Timestamp
@@ -69,18 +60,22 @@ export interface CardRecord {
 export interface ReviewLogRecord {
   readonly id: string
   readonly cardId: string
-  /** 1 = oublié, 2 = difficile, 3 = correct, 4 = facile. */
-  readonly rating: 1 | 2 | 3 | 4
-  readonly state: CardState
-  readonly due: Timestamp
-  readonly stability: number | null
-  readonly difficulty: number | null
+  readonly targetId: string
+  readonly skill: CardSkill
+  readonly note: Note
+  /** État et échéance **avant** cette révision. */
+  readonly previousState: CardState
+  readonly previousDue: Timestamp
+  readonly stability: number
+  readonly difficulty: number
   readonly elapsedDays: number
   readonly lastElapsedDays: number
   readonly scheduledDays: number
   readonly reviewedAt: Timestamp
   readonly durationMs: number
-  /** Ce que l'utilisateur a réellement répondu, pour l'analyse des erreurs. */
+  /** Verdict de la correction automatique, quand la carte en avait une. */
+  readonly verdict: Verdict | null
+  /** Ce que l'utilisateur a réellement tapé, pour l'analyse des erreurs. */
   readonly answer: string | null
 }
 
