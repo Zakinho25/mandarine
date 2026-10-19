@@ -146,9 +146,14 @@ export function ParcoursScreen() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-sm font-semibold tracking-wide uppercase">
-          Les cinq tons
-        </h2>
+        <div className="mb-3 flex items-baseline justify-between gap-3">
+          <h2 className="text-sm font-semibold tracking-wide uppercase">
+            Les cinq tons
+          </h2>
+          <Link to="/prononciation" className="text-sm" style={{ color: 'var(--accent)' }}>
+            Module complet →
+          </Link>
+        </div>
         <ul className="divide-y overflow-hidden rounded-2xl border" style={card}>
           {TONES.map((tone) => {
             const description = TONE_DESCRIPTIONS[tone]

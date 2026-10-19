@@ -151,6 +151,18 @@ export function splitNumbered(numbered: string): string[] {
   return [...normalizeUmlaut(numbered).matchAll(SYLLABLE_RE)].map((match) => match[0])
 }
 
+/**
+ * Suite des tons d'un mot : 你好 donne `3-3`.
+ *
+ * C'est la signature qui sert partout où deux mots risquent d'être confondus :
+ * choix des distracteurs, exercices de paires de tons, repérage des sandhi.
+ */
+export function tonePattern(numbered: string): string {
+  return splitNumbered(numbered)
+    .map((syllable) => String(toneOf(syllable)))
+    .join('-')
+}
+
 /** Ton d'une syllabe numérotée ; ton neutre si aucun chiffre n'est présent. */
 export function toneOf(numberedSyllable: string): Tone {
   const digit = numberedSyllable.match(/[1-5]/)

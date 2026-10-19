@@ -83,6 +83,44 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-19 — On fait lire des caractères, jamais du pinyin
+La synthèse vocale reçoit 你好, pas `ni3 hao3`. **Pourquoi :** une voix
+chinoise applique elle-même le sandhi tonal et prononce correctement ; lui
+donner du pinyin produirait du charabia latin. C'est aussi pourquoi les séries
+de tons de `src/data/prononciation.ts` associent un **caractère réel** à chaque
+ton : pour faire entendre `ma3` isolément, il faut 马.
+
+### 2026-10-19 — Sans voix chinoise, on le dit
+Quand aucune voix chinoise n'est installée, les boutons d'écoute sont
+désactivés et un message explique quoi faire, système par système. **Pourquoi :**
+une application de prononciation dont le bouton « écouter » ne fait rien sans
+expliquer pourquoi est pire qu'une application sans audio. Les exercices
+d'écoute sont verrouillés dans ce cas : ils n'auraient aucun sens.
+
+### 2026-10-19 — Le sandhi renvoie la règle, pas seulement le résultat
+`applySandhi` indique pour chaque syllabe quelle règle s'applique.
+**Pourquoi :** l'application doit pouvoir expliquer *pourquoi* 你好 se dit
+`ní hǎo`, pas seulement l'afficher. Une correction qu'on ne comprend pas ne
+s'apprend pas.
+
+**Limite assumée :** pour trois troisièmes tons de suite, le découpage
+prosodique change le résultat (小老虎 contre 我很好). Ce découpage n'est pas
+dans les données. La règle retenue est la plus enseignée, et elle est exacte
+pour les mots de deux syllabes — l'immense majorité du vocabulaire HSK 1 à 3.
+
+### 2026-10-19 — Les paires de tons viennent du vrai vocabulaire
+Les vingt combinaisons sont illustrées par des mots du syllabus, pas par des
+syllabes inventées pour l'exercice. **Pourquoi :** entendre la paire 2-4 sur
+学校 fait d'une pierre deux coups. Les propositions d'un exercice ne diffèrent
+jamais de la bonne réponse que d'**un seul ton** : sinon la seconde syllabe
+devient inutile à écouter et l'exercice se résout par élimination.
+
+### 2026-10-19 — Un test de composant là où le navigateur ne peut rien prouver
+`EcouteScreen.test.tsx` simule une voix chinoise et déroule une série entière.
+**Pourquoi :** la machine de développement n'a aucune voix chinoise, donc
+l'exercice y est verrouillé et aucun passage dans le navigateur ne peut le
+vérifier. Le test, lui, tourne en CI à chaque fois.
+
 ### 2026-10-19 — `ts-fsrs` enfermé dans un seul fichier
 Toute la bibliothèque est confinée à `src/domain/srs/scheduler.ts`. Le reste de
 l'application ne connaît que `SrsState` et `Note` (encore / difficile /
@@ -250,6 +288,11 @@ accumulées, la seule chose ici qui ne se régénère pas.
 **Pourquoi :** npm 10.8.2, livré avec Node 20, plante (`edgesOut`) sur la
 résolution des dépendances de pair de Vite 8. Le drapeau contourne ce bug de
 npm. **À retirer** une fois le projet passé sous Node 22 et npm récent.
+
+**Effet de bord constaté :** les dépendances de pair ne s'installent plus
+toutes seules. `@testing-library/dom` a dû être ajouté à la main le jour où les
+premiers tests de composant ont tourné. Si un module se dit introuvable alors
+qu'il devrait venir avec un autre, c'est la première piste.
 
 ### 2026-10-19 — « Dialogues guidés », pas « Conversation IA »
 Sans clé d'API, il n'y a pas d'IA dans l'application. Le module sera fait

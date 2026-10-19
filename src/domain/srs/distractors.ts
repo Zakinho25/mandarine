@@ -1,5 +1,7 @@
-import { parseSyllable, splitNumbered, stripTone, toneOf } from '../pinyin/index'
+import { parseSyllable, splitNumbered, stripTone, tonePattern } from '../pinyin/index'
 import { shuffle, type Random } from '../random'
+
+export { tonePattern }
 
 /**
  * Choix des mauvaises réponses d'un exercice à choix multiple.
@@ -34,13 +36,6 @@ function normalizeGloss(gloss: string): string {
 export function sharesMeaning(a: DistractorItem, b: DistractorItem): boolean {
   const senses = new Set(a.glossFr.map(normalizeGloss))
   return b.glossFr.some((gloss) => senses.has(normalizeGloss(gloss)))
-}
-
-/** Suite des tons d'un mot : 你好 donne `3-3`. */
-export function tonePattern(pinyinNum: string): string {
-  return splitNumbered(pinyinNum)
-    .map((syllable) => String(toneOf(syllable)))
-    .join('-')
 }
 
 /**

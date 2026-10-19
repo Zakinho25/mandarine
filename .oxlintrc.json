@@ -14,7 +14,13 @@
       }
     ],
     "typescript/no-explicit-any": "error",
-    "eqeqeq": "error",
+    "eqeqeq": [
+      "error",
+      "always",
+      {
+        "null": "ignore"
+      }
+    ],
     "no-console": [
       "warn",
       {

@@ -185,6 +185,38 @@ export async function newWordsToday(now: Date = new Date()): Promise<Set<string>
   return words
 }
 
+/**
+ * Compte du temps passé à écouter.
+ *
+ * Le cahier des charges est explicite : le temps passé sur du vrai contenu
+ * compte plus que les points. Les exercices d'écoute alimentent donc le même
+ * compteur de journée que les révisions, au lieu d'un score séparé.
+ */
+export async function recordListening(
+  ms: number,
+  now: Date = new Date(),
+): Promise<void> {
+  if (ms <= 0) return
+  const db = await getDb()
+  const day = localDay(now)
+
+  const transaction = db.transaction('daily_stat', 'readwrite')
+  const store = transaction.objectStore('daily_stat')
+  const previous = await store.get(day)
+
+  await store.put({
+    day,
+    activeMs: (previous?.activeMs ?? 0) + ms,
+    reviews: previous?.reviews ?? 0,
+    newCards: previous?.newCards ?? 0,
+    listeningMs: (previous?.listeningMs ?? 0) + ms,
+    readingMs: previous?.readingMs ?? 0,
+    goalMet: previous?.goalMet ?? false,
+    updatedAt: now.toISOString(),
+  })
+  await transaction.done
+}
+
 export async function todayStat(now: Date = new Date()): Promise<DailyStatRecord | undefined> {
   const db = await getDb()
   return db.get('daily_stat', localDay(now))

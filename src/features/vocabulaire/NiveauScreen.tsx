@@ -8,12 +8,31 @@ import {
   type ContentFile,
   type Lexeme,
 } from '@/data/content'
+import { applySandhi, SANDHI_EXPLANATIONS } from '@/domain/pinyin'
 import { search } from '@/domain/search'
 import { useSettings } from '@/store/useSettings'
+import { BoutonEcouter } from '@/ui/BoutonEcouter'
 import { Pinyin } from '@/ui/Pinyin'
 import { LEVEL_GOALS, levelTitle } from '@/ui/levels'
+import { useSpeech } from '@/ui/useSpeech'
 
-function MotRow({ lexeme, showPinyin }: { lexeme: Lexeme; showPinyin: boolean }) {
+function MotRow({
+  lexeme,
+  showPinyin,
+  say,
+  muet,
+}: {
+  lexeme: Lexeme
+  showPinyin: boolean
+  say: (text: string) => void
+  muet: boolean
+}) {
+  // Le ton écrit n'est pas toujours le ton dit : 你好 se prononce `ní hǎo`.
+  // L'afficher sans le signaler reviendrait à enseigner une prononciation fausse.
+  const sandhi = applySandhi(lexeme.pinyinNum, lexeme.simplified)
+  const sandhiRule =
+    sandhi.syllables.find((s) => s.spokenTone !== s.citationTone)?.rule ?? null
+
   return (
     <details className="group">
       <summary
@@ -32,6 +51,24 @@ function MotRow({ lexeme, showPinyin }: { lexeme: Lexeme; showPinyin: boolean })
           <span className="block truncate text-sm" style={{ color: 'var(--text-muted)' }}>
             {lexeme.glossFr.slice(0, 3).join(', ')}
           </span>
+        </span>
+        <span
+          role="presentation"
+          onClick={(event) => {
+            // Écouter sans déplier : le bouton vit dans le résumé, mais ne doit
+            // pas ouvrir la fiche.
+            event.preventDefault()
+            event.stopPropagation()
+            say(lexeme.simplified)
+          }}
+        >
+          <BoutonEcouter
+            onClick={() => {
+              say(lexeme.simplified)
+            }}
+            disabled={muet}
+            label={`Écouter ${lexeme.simplified}`}
+          />
         </span>
         <svg
           aria-hidden="true"
@@ -60,6 +97,23 @@ function MotRow({ lexeme, showPinyin }: { lexeme: Lexeme; showPinyin: boolean })
               (citation : {lexeme.pinyinNum})
             </span>
           </dd>
+
+          {sandhi.changed && (
+            <>
+              <dt style={{ color: 'var(--text-muted)' }}>Se prononce</dt>
+              <dd>
+                <Pinyin numbered={sandhi.spokenNumbered} />
+                {sandhiRule !== null && (
+                  <span
+                    className="mt-1 block text-xs leading-relaxed"
+                    style={{ color: 'var(--text-muted)' }}
+                  >
+                    {SANDHI_EXPLANATIONS[sandhiRule]}
+                  </span>
+                )}
+              </dd>
+            </>
+          )}
 
           {lexeme.traditional !== null && lexeme.traditional !== lexeme.simplified && (
             <>
@@ -105,6 +159,7 @@ export function NiveauScreen() {
   const params = useParams<{ level: string }>()
   const level = Number(params.level ?? '1')
   const pinyinDisplay = useSettings((state) => state.settings.pinyinDisplay)
+  const { status, say } = useSpeech()
 
   // Le niveau chargé est stocké AVEC son contenu plutôt que remis à zéro au
   // changement de niveau : on évite ainsi un rendu supplémentaire, et surtout
@@ -206,7 +261,12 @@ export function NiveauScreen() {
             >
               {results.map((lexeme) => (
                 <li key={lexeme.id} style={{ borderColor: 'var(--border)' }}>
-                  <MotRow lexeme={lexeme} showPinyin={pinyinDisplay !== 'jamais'} />
+                  <MotRow
+                    lexeme={lexeme}
+                    showPinyin={pinyinDisplay !== 'jamais'}
+                    say={say}
+                    muet={status?.voice == null}
+                  />
                 </li>
               ))}
             </ul>

@@ -1,0 +1,41 @@
+import { useEffect, useState } from 'react'
+import { detectSpeech, speak, type SpeechStatus } from '@/data/speech'
+
+/**
+ * Détection faite une fois pour toute l'application : interroger la liste des
+ * voix est lent et déclenche parfois une attente d'événement.
+ */
+let cached: Promise<SpeechStatus> | undefined
+
+function status(): Promise<SpeechStatus> {
+  cached ??= detectSpeech()
+  return cached
+}
+
+export interface Speech {
+  readonly status: SpeechStatus | undefined
+  /** Fait lire un texte **chinois**. Sans voix disponible, ne fait rien. */
+  readonly say: (text: string) => void
+}
+
+export function useSpeech(): Speech {
+  const [state, setState] = useState<SpeechStatus | undefined>(undefined)
+
+  useEffect(() => {
+    let cancelled = false
+    void status().then((result) => {
+      if (!cancelled) setState(result)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  return {
+    status: state,
+    say: (text: string) => {
+      if (state?.voice == null) return
+      speak(text, { voice: state.voice })
+    },
+  }
+}

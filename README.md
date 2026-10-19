@@ -6,10 +6,10 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 3 sur 11 terminés.** L'application enseigne : les
-> **1 000 mots du HSK 3** sont importés et révisables en répétition espacée,
-> avec deux compétences par mot, des QCM à distracteurs proches et une
-> correction du pinyin qui distingue le ton oublié du ton faux.
+> **État : jalons 1 à 4 sur 11 terminés.** L'application enseigne : les
+> **1 000 mots du HSK 3** sont révisables en répétition espacée, et le module
+> de prononciation couvre les tons, les initiales, les finales et le sandhi
+> tonal, avec des exercices d'écoute.
 
 ## Prérequis
 
@@ -103,7 +103,7 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       pipeline reproductible, validation en CI
 - [x] **3. Révisions** — moteur FSRS, deux cartes par mot, distracteurs
       proches, correction du pinyin tolérante à la saisie mais stricte sur les tons
-- [ ] **4. Pinyin et tons** — initiales, finales, exercices d'écoute, paires de
+- [x] **4. Pinyin et tons** — initiales, finales, exercices d'écoute, paires de
       tons, sandhi
 - [ ] **5. Caractères** — fiches, ordre des traits animé, décomposition
 - [ ] **6. Parcours et tableau de bord** — unités, progression, objectif
@@ -116,8 +116,14 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
 
 ## Ce que l'application ne fait pas
 
-- Elle n'a pas encore d'audio : les cartes d'écoute et l'entraînement aux tons
-  arrivent au jalon 4. Deux compétences sur cinq sont donc actives.
+- **L'audio dépend de ton appareil.** La prononciation vient de la synthèse
+  vocale du navigateur : c'est gratuit et hors ligne, mais il faut une voix
+  chinoise installée. L'iPhone en a une d'origine ; sous Windows, il faut
+  ajouter le chinois simplifié dans les réglages de langue. Sans elle,
+  l'application le dit et désactive les boutons d'écoute.
+- Les cartes d'écoute ne sont pas encore dans les révisions : deux compétences
+  sur cinq sont actives. Les exercices de tons sont pour l'instant un module à
+  part, qui compte dans le temps d'écoute mais pas dans la planification.
 - Elle ne propose pas encore de parcours guidé : les mots sont introduits dans
   l'ordre du syllabus, pas par fréquence d'usage.
 - Les définitions sont reprises d'un dictionnaire : leur conformité au niveau
