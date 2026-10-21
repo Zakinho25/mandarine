@@ -7,6 +7,7 @@ import { pairLabel, type Tone } from '@/domain/pinyin'
 import { BoutonEcouter } from '@/ui/BoutonEcouter'
 import { Pinyin } from '@/ui/Pinyin'
 import { TONE_DESCRIPTIONS, toneColorVar } from '@/ui/tones'
+import { useSettings } from '@/store/useSettings'
 import { useSpeech } from '@/ui/useSpeech'
 import {
   buildPairQuestions,
@@ -26,6 +27,7 @@ function optionLabel(question: Question, option: string): string {
 
 export function EcouteScreen() {
   const { status, say } = useSpeech()
+  const dailyGoalMin = useSettings((state) => state.settings.dailyGoalMin)
   const muet = status?.voice == null
 
   const [lexemes, setLexemes] = useState<readonly Lexeme[]>([])
@@ -53,8 +55,8 @@ export function EcouteScreen() {
   const finish = useCallback((): void => {
     const elapsed = Date.now() - startedAt.current
     // Plafonné : une page laissée ouverte toute la nuit n'est pas de l'écoute.
-    void recordListening(Math.min(elapsed, 15 * 60_000))
-  }, [])
+    void recordListening(Math.min(elapsed, 15 * 60_000), dailyGoalMin * 60_000)
+  }, [dailyGoalMin])
 
   function start(next: Mode): void {
     const random = Math.random

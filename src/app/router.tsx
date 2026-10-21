@@ -7,6 +7,7 @@ import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
 import { PrononciationScreen } from '@/features/prononciation/PrononciationScreen'
 import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
 import { NiveauScreen } from '@/features/vocabulaire/NiveauScreen'
+import { UniteScreen } from '@/features/vocabulaire/UniteScreen'
 import { Placeholder } from '@/ui/Placeholder'
 
 /**
@@ -24,6 +25,7 @@ export const router = createHashRouter([
     children: [
       { index: true, element: <ParcoursScreen /> },
       { path: 'niveau/:level', element: <NiveauScreen /> },
+      { path: 'unite/:id', element: <UniteScreen /> },
       { path: 'caractere/:character', element: <CaractereScreen /> },
       { path: 'prononciation', element: <PrononciationScreen /> },
       { path: 'prononciation/ecoute', element: <EcouteScreen /> },

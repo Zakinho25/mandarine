@@ -14,6 +14,7 @@ import { stripTone, toDiacritics } from '../../src/domain/pinyin/index.ts'
 import { retone } from './lib/retone.ts'
 import type { PartOfSpeech } from './lib/pos.ts'
 import type { DictEntry, StandardEntry, SyllabusEntry } from './lib/types.ts'
+import { assignUnit, DIVERS_ID } from '../../src/data/unites.ts'
 import { OVERRIDES, overrideKey, type Override } from './overrides.ts'
 import { WORK_DIR } from './sources.ts'
 
@@ -34,6 +35,9 @@ export interface MergedLexeme {
    */
   readonly glossSource: 'cfdict' | 'cfdict-approx' | 'manuel' | null
   readonly syllabusId: number
+  /** Rang de fréquence d'usage ; plus il est bas, plus le mot est courant. */
+  readonly freqRank: number | null
+  readonly unit: string
 }
 
 /**
@@ -70,6 +74,9 @@ const standard = JSON.parse(
 const dictionary = JSON.parse(
   await readFile(join(WORK_DIR, 'cfdict.json'), 'utf8'),
 ) as DictEntry[]
+const frequency = JSON.parse(
+  await readFile(join(WORK_DIR, 'frequency.json'), 'utf8'),
+) as Record<string, number>
 
 const standardBySimplified = groupBy(standard, (entry) => entry.simplified)
 const dictBySimplified = groupBy(dictionary, (entry) => entry.simplified)
@@ -232,6 +239,8 @@ for (const entry of syllabus) {
             ? 'cfdict'
             : 'cfdict-approx',
     syllabusId: entry.id,
+    freqRank: frequency[entry.simplified] ?? null,
+    unit: assignUnit({ simplified: entry.simplified, glossFr, pos: entry.pos }),
   })
 
   if (found !== undefined && !found.exact) {
@@ -385,6 +394,17 @@ console.log(`Absents du standard 2021   : ${String(missingFromStandard.length)}`
 console.log(`Désaccords de niveau (1-3) : ${String(coreDivergences.length)}`)
 console.log(
   `Corrections manuelles      : ${String(usedOverrides.size)} / ${String(OVERRIDES.length)}`,
+)
+console.log(
+  `Avec rang de fréquence     : ${String(core.filter((l) => l.freqRank !== null).length)} / ${String(core.length)}`,
+)
+
+const parUnite = new Map<string, number>()
+for (const lexeme of core) parUnite.set(lexeme.unit, (parUnite.get(lexeme.unit) ?? 0) + 1)
+const divers = parUnite.get(DIVERS_ID) ?? 0
+console.log(
+  `Unités thématiques         : ${String(parUnite.size)} utilisées,` +
+    ` ${String(divers)} mots non classés (${pct(divers, core.length)})`,
 )
 console.log('\nRapport écrit dans docs/rapport-donnees.md')
 

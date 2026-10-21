@@ -9,6 +9,7 @@ import {
   CONTENT_STATUS_LABELS,
   type ContentFile,
   type ContentIndex,
+  type UnitesFile,
 } from '../../src/data/content.ts'
 
 /**
@@ -66,6 +67,29 @@ describe('fichiers de niveau', () => {
   })
 })
 
+describe('unités thématiques', () => {
+  const unites = read<UnitesFile>('unites.json')
+
+  it('couvre exactement le vocabulaire', () => {
+    const total = unites.units.reduce((sum, unite) => sum + unite.count, 0)
+    expect(total).toBe(all.length)
+    expect(unites.total).toBe(all.length)
+  })
+
+  it('ne déclare aucune unité vide', () => {
+    for (const unite of unites.units) {
+      expect(unite.count, unite.id).toBeGreaterThan(0)
+    }
+  })
+
+  it('déclare toutes les unités référencées par les mots', () => {
+    const connues = new Set(unites.units.map((unite) => unite.id))
+    for (const lexeme of all) {
+      expect(connues.has(lexeme.unit), `${lexeme.id} → ${lexeme.unit}`).toBe(true)
+    }
+  })
+})
+
 describe('intégrité des mots', () => {
   it('n’a aucun identifiant en double', () => {
     const ids = new Set(all.map((lexeme) => lexeme.id))
@@ -79,6 +103,28 @@ describe('intégrité des mots', () => {
       expect(lexeme.pinyinMark.length, lexeme.id).toBeGreaterThan(0)
       expect(lexeme.glossFr.length, lexeme.id).toBeGreaterThan(0)
       for (const gloss of lexeme.glossFr) expect(gloss.trim().length).toBeGreaterThan(0)
+    }
+  })
+
+  it('est classé du plus courant au moins courant', () => {
+    // L'ordre du fichier EST l'ordre d'introduction des mots dans le parcours :
+    // le cahier des charges demande d'apprendre du plus fréquent au moins
+    // fréquent, et c'est ici que cela se joue.
+    for (const file of files) {
+      const ranks = file.lexemes
+        .map((lexeme) => lexeme.freqRank)
+        .filter((rank): rank is number => rank !== null)
+      for (let i = 1; i < ranks.length; i += 1) {
+        expect(ranks[i], `niveau ${String(file.level)}`).toBeGreaterThanOrEqual(
+          ranks[i - 1] ?? 0,
+        )
+      }
+    }
+  })
+
+  it('appartient tous à une unité thématique', () => {
+    for (const lexeme of all) {
+      expect(lexeme.unit.length, lexeme.id).toBeGreaterThan(0)
     }
   })
 

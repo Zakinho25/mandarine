@@ -18,6 +18,8 @@ export interface Settings {
   /** L'écriture manuscrite n'est pas exigée avant le HSK 5 : désactivée. */
   readonly handwriting: boolean
   readonly lastBackupAt: Timestamp | null
+  /** Heure du rappel quotidien, `HH:MM`. Sert à produire l'événement d'agenda. */
+  readonly reminderTime: string
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -29,6 +31,7 @@ export const DEFAULT_SETTINGS: Settings = {
   examTrack: 'hsk3_2025',
   handwriting: false,
   lastBackupAt: null,
+  reminderTime: '19:00',
 }
 
 /**

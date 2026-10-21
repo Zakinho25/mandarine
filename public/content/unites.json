@@ -1,0 +1,170 @@
+{
+ "format": "mandarine-unites",
+ "version": 1,
+ "generatedAt": "2026-10-21T14:52:07.223Z",
+ "total": 1000,
+ "units": [
+  {
+   "id": "essentiels",
+   "title": "Les verbes essentiels",
+   "goal": "Être, avoir, pouvoir, vouloir : la charpente de toute phrase.",
+   "count": 24
+  },
+  {
+   "id": "degre",
+   "title": "Dire le degré et la quantité",
+   "goal": "Trop, très, le plus, seulement : nuancer ce qu’on affirme.",
+   "count": 44
+  },
+  {
+   "id": "idees",
+   "title": "Les idées et les notions",
+   "goal": "Les mots abstraits du quotidien : raison, moyen, problème, exemple.",
+   "count": 63
+  },
+  {
+   "id": "classificateurs",
+   "title": "Les classificateurs",
+   "goal": "Les mots de mesure qu’il faut placer entre le nombre et le nom.",
+   "count": 12
+  },
+  {
+   "id": "outils",
+   "title": "Les mots-outils",
+   "goal": "Les particules et les pronoms qui tiennent la phrase debout.",
+   "count": 58
+  },
+  {
+   "id": "nombres",
+   "title": "Les nombres et l’heure",
+   "goal": "Compter, dire l’heure, donner un prix.",
+   "count": 30
+  },
+  {
+   "id": "calendrier",
+   "title": "Les jours et les dates",
+   "goal": "Situer dans le temps : hier, demain, la semaine prochaine.",
+   "count": 57
+  },
+  {
+   "id": "presentation",
+   "title": "Se présenter",
+   "goal": "Dire qui on est, d’où on vient, comment on s’appelle.",
+   "count": 32
+  },
+  {
+   "id": "famille",
+   "title": "La famille",
+   "goal": "Parler des siens.",
+   "count": 25
+  },
+  {
+   "id": "nourriture",
+   "title": "Manger et boire",
+   "goal": "Commander, choisir un plat, parler de goûts.",
+   "count": 43
+  },
+  {
+   "id": "achats",
+   "title": "Acheter et payer",
+   "goal": "Faire ses courses, demander un prix, payer.",
+   "count": 18
+  },
+  {
+   "id": "transports",
+   "title": "Se déplacer",
+   "goal": "Prendre un bus, un taxi, un train ; demander son chemin.",
+   "count": 40
+  },
+  {
+   "id": "lieux",
+   "title": "Les lieux et l’orientation",
+   "goal": "Dire où se trouve une chose, s’orienter.",
+   "count": 63
+  },
+  {
+   "id": "maison",
+   "title": "La maison",
+   "goal": "Décrire où l’on habite et ce qu’il y a dedans.",
+   "count": 14
+  },
+  {
+   "id": "ecole",
+   "title": "L’école et les études",
+   "goal": "Parler de ses cours, de ses examens, de sa classe.",
+   "count": 48
+  },
+  {
+   "id": "travail",
+   "title": "Le travail",
+   "goal": "Dire ce qu’on fait, parler de son bureau et de ses collègues.",
+   "count": 15
+  },
+  {
+   "id": "corps",
+   "title": "Le corps et la santé",
+   "goal": "Dire qu’on est malade, décrire une douleur.",
+   "count": 25
+  },
+  {
+   "id": "vetements",
+   "title": "Les vêtements",
+   "goal": "S’habiller, essayer, choisir une taille.",
+   "count": 17
+  },
+  {
+   "id": "couleurs",
+   "title": "Les couleurs et les formes",
+   "goal": "Décrire l’aspect d’une chose.",
+   "count": 21
+  },
+  {
+   "id": "meteo",
+   "title": "Le temps qu’il fait",
+   "goal": "Parler de la pluie, du beau temps, de la température.",
+   "count": 9
+  },
+  {
+   "id": "loisirs",
+   "title": "Les loisirs et le sport",
+   "goal": "Dire ce qu’on aime faire de son temps libre.",
+   "count": 36
+  },
+  {
+   "id": "communication",
+   "title": "Parler et communiquer",
+   "goal": "Téléphoner, écrire un message, demander une explication.",
+   "count": 36
+  },
+  {
+   "id": "sentiments",
+   "title": "Les sentiments et les opinions",
+   "goal": "Dire ce qu’on pense et ce qu’on ressent.",
+   "count": 19
+  },
+  {
+   "id": "nature",
+   "title": "Les animaux et la nature",
+   "goal": "Nommer ce qui vit autour de soi.",
+   "count": 9
+  },
+  {
+   "id": "gens",
+   "title": "Les gens et les relations",
+   "goal": "Parler des autres : amis, voisins, inconnus.",
+   "count": 22
+  },
+  {
+   "id": "actions",
+   "title": "Les actions du quotidien",
+   "goal": "Les verbes qu’on emploie tous les jours.",
+   "count": 42
+  },
+  {
+   "id": "divers",
+   "title": "Le reste",
+   "goal": "Les mots qui ne tiennent dans aucun thème. Ils comptent autant.",
+   "count": 178
+  }
+ ]
+}

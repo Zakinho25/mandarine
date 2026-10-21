@@ -2,7 +2,7 @@
 
 Généré automatiquement par `npm run data`. Ne pas modifier à la main.
 
-Date : 2026-10-19
+Date : 2026-10-21
 
 ## Provenance
 

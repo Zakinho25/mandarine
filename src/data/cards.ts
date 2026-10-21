@@ -95,6 +95,8 @@ export interface ReviewInput {
   readonly note: Note
   readonly now: string
   readonly durationMs: number
+  /** Objectif du jour en millisecondes, pour savoir s'il est atteint. */
+  readonly goalMs: number
   readonly verdict?: Verdict
   readonly answer?: string
 }
@@ -146,15 +148,18 @@ export async function recordReview(input: ReviewInput): Promise<ReviewResult> {
   const day = localDay(new Date(now))
   const statStore = transaction.objectStore('daily_stat')
   const previous = await statStore.get(day)
+  const activeMs = (previous?.activeMs ?? 0) + durationMs
   const stat: DailyStatRecord = {
     day,
-    activeMs: (previous?.activeMs ?? 0) + durationMs,
+    activeMs,
     reviews: (previous?.reviews ?? 0) + 1,
     // Une carte encore neuve au moment où on la note est une découverte.
     newCards: (previous?.newCards ?? 0) + (card.state === 0 ? 1 : 0),
     listeningMs: previous?.listeningMs ?? 0,
     readingMs: previous?.readingMs ?? 0,
-    goalMet: previous?.goalMet ?? false,
+    // Une fois l'objectif atteint, il le reste : changer de réglage en cours
+    // de route ne doit pas effacer une journée déjà gagnée.
+    goalMet: previous?.goalMet === true || activeMs >= input.goalMs,
     updatedAt: now,
   }
   await statStore.put(stat)
@@ -194,6 +199,7 @@ export async function newWordsToday(now: Date = new Date()): Promise<Set<string>
  */
 export async function recordListening(
   ms: number,
+  goalMs: number,
   now: Date = new Date(),
 ): Promise<void> {
   if (ms <= 0) return
@@ -203,15 +209,16 @@ export async function recordListening(
   const transaction = db.transaction('daily_stat', 'readwrite')
   const store = transaction.objectStore('daily_stat')
   const previous = await store.get(day)
+  const activeMs = (previous?.activeMs ?? 0) + ms
 
   await store.put({
     day,
-    activeMs: (previous?.activeMs ?? 0) + ms,
+    activeMs,
     reviews: previous?.reviews ?? 0,
     newCards: previous?.newCards ?? 0,
     listeningMs: (previous?.listeningMs ?? 0) + ms,
     readingMs: previous?.readingMs ?? 0,
-    goalMet: previous?.goalMet ?? false,
+    goalMet: previous?.goalMet === true || activeMs >= goalMs,
     updatedAt: now.toISOString(),
   })
   await transaction.done

@@ -71,14 +71,19 @@ lieu d'inventer.
 | [hanzi-writer](https://hanziwriter.org/) | MIT | Animation de l'ordre des traits (jalon 5) |
 | React, Vite, Tailwind, Zustand, idb, tsx | MIT | Socle technique |
 
-## Pas encore utilisé
+## Fréquence d'usage
 
-**Fréquence d'usage.** Le syllabus classe les mots par ordre alphabétique de
-pinyin, pas par fréquence. Le parcours du jalon 6 aura besoin d'un ordre
-d'introduction fondé sur la fréquence réelle.
-[SUBTLEX-CH](http://crr.ugent.be/programs-data/subtitle-frequencies) (Cai et
-Brysbaert, 2010) est le candidat : 33,5 millions de mots de sous-titres, libre
-avec attribution. À intégrer, pas à inventer.
+| Source | Licence | Apport | Si usage commercial |
+| --- | --- | --- | --- |
+| [drkameleon/complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) | MIT | Rang de fréquence d'usage pour 990 des 1 000 mots | Sans problème, avec l'avis de copyright |
+
+Le rang vient de **SUBTLEX-CH** (Cai et Brysbaert, 2010), un corpus de
+33,5 millions de mots de sous-titres. C'est lui qui détermine l'ordre
+d'introduction des mots : du plus courant au moins courant, comme le demande le
+cahier des charges. Le syllabus, lui, classe par ordre alphabétique de pinyin,
+ce qui ne dit rien de l'utilité d'un mot.
+
+Les 10 mots sans rang passent en fin de liste, dans l'ordre du syllabus.
 
 ## Audio
 

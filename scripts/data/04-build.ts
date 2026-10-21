@@ -11,6 +11,7 @@
  */
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { DIVERS_ID, UNITES } from '../../src/data/unites.ts'
 import type { MergedLexeme } from './03-merge.ts'
 import { OUT_DIR, WORK_DIR } from './sources.ts'
 
@@ -62,9 +63,15 @@ let cumulative = 0
 for (const level of LEVELS) {
   const slice = lexicon
     .filter((lexeme) => lexeme.hsk2025 === level)
-    // L'ordre du syllabus (alphabétique par pinyin) est stable et reproductible.
-    // L'ordre pédagogique, par fréquence, viendra avec le parcours du jalon 6.
-    .sort((a, b) => a.syllabusId - b.syllabusId)
+    // Ordre pédagogique : du plus fréquent au moins fréquent, comme le demande
+    // le cahier des charges. Le syllabus classe par ordre alphabétique de
+    // pinyin, ce qui ne dit rien de l'utilité d'un mot. Les quelques mots sans
+    // rang passent en fin de liste, dans l'ordre du syllabus.
+    .sort((a, b) => {
+      const rankA = a.freqRank ?? Number.POSITIVE_INFINITY
+      const rankB = b.freqRank ?? Number.POSITIVE_INFINITY
+      return rankA === rankB ? a.syllabusId - b.syllabusId : rankA - rankB
+    })
 
   const lexemes = slice.map((lexeme) => ({
     id: lexeme.id,
@@ -79,6 +86,8 @@ for (const level of LEVELS) {
     contentStatus: statusOf(lexeme),
     /** Définition rapprochée avec une tolérance : à vérifier en priorité. */
     glossApprox: lexeme.glossSource === 'cfdict-approx',
+    freqRank: lexeme.freqRank,
+    unit: lexeme.unit,
   }))
 
   cumulative += lexemes.length
@@ -126,6 +135,44 @@ const index = {
 }
 
 await writeFile(join(OUT_DIR, 'index.json'), `${JSON.stringify(index, null, 2)}\n`)
+
+// --------------------------------------------------------------------------
+// Unités thématiques
+// --------------------------------------------------------------------------
+const core = lexicon.filter((lexeme) => LEVELS.includes(lexeme.hsk2025 as 1 | 2 | 3))
+const counts = new Map<string, number>()
+for (const lexeme of core) counts.set(lexeme.unit, (counts.get(lexeme.unit) ?? 0) + 1)
+
+const units = [
+  ...UNITES.map((unit) => ({
+    id: unit.id,
+    title: unit.title,
+    goal: unit.goal,
+    count: counts.get(unit.id) ?? 0,
+  })),
+  {
+    id: DIVERS_ID,
+    title: 'Le reste',
+    goal: 'Les mots qui ne tiennent dans aucun thème. Ils comptent autant.',
+    count: counts.get(DIVERS_ID) ?? 0,
+  },
+].filter((unit) => unit.count > 0)
+
+await writeFile(
+  join(OUT_DIR, 'unites.json'),
+  `${JSON.stringify(
+    {
+      format: 'mandarine-unites',
+      version: 1,
+      generatedAt: new Date().toISOString(),
+      total: core.length,
+      units,
+    },
+    null,
+    1,
+  )}\n`,
+)
+console.log(`  unites.json  ${String(units.length)} unités`)
 
 for (const summary of summaries) {
   console.log(

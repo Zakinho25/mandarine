@@ -148,6 +148,7 @@ export function RevisionsScreen() {
       note: result.note,
       now: new Date().toISOString(),
       durationMs: Date.now() - shownAt.current,
+      goalMs: dailyGoalMin * 60_000,
       ...(result.verdict === undefined ? {} : { verdict: result.verdict }),
       ...(result.answer === undefined ? {} : { answer: result.answer }),
     })

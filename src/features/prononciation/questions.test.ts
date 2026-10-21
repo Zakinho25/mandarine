@@ -17,6 +17,8 @@ function lexeme(id: string, simplified: string, pinyinNum: string): Lexeme {
     glossFr: ['sens'],
     contentStatus: 'auto_checked',
     glossApprox: false,
+    freqRank: null,
+    unit: 'divers',
   }
 }
 

@@ -54,6 +54,17 @@ export const SOURCES: readonly Source[] = [
     note: 'Dictionnaire chinois-français, format CEDICT, pinyin déjà numéroté.',
   },
   {
+    key: 'frequency',
+    url: 'https://raw.githubusercontent.com/drkameleon/complete-hsk-vocabulary/HEAD/complete.json',
+    file: 'hsk-frequence.json',
+    licence: 'MIT',
+    obligations: 'Conserver l’avis de copyright.',
+    note:
+      'Rang de fréquence d’usage, dérivé de SUBTLEX-CH (Cai et Brysbaert, 2010,' +
+      ' 33,5 millions de mots de sous-titres). Plus le rang est bas, plus le mot' +
+      ' est courant. Sert à introduire les mots du plus utile au moins utile.',
+  },
+  {
     key: 'hanziDictionary',
     url: 'https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt',
     file: 'makemeahanzi-dictionary.txt',

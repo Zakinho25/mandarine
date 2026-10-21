@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { backupFileName, exportBackup, importBackup } from '@/data/backup'
+import { localDay } from '@/data/cards'
+import { buildReminderIcs, parseTime, reminderFileName } from '@/domain/rappel'
 import { isStoragePersistent } from '@/data/db'
 import {
   EXAM_TRACK_LABELS,
@@ -83,17 +85,36 @@ export function ReglagesScreen() {
     void isStoragePersistent().then(setPersistent)
   }, [])
 
-  async function handleExport(): Promise<void> {
-    const backup = await exportBackup()
-    const blob = new Blob([JSON.stringify(backup, null, 2)], {
-      type: 'application/json',
-    })
-    const url = URL.createObjectURL(blob)
+  function download(content: string, type: string, name: string): void {
+    const url = URL.createObjectURL(new Blob([content], { type }))
     const link = document.createElement('a')
     link.href = url
-    link.download = backupFileName()
+    link.download = name
     link.click()
     URL.revokeObjectURL(url)
+  }
+
+  function handleReminder(): void {
+    const time = parseTime(settings.reminderTime)
+    if (time === undefined) {
+      setMessage('Heure invalide.')
+      return
+    }
+    download(
+      buildReminderIcs({
+        ...time,
+        goalMinutes: settings.dailyGoalMin,
+        startDate: localDay(),
+      }),
+      'text/calendar',
+      reminderFileName(),
+    )
+    setMessage('Événement d’agenda téléchargé. Ouvre-le pour l’ajouter.')
+  }
+
+  async function handleExport(): Promise<void> {
+    const backup = await exportBackup()
+    download(JSON.stringify(backup, null, 2), 'application/json', backupFileName())
     await update('lastBackupAt', new Date().toISOString())
     setMessage('Sauvegarde exportée.')
   }
@@ -197,6 +218,44 @@ export function ReglagesScreen() {
             void update('handwriting', value === 'oui')
           }}
         />
+      </section>
+
+      <section className="mb-6 rounded-2xl border p-5" style={card}>
+        <h2 className="text-sm font-semibold">Rappel quotidien</h2>
+        <p className="mt-2 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          Une application web ne peut pas t’envoyer de notification quand elle est
+          fermée : il faudrait un serveur de push. À la place, Mandarine fabrique un
+          événement d’agenda qui se répète tous les jours. Tu l’ouvres une fois, et
+          c’est ton téléphone qui te rappelle.
+        </p>
+
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <label className="flex items-center gap-2 text-sm">
+            <span style={{ color: 'var(--text-muted)' }}>À</span>
+            <input
+              type="time"
+              value={settings.reminderTime}
+              onChange={(event) => {
+                void update('reminderTime', event.target.value)
+              }}
+              className="min-h-11 rounded-xl border px-3 text-base"
+              style={{
+                background: 'var(--surface-raised)',
+                borderColor: 'var(--border)',
+                color: 'var(--text)',
+              }}
+            />
+          </label>
+
+          <button
+            type="button"
+            onClick={handleReminder}
+            className="min-h-11 rounded-xl px-4 text-sm font-medium"
+            style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+          >
+            Ajouter à mon agenda
+          </button>
+        </div>
       </section>
 
       <section className="rounded-2xl border p-5" style={card}>

@@ -6,11 +6,12 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 5 sur 11 terminés.** L'application enseigne : les
-> **1 000 mots du HSK 3** sont révisables en répétition espacée, le module de
-> prononciation couvre les tons et le sandhi avec des exercices d'écoute, et
-> les **655 caractères** ont leur fiche avec l'ordre des traits animé et la
-> décomposition expliquée.
+> **État : jalons 1 à 6 sur 11 terminés.** L'application enseigne : les
+> **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
+> plus courant au moins courant, répartis en 27 unités thématiques. Le module
+> de prononciation couvre les tons et le sandhi, les **655 caractères** ont
+> leur fiche avec l'ordre des traits animé, et le tableau de bord suit la
+> progression réelle.
 
 ## Prérequis
 
@@ -108,8 +109,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       tons, sandhi
 - [x] **5. Caractères** — fiches, ordre des traits animé, décomposition en
       composants avec leur sens en français
-- [ ] **6. Parcours et tableau de bord** — unités, progression, objectif
-      quotidien
+- [x] **6. Parcours et tableau de bord** — 27 unités thématiques, mots classés
+      par fréquence, série de jours, estimation honnête, rappel par agenda
 - [ ] **7. Lecture graduée** — textes segmentés, dictionnaire au toucher
 - [ ] **8. Dialogues guidés** — scénarios du quotidien contraints au niveau
 - [ ] **9. Prononciation** — enregistrement, courbe de hauteur, comparaison
@@ -126,6 +127,10 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
 - Les cartes d'écoute ne sont pas encore dans les révisions : deux compétences
   sur cinq sont actives. Les exercices de tons sont pour l'instant un module à
   part, qui compte dans le temps d'écoute mais pas dans la planification.
+- **Elle ne peut pas t'envoyer de notification.** Une application web ne sait
+  pas programmer un rappel quand elle est fermée : il faudrait un serveur de
+  push. Les réglages produisent à la place un événement d'agenda quotidien, que
+  ton téléphone se charge de rappeler.
 - Elle ne propose pas encore de parcours guidé : les mots sont introduits dans
   l'ordre du syllabus, pas par fréquence d'usage.
 - Les définitions sont reprises d'un dictionnaire : leur conformité au niveau

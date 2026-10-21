@@ -51,6 +51,25 @@ export interface Lexeme {
   readonly contentStatus: ContentStatus
   /** Définition rapprochée avec une tolérance : à vérifier en priorité. */
   readonly glossApprox: boolean
+  /** Rang de fréquence d'usage ; plus il est bas, plus le mot est courant. */
+  readonly freqRank: number | null
+  /** Identifiant de l'unité thématique. */
+  readonly unit: string
+}
+
+export interface UniteEntry {
+  readonly id: string
+  readonly title: string
+  readonly goal: string
+  readonly count: number
+}
+
+export interface UnitesFile {
+  readonly format: 'mandarine-unites'
+  readonly version: number
+  readonly generatedAt: string
+  readonly total: number
+  readonly units: readonly UniteEntry[]
 }
 
 export interface Attribution {
@@ -123,6 +142,10 @@ async function fetchJson(name: string, expectedFormat: string): Promise<unknown>
 
 export async function loadIndex(): Promise<ContentIndex> {
   return (await fetchJson('index.json', 'mandarine-index')) as ContentIndex
+}
+
+export async function loadUnites(): Promise<UnitesFile> {
+  return (await fetchJson('unites.json', 'mandarine-unites')) as UnitesFile
 }
 
 export async function loadLevel(level: number): Promise<ContentFile> {

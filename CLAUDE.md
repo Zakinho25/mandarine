@@ -83,6 +83,47 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-21 — Une application web ne peut pas programmer de notification
+L'API Notification n'affiche quelque chose que si la page tourne déjà, ce qui
+ne sert à rien pour un rappel. Les notifications différées passent par l'API
+Push, qui exige un service de push et un serveur détenant des clés. Ce projet
+n'a ni serveur ni budget.
+
+**Ce qu'on fait à la place :** un fichier d'agenda (`.ics`) avec un événement
+quotidien et une alerte. L'utilisateur l'ouvre une fois, son téléphone crée
+l'événement, et c'est le système qui rappelle. Gratuit, hors ligne, et il
+fonctionne même si l'application n'est jamais rouverte. L'heure est flottante,
+sans fuseau : l'alerte suit l'heure locale de l'appareil.
+
+### 2026-10-21 — L'ordre du fichier EST l'ordre d'apprentissage
+Les mots de chaque niveau sont écrits du plus fréquent au moins fréquent, et
+c'est cet ordre que la file de révision suit pour introduire les nouveautés.
+**Pourquoi dans les données plutôt que dans le code :** le tri est fait une
+fois au moment de la génération, testé, et toute la chaîne en hérite sans
+avoir à y penser. Un test vérifie que les rangs sont croissants dans chaque
+fichier.
+
+### 2026-10-21 — Les unités thématiques sont calculées, pas saisies
+Classer mille mots à la main n'est pas raisonnable. L'affectation se fait par
+règle (liste explicite, puis mot-clé dans la définition, puis classe
+grammaticale) et le pipeline signale ce qui reste non classé.
+
+**Le piège rencontré :** la recherche par sous-chaîne envoyait 你好 dans
+l'unité du calendrier, parce que « bonjour » contient « jour ». La
+correspondance se fait désormais sur des frontières de mots, avec tolérance du
+pluriel. 178 mots restent dans « Le reste » : un mot mal rangé serait plus
+trompeur qu'un mot non rangé.
+
+### 2026-10-21 — Le tableau de bord refuse de projeter trop tôt
+L'estimation de la date d'atteinte du HSK 3 exige au moins 14 jours écoulés et
+5 jours d'usage réel. En deçà, elle dit pourquoi elle ne peut pas répondre au
+lieu d'afficher un tiret. Sans mot maîtrisé, elle le dit aussi. **Pourquoi :**
+une date calculée sur trois jours d'usage serait un chiffre inventé avec une
+décimale.
+
+Une fois l'objectif d'une journée atteint, il le reste : changer de réglage en
+cours de route n'efface pas une journée déjà gagnée.
+
 ### 2026-10-19 — Les tracés sont servis un par un, pas préchargés
 Les 655 caractères pèsent 3 Mo de tracés. **Pourquoi à la demande :**
 précharger ferait grossir l'installation de trois mégaoctets pour des

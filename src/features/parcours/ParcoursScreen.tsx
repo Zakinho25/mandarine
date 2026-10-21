@@ -1,37 +1,63 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { loadIndex, type ContentIndex } from '@/data/content'
+import { loadIndex, loadUnites, type ContentIndex, type UnitesFile } from '@/data/content'
 import { computeProgress, type Progress } from '@/data/progress'
-import type { Tone } from '@/domain/pinyin'
-import { Pinyin } from '@/ui/Pinyin'
+import { ESTIMATE_MESSAGES } from '@/domain/progress'
+import { useSettings } from '@/store/useSettings'
 import { LEVEL_GOALS, levelTitle } from '@/ui/levels'
-import { TONE_DESCRIPTIONS, toneColorVar } from '@/ui/tones'
 
-const TONES: readonly Tone[] = [1, 2, 3, 4, 5]
+function formatDate(iso: string): string {
+  return new Date(`${iso}T12:00:00Z`).toLocaleDateString('fr-FR', {
+    month: 'long',
+    year: 'numeric',
+  })
+}
+
+function Stat({ value, label }: { value: string; label: string }) {
+  // `flex-col-reverse` place le chiffre au-dessus du libellé tout en gardant
+  // l'ordre `dt` puis `dd` attendu par un lecteur d'écran.
+  return (
+    <div className="flex flex-col-reverse">
+      <dt className="mt-1 text-xs" style={{ color: 'var(--text-muted)' }}>
+        {label}
+      </dt>
+      <dd className="text-2xl font-semibold">{value}</dd>
+    </div>
+  )
+}
 
 export function ParcoursScreen() {
+  const dailyGoalMin = useSettings((state) => state.settings.dailyGoalMin)
+
   const [index, setIndex] = useState<ContentIndex | undefined>(undefined)
+  const [unites, setUnites] = useState<UnitesFile | undefined>(undefined)
   const [progress, setProgress] = useState<Progress | undefined>(undefined)
   const [error, setError] = useState<string | undefined>(undefined)
 
   useEffect(() => {
     let cancelled = false
-    Promise.all([loadIndex(), computeProgress()])
-      .then(([file, stats]) => {
+    void (async () => {
+      try {
+        const [file, unitFile] = await Promise.all([loadIndex(), loadUnites()])
+        const target = file.levels.at(-1)?.cumulative ?? 1000
+        const stats = await computeProgress(target, dailyGoalMin * 60_000)
         if (cancelled) return
         setIndex(file)
+        setUnites(unitFile)
         setProgress(stats)
-      })
-      .catch((cause: unknown) => {
+      } catch (cause: unknown) {
         if (!cancelled) setError(cause instanceof Error ? cause.message : String(cause))
-      })
+      }
+    })()
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [dailyGoalMin])
 
   const card = { background: 'var(--surface-raised)', borderColor: 'var(--border)' }
   const total = index?.levels.at(-1)?.cumulative ?? 1000
+  const mastered = progress?.mastered ?? 0
+  const estimate = progress?.estimate
 
   return (
     <div className="mx-auto max-w-xl px-4 py-8">
@@ -42,40 +68,73 @@ export function ParcoursScreen() {
         </p>
       </header>
 
-      {/* Des zéros honnêtes plutôt qu'une démonstration flatteuse. */}
-      <section className="mb-8 rounded-2xl border p-5" style={card}>
-        <h2 className="mb-4 text-sm font-semibold tracking-wide uppercase">
-          Ta progression
-        </h2>
+      <section className="mb-6 rounded-2xl border p-5" style={card}>
+        <div className="mb-1 flex items-baseline justify-between gap-3">
+          <h2 className="text-sm font-semibold tracking-wide uppercase">
+            Ta progression
+          </h2>
+          <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+            {mastered} / {total}
+          </span>
+        </div>
+
+        <div
+          className="mb-5 h-2 overflow-hidden rounded-full"
+          style={{ background: 'var(--surface-sunken)' }}
+        >
+          <div
+            className="h-full rounded-full transition-all"
+            style={{
+              width: `${String(Math.min(100, (100 * mastered) / Math.max(total, 1)))}%`,
+              background: 'var(--accent)',
+            }}
+          />
+        </div>
+
         <dl className="grid grid-cols-3 gap-4 text-center">
-          {[
-            {
-              label: `maîtrisés sur ${String(total)}`,
-              value: String(progress?.mastered ?? 0),
-            },
-            { label: 'mots rencontrés', value: String(progress?.seen ?? 0) },
-            {
-              label: 'minutes aujourd’hui',
-              value: String(progress?.minutesToday ?? 0),
-            },
-          ].map((stat) => (
-            // `flex-col-reverse` place le chiffre au-dessus du libellé tout en
-            // gardant l'ordre `dt` puis `dd` attendu par un lecteur d'écran.
-            <div key={stat.label} className="flex flex-col-reverse">
-              <dt className="mt-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-                {stat.label}
-              </dt>
-              <dd className="text-2xl font-semibold">{stat.value}</dd>
-            </div>
-          ))}
+          <Stat
+            value={String(progress?.streak ?? 0)}
+            label={progress?.streak === 1 ? 'jour de suite' : 'jours de suite'}
+          />
+          <Stat
+            value={`${String(progress?.minutesToday ?? 0)} / ${String(dailyGoalMin)}`}
+            label="minutes aujourd’hui"
+          />
+          <Stat
+            value={String(progress?.listeningMinutes ?? 0)}
+            label="minutes d’écoute"
+          />
         </dl>
-        <p className="mt-4 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+
+        {progress !== undefined && progress.goalMetToday && (
+          <p className="mt-4 text-sm" style={{ color: 'var(--tone-3)' }}>
+            Objectif du jour atteint.
+          </p>
+        )}
+
+        {estimate !== undefined && (
+          <p className="mt-4 text-sm">
+            {estimate.reason === 'ok' && estimate.date !== null ? (
+              <>
+                À ce rythme, {String(estimate.perWeek)} mots maîtrisés par semaine : le
+                HSK 3 serait atteint vers{' '}
+                <strong>{formatDate(estimate.date)}</strong>.
+              </>
+            ) : (
+              <span style={{ color: 'var(--text-muted)' }}>
+                {ESTIMATE_MESSAGES[estimate.reason]}
+              </span>
+            )}
+          </p>
+        )}
+
+        <p className="mt-3 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
           Un mot compte comme <strong>maîtrisé</strong> quand tu sais à la fois le
           reconnaître et le produire, que sa stabilité dépasse 30 jours et que la
           probabilité de t’en souvenir dépasse 90 %. Le compteur peut donc redescendre :
-          c’est le but. L’estimation de la date d’atteinte du HSK 3 n’apparaîtra qu’après
-          quatorze jours d’usage réel.
+          c’est le but.
         </p>
+
         {progress !== undefined && progress.dueNow > 0 && (
           <Link
             to="/revisions"
@@ -87,108 +146,70 @@ export function ParcoursScreen() {
         )}
       </section>
 
+      {error !== undefined && (
+        <p className="mb-6 text-sm" style={{ color: 'var(--tone-1)' }}>
+          {error}
+        </p>
+      )}
+
       <section className="mb-8">
-        <h2 className="mb-3 text-sm font-semibold tracking-wide uppercase">
-          Le parcours
-        </h2>
-
-        {error !== undefined && (
-          <p className="text-sm" style={{ color: 'var(--tone-1)' }}>
-            {error}
-          </p>
-        )}
-        {index === undefined && error === undefined && (
-          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-            Chargement…
-          </p>
-        )}
-
-        {index !== undefined && (
-          <>
-            <ul className="space-y-3">
-              {index.levels.map((level) => (
-                <li key={level.level}>
-                  <Link
-                    to={`/niveau/${String(level.level)}`}
-                    className="block rounded-2xl border p-5"
-                    style={card}
-                  >
-                    <div className="flex items-baseline justify-between gap-3">
-                      <span className="font-semibold">
-                        HSK {level.level} — {levelTitle(level.level)}
-                      </span>
-                      <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                        {level.count} mots
-                      </span>
-                    </div>
-                    <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
-                      {LEVEL_GOALS[level.level] ?? ''}
-                    </p>
-                    <p className="mt-2 text-xs" style={{ color: 'var(--text-muted)' }}>
-                      {level.cumulative} mots cumulés
-                    </p>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-
-            <p
-              className="mt-4 text-xs leading-relaxed"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              Vocabulaire et niveaux issus du {index.source.document}, publié en{' '}
-              {index.source.publishedOn} par le {index.source.publishedBy}.{' '}
-              {index.source.note} Définitions françaises reprises de CFDICT
-              (CC BY-SA 3.0).
-            </p>
-          </>
-        )}
-      </section>
-
-      <section>
         <div className="mb-3 flex items-baseline justify-between gap-3">
-          <h2 className="text-sm font-semibold tracking-wide uppercase">
-            Les cinq tons
-          </h2>
+          <h2 className="text-sm font-semibold tracking-wide uppercase">Les niveaux</h2>
           <Link to="/prononciation" className="text-sm" style={{ color: 'var(--accent)' }}>
-            Module complet →
+            Prononciation →
           </Link>
         </div>
-        <ul className="divide-y overflow-hidden rounded-2xl border" style={card}>
-          {TONES.map((tone) => {
-            const description = TONE_DESCRIPTIONS[tone]
-            return (
-              <li
-                key={tone}
-                className="px-5 py-4"
-                style={{ borderColor: 'var(--border)' }}
+
+        <ul className="space-y-3">
+          {(index?.levels ?? []).map((level) => (
+            <li key={level.level}>
+              <Link
+                to={`/niveau/${String(level.level)}`}
+                className="block rounded-2xl border p-5"
+                style={card}
               >
-                <div className="flex items-baseline gap-3">
-                  <span
-                    className="hanzi text-2xl font-semibold"
-                    style={{ color: toneColorVar(tone) }}
-                  >
-                    <Pinyin numbered={`ma${String(tone)}`} />
+                <div className="flex items-baseline justify-between gap-3">
+                  <span className="font-semibold">
+                    HSK {level.level} — {levelTitle(level.level)}
                   </span>
-                  <span className="text-sm font-medium">{description.name}</span>
-                  <span
-                    className="ml-auto font-mono text-xs"
-                    style={{ color: 'var(--text-muted)' }}
-                  >
-                    {description.contour}
+                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+                    {level.count} mots
                   </span>
                 </div>
                 <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
-                  {description.hint}
+                  {LEVEL_GOALS[level.level] ?? ''}
                 </p>
-              </li>
-            )
-          })}
+              </Link>
+            </li>
+          ))}
         </ul>
-        <p className="mt-3 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-          La couleur n’est qu’un renfort : le diacritique reste toujours affiché, et une
-          palette sans couleur est disponible dans les réglages.
+      </section>
+
+      <section>
+        <h2 className="mb-1 text-sm font-semibold tracking-wide uppercase">
+          Par thème
+        </h2>
+        <p className="mb-3 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          Les mêmes mots, rangés par sujet plutôt que par niveau. Utile pour préparer
+          une situation précise.
         </p>
+
+        <ul className="grid grid-cols-2 gap-2">
+          {(unites?.units ?? []).map((unite) => (
+            <li key={unite.id}>
+              <Link
+                to={`/unite/${unite.id}`}
+                className="flex h-full flex-col rounded-xl border p-3"
+                style={card}
+              >
+                <span className="text-sm font-medium">{unite.title}</span>
+                <span className="mt-1 text-xs" style={{ color: 'var(--text-muted)' }}>
+                  {unite.count} mots
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
     </div>
   )

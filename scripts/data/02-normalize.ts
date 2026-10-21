@@ -78,6 +78,29 @@ const standard: StandardEntry[] = standardRecords
   })
 
 // --------------------------------------------------------------------------
+// Fréquence d'usage
+// --------------------------------------------------------------------------
+interface RawFrequencyEntry {
+  readonly simplified: string
+  readonly frequency?: number
+}
+
+const frequencyRows = JSON.parse(
+  await readFile(join(RAW_DIR, 'hsk-frequence.json'), 'utf8'),
+) as RawFrequencyEntry[]
+
+// Un mot peut apparaître plusieurs fois (lectures différentes) : on garde le
+// rang le plus bas, c'est-à-dire l'emploi le plus courant.
+const frequency: Record<string, number> = {}
+for (const row of frequencyRows) {
+  if (typeof row.frequency !== 'number') continue
+  const current = frequency[row.simplified]
+  if (current === undefined || row.frequency < current) {
+    frequency[row.simplified] = row.frequency
+  }
+}
+
+// --------------------------------------------------------------------------
 // CFDICT
 // --------------------------------------------------------------------------
 const dictionary: DictEntry[] = parseCedict(
@@ -88,6 +111,7 @@ const dictionary: DictEntry[] = parseCedict(
 await writeFile(join(WORK_DIR, 'syllabus-2025.json'), JSON.stringify(syllabus))
 await writeFile(join(WORK_DIR, 'standard-2021.json'), JSON.stringify(standard))
 await writeFile(join(WORK_DIR, 'cfdict.json'), JSON.stringify(dictionary))
+await writeFile(join(WORK_DIR, 'frequency.json'), JSON.stringify(frequency))
 
 const byLevel = new Map<number, number>()
 for (const entry of syllabus) byLevel.set(entry.level, (byLevel.get(entry.level) ?? 0) + 1)
@@ -104,6 +128,7 @@ console.log(
   `  pinyin numéroté absent : ${String(standard.filter((e) => e.pinyinNum === null).length)}`,
 )
 console.log(`CFDICT          : ${String(dictionary.length)} entrées`)
+console.log(`Fréquence       : ${String(Object.keys(frequency).length)} mots classés`)
 
 if (unknownTags.size > 0) {
   console.warn(
