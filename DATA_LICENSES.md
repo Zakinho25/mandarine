@@ -99,6 +99,18 @@ Aucune police redistribuée. L'application utilise les polices chinoises du
 système (PingFang SC, Microsoft YaHei, Noto Sans SC selon l'appareil) via une
 liste de replis en CSS.
 
+## Textes de lecture
+
+Les 10 textes de `scripts/data/textes.ts` ont été **rédigés pour ce projet**,
+sans source externe. Ils n'emploient que le vocabulaire de leur niveau, ce
+qu'un script vérifie mot par mot : `npm run data:textes` échoue si un seul mot
+en sort.
+
+Cette vérification garantit la conformité du vocabulaire. Elle ne garantit pas
+que la formulation soit naturelle. Les textes portent donc `auto_checked` et
+non `reviewed_human` : une relecture par un locuteur natif reste à faire, et
+l'interface le dit.
+
 ## Contenu produit par l'application
 
 Chaque élément porte un `contentStatus` visible dans l'interface :

@@ -1,0 +1,282 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.812Z",
+ "id": "hsk1-mon-amie",
+ "level": 1,
+ "titleZh": "我的朋友",
+ "titleFr": "Mon amie",
+ "unit": "gens",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "J’ai une bonne amie. Elle est aussi ma camarade de classe.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "朋友",
+     "lexemeId": "朋友-peng2you5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "同学",
+     "lexemeId": "同学-tong2xue2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Elle habite de ce côté-là de l’école, moi de ce côté-ci.",
+   "tokens": [
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "住",
+     "lexemeId": "住-zhu4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "学校",
+     "lexemeId": "学校-xue2xiao4"
+    },
+    {
+     "text": "那边",
+     "lexemeId": "那边-na4bian1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "住",
+     "lexemeId": "住-zhu4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "这边",
+     "lexemeId": "这边-zhe4bian1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Elle aime lire, j’aime regarder des films.",
+   "tokens": [
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "喜欢",
+     "lexemeId": "喜欢-xi3huan5"
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "书",
+     "lexemeId": "书-shu1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "喜欢",
+     "lexemeId": "喜欢-xi3huan5"
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "电影",
+     "lexemeId": "电影-dian4ying3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le dimanche nous allons acheter des livres à la librairie, et voir un film au cinéma.",
+   "tokens": [
+    {
+     "text": "星期天",
+     "lexemeId": "星期天-Xing1qi1tian1"
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "书店",
+     "lexemeId": "书店-shu1dian4"
+    },
+    {
+     "text": "买",
+     "lexemeId": "买-mai3"
+    },
+    {
+     "text": "书",
+     "lexemeId": "书-shu1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "电影院",
+     "lexemeId": "电影院-dian4ying3yuan4"
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "电影",
+     "lexemeId": "电影-dian4ying3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Son chinois est très bon, je voudrais l’apprendre avec elle.",
+   "tokens": [
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "汉语",
+     "lexemeId": "汉语-Han4yu3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "想",
+     "lexemeId": "想-xiang3"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "学习",
+     "lexemeId": "学习-xue2xi2"
+    },
+    {
+     "text": "汉语",
+     "lexemeId": "汉语-Han4yu3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

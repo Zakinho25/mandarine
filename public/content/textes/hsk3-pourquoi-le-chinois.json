@@ -1,0 +1,400 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.816Z",
+ "id": "hsk3-pourquoi-le-chinois",
+ "level": 3,
+ "titleZh": "我为什么学中文",
+ "titleFr": "Pourquoi j’apprends le chinois",
+ "unit": "ecole",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "Beaucoup de gens me demandent pourquoi j’apprends le chinois.",
+   "tokens": [
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "多",
+     "lexemeId": "多-duo1"
+    },
+    {
+     "text": "人",
+     "lexemeId": "人-ren2"
+    },
+    {
+     "text": "问",
+     "lexemeId": "问-wen4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "为什么",
+     "lexemeId": "为什么-wei4shen2me5"
+    },
+    {
+     "text": "学习",
+     "lexemeId": "学习-xue2xi2"
+    },
+    {
+     "text": "中文",
+     "lexemeId": "中文-Zhong1wen2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Parce que je trouve le chinois passionnant, et la culture chinoise aussi.",
+   "tokens": [
+    {
+     "text": "因为",
+     "lexemeId": "因为-yin1wei4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "觉得",
+     "lexemeId": "觉得-jue2de5"
+    },
+    {
+     "text": "中文",
+     "lexemeId": "中文-Zhong1wen2"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "有意思",
+     "lexemeId": "有意思-you3yi4si5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "而且",
+     "lexemeId": "而且-er2qie3"
+    },
+    {
+     "text": "中国",
+     "lexemeId": "中国-Zhong1guo2"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "文化",
+     "lexemeId": "文化-wen2hua4"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "有意思",
+     "lexemeId": "有意思-you3yi4si5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "La première fois que j’ai entendu du chinois, j’ai trouvé que ça sonnait bien.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "第",
+     "lexemeId": "第-di4"
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "次",
+     "lexemeId": "次-ci4"
+    },
+    {
+     "text": "听",
+     "lexemeId": "听-ting1"
+    },
+    {
+     "text": "到",
+     "lexemeId": "到-dao4"
+    },
+    {
+     "text": "中文",
+     "lexemeId": "中文-Zhong1wen2"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "时候",
+     "lexemeId": "时候-shi2hou5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "觉得",
+     "lexemeId": "觉得-jue2de5"
+    },
+    {
+     "text": "声音",
+     "lexemeId": "声音-sheng1yin1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好听",
+     "lexemeId": "好听-hao3ting1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Apprendre les caractères n’est pas facile, et parfois je trouve ça très dur.",
+   "tokens": [
+    {
+     "text": "学习",
+     "lexemeId": "学习-xue2xi2"
+    },
+    {
+     "text": "汉字",
+     "lexemeId": "汉字-han4zi4"
+    },
+    {
+     "text": "不",
+     "lexemeId": "不-bu4"
+    },
+    {
+     "text": "容易",
+     "lexemeId": "容易-rong2yi4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "有时",
+     "lexemeId": "有时-you3shi2"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "觉得",
+     "lexemeId": "觉得-jue2de5"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "难",
+     "lexemeId": "难-nan2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Mais je m’entraîne tous les jours sans lâcher : j’écris des caractères, j’écoute de la musique, je regarde des films chinois.",
+   "tokens": [
+    {
+     "text": "但是",
+     "lexemeId": "但是-dan4shi4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "每",
+     "lexemeId": "每-mei3"
+    },
+    {
+     "text": "天",
+     "lexemeId": "天-tian1"
+    },
+    {
+     "text": "坚持",
+     "lexemeId": "坚持-jian1chi2"
+    },
+    {
+     "text": "练习",
+     "lexemeId": "练习-lian4xi2"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "写",
+     "lexemeId": "写-xie3"
+    },
+    {
+     "text": "汉字",
+     "lexemeId": "汉字-han4zi4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "听",
+     "lexemeId": "听-ting1"
+    },
+    {
+     "text": "音乐",
+     "lexemeId": "音乐-yin1yue4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "中国",
+     "lexemeId": "中国-Zhong1guo2"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "电影",
+     "lexemeId": "电影-dian4ying3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Maintenant je peux déjà discuter avec des amis chinois.",
+   "tokens": [
+    {
+     "text": "现在",
+     "lexemeId": "现在-xian4zai4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "已经",
+     "lexemeId": "已经-yi3jing1"
+    },
+    {
+     "text": "能",
+     "lexemeId": "能-neng2"
+    },
+    {
+     "text": "跟",
+     "lexemeId": "跟-gen1"
+    },
+    {
+     "text": "中国",
+     "lexemeId": "中国-Zhong1guo2"
+    },
+    {
+     "text": "朋友",
+     "lexemeId": "朋友-peng2you5"
+    },
+    {
+     "text": "聊天儿",
+     "lexemeId": "聊天儿-liao2tian1r5"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Je crois qu’avec des efforts, on finit forcément par y arriver.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "相信",
+     "lexemeId": "相信-xiang1xin4"
+    },
+    {
+     "text": "只要",
+     "lexemeId": "只要-zhi3yao4"
+    },
+    {
+     "text": "努力",
+     "lexemeId": "努力-nu3li4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "就",
+     "lexemeId": "就-jiu4"
+    },
+    {
+     "text": "一定",
+     "lexemeId": "一定-yi1ding4"
+    },
+    {
+     "text": "能",
+     "lexemeId": "能-neng2"
+    },
+    {
+     "text": "学",
+     "lexemeId": "学-xue2"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

@@ -7,6 +7,7 @@ import {
   recordReview,
 } from '@/data/cards'
 import { loadIndex, loadLevel, type Lexeme } from '@/data/content'
+import { loadPriorities } from '@/data/priorites'
 import type { CardRecord } from '@/data/types'
 import { ACTIVE_SKILLS, SKILL_LABELS } from '@/domain/srs/cards'
 import type { Verdict } from '@/domain/srs/grading'
@@ -71,9 +72,22 @@ export function RevisionsScreen() {
 
     const cards = await allCards()
     const introduced = await newWordsToday()
+    const priorities = await loadPriorities()
+
+    // Les mots marqués depuis un texte passent devant : « je veux apprendre
+    // ce mot » doit se traduire par la prochaine session, pas par trois
+    // semaines d'attente. L'ordre de fréquence s'applique au reste.
+    const sorted =
+      priorities.size === 0
+        ? ordered
+        : [
+            ...ordered.filter((lexeme) => priorities.has(lexeme.id)),
+            ...ordered.filter((lexeme) => !priorities.has(lexeme.id)),
+          ]
+
     setPrepared({
       lexemes,
-      ordered,
+      ordered: sorted,
       cards,
       introducedToday: introduced.size,
       now: new Date().toISOString(),

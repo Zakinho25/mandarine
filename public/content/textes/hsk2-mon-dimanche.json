@@ -1,0 +1,322 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.813Z",
+ "id": "hsk2-mon-dimanche",
+ "level": 2,
+ "titleZh": "我的星期天",
+ "titleFr": "Mon dimanche",
+ "unit": "loisirs",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "Le dimanche je n’ai pas cours, alors je suis content.",
+   "tokens": [
+    {
+     "text": "星期天",
+     "lexemeId": "星期天-Xing1qi1tian1"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "没有",
+     "lexemeId": "没有-mei2you3"
+    },
+    {
+     "text": "课",
+     "lexemeId": "课-ke4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "所以",
+     "lexemeId": "所以-suo3yi3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "快乐",
+     "lexemeId": "快乐-kuai4le4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le matin je fais du sport avec un ami. Nous jouons au football, il joue très bien.",
+   "tokens": [
+    {
+     "text": "早上",
+     "lexemeId": "早上-zao3shang5"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "跟",
+     "lexemeId": "跟-gen1"
+    },
+    {
+     "text": "朋友",
+     "lexemeId": "朋友-peng2you5"
+    },
+    {
+     "text": "一起",
+     "lexemeId": "一起-yi1qi3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "运动",
+     "lexemeId": "运动-yun4dong4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "踢",
+     "lexemeId": "踢-ti1"
+    },
+    {
+     "text": "足球",
+     "lexemeId": "足球-zu2qiu2"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "踢",
+     "lexemeId": "踢-ti1"
+    },
+    {
+     "text": "得",
+     "lexemeId": "得-de5"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "À midi nous mangeons au restaurant. La cuisine y est bonne, mais un peu chère.",
+   "tokens": [
+    {
+     "text": "中午",
+     "lexemeId": "中午-zhong1wu3"
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "饭馆",
+     "lexemeId": "饭馆-fan4guan3"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "饭",
+     "lexemeId": "饭-fan4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "那",
+     "lexemeId": "那-na4"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "饭馆",
+     "lexemeId": "饭馆-fan4guan3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "菜",
+     "lexemeId": "菜-cai4"
+    },
+    {
+     "text": "不错",
+     "lexemeId": "不错-bu4cuo4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "但是",
+     "lexemeId": "但是-dan4shi4"
+    },
+    {
+     "text": "有点儿",
+     "lexemeId": "有点儿-you3dian3r"
+    },
+    {
+     "text": "贵",
+     "lexemeId": "贵-gui4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "L’après-midi je me repose à la maison et je regarde un peu la télévision.",
+   "tokens": [
+    {
+     "text": "下午",
+     "lexemeId": "下午-xia4wu3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "休息",
+     "lexemeId": "休息-xiu1xi5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "一会儿",
+     "lexemeId": "一会儿-yi1hui4r5"
+    },
+    {
+     "text": "电视",
+     "lexemeId": "电视-dian4shi4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le soir je commence à préparer l’examen de demain. J’espère bien réussir.",
+   "tokens": [
+    {
+     "text": "晚上",
+     "lexemeId": "晚上-wan3shang5"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "开始",
+     "lexemeId": "开始-kai1shi3"
+    },
+    {
+     "text": "准备",
+     "lexemeId": "准备-zhun3bei4"
+    },
+    {
+     "text": "明天",
+     "lexemeId": "明天-ming2tian1"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "考试",
+     "lexemeId": "考试-kao3shi4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "希望",
+     "lexemeId": "希望-xi1wang4"
+    },
+    {
+     "text": "考",
+     "lexemeId": "考-kao3"
+    },
+    {
+     "text": "得",
+     "lexemeId": "得-de5"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

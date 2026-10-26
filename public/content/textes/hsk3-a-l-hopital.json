@@ -1,0 +1,347 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.817Z",
+ "id": "hsk3-a-l-hopital",
+ "level": 3,
+ "titleZh": "在医院",
+ "titleFr": "À l’hôpital",
+ "unit": "corps",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "La semaine dernière j’ai attrapé froid : de la fièvre, et un gros mal de tête.",
+   "tokens": [
+    {
+     "text": "上",
+     "lexemeId": "上-shang4"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "星期",
+     "lexemeId": "星期-xing1qi1"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "感冒",
+     "lexemeId": "感冒-gan3mao4"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "发烧",
+     "lexemeId": "发烧-fa1shao1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "头",
+     "lexemeId": "头-tou2"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "疼",
+     "lexemeId": "疼-teng2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Ma mère s’est inquiétée et m’a emmené à l’hôpital.",
+   "tokens": [
+    {
+     "text": "妈妈",
+     "lexemeId": "妈妈-ma1ma5"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "担心",
+     "lexemeId": "担心-dan1xin1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "带",
+     "lexemeId": "带-dai4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "医院",
+     "lexemeId": "医院-yi1yuan4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le médecin m’a examiné et a dit qu’il n’y avait rien de grave.",
+   "tokens": [
+    {
+     "text": "医生",
+     "lexemeId": "医生-yi1sheng1"
+    },
+    {
+     "text": "给",
+     "lexemeId": "给-gei3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "检查",
+     "lexemeId": "检查-jian3cha2"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "身体",
+     "lexemeId": "身体-shen1ti3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "没有",
+     "lexemeId": "没有-mei2you3"
+    },
+    {
+     "text": "大",
+     "lexemeId": "大-da4"
+    },
+    {
+     "text": "问题",
+     "lexemeId": "问题-wen4ti2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Il a dit : reposez-vous bien, buvez beaucoup d’eau, et n’oubliez pas vos médicaments.",
+   "tokens": [
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "多",
+     "lexemeId": "多-duo1"
+    },
+    {
+     "text": "休息",
+     "lexemeId": "休息-xiu1xi5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "多",
+     "lexemeId": "多-duo1"
+    },
+    {
+     "text": "喝",
+     "lexemeId": "喝-he1"
+    },
+    {
+     "text": "水",
+     "lexemeId": "水-shui3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "记得",
+     "lexemeId": "记得-ji4de5"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "药",
+     "lexemeId": "药-yao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "J’ai acheté les médicaments à la pharmacie. Trois jours après, j’allais beaucoup mieux.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "药店",
+     "lexemeId": "药店-yao4dian4"
+    },
+    {
+     "text": "买",
+     "lexemeId": "买-mai3"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "药",
+     "lexemeId": "药-yao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "三",
+     "lexemeId": "三-san1"
+    },
+    {
+     "text": "天",
+     "lexemeId": "天-tian1"
+    },
+    {
+     "text": "以后",
+     "lexemeId": "以后-yi3hou4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "好多",
+     "lexemeId": "好多-hao3duo1"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Cette maladie m’a fait comprendre que la santé compte beaucoup.",
+   "tokens": [
+    {
+     "text": "这",
+     "lexemeId": "这-zhe4"
+    },
+    {
+     "text": "次",
+     "lexemeId": "次-ci4"
+    },
+    {
+     "text": "生病",
+     "lexemeId": "生病-sheng1bing4"
+    },
+    {
+     "text": "让",
+     "lexemeId": "让-rang4"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "明白",
+     "lexemeId": "明白-ming2bai5"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "健康",
+     "lexemeId": "健康-jian4kang1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "重要",
+     "lexemeId": "重要-zhong4yao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

@@ -3,6 +3,8 @@ import { Layout } from './Layout'
 import { ParcoursScreen } from '@/features/parcours/ParcoursScreen'
 import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
 import { CaractereScreen } from '@/features/caracteres/CaractereScreen'
+import { LectureScreen } from '@/features/lecture/LectureScreen'
+import { TexteScreen } from '@/features/lecture/TexteScreen'
 import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
 import { PrononciationScreen } from '@/features/prononciation/PrononciationScreen'
 import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
@@ -30,16 +32,8 @@ export const router = createHashRouter([
       { path: 'prononciation', element: <PrononciationScreen /> },
       { path: 'prononciation/ecoute', element: <EcouteScreen /> },
       { path: 'revisions', element: <RevisionsScreen /> },
-      {
-        path: 'lecture',
-        element: (
-          <Placeholder
-            title="Lecture graduée"
-            milestone={7}
-            description="Textes courts classés par niveau, mots cliquables et pourcentage de mots connus. Les textes seront segmentés à l'avance, pour que toucher un mot renvoie exactement l'unité de vocabulaire enseignée."
-          />
-        ),
-      },
+      { path: 'lecture', element: <LectureScreen /> },
+      { path: 'lecture/:id', element: <TexteScreen /> },
       {
         path: 'dialogues',
         element: (

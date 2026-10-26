@@ -1,0 +1,298 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.814Z",
+ "id": "hsk2-demander-son-chemin",
+ "level": 2,
+ "titleZh": "问路",
+ "titleFr": "Demander son chemin",
+ "unit": "transports",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "Je veux aller à l’aéroport, mais je ne connais pas le chemin.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "想",
+     "lexemeId": "想-xiang3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "机场",
+     "lexemeId": "机场-ji1chang3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "但是",
+     "lexemeId": "但是-dan4shi4"
+    },
+    {
+     "text": "不",
+     "lexemeId": "不-bu4"
+    },
+    {
+     "text": "知道",
+     "lexemeId": "知道-zhi1dao4"
+    },
+    {
+     "text": "路",
+     "lexemeId": "路-lu4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Je demande à quelqu’un : excusez-moi, où est l’aéroport ?",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "问",
+     "lexemeId": "问-wen4"
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "人",
+     "lexemeId": "人-ren2"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "不好意思",
+     "lexemeId": "不好意思-bu4hao3yi4si5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "请问",
+     "lexemeId": "请问-qing3wen4"
+    },
+    {
+     "text": "机场",
+     "lexemeId": "机场-ji1chang3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "哪儿",
+     "lexemeId": "哪儿-na3r5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Il répond : c’est trop loin à pied d’ici. Vous pouvez prendre le métro, ou un taxi.",
+   "tokens": [
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "从",
+     "lexemeId": "从-cong2"
+    },
+    {
+     "text": "这里",
+     "lexemeId": "这里-zhe4li3"
+    },
+    {
+     "text": "走路",
+     "lexemeId": "走路-zou3lu4"
+    },
+    {
+     "text": "太",
+     "lexemeId": "太-tai4"
+    },
+    {
+     "text": "远",
+     "lexemeId": "远-yuan3"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "可以",
+     "lexemeId": "可以-ke3yi3"
+    },
+    {
+     "text": "坐",
+     "lexemeId": "坐-zuo4"
+    },
+    {
+     "text": "地铁",
+     "lexemeId": "地铁-di4tie3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "可以",
+     "lexemeId": "可以-ke3yi3"
+    },
+    {
+     "text": "打车",
+     "lexemeId": "打车-da3che1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "La station de métro est juste devant, cinq minutes à pied et vous y êtes.",
+   "tokens": [
+    {
+     "text": "地铁",
+     "lexemeId": "地铁-di4tie3"
+    },
+    {
+     "text": "站",
+     "lexemeId": "站-zhan4"
+    },
+    {
+     "text": "就",
+     "lexemeId": "就-jiu4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "前面",
+     "lexemeId": "前面-qian2mian4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "走",
+     "lexemeId": "走-zou3"
+    },
+    {
+     "text": "五",
+     "lexemeId": "五-wu3"
+    },
+    {
+     "text": "分钟",
+     "lexemeId": "分钟-fen1zhong1"
+    },
+    {
+     "text": "就",
+     "lexemeId": "就-jiu4"
+    },
+    {
+     "text": "到",
+     "lexemeId": "到-dao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Je dis merci. Il répond : je vous en prie.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "谢谢",
+     "lexemeId": "谢谢-xie4xie5"
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    },
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "不客气",
+     "lexemeId": "不客气-bu4ke4qi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

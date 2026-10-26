@@ -1,0 +1,335 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.805Z",
+ "id": "hsk1-ma-famille",
+ "level": 1,
+ "titleZh": "我的家",
+ "titleFr": "Ma famille",
+ "unit": "famille",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "Dans ma famille, nous sommes quatre : mon père, ma mère, ma grande sœur et moi.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "四",
+     "lexemeId": "四-si4"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "人",
+     "lexemeId": "人-ren2"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "爸爸",
+     "lexemeId": "爸爸-ba4ba5"
+    },
+    {
+     "text": "、",
+     "lexemeId": null
+    },
+    {
+     "text": "妈妈",
+     "lexemeId": "妈妈-ma1ma5"
+    },
+    {
+     "text": "、",
+     "lexemeId": null
+    },
+    {
+     "text": "姐姐",
+     "lexemeId": "姐姐-jie3jie5"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Mon père est médecin, il travaille à l’hôpital. Il est très occupé.",
+   "tokens": [
+    {
+     "text": "爸爸",
+     "lexemeId": "爸爸-ba4ba5"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "医生",
+     "lexemeId": "医生-yi1sheng1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "医院",
+     "lexemeId": "医院-yi1yuan4"
+    },
+    {
+     "text": "上班",
+     "lexemeId": "上班-shang4ban1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "忙",
+     "lexemeId": "忙-mang2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Ma mère est professeure, elle travaille dans une école primaire. Elle aime beaucoup les enfants.",
+   "tokens": [
+    {
+     "text": "妈妈",
+     "lexemeId": "妈妈-ma1ma5"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "老师",
+     "lexemeId": "老师-lao3shi1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "小学",
+     "lexemeId": "小学-xiao3xue2"
+    },
+    {
+     "text": "工作",
+     "lexemeId": "工作-gong1zuo4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "喜欢",
+     "lexemeId": "喜欢-xi3huan5"
+    },
+    {
+     "text": "孩子",
+     "lexemeId": "孩子-hai2zi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Ma sœur est étudiante. Elle apprend le chinois à l’université.",
+   "tokens": [
+    {
+     "text": "姐姐",
+     "lexemeId": "姐姐-jie3jie5"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "大学生",
+     "lexemeId": "大学生-da4xue2sheng1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "她",
+     "lexemeId": "她-ta1"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "大学",
+     "lexemeId": "大学-da4xue2"
+    },
+    {
+     "text": "学习",
+     "lexemeId": "学习-xue2xi2"
+    },
+    {
+     "text": "中文",
+     "lexemeId": "中文-Zhong1wen2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "J’ai douze ans cette année, je suis au collège.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "今年",
+     "lexemeId": "今年-jin1nian2"
+    },
+    {
+     "text": "十",
+     "lexemeId": "十-shi2"
+    },
+    {
+     "text": "二",
+     "lexemeId": "二-er4"
+    },
+    {
+     "text": "岁",
+     "lexemeId": "岁-sui4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "中学生",
+     "lexemeId": "中学生-zhong1xue2sheng1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Nous avons un chat. Il est très beau, je l’aime beaucoup.",
+   "tokens": [
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "猫",
+     "lexemeId": "猫-mao1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "它",
+     "lexemeId": "它-ta1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "漂亮",
+     "lexemeId": "漂亮-piao4liang5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "非常",
+     "lexemeId": "非常-fei1chang2"
+    },
+    {
+     "text": "喜欢",
+     "lexemeId": "喜欢-xi3huan5"
+    },
+    {
+     "text": "它",
+     "lexemeId": "它-ta1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

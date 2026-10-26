@@ -1,0 +1,98 @@
+{
+ "format": "mandarine-textes",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.819Z",
+ "count": 10,
+ "textes": [
+  {
+   "id": "hsk1-ma-famille",
+   "level": 1,
+   "titleZh": "我的家",
+   "titleFr": "Ma famille",
+   "unit": "famille",
+   "words": 56,
+   "characters": 82
+  },
+  {
+   "id": "hsk1-ma-journee",
+   "level": 1,
+   "titleZh": "我的一天",
+   "titleFr": "Ma journée",
+   "unit": "calendrier",
+   "words": 48,
+   "characters": 68
+  },
+  {
+   "id": "hsk1-au-magasin",
+   "level": 1,
+   "titleZh": "在商店",
+   "titleFr": "Au magasin",
+   "unit": "achats",
+   "words": 44,
+   "characters": 58
+  },
+  {
+   "id": "hsk1-mon-amie",
+   "level": 1,
+   "titleZh": "我的朋友",
+   "titleFr": "Mon amie",
+   "unit": "gens",
+   "words": 51,
+   "characters": 69
+  },
+  {
+   "id": "hsk2-mon-dimanche",
+   "level": 2,
+   "titleZh": "我的星期天",
+   "titleFr": "Mon dimanche",
+   "unit": "loisirs",
+   "words": 59,
+   "characters": 89
+  },
+  {
+   "id": "hsk2-demander-son-chemin",
+   "level": 2,
+   "titleZh": "问路",
+   "titleFr": "Demander son chemin",
+   "unit": "transports",
+   "words": 50,
+   "characters": 71
+  },
+  {
+   "id": "hsk2-ma-chambre",
+   "level": 2,
+   "titleZh": "我的房间",
+   "titleFr": "Ma chambre",
+   "unit": "maison",
+   "words": 62,
+   "characters": 84
+  },
+  {
+   "id": "hsk3-pourquoi-le-chinois",
+   "level": 3,
+   "titleZh": "我为什么学中文",
+   "titleFr": "Pourquoi j’apprends le chinois",
+   "unit": "ecole",
+   "words": 74,
+   "characters": 115
+  },
+  {
+   "id": "hsk3-a-l-hopital",
+   "level": 3,
+   "titleZh": "在医院",
+   "titleFr": "À l’hôpital",
+   "unit": "corps",
+   "words": 61,
+   "characters": 81
+  },
+  {
+   "id": "hsk3-un-voyage",
+   "level": 3,
+   "titleZh": "一次旅游",
+   "titleFr": "Un voyage",
+   "unit": "transports",
+   "words": 79,
+   "characters": 112
+  }
+ ]
+}

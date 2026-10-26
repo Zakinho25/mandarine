@@ -20,8 +20,9 @@
     "data:normalize": "tsx scripts/data/02-normalize.ts",
     "data:merge": "tsx scripts/data/03-merge.ts",
     "data:build": "tsx scripts/data/04-build.ts",
-    "data": "npm run data:fetch && npm run data:normalize && npm run data:merge && npm run data:build && npm run data:hanzi",
-    "data:hanzi": "tsx scripts/data/05-hanzi.ts"
+    "data": "npm run data:fetch && npm run data:normalize && npm run data:merge && npm run data:build && npm run data:hanzi && npm run data:textes",
+    "data:hanzi": "tsx scripts/data/05-hanzi.ts",
+    "data:textes": "tsx scripts/data/06-textes.ts"
   },
   "dependencies": {
     "hanzi-writer": "^3.7.3",

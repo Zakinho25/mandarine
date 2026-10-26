@@ -83,6 +83,36 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-26 — Les textes sont découpés à la génération, pas à l'affichage
+Chaque texte est segmenté par le pipeline, et les jetons sont écrits avec leur
+identifiant de mot. L'application lit une liste, elle ne découpe rien.
+**Pourquoi :** le découpage doit coïncider exactement avec le vocabulaire
+enseigné. Un segmenteur générique qui couperait 不客气 en trois rendrait faux
+le surlignage, le compte de mots connus et l'ajout aux révisions, tous en même
+temps. C'est aussi la raison d'être de `src/domain/segmentation.ts`, construit
+sur notre propre lexique plutôt que sur `Intl.Segmenter`.
+
+Un test vérifie que les jetons recollés redonnent le texte source à
+l'identique : sans cette propriété, le lecteur n'affiche plus ce qui a été
+rédigé.
+
+### 2026-10-26 — Le script de vérification remplace la génération par IA
+Le cahier des charges prévoyait des brouillons produits par l'API Claude puis
+vérifiés automatiquement. Sans clé d'API, les textes sont rédigés directement
+dans le projet. **La vérification, elle, reste** : `npm run data:textes`
+échoue si un seul mot sort du vocabulaire du niveau. C'était de toute façon la
+partie qui garantissait quelque chose.
+
+Les textes portent `auto_checked`, jamais `reviewed_human` : le vocabulaire est
+vérifié, le naturel de la langue ne l'est pas.
+
+### 2026-10-26 — « Ajouter aux révisions » met en tête de file
+Toutes les cartes existent dès le départ, à l'état neuf ; c'est le plafond
+quotidien qui décide lesquelles sont introduites. Depuis un texte, marquer un
+mot ne peut donc pas créer une carte. Ce que ça fait, c'est le faire passer
+**devant** dans la file des nouveautés, pour qu'il arrive à la prochaine
+session au lieu d'attendre son rang de fréquence.
+
 ### 2026-10-21 — Une application web ne peut pas programmer de notification
 L'API Notification n'affiche quelque chose que si la page tourne déjà, ce qui
 ne sert à rien pour un rappel. Les notifications différées passent par l'API

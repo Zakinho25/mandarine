@@ -1,0 +1,428 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.818Z",
+ "id": "hsk3-un-voyage",
+ "level": 3,
+ "titleZh": "一次旅游",
+ "titleFr": "Un voyage",
+ "unit": "transports",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "L’été dernier, je suis parti en voyage dans le sud avec ma famille.",
+   "tokens": [
+    {
+     "text": "去年",
+     "lexemeId": "去年-qu4nian2"
+    },
+    {
+     "text": "夏天",
+     "lexemeId": "夏天-xia4tian1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "家人",
+     "lexemeId": "家人-jia1ren2"
+    },
+    {
+     "text": "一起",
+     "lexemeId": "一起-yi1qi3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "南方",
+     "lexemeId": "南方-nan2fang1"
+    },
+    {
+     "text": "旅游",
+     "lexemeId": "旅游-lü3you2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Nous y sommes allés en train à grande vitesse : trois heures et nous y étions.",
+   "tokens": [
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "坐",
+     "lexemeId": "坐-zuo4"
+    },
+    {
+     "text": "高铁",
+     "lexemeId": "高铁-gao1tie3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "三",
+     "lexemeId": "三-san1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "小时",
+     "lexemeId": "小时-xiao3shi2"
+    },
+    {
+     "text": "就",
+     "lexemeId": "就-jiu4"
+    },
+    {
+     "text": "到",
+     "lexemeId": "到-dao4"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Cette ville est très belle, avec des montagnes et la mer.",
+   "tokens": [
+    {
+     "text": "那个",
+     "lexemeId": "那个-na4ge5"
+    },
+    {
+     "text": "城市",
+     "lexemeId": "城市-cheng2shi4"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "漂亮",
+     "lexemeId": "漂亮-piao4liang5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "山",
+     "lexemeId": "山-shan1"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "海",
+     "lexemeId": "海-hai3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Nous logions dans un hôtel : chambres propres, bon service.",
+   "tokens": [
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "住",
+     "lexemeId": "住-zhu4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "宾馆",
+     "lexemeId": "宾馆-bin1guan3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "房间",
+     "lexemeId": "房间-fang2jian1"
+    },
+    {
+     "text": "干净",
+     "lexemeId": "干净-gan1jing4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "服务",
+     "lexemeId": "服务-fu2wu4"
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Chaque matin nous allions courir au parc, et l’après-midi nous marchions dans les rues.",
+   "tokens": [
+    {
+     "text": "每",
+     "lexemeId": "每-mei3"
+    },
+    {
+     "text": "天",
+     "lexemeId": "天-tian1"
+    },
+    {
+     "text": "早上",
+     "lexemeId": "早上-zao3shang5"
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "公园",
+     "lexemeId": "公园-gong1yuan2"
+    },
+    {
+     "text": "跑步",
+     "lexemeId": "跑步-pao3bu4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "下午",
+     "lexemeId": "下午-xia4wu3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "街",
+     "lexemeId": "街-jie1"
+    },
+    {
+     "text": "上",
+     "lexemeId": "上-shang4"
+    },
+    {
+     "text": "走",
+     "lexemeId": "走-zou3"
+    },
+    {
+     "text": "走",
+     "lexemeId": "走-zou3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le soir nous goûtions la cuisine locale au restaurant : très fraîche.",
+   "tokens": [
+    {
+     "text": "晚上",
+     "lexemeId": "晚上-wan3shang5"
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "饭馆",
+     "lexemeId": "饭馆-fan4guan3"
+    },
+    {
+     "text": "尝",
+     "lexemeId": "尝-chang2"
+    },
+    {
+     "text": "那里",
+     "lexemeId": "那里-na4li3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "菜",
+     "lexemeId": "菜-cai4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "新鲜",
+     "lexemeId": "新鲜-xin1xian1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Nous avons pris beaucoup de photos. Ce voyage m’a beaucoup plu, j’espère pouvoir y retourner l’an prochain.",
+   "tokens": [
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "照",
+     "lexemeId": "照-zhao4"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "多",
+     "lexemeId": "多-duo1"
+    },
+    {
+     "text": "照片",
+     "lexemeId": "照片-zhao4pian4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "这",
+     "lexemeId": "这-zhe4"
+    },
+    {
+     "text": "次",
+     "lexemeId": "次-ci4"
+    },
+    {
+     "text": "旅游",
+     "lexemeId": "旅游-lü3you2"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "满意",
+     "lexemeId": "满意-man3yi4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "希望",
+     "lexemeId": "希望-xi1wang4"
+    },
+    {
+     "text": "明年",
+     "lexemeId": "明年-ming2nian2"
+    },
+    {
+     "text": "还",
+     "lexemeId": "还-hai2"
+    },
+    {
+     "text": "能",
+     "lexemeId": "能-neng2"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

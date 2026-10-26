@@ -1,0 +1,279 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.810Z",
+ "id": "hsk1-ma-journee",
+ "level": 1,
+ "titleZh": "我的一天",
+ "titleFr": "Ma journée",
+ "unit": "calendrier",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "Aujourd’hui il fait beau, il ne fait ni froid ni chaud.",
+   "tokens": [
+    {
+     "text": "今天",
+     "lexemeId": "今天-jin1tian1"
+    },
+    {
+     "text": "天气",
+     "lexemeId": "天气-tian1qi4"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "不",
+     "lexemeId": "不-bu4"
+    },
+    {
+     "text": "冷",
+     "lexemeId": "冷-leng3"
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "不",
+     "lexemeId": "不-bu4"
+    },
+    {
+     "text": "热",
+     "lexemeId": "热-re4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le matin je prends mon petit-déjeuner à la maison et je bois du lait.",
+   "tokens": [
+    {
+     "text": "早上",
+     "lexemeId": "早上-zao3shang5"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "早饭",
+     "lexemeId": "早饭-zao3fan4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "喝",
+     "lexemeId": "喝-he1"
+    },
+    {
+     "text": "牛奶",
+     "lexemeId": "牛奶-niu2nai3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "À huit heures je pars à l’école en voiture.",
+   "tokens": [
+    {
+     "text": "八",
+     "lexemeId": "八-ba1"
+    },
+    {
+     "text": "点",
+     "lexemeId": "点-dian3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "开车",
+     "lexemeId": "开车-kai1che1"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "学校",
+     "lexemeId": "学校-xue2xiao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "À midi je déjeune au restaurant avec mes camarades. Nous mangeons des nouilles et des raviolis.",
+   "tokens": [
+    {
+     "text": "中午",
+     "lexemeId": "中午-zhong1wu3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "同学",
+     "lexemeId": "同学-tong2xue2"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "饭店",
+     "lexemeId": "饭店-fan4dian4"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "午饭",
+     "lexemeId": "午饭-wu3fan4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "面条儿",
+     "lexemeId": "面条儿-mian4tiao2r5"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "饺子",
+     "lexemeId": "饺子-jiao3zi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "L’après-midi j’ai cours.",
+   "tokens": [
+    {
+     "text": "下午",
+     "lexemeId": "下午-xia4wu3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "上课",
+     "lexemeId": "上课-shang4ke4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Le soir je rentre, je regarde la télévision, et je me couche à neuf heures.",
+   "tokens": [
+    {
+     "text": "晚上",
+     "lexemeId": "晚上-wan3shang5"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "回",
+     "lexemeId": "回-hui2"
+    },
+    {
+     "text": "家",
+     "lexemeId": "家-jia1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "电视",
+     "lexemeId": "电视-dian4shi4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "九",
+     "lexemeId": "九-jiu3"
+    },
+    {
+     "text": "点",
+     "lexemeId": "点-dian3"
+    },
+    {
+     "text": "睡觉",
+     "lexemeId": "睡觉-shui4jiao4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

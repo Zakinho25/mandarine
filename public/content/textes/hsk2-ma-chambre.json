@@ -1,0 +1,343 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.814Z",
+ "id": "hsk2-ma-chambre",
+ "level": 2,
+ "titleZh": "我的房间",
+ "titleFr": "Ma chambre",
+ "unit": "maison",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "J’habite dans un bâtiment de l’école. Ma chambre n’est pas grande, mais elle est confortable.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "住",
+     "lexemeId": "住-zhu4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "学校",
+     "lexemeId": "学校-xue2xiao4"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "楼",
+     "lexemeId": "楼-lou2"
+    },
+    {
+     "text": "里",
+     "lexemeId": "里-li3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "房间",
+     "lexemeId": "房间-fang2jian1"
+    },
+    {
+     "text": "不",
+     "lexemeId": "不-bu4"
+    },
+    {
+     "text": "大",
+     "lexemeId": "大-da4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "但是",
+     "lexemeId": "但是-dan4shi4"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "舒服",
+     "lexemeId": "舒服-shu1fu5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Il y a un lit, une table et une chaise.",
+   "tokens": [
+    {
+     "text": "房间",
+     "lexemeId": "房间-fang2jian1"
+    },
+    {
+     "text": "里",
+     "lexemeId": "里-li3"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "床",
+     "lexemeId": "床-chuang2"
+    },
+    {
+     "text": "、",
+     "lexemeId": null
+    },
+    {
+     "text": "桌子",
+     "lexemeId": "桌子-zhuo1zi5"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "椅子",
+     "lexemeId": "椅子-yi3zi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "La table est à côté du lit, et dessus il y a mes livres et mes stylos.",
+   "tokens": [
+    {
+     "text": "床",
+     "lexemeId": "床-chuang2"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "旁边",
+     "lexemeId": "旁边-pang2bian1"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "桌子",
+     "lexemeId": "桌子-zhuo1zi5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "桌子",
+     "lexemeId": "桌子-zhuo1zi5"
+    },
+    {
+     "text": "上面",
+     "lexemeId": "上面-shang4mian4"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "书",
+     "lexemeId": "书-shu1"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "笔",
+     "lexemeId": "笔-bi3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Mon sac est près de la porte.",
+   "tokens": [
+    {
+     "text": "门口",
+     "lexemeId": "门口-men2kou3"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "书包",
+     "lexemeId": "书包-shu1bao1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Ma chambre a deux couleurs : le blanc et le vert. Je l’aime beaucoup.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "房间",
+     "lexemeId": "房间-fang2jian1"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "两",
+     "lexemeId": "两-liang3"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "颜色",
+     "lexemeId": "颜色-yan2se4"
+    },
+    {
+     "text": "：",
+     "lexemeId": null
+    },
+    {
+     "text": "白色",
+     "lexemeId": "白色-bai2se4"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "绿色",
+     "lexemeId": "绿色-lü4se4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "喜欢",
+     "lexemeId": "喜欢-xi3huan5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Tous les soirs je lis dans ma chambre, et parfois je vais sur internet.",
+   "tokens": [
+    {
+     "text": "每",
+     "lexemeId": "每-mei3"
+    },
+    {
+     "text": "天",
+     "lexemeId": "天-tian1"
+    },
+    {
+     "text": "晚上",
+     "lexemeId": "晚上-wan3shang5"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "房间",
+     "lexemeId": "房间-fang2jian1"
+    },
+    {
+     "text": "里",
+     "lexemeId": "里-li3"
+    },
+    {
+     "text": "看",
+     "lexemeId": "看-kan4"
+    },
+    {
+     "text": "书",
+     "lexemeId": "书-shu1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "有时",
+     "lexemeId": "有时-you3shi2"
+    },
+    {
+     "text": "上网",
+     "lexemeId": "上网-shang4wang3"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "format": "mandarine-texte",
+ "version": 1,
+ "generatedAt": "2026-10-26T12:01:29.811Z",
+ "id": "hsk1-au-magasin",
+ "level": 1,
+ "titleZh": "在商店",
+ "titleFr": "Au magasin",
+ "unit": "achats",
+ "contentStatus": "auto_checked",
+ "paragraphs": [
+  {
+   "fr": "L’après-midi je vais faire des courses au magasin.",
+   "tokens": [
+    {
+     "text": "下午",
+     "lexemeId": "下午-xia4wu3"
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "商店",
+     "lexemeId": "商店-shang1dian4"
+    },
+    {
+     "text": "买",
+     "lexemeId": "买-mai3"
+    },
+    {
+     "text": "东西",
+     "lexemeId": "东西-dong1xi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "J’ai acheté des pommes et des œufs. Les pommes sont bonnes, et pas chères.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "买",
+     "lexemeId": "买-mai3"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "苹果",
+     "lexemeId": "苹果-ping2guo3"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "鸡蛋",
+     "lexemeId": "鸡蛋-ji1dan4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "苹果",
+     "lexemeId": "苹果-ping2guo3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好吃",
+     "lexemeId": "好吃-hao3chi1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "也",
+     "lexemeId": "也-ye3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "便宜",
+     "lexemeId": "便宜-pian2yi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "J’ai aussi acheté un livre et deux verres.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "还",
+     "lexemeId": "还-hai2"
+    },
+    {
+     "text": "买",
+     "lexemeId": "买-mai3"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "本",
+     "lexemeId": "本-ben3"
+    },
+    {
+     "text": "书",
+     "lexemeId": "书-shu1"
+    },
+    {
+     "text": "和",
+     "lexemeId": "和-he2"
+    },
+    {
+     "text": "两",
+     "lexemeId": "两-liang3"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "杯子",
+     "lexemeId": "杯子-bei1zi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Excusez-moi, combien ça coûte ?",
+   "tokens": [
+    {
+     "text": "请问",
+     "lexemeId": "请问-qing3wen4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "多少",
+     "lexemeId": "多少-duo1shao5"
+    },
+    {
+     "text": "钱",
+     "lexemeId": "钱-qian2"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Cinquante yuans.",
+   "tokens": [
+    {
+     "text": "五",
+     "lexemeId": "五-wu3"
+    },
+    {
+     "text": "十",
+     "lexemeId": "十-shi2"
+    },
+    {
+     "text": "块",
+     "lexemeId": "块-kuai4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  },
+  {
+   "fr": "Je lui donne l’argent et je dis merci. Il répond : je vous en prie.",
+   "tokens": [
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "给",
+     "lexemeId": "给-gei3"
+    },
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "钱",
+     "lexemeId": "钱-qian2"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "谢谢",
+     "lexemeId": "谢谢-xie4xie5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "他",
+     "lexemeId": "他-ta1"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "不客气",
+     "lexemeId": "不客气-bu4ke4qi5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ]
+  }
+ ]
+}
