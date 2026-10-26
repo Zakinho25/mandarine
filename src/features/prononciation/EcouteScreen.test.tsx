@@ -77,9 +77,14 @@ describe('exercice d’écoute', () => {
     renderScreen()
 
     const start = await screen.findByRole('button', { name: /Un ton/ })
-    await waitFor(() => {
-      expect(start).toBeEnabled()
-    })
+    await waitFor(
+      () => {
+        expect(start).toBeEnabled()
+      },
+      // Le demarrage de jsdom depasse parfois la seconde sur une machine
+      // chargee : l'attente par defaut rendait ce test instable en CI.
+      { timeout: 5000 },
+    )
     await user.click(start)
 
     // On ne voit jamais le caractère avant d'avoir répondu : sinon l'exercice
@@ -111,9 +116,14 @@ describe('exercice d’écoute', () => {
     renderScreen()
 
     const start = await screen.findByRole('button', { name: /Un ton/ })
-    await waitFor(() => {
-      expect(start).toBeEnabled()
-    })
+    await waitFor(
+      () => {
+        expect(start).toBeEnabled()
+      },
+      // Le demarrage de jsdom depasse parfois la seconde sur une machine
+      // chargee : l'attente par defaut rendait ce test instable en CI.
+      { timeout: 5000 },
+    )
     await user.click(start)
 
     expect(speak).not.toHaveBeenCalled()
@@ -127,9 +137,14 @@ describe('exercice d’écoute', () => {
     renderScreen()
 
     const start = await screen.findByRole('button', { name: /Un ton/ })
-    await waitFor(() => {
-      expect(start).toBeEnabled()
-    })
+    await waitFor(
+      () => {
+        expect(start).toBeEnabled()
+      },
+      // Le demarrage de jsdom depasse parfois la seconde sur une machine
+      // chargee : l'attente par defaut rendait ce test instable en CI.
+      { timeout: 5000 },
+    )
     await user.click(start)
 
     const replay = screen.getByRole('button', { name: 'Réécouter' })
@@ -143,9 +158,12 @@ describe('exercice d’écoute', () => {
 
     // Le vocabulaire arrive de façon asynchrone : le bouton ne doit s'activer
     // qu'une fois les mots disponibles, sinon la série serait vide.
-    await waitFor(() => {
-      expect(pairs).toBeEnabled()
-    })
+    await waitFor(
+      () => {
+        expect(pairs).toBeEnabled()
+      },
+      { timeout: 5000 },
+    )
 
     const user = userEvent.setup()
     await user.click(pairs)
