@@ -99,10 +99,11 @@ Aucune police redistribuée. L'application utilise les polices chinoises du
 système (PingFang SC, Microsoft YaHei, Noto Sans SC selon l'appareil) via une
 liste de replis en CSS.
 
-## Textes de lecture
+## Textes de lecture et dialogues
 
-Les 10 textes de `scripts/data/textes.ts` ont été **rédigés pour ce projet**,
-sans source externe. Ils n'emploient que le vocabulaire de leur niveau, ce
+Les 10 textes de `scripts/data/textes.ts` et les 4 dialogues de
+`scripts/data/dialogues.ts` ont été **rédigés pour ce projet**, sans source
+externe. Ils n'emploient que le vocabulaire de leur niveau, ce
 qu'un script vérifie mot par mot : `npm run data:textes` échoue si un seul mot
 en sort.
 

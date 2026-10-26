@@ -1,0 +1,540 @@
+{
+ "format": "mandarine-dialogue",
+ "version": 1,
+ "generatedAt": "2026-10-26T15:00:24.079Z",
+ "id": "hsk2-au-restaurant",
+ "level": 2,
+ "titleZh": "在饭馆点菜",
+ "titleFr": "Commander au restaurant",
+ "role": "Le serveur",
+ "situation": "Tu arrives à deux dans un petit restaurant, à l’heure du déjeuner.",
+ "unit": "nourriture",
+ "contentStatus": "auto_checked",
+ "start": "n1",
+ "nodes": [
+  {
+   "id": "n1",
+   "fr": "Bonjour, vous êtes combien ?",
+   "tokens": [
+    {
+     "text": "你好",
+     "lexemeId": "你好-ni3hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "几",
+     "lexemeId": "几-ji3"
+    },
+    {
+     "text": "位",
+     "lexemeId": "位-wei4"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Deux.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "两",
+       "lexemeId": "两-liang3"
+      },
+      {
+       "text": "位",
+       "lexemeId": "位-wei4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Nous sommes deux personnes.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "是",
+       "lexemeId": "是-shi4"
+      },
+      {
+       "text": "两",
+       "lexemeId": "两-liang3"
+      },
+      {
+       "text": "个",
+       "lexemeId": "个-ge4"
+      },
+      {
+       "text": "人",
+       "lexemeId": "人-ren2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Bonjour.",
+     "qualite": "inadapte",
+     "note": "Tu salues sans répondre. Il attend un nombre pour choisir la table.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "你好",
+       "lexemeId": "你好-ni3hao3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "fr": "Asseyez-vous. Que voulez-vous manger ?",
+   "tokens": [
+    {
+     "text": "请",
+     "lexemeId": "请-qing3"
+    },
+    {
+     "text": "坐",
+     "lexemeId": "坐-zuo4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "你们",
+     "lexemeId": "你们-ni3men5"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Nous voudrions du poisson et du riz.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "要",
+       "lexemeId": "要-yao4"
+      },
+      {
+       "text": "吃",
+       "lexemeId": "吃-chi1"
+      },
+      {
+       "text": "鱼",
+       "lexemeId": "鱼-yu2"
+      },
+      {
+       "text": "和",
+       "lexemeId": "和-he2"
+      },
+      {
+       "text": "米饭",
+       "lexemeId": "米饭-mi3fan4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Du poisson.",
+     "qualite": "maladroit",
+     "note": "Le plat seul suffit à se faire comprendre, mais une phrase complète est plus polie et à peine plus longue.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "鱼",
+       "lexemeId": "鱼-yu2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je ne sais pas.",
+     "qualite": "maladroit",
+     "note": "Honnête, mais sans suite. Ajoute une question : 你们有什么？ fait avancer l’échange.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "不",
+       "lexemeId": "不-bu4"
+      },
+      {
+       "text": "知道",
+       "lexemeId": "知道-zhi1dao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "fr": "Très bien. Vous voulez boire quelque chose ?",
+   "tokens": [
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "喝",
+     "lexemeId": "喝-he1"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "吗",
+     "lexemeId": "吗-ma5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Du thé, merci.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "要",
+       "lexemeId": "要-yao4"
+      },
+      {
+       "text": "茶",
+       "lexemeId": "茶-cha2"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "De l’eau.",
+     "qualite": "maladroit",
+     "note": "Compréhensible. 我要水 reste plus naturel qu’un mot isolé.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "水",
+       "lexemeId": "水-shui3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Non.",
+     "qualite": "maladroit",
+     "note": "Un peu sec. 不用了，谢谢 serait la façon polie de refuser.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "不要",
+       "lexemeId": "不要-bu4yao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "fr": "Très bien, un instant s’il vous plaît.",
+   "tokens": [
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "请",
+     "lexemeId": "请-qing3"
+    },
+    {
+     "text": "等",
+     "lexemeId": "等-deng3"
+    },
+    {
+     "text": "一会儿",
+     "lexemeId": "一会儿-yi1hui4r5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "D’accord, merci.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "好",
+       "lexemeId": "好-hao3"
+      },
+      {
+       "text": "的",
+       "lexemeId": "的-de5"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Dépêchez-vous.",
+     "qualite": "inadapte",
+     "note": "Donner un ordre au serveur est impoli. Si tu es pressé, mieux vaut le dire avant de commander.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "快",
+       "lexemeId": "快-kuai4"
+      },
+      {
+       "text": "一点儿",
+       "lexemeId": "一点儿-yi1dian3r5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Pourquoi ?",
+     "qualite": "inadapte",
+     "note": "Il t’annonce simplement que la cuisine prend un moment. Il n’y a rien à demander.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "为什么",
+       "lexemeId": "为什么-wei4shen2me5"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "fr": "Voici vos plats, bon appétit !",
+   "tokens": [
+    {
+     "text": "这",
+     "lexemeId": "这-zhe4"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "你们",
+     "lexemeId": "你们-ni3men5"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "菜",
+     "lexemeId": "菜-cai4"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "慢",
+     "lexemeId": "慢-man4"
+    },
+    {
+     "text": "慢",
+     "lexemeId": "慢-man4"
+    },
+    {
+     "text": "吃",
+     "lexemeId": "吃-chi1"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Merci !",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "！",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Ça a l’air très bon.",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "看",
+       "lexemeId": "看-kan4"
+      },
+      {
+       "text": "起来",
+       "lexemeId": "起来-qi3lai2"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "好吃",
+       "lexemeId": "好吃-hao3chi1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Combien ça coûte ?",
+     "qualite": "inadapte",
+     "note": "On demande l’addition à la fin du repas, pas au moment où on est servi.",
+     "next": null,
+     "tokens": [
+      {
+       "text": "多少",
+       "lexemeId": "多少-duo1shao5"
+      },
+      {
+       "text": "钱",
+       "lexemeId": "钱-qian2"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,684 @@
+{
+ "format": "mandarine-dialogue",
+ "version": 1,
+ "generatedAt": "2026-10-26T15:00:24.081Z",
+ "id": "hsk3-prendre-un-taxi",
+ "level": 3,
+ "titleZh": "打车去机场",
+ "titleFr": "Prendre un taxi",
+ "role": "Le chauffeur de taxi",
+ "situation": "Tu dois prendre un avion cet après-midi et tu montes dans un taxi.",
+ "unit": "transports",
+ "contentStatus": "auto_checked",
+ "start": "n1",
+ "nodes": [
+  {
+   "id": "n1",
+   "fr": "Bonjour, où allez-vous ?",
+   "tokens": [
+    {
+     "text": "你好",
+     "lexemeId": "你好-ni3hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "哪儿",
+     "lexemeId": "哪儿-na3r5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "À l’aéroport, s’il vous plaît.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "请",
+       "lexemeId": "请-qing3"
+      },
+      {
+       "text": "送",
+       "lexemeId": "送-song4"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "机场",
+       "lexemeId": "机场-ji1chang3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "L’aéroport.",
+     "qualite": "maladroit",
+     "note": "Ça marche et ça s’entend souvent. 请送我去… reste plus poli pour un premier échange.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "机场",
+       "lexemeId": "机场-ji1chang3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je ne sais pas.",
+     "qualite": "inadapte",
+     "note": "Tu montes dans un taxi : le chauffeur attend une destination, c’est la seule information dont il a besoin.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "不",
+       "lexemeId": "不-bu4"
+      },
+      {
+       "text": "知道",
+       "lexemeId": "知道-zhi1dao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "fr": "Très bien. Quel aéroport ?",
+   "tokens": [
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "您",
+     "lexemeId": "您-nin2"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "哪个",
+     "lexemeId": "哪个-na3ge5"
+    },
+    {
+     "text": "机场",
+     "lexemeId": "机场-ji1chang3"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Il y en a combien ici ?",
+     "qualite": "juste",
+     "note": null,
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "这里",
+       "lexemeId": "这里-zhe4li3"
+      },
+      {
+       "text": "有",
+       "lexemeId": "有-you3"
+      },
+      {
+       "text": "几",
+       "lexemeId": "几-ji3"
+      },
+      {
+       "text": "个",
+       "lexemeId": "个-ge4"
+      },
+      {
+       "text": "机场",
+       "lexemeId": "机场-ji1chang3"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Le grand.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "大",
+       "lexemeId": "大-da4"
+      },
+      {
+       "text": "的",
+       "lexemeId": "的-de5"
+      },
+      {
+       "text": "那个",
+       "lexemeId": "那个-na4ge5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Plus vite.",
+     "qualite": "inadapte",
+     "note": "Il te pose une question nécessaire. Le presser avant même de savoir où aller ne mène nulle part.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "快",
+       "lexemeId": "快-kuai4"
+      },
+      {
+       "text": "一点儿",
+       "lexemeId": "一点儿-yi1dian3r5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "fr": "Il y en a deux, un à l’est et un à l’ouest. À quelle heure décolle votre avion ?",
+   "tokens": [
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "两",
+     "lexemeId": "两-liang3"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "东",
+     "lexemeId": "东-dong1"
+    },
+    {
+     "text": "边",
+     "lexemeId": "边-bian1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "一",
+     "lexemeId": "一-yi1"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "在",
+     "lexemeId": "在-zai4"
+    },
+    {
+     "text": "西",
+     "lexemeId": "西-xi1"
+    },
+    {
+     "text": "边",
+     "lexemeId": "边-bian1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "您",
+     "lexemeId": "您-nin2"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "飞机",
+     "lexemeId": "飞机-fei1ji1"
+    },
+    {
+     "text": "几",
+     "lexemeId": "几-ji3"
+    },
+    {
+     "text": "点",
+     "lexemeId": "点-dian3"
+    },
+    {
+     "text": "起飞",
+     "lexemeId": "起飞-qi3fei1"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Il décolle à trois heures de l’après-midi.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "下午",
+       "lexemeId": "下午-xia4wu3"
+      },
+      {
+       "text": "三",
+       "lexemeId": "三-san1"
+      },
+      {
+       "text": "点",
+       "lexemeId": "点-dian3"
+      },
+      {
+       "text": "起飞",
+       "lexemeId": "起飞-qi3fei1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "J’ai oublié.",
+     "qualite": "maladroit",
+     "note": "Ça arrive, mais ajoute ce que tu comptes faire : 我看看手机 montre que tu cherches la réponse.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "忘",
+       "lexemeId": "忘-wang4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je ne sais pas.",
+     "qualite": "inadapte",
+     "note": "Sans heure, il ne peut pas choisir l’aéroport ni la route. La question est pratique, pas curieuse.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "不",
+       "lexemeId": "不-bu4"
+      },
+      {
+       "text": "知道",
+       "lexemeId": "知道-zhi1dao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "fr": "Alors ce sera celui de l’est. Il y a du monde sur la route, ce sera peut-être un peu lent.",
+   "tokens": [
+    {
+     "text": "那",
+     "lexemeId": "那-na4"
+    },
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "去",
+     "lexemeId": "去-qu4"
+    },
+    {
+     "text": "东",
+     "lexemeId": "东-dong1"
+    },
+    {
+     "text": "边",
+     "lexemeId": "边-bian1"
+    },
+    {
+     "text": "那个",
+     "lexemeId": "那个-na4ge5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "路上",
+     "lexemeId": "路上-lu4shang5"
+    },
+    {
+     "text": "车",
+     "lexemeId": "车-che1"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "多",
+     "lexemeId": "多-duo1"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "可能",
+     "lexemeId": "可能-ke3neng2"
+    },
+    {
+     "text": "会",
+     "lexemeId": "会-hui4"
+    },
+    {
+     "text": "慢",
+     "lexemeId": "慢-man4"
+    },
+    {
+     "text": "一点儿",
+     "lexemeId": "一点儿-yi1dian3r5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Ce n’est pas grave, j’ai le temps.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "没关系",
+       "lexemeId": "没关系-mei2guan1xi5"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "还",
+       "lexemeId": "还-hai2"
+      },
+      {
+       "text": "有",
+       "lexemeId": "有-you3"
+      },
+      {
+       "text": "时间",
+       "lexemeId": "时间-shi2jian1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis pressé.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "着急",
+       "lexemeId": "着急-zhao2ji2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Vite !",
+     "qualite": "inadapte",
+     "note": "Il vient de t’expliquer que la circulation est chargée. Un ordre sec ne change rien et met mal à l’aise.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "快",
+       "lexemeId": "快-kuai4"
+      },
+      {
+       "text": "点",
+       "lexemeId": "点-dian3"
+      },
+      {
+       "text": "！",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "fr": "Nous y sommes. Quatre-vingts yuans en tout.",
+   "tokens": [
+    {
+     "text": "到",
+     "lexemeId": "到-dao4"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "一共",
+     "lexemeId": "一共-yi1gong4"
+    },
+    {
+     "text": "八",
+     "lexemeId": "八-ba1"
+    },
+    {
+     "text": "十",
+     "lexemeId": "十-shi2"
+    },
+    {
+     "text": "块",
+     "lexemeId": "块-kuai4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Voici cent yuans.",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "给",
+       "lexemeId": "给-gei3"
+      },
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "一",
+       "lexemeId": "一-yi1"
+      },
+      {
+       "text": "百",
+       "lexemeId": "百-bai3"
+      },
+      {
+       "text": "块",
+       "lexemeId": "块-kuai4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je peux payer avec mon téléphone ?",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "可以",
+       "lexemeId": "可以-ke3yi3"
+      },
+      {
+       "text": "用",
+       "lexemeId": "用-yong4"
+      },
+      {
+       "text": "手机",
+       "lexemeId": "手机-shou3ji1"
+      },
+      {
+       "text": "吗",
+       "lexemeId": "吗-ma5"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "C’est trop cher.",
+     "qualite": "inadapte",
+     "note": "Le prix d’un taxi se lit au compteur. Le contester à l’arrivée ne se fait pas.",
+     "next": null,
+     "tokens": [
+      {
+       "text": "太",
+       "lexemeId": "太-tai4"
+      },
+      {
+       "text": "贵",
+       "lexemeId": "贵-gui4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

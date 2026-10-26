@@ -6,13 +6,13 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 7 sur 11 terminés.** L'application enseigne : les
+> **État : jalons 1 à 8 sur 11 terminés.** L'application enseigne : les
 > **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
 > plus courant au moins courant, répartis en 27 unités thématiques. Le module
 > de prononciation couvre les tons et le sandhi, les **655 caractères** ont
 > leur fiche avec l'ordre des traits animé, le tableau de bord suit la
 > progression réelle, et **10 textes de lecture** se lisent mot par mot avec
-> leur définition au toucher.
+> leur définition au toucher, et 4 dialogues guidés mettent en situation.
 
 ## Prérequis
 
@@ -114,7 +114,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       par fréquence, série de jours, estimation honnête, rappel par agenda
 - [x] **7. Lecture graduée** — 10 textes rédigés et vérifiés, lecteur segmenté,
       dictionnaire au toucher, surlignage des mots connus
-- [ ] **8. Dialogues guidés** — scénarios du quotidien contraints au niveau
+- [x] **8. Dialogues guidés** — 4 scénarios du quotidien, trois réponses par
+      tour, corrections rassemblées à la fin de l'échange
 - [ ] **9. Prononciation** — enregistrement, courbe de hauteur, comparaison
 - [ ] **10. Grammaire et examens blancs**
 - [ ] **11. Finitions** — performance, accessibilité, tests de bout en bout
@@ -126,6 +127,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
   chinoise installée. L'iPhone en a une d'origine ; sous Windows, il faut
   ajouter le chinois simplifié dans les réglages de langue. Sans elle,
   l'application le dit et désactive les boutons d'écoute.
+- **Il n'y a aucune intelligence artificielle dedans.** Les dialogues sont des
+  arbres écrits à l'avance, et l'interface le dit.
 - Les cartes d'écoute ne sont pas encore dans les révisions : deux compétences
   sur cinq sont actives. Les exercices de tons sont pour l'instant un module à
   part, qui compte dans le temps d'écoute mais pas dans la planification.
@@ -133,11 +136,9 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
   pas programmer un rappel quand elle est fermée : il faudrait un serveur de
   push. Les réglages produisent à la place un événement d'agenda quotidien, que
   ton téléphone se charge de rappeler.
-- Elle ne propose pas encore de parcours guidé : les mots sont introduits dans
-  l'ordre du syllabus, pas par fréquence d'usage.
-- Les définitions sont reprises d'un dictionnaire : leur conformité au niveau
-  est vérifiée par script, leur justesse de nuance ne l'est pas.
-- Elle ne contient aucune intelligence artificielle. Les dialogues du jalon 8
-  seront écrits à l'avance.
+- Les définitions sont reprises d'un dictionnaire, et les textes comme les
+  dialogues ont été rédigés sans relecture par un locuteur natif : la
+  conformité au niveau est vérifiée par script, la justesse de nuance ne l'est
+  pas. L'interface l'affiche sur chaque contenu concerné.
 - Elle ne synchronise rien entre plusieurs appareils. La sauvegarde manuelle en
   JSON est le moyen de transférer sa progression.

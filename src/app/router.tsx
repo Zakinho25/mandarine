@@ -3,6 +3,8 @@ import { Layout } from './Layout'
 import { ParcoursScreen } from '@/features/parcours/ParcoursScreen'
 import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
 import { CaractereScreen } from '@/features/caracteres/CaractereScreen'
+import { DialogueScreen } from '@/features/dialogues/DialogueScreen'
+import { DialoguesScreen } from '@/features/dialogues/DialoguesScreen'
 import { LectureScreen } from '@/features/lecture/LectureScreen'
 import { TexteScreen } from '@/features/lecture/TexteScreen'
 import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
@@ -10,7 +12,6 @@ import { PrononciationScreen } from '@/features/prononciation/PrononciationScree
 import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
 import { NiveauScreen } from '@/features/vocabulaire/NiveauScreen'
 import { UniteScreen } from '@/features/vocabulaire/UniteScreen'
-import { Placeholder } from '@/ui/Placeholder'
 
 /**
  * Routage par ancre (`/#/revisions`).
@@ -34,16 +35,8 @@ export const router = createHashRouter([
       { path: 'revisions', element: <RevisionsScreen /> },
       { path: 'lecture', element: <LectureScreen /> },
       { path: 'lecture/:id', element: <TexteScreen /> },
-      {
-        path: 'dialogues',
-        element: (
-          <Placeholder
-            title="Dialogues guidés"
-            milestone={8}
-            description="Des conversations écrites à l'avance et contraintes à ton niveau : commander au restaurant, prendre un taxi, se présenter. Ce ne sera pas une IA — l'application fonctionne sans aucun service payant."
-          />
-        ),
-      },
+      { path: 'dialogues', element: <DialoguesScreen /> },
+      { path: 'dialogues/:id', element: <DialogueScreen /> },
       { path: 'reglages', element: <ReglagesScreen /> },
     ],
   },

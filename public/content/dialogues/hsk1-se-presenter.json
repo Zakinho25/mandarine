@@ -1,0 +1,588 @@
+{
+ "format": "mandarine-dialogue",
+ "version": 1,
+ "generatedAt": "2026-10-26T15:00:24.073Z",
+ "id": "hsk1-se-presenter",
+ "level": 1,
+ "titleZh": "认识新同学",
+ "titleFr": "Se présenter",
+ "role": "Un nouveau camarade de classe",
+ "situation": "C’est ton premier jour à l’université. Quelqu’un vient te parler avant le cours.",
+ "unit": "presentation",
+ "contentStatus": "auto_checked",
+ "start": "n1",
+ "nodes": [
+  {
+   "id": "n1",
+   "fr": "Bonjour ! Je m’appelle Wang Ming. Comment t’appelles-tu ?",
+   "tokens": [
+    {
+     "text": "你好",
+     "lexemeId": "你好-ni3hao3"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    },
+    {
+     "text": "我",
+     "lexemeId": "我-wo3"
+    },
+    {
+     "text": "叫",
+     "lexemeId": "叫-jiao4"
+    },
+    {
+     "text": "王明",
+     "lexemeId": null
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "叫",
+     "lexemeId": "叫-jiao4"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "名字",
+     "lexemeId": "名字-ming2zi5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Bonjour ! Je m’appelle Martin.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "你好",
+       "lexemeId": "你好-ni3hao3"
+      },
+      {
+       "text": "！",
+       "lexemeId": null
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "叫",
+       "lexemeId": "叫-jiao4"
+      },
+      {
+       "text": "马丁",
+       "lexemeId": null
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis Martin.",
+     "qualite": "maladroit",
+     "note": "Compréhensible, mais 我叫… est la formule normale pour donner son nom. 我是… sert plutôt à dire ce qu’on est.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "是",
+       "lexemeId": "是-shi4"
+      },
+      {
+       "text": "马丁",
+       "lexemeId": null
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Comment vas-tu ?",
+     "qualite": "inadapte",
+     "note": "Il te demande ton nom, pas comment tu vas. Et 你好吗 s’emploie entre gens qui se connaissent déjà.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "你好",
+       "lexemeId": "你好-ni3hao3"
+      },
+      {
+       "text": "吗",
+       "lexemeId": "吗-ma5"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "fr": "Martin, de quel pays viens-tu ?",
+   "tokens": [
+    {
+     "text": "马丁",
+     "lexemeId": null
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "是",
+     "lexemeId": "是-shi4"
+    },
+    {
+     "text": "哪",
+     "lexemeId": "哪-na3"
+    },
+    {
+     "text": "国",
+     "lexemeId": "国-guo2"
+    },
+    {
+     "text": "人",
+     "lexemeId": "人-ren2"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Je suis français.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "是",
+       "lexemeId": "是-shi4"
+      },
+      {
+       "text": "法国",
+       "lexemeId": null
+      },
+      {
+       "text": "人",
+       "lexemeId": "人-ren2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "La France.",
+     "qualite": "maladroit",
+     "note": "On comprend, mais la phrase complète 我是法国人 se dit aussi vite et sonne beaucoup mieux.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "法国",
+       "lexemeId": null
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis en France.",
+     "qualite": "inadapte",
+     "note": "在 situe où tu te trouves. Pour dire d’où tu viens, il faut 是…人.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "在",
+       "lexemeId": "在-zai4"
+      },
+      {
+       "text": "法国",
+       "lexemeId": null
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "fr": "Tu parles chinois ?",
+   "tokens": [
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "会",
+     "lexemeId": "会-hui4"
+    },
+    {
+     "text": "说",
+     "lexemeId": "说-shuo1"
+    },
+    {
+     "text": "汉语",
+     "lexemeId": "汉语-Han4yu3"
+    },
+    {
+     "text": "吗",
+     "lexemeId": "吗-ma5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "J’en parle un peu.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "会",
+       "lexemeId": "会-hui4"
+      },
+      {
+       "text": "说",
+       "lexemeId": "说-shuo1"
+      },
+      {
+       "text": "一点儿",
+       "lexemeId": "一点儿-yi1dian3r5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Oui.",
+     "qualite": "maladroit",
+     "note": "Répondre par le verbe seul est correct en chinois, mais ici un mot de plus rend l’échange plus vivant.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "会",
+       "lexemeId": "会-hui4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je ne sais pas.",
+     "qualite": "inadapte",
+     "note": "Tu sais forcément si tu parles chinois ou non. 不知道 répond à une question de fait, pas à une question sur toi.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "不",
+       "lexemeId": "不-bu4"
+      },
+      {
+       "text": "知道",
+       "lexemeId": "知道-zhi1dao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "fr": "Très bien ! Qu’est-ce que tu étudies ?",
+   "tokens": [
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "学习",
+     "lexemeId": "学习-xue2xi2"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "J’étudie le chinois à l’université.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "在",
+       "lexemeId": "在-zai4"
+      },
+      {
+       "text": "大学",
+       "lexemeId": "大学-da4xue2"
+      },
+      {
+       "text": "学习",
+       "lexemeId": "学习-xue2xi2"
+      },
+      {
+       "text": "汉语",
+       "lexemeId": "汉语-Han4yu3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "J’apprends le chinois.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "学",
+       "lexemeId": "学-xue2"
+      },
+      {
+       "text": "汉语",
+       "lexemeId": "汉语-Han4yu3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis étudiant.",
+     "qualite": "inadapte",
+     "note": "Vrai, mais il demandait la matière. Tu réponds à une autre question que celle qui est posée.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "是",
+       "lexemeId": "是-shi4"
+      },
+      {
+       "text": "学生",
+       "lexemeId": "学生-xue2sheng1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "fr": "Formidable ! Enchanté de te connaître.",
+   "tokens": [
+    {
+     "text": "太",
+     "lexemeId": "太-tai4"
+    },
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "了",
+     "lexemeId": "了-le5"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    },
+    {
+     "text": "认识",
+     "lexemeId": "认识-ren4shi5"
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "高兴",
+     "lexemeId": "高兴-gao1xing4"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Enchanté également.",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "认识",
+       "lexemeId": "认识-ren4shi5"
+      },
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "也",
+       "lexemeId": "也-ye3"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "高兴",
+       "lexemeId": "高兴-gao1xing4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Merci, au revoir !",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "再见",
+       "lexemeId": "再见-zai4jian4"
+      },
+      {
+       "text": "！",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je t’en prie.",
+     "qualite": "inadapte",
+     "note": "不客气 répond à un remerciement. Ici il ne t’a pas remercié, il s’est dit content de te connaître.",
+     "next": null,
+     "tokens": [
+      {
+       "text": "不客气",
+       "lexemeId": "不客气-bu4ke4qi5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

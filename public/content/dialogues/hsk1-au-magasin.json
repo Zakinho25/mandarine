@@ -1,0 +1,540 @@
+{
+ "format": "mandarine-dialogue",
+ "version": 1,
+ "generatedAt": "2026-10-26T15:00:24.077Z",
+ "id": "hsk1-au-magasin",
+ "level": 1,
+ "titleZh": "在商店买东西",
+ "titleFr": "Faire des courses",
+ "role": "Le vendeur",
+ "situation": "Tu entres dans un petit magasin pour acheter de quoi manger.",
+ "unit": "achats",
+ "contentStatus": "auto_checked",
+ "start": "n1",
+ "nodes": [
+  {
+   "id": "n1",
+   "fr": "Bonjour, que désirez-vous ?",
+   "tokens": [
+    {
+     "text": "你好",
+     "lexemeId": "你好-ni3hao3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Je voudrais acheter des fruits.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "要",
+       "lexemeId": "要-yao4"
+      },
+      {
+       "text": "买",
+       "lexemeId": "买-mai3"
+      },
+      {
+       "text": "水果",
+       "lexemeId": "水果-shui3guo3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Des fruits.",
+     "qualite": "maladroit",
+     "note": "Le mot seul passe, mais 我要买… est la formule attendue et reste simple.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "水果",
+       "lexemeId": "水果-shui3guo3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je vais bien, merci.",
+     "qualite": "inadapte",
+     "note": "你要什么 demande ce que tu veux acheter, pas comment tu vas.",
+     "next": "n2",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "好",
+       "lexemeId": "好-hao3"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "fr": "Nous avons des pommes, elles sont très bonnes. Vous en voulez combien ?",
+   "tokens": [
+    {
+     "text": "我们",
+     "lexemeId": "我们-wo3men5"
+    },
+    {
+     "text": "有",
+     "lexemeId": "有-you3"
+    },
+    {
+     "text": "苹果",
+     "lexemeId": "苹果-ping2guo3"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "很",
+     "lexemeId": "很-hen3"
+    },
+    {
+     "text": "好吃",
+     "lexemeId": "好吃-hao3chi1"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "你",
+     "lexemeId": "你-ni3"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "几",
+     "lexemeId": "几-ji3"
+    },
+    {
+     "text": "个",
+     "lexemeId": "个-ge4"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "J’en veux quatre.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "要",
+       "lexemeId": "要-yao4"
+      },
+      {
+       "text": "四",
+       "lexemeId": "四-si4"
+      },
+      {
+       "text": "个",
+       "lexemeId": "个-ge4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Quatre.",
+     "qualite": "maladroit",
+     "note": "En chinois un nombre ne se dit presque jamais seul devant un nom : il faut le classificateur, ici 个.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "四",
+       "lexemeId": "四-si4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je n’en veux pas.",
+     "qualite": "inadapte",
+     "note": "Tu viens de dire que tu voulais des fruits. Ça coupe l’échange sans raison.",
+     "next": "n3",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "不要",
+       "lexemeId": "不要-bu4yao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "fr": "Très bien. Autre chose ?",
+   "tokens": [
+    {
+     "text": "好",
+     "lexemeId": "好-hao3"
+    },
+    {
+     "text": "的",
+     "lexemeId": "的-de5"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    },
+    {
+     "text": "还",
+     "lexemeId": "还-hai2"
+    },
+    {
+     "text": "要",
+     "lexemeId": "要-yao4"
+    },
+    {
+     "text": "什么",
+     "lexemeId": "什么-shen2me5"
+    },
+    {
+     "text": "吗",
+     "lexemeId": "吗-ma5"
+    },
+    {
+     "text": "？",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Je voudrais aussi deux œufs.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "还",
+       "lexemeId": "还-hai2"
+      },
+      {
+       "text": "要",
+       "lexemeId": "要-yao4"
+      },
+      {
+       "text": "两",
+       "lexemeId": "两-liang3"
+      },
+      {
+       "text": "个",
+       "lexemeId": "个-ge4"
+      },
+      {
+       "text": "鸡蛋",
+       "lexemeId": "鸡蛋-ji1dan4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Non merci, ce sera tout.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "不要",
+       "lexemeId": "不要-bu4yao4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Combien ça coûte ?",
+     "qualite": "maladroit",
+     "note": "Tu sautes une étape : il te demande si tu veux autre chose. Le prix vient juste après.",
+     "next": "n4",
+     "tokens": [
+      {
+       "text": "多少",
+       "lexemeId": "多少-duo1shao5"
+      },
+      {
+       "text": "钱",
+       "lexemeId": "钱-qian2"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "fr": "Vingt yuans.",
+   "tokens": [
+    {
+     "text": "二",
+     "lexemeId": "二-er4"
+    },
+    {
+     "text": "十",
+     "lexemeId": "十-shi2"
+    },
+    {
+     "text": "块",
+     "lexemeId": "块-kuai4"
+    },
+    {
+     "text": "钱",
+     "lexemeId": "钱-qian2"
+    },
+    {
+     "text": "。",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Tenez.",
+     "qualite": "juste",
+     "note": null,
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "给",
+       "lexemeId": "给-gei3"
+      },
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "C’est trop cher.",
+     "qualite": "maladroit",
+     "note": "Ça se dit, mais dans un magasin à prix fixes ça surprend. Ce serait naturel au marché.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "太",
+       "lexemeId": "太-tai4"
+      },
+      {
+       "text": "贵",
+       "lexemeId": "贵-gui4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Excusez-moi.",
+     "qualite": "inadapte",
+     "note": "对不起 sert à s’excuser. Il t’annonce un prix, il n’y a rien à excuser.",
+     "next": "n5",
+     "tokens": [
+      {
+       "text": "对不起",
+       "lexemeId": "对不起-dui4bu5qi3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "fr": "Merci, au revoir !",
+   "tokens": [
+    {
+     "text": "谢谢",
+     "lexemeId": "谢谢-xie4xie5"
+    },
+    {
+     "text": "，",
+     "lexemeId": null
+    },
+    {
+     "text": "再见",
+     "lexemeId": "再见-zai4jian4"
+    },
+    {
+     "text": "！",
+     "lexemeId": null
+    }
+   ],
+   "repliques": [
+    {
+     "fr": "Au revoir !",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "再见",
+       "lexemeId": "再见-zai4jian4"
+      },
+      {
+       "text": "！",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Merci à vous, au revoir.",
+     "qualite": "juste",
+     "note": null,
+     "next": null,
+     "tokens": [
+      {
+       "text": "谢谢",
+       "lexemeId": "谢谢-xie4xie5"
+      },
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "再见",
+       "lexemeId": "再见-zai4jian4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "De rien.",
+     "qualite": "inadapte",
+     "note": "C’est lui qui te remercie pour ton achat. 不客气 ici renverse les rôles.",
+     "next": null,
+     "tokens": [
+      {
+       "text": "不客气",
+       "lexemeId": "不客气-bu4ke4qi5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

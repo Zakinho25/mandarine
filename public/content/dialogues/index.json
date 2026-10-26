@@ -1,0 +1,48 @@
+{
+ "format": "mandarine-dialogues",
+ "version": 1,
+ "generatedAt": "2026-10-26T15:00:24.082Z",
+ "count": 4,
+ "dialogues": [
+  {
+   "id": "hsk1-se-presenter",
+   "level": 1,
+   "titleZh": "认识新同学",
+   "titleFr": "Se présenter",
+   "role": "Un nouveau camarade de classe",
+   "situation": "C’est ton premier jour à l’université. Quelqu’un vient te parler avant le cours.",
+   "unit": "presentation",
+   "turns": 5
+  },
+  {
+   "id": "hsk1-au-magasin",
+   "level": 1,
+   "titleZh": "在商店买东西",
+   "titleFr": "Faire des courses",
+   "role": "Le vendeur",
+   "situation": "Tu entres dans un petit magasin pour acheter de quoi manger.",
+   "unit": "achats",
+   "turns": 5
+  },
+  {
+   "id": "hsk2-au-restaurant",
+   "level": 2,
+   "titleZh": "在饭馆点菜",
+   "titleFr": "Commander au restaurant",
+   "role": "Le serveur",
+   "situation": "Tu arrives à deux dans un petit restaurant, à l’heure du déjeuner.",
+   "unit": "nourriture",
+   "turns": 5
+  },
+  {
+   "id": "hsk3-prendre-un-taxi",
+   "level": 3,
+   "titleZh": "打车去机场",
+   "titleFr": "Prendre un taxi",
+   "role": "Le chauffeur de taxi",
+   "situation": "Tu dois prendre un avion cet après-midi et tu montes dans un taxi.",
+   "unit": "transports",
+   "turns": 5
+  }
+ ]
+}

@@ -83,6 +83,25 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-26 — Les corrections arrivent à la fin, jamais pendant
+Pendant un dialogue, aucun retour n'est donné : ni message, ni couleur, ni
+compteur. Tout arrive au bilan. **Pourquoi :** couper quelqu'un à chaque phrase
+pour lui dire qu'il aurait pu mieux dire est le plus sûr moyen de lui ôter
+l'envie de parler. C'est une exigence explicite du cahier des charges, et elle
+est vérifiée : un test de bout en bout contrôle qu'aucun mot d'évaluation
+n'apparaît avant la fin de l'échange.
+
+Le vérificateur de structure impose en contrepartie que **chaque tour offre au
+moins une réponse juste** et que **toute réponse imparfaite porte une
+explication**. Sans la première règle l'exercice devient un piège, sans la
+seconde le bilan n'apprend rien.
+
+### 2026-10-26 — « Dialogues guidés », et l'interface le dit
+Ce ne sont pas des conversations avec une IA. L'écran l'écrit noir sur blanc
+plutôt que de laisser croire le contraire. Pour du HSK 1 à 3, les échanges du
+quotidien sont assez formulaires pour qu'un arbre écrit à l'avance couvre
+l'essentiel, fonctionne hors ligne et ne coûte rien.
+
 ### 2026-10-26 — Les textes sont découpés à la génération, pas à l'affichage
 Chaque texte est segmenté par le pipeline, et les jetons sont écrits avec leur
 identifiant de mot. L'application lit une liste, elle ne découpe rien.
