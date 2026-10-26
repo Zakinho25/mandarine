@@ -8,6 +8,7 @@ import { DialoguesScreen } from '@/features/dialogues/DialoguesScreen'
 import { LectureScreen } from '@/features/lecture/LectureScreen'
 import { TexteScreen } from '@/features/lecture/TexteScreen'
 import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
+import { PrononcerScreen } from '@/features/prononciation/PrononcerScreen'
 import { PrononciationScreen } from '@/features/prononciation/PrononciationScreen'
 import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
 import { NiveauScreen } from '@/features/vocabulaire/NiveauScreen'
@@ -32,6 +33,7 @@ export const router = createHashRouter([
       { path: 'caractere/:character', element: <CaractereScreen /> },
       { path: 'prononciation', element: <PrononciationScreen /> },
       { path: 'prononciation/ecoute', element: <EcouteScreen /> },
+      { path: 'prononciation/prononcer', element: <PrononcerScreen /> },
       { path: 'revisions', element: <RevisionsScreen /> },
       { path: 'lecture', element: <LectureScreen /> },
       { path: 'lecture/:id', element: <TexteScreen /> },

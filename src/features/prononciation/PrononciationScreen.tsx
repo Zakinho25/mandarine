@@ -105,13 +105,22 @@ export function PrononciationScreen() {
         </p>
       )}
 
-      <Link
-        to="/prononciation/ecoute"
-        className="mt-5 flex min-h-12 items-center justify-center rounded-xl text-sm font-medium"
-        style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
-      >
-        Exercices d’écoute
-      </Link>
+      <div className="mt-5 grid gap-2 sm:grid-cols-2">
+        <Link
+          to="/prononciation/ecoute"
+          className="flex min-h-12 items-center justify-center rounded-xl text-sm font-medium"
+          style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+        >
+          Exercices d’écoute
+        </Link>
+        <Link
+          to="/prononciation/prononcer"
+          className="flex min-h-12 items-center justify-center rounded-xl border text-sm font-medium"
+          style={{ borderColor: 'var(--border)' }}
+        >
+          Travailler ses tons
+        </Link>
+      </div>
 
       {/* ---------------- Les tons ---------------- */}
       <h2 className="mt-8 mb-3 text-sm font-semibold tracking-wide uppercase">

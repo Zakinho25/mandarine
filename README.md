@@ -6,13 +6,13 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 8 sur 11 terminés.** L'application enseigne : les
+> **État : jalons 1 à 9 sur 11 terminés.** L'application enseigne : les
 > **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
 > plus courant au moins courant, répartis en 27 unités thématiques. Le module
 > de prononciation couvre les tons et le sandhi, les **655 caractères** ont
 > leur fiche avec l'ordre des traits animé, le tableau de bord suit la
 > progression réelle, et **10 textes de lecture** se lisent mot par mot avec
-> leur définition au toucher, et 4 dialogues guidés mettent en situation.
+> leur définition au toucher, et 4 dialogues guidés mettent en situation. Un exercice de prononciation compare la courbe de ta voix au contour du ton visé.
 
 ## Prérequis
 
@@ -116,7 +116,8 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       dictionnaire au toucher, surlignage des mots connus
 - [x] **8. Dialogues guidés** — 4 scénarios du quotidien, trois réponses par
       tour, corrections rassemblées à la fin de l'échange
-- [ ] **9. Prononciation** — enregistrement, courbe de hauteur, comparaison
+- [x] **9. Prononciation** — enregistrement au micro, détection de hauteur par
+      YIN, comparaison au contour attendu
 - [ ] **10. Grammaire et examens blancs**
 - [ ] **11. Finitions** — performance, accessibilité, tests de bout en bout
 
@@ -140,5 +141,11 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
   dialogues ont été rédigés sans relecture par un locuteur natif : la
   conformité au niveau est vérifiée par script, la justesse de nuance ne l'est
   pas. L'interface l'affiche sur chaque contenu concerné.
+- **L'exercice de prononciation ne juge que les tons.** Il mesure la forme de
+  la courbe de hauteur, pas les consonnes ni les voyelles. Les contours de
+  référence sont calculés à partir de la notation de Chao, pas mesurés sur un
+  locuteur : assez pour voir qu'un troisième ton ne redescend pas, pas assez
+  pour juger un niveau avancé. Un service d'évaluation payant ferait mieux,
+  mais le projet tient à zéro euro.
 - Elle ne synchronise rien entre plusieurs appareils. La sauvegarde manuelle en
   JSON est le moyen de transférer sa progression.

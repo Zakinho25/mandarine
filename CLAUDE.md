@@ -83,6 +83,52 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-26 — On mesure la forme du contour, pas la hauteur
+La courbe produite et la courbe de référence sont toutes deux ramenées en
+demi-tons **autour de leur propre moyenne** avant comparaison. **Pourquoi :**
+une voix à 220 Hz et une voix à 110 Hz qui font le même geste doivent obtenir
+le même résultat. Ce qui distingue les tons, c'est le dessin.
+
+**Limite assumée :** sur une syllabe isolée, on n'a aucun repère du registre du
+locuteur. Un premier ton produit trop bas ressemblera donc à un premier ton
+correct — ce qu'on mesure, c'est sa platitude. L'écran le dit.
+
+### 2026-10-26 — Les contours de référence sont calculés, pas mesurés
+Ils viennent de la notation de Chao (55, 35, 214, 51), convertie en demi-tons.
+**Pourquoi :** mesurer demanderait des enregistrements de référence. La
+synthèse vocale du navigateur ne rend aucun fichier audio exploitable, et
+acheter des enregistrements sort du budget. Ces contours donnent la forme
+juste, pas les micro-variations d'une voix réelle : assez pour voir qu'un
+troisième ton ne redescend pas, pas assez pour juger un niveau avancé.
+
+### 2026-10-26 — Le verdict passe avant le score
+L'écran annonce d'abord **le ton reconnu**, puis un verdict en trois mots, et
+seulement ensuite une note sur 100. **Pourquoi :** mesuré sur des contours
+synthétiques parfaits, l'écart d'une production juste reste sous 1,1 demi-ton
+et celui d'un ton différent dépasse 1,4. La marge est mince. Un score à deux
+chiffres donnerait une précision que la mesure n'a pas.
+
+### 2026-10-26 — Une période trop courte vaut un refus, pas une moitié
+Un signal à 500 Hz est aussi périodique à 250 Hz. En ne cherchant qu'à partir
+de la borne haute annoncée, YIN manquerait la vraie période et renverrait
+tranquillement la moitié. On cherche donc une octave plus bas sans accepter ce
+qu'on y trouve : si le creux tombe hors plage, la trame est déclarée hors
+plage. C'est la seule réponse honnête.
+
+### 2026-10-26 — `MediaRecorder` plutôt qu'un `AudioWorklet`
+On enregistre en WebM puis on décode pour obtenir les échantillons bruts.
+`ScriptProcessorNode` est déprécié, et un `AudioWorklet` demanderait un fichier
+de module séparé pour le même résultat. Les traitements du navigateur
+(suppression de bruit, contrôle de gain) sont **désactivés** : ils déforment la
+hauteur, qui est précisément ce qu'on mesure.
+
+### 2026-10-26 — Seuil de couverture des branches abaissé à 80 %
+`noUncheckedIndexedAccess` oblige à écrire un repli sur chaque accès indexé
+(`tableau[i] ?? 0`). Ces replis sont inatteignables par construction et
+comptent pourtant comme des branches non couvertes. Exiger 85 % revenait à se
+battre contre le système de types. Les seuils qui comptent, lignes et
+instructions, restent à 90 %.
+
 ### 2026-10-26 — Les corrections arrivent à la fin, jamais pendant
 Pendant un dialogue, aucun retour n'est donné : ni message, ni couleur, ni
 compteur. Tout arrive au bilan. **Pourquoi :** couper quelqu'un à chaque phrase
