@@ -11,6 +11,7 @@ import {
   type ContentIndex,
   type UnitesFile,
 } from '../../src/data/content.ts'
+import { DIVERS_ID } from '../../src/data/unites.ts'
 
 /**
  * Les données générées sont traitées comme du code : elles sont testées.
@@ -82,6 +83,14 @@ describe('unités thématiques', () => {
     }
   })
 
+  it('ne laisse aucun mot non classé', () => {
+    // L'unité « divers » est le filet du classement par règle : un mot y tombe
+    // aucune règle ne s'applique. Il est vide aujourd'hui, et ce test est là
+    // pour que l'ajout d'un mot au syllabus force une décision au lieu de
+    // le ranger silencieusement nulle part.
+    const perdus = all.filter((lexeme) => lexeme.unit === DIVERS_ID)
+    expect(perdus.map((lexeme) => lexeme.simplified)).toEqual([])
+  })
   it('déclare toutes les unités référencées par les mots', () => {
     const connues = new Set(unites.units.map((unite) => unite.id))
     for (const lexeme of all) {

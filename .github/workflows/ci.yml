@@ -17,8 +17,6 @@ jobs:
           node-version: 22
           cache: npm
 
-      # `legacy-peer-deps` vient du .npmrc du dépôt : npm 10 plante sinon sur
-      # la résolution des dépendances de pair de Vite 8.
       - run: npm ci
 
       - name: Lint

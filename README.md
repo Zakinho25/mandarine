@@ -8,7 +8,7 @@ d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
 > **État : les onze jalons sont terminés.** L'application enseigne : les
 > **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
-> plus courant au moins courant, répartis en 27 unités thématiques. Le module
+> plus courant au moins courant, répartis en 26 unités thématiques, sans reste. Le module
 > de prononciation couvre les tons et le sandhi, les **655 caractères** ont
 > leur fiche avec l'ordre des traits animé, le tableau de bord suit la
 > progression réelle, **10 textes de lecture** se lisent mot par mot avec leur
@@ -122,7 +122,7 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       tons, sandhi
 - [x] **5. Caractères** — fiches, ordre des traits animé, décomposition en
       composants avec leur sens en français
-- [x] **6. Parcours et tableau de bord** — 27 unités thématiques, mots classés
+- [x] **6. Parcours et tableau de bord** — 26 unités thématiques, mots classés
       par fréquence, série de jours, estimation honnête, rappel par agenda
 - [x] **7. Lecture graduée** — 10 textes rédigés et vérifiés, lecteur segmenté,
       dictionnaire au toucher, surlignage des mots connus

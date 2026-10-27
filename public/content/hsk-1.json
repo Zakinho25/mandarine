@@ -1,7 +1,7 @@
 {
  "format": "mandarine-contenu",
  "version": 1,
- "generatedAt": "2026-10-21T14:52:07.210Z",
+ "generatedAt": "2026-10-27T15:19:33.371Z",
  "level": 1,
  "examTrack": "hsk3_2025",
  "count": 300,
@@ -2041,7 +2041,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 150,
-   "unit": "divers"
+   "unit": "degre"
   },
   {
    "id": "找-zhao3",
@@ -3582,7 +3582,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 538,
-   "unit": "divers"
+   "unit": "degre"
   },
   {
    "id": "电影-dian4ying3",
@@ -4576,7 +4576,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 870,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "女儿-nü3er2",
@@ -4698,7 +4698,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 915,
-   "unit": "divers"
+   "unit": "couleurs"
   },
   {
    "id": "高兴-gao1xing4",
@@ -4999,7 +4999,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 1225,
-   "unit": "divers"
+   "unit": "corps"
   },
   {
    "id": "有的-you3de5",
@@ -5234,7 +5234,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 1513,
-   "unit": "divers"
+   "unit": "famille"
   },
   {
    "id": "课-ke4",
@@ -5327,7 +5327,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": true,
    "freqRank": 1554,
-   "unit": "divers"
+   "unit": "nombres"
   },
   {
    "id": "家人-jia1ren2",
@@ -5674,7 +5674,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 2188,
-   "unit": "divers"
+   "unit": "calendrier"
   },
   {
    "id": "贵-gui4",
@@ -6143,7 +6143,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 3004,
-   "unit": "divers"
+   "unit": "famille"
   },
   {
    "id": "上课-shang4ke4",
@@ -6349,7 +6349,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 3501,
-   "unit": "divers"
+   "unit": "nourriture"
   },
   {
    "id": "没关系-mei2guan1xi5",
@@ -6825,7 +6825,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 6162,
-   "unit": "divers"
+   "unit": "nourriture"
   },
   {
    "id": "中文-Zhong1wen2",
@@ -6914,7 +6914,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 7174,
-   "unit": "divers"
+   "unit": "lieux"
   },
   {
    "id": "星期天-Xing1qi1tian1",
@@ -6936,7 +6936,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 7577,
-   "unit": "divers"
+   "unit": "calendrier"
   },
   {
    "id": "看病-kan4bing4",
@@ -7073,7 +7073,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 11834,
-   "unit": "divers"
+   "unit": "nourriture"
   },
   {
    "id": "小学生-xiao3xue2sheng1",
@@ -7095,7 +7095,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 12165,
-   "unit": "divers"
+   "unit": "ecole"
   },
   {
    "id": "外边-wai4bian5",
@@ -7165,7 +7165,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 12997,
-   "unit": "divers"
+   "unit": "calendrier"
   },
   {
    "id": "汉语-Han4yu3",
@@ -7212,7 +7212,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 16315,
-   "unit": "divers"
+   "unit": "nourriture"
   },
   {
    "id": "不客气-bu4ke4qi5",
@@ -7232,7 +7232,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": true,
    "freqRank": 16723,
-   "unit": "divers"
+   "unit": "presentation"
   },
   {
    "id": "汉字-han4zi4",
@@ -7281,7 +7281,7 @@
    "contentStatus": "reviewed_human",
    "glossApprox": false,
    "freqRank": 23411,
-   "unit": "divers"
+   "unit": "loisirs"
   },
   {
    "id": "面条儿-mian4tiao2r5",

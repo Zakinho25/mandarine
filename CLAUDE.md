@@ -105,6 +105,17 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-27 — L'unité « divers » est vidée, mais elle reste
+Les 178 mots qu'aucune règle n'attrapait sont affectés un par un, dans
+`RATTRAPAGE`. **Pourquoi pas des mots-clés :** un mot-clé agit sur les mille
+mots à la fois. Allonger les listes pour rattraper 室 « salle » ou 卡
+« carte » aurait déplacé des mots déjà bien rangés, et le gain d'un côté se
+serait payé de l'autre.
+
+L'unité `divers` **n'est pas supprimée** : elle reste le filet d'`assignUnit`,
+et un test échoue si un mot y retombe. Un mot ajouté au syllabus doit forcer
+une décision, pas disparaître dans un fourre-tout.
+
 ### 2026-10-27 — Une barrière d'erreur, rendue nécessaire par le découpage
 Depuis que les écrans sont chargés à la demande, un fichier qui n'arrive pas
 fait remonter l'exception jusqu'à la racine : React démonte tout et
@@ -609,15 +620,20 @@ synchronisation n'est prévue. **Pourquoi :** ne coûte rien aujourd'hui ;
 l'ajouter plus tard imposerait de migrer des données de progression déjà
 accumulées, la seule chose ici qui ne se régénère pas.
 
-### 2026-10-19 — `legacy-peer-deps` dans `.npmrc`
-**Pourquoi :** npm 10.8.2, livré avec Node 20, plante (`edgesOut`) sur la
-résolution des dépendances de pair de Vite 8. Le drapeau contourne ce bug de
-npm. **À retirer** une fois le projet passé sous Node 22 et npm récent.
+### 2026-10-19 — `legacy-peer-deps` dans `.npmrc` (retiré le 2026-10-27)
+**Pourquoi à l'époque :** npm 10.8.2, livré avec Node 20, plantait
+(`edgesOut`) sur la résolution des dépendances de pair de Vite 8. Le drapeau
+contournait ce bug de npm, au prix d'un effet de bord : les dépendances de
+pair ne s'installaient plus toutes seules, et `@testing-library/dom` a dû
+être ajouté à la main le jour où les premiers tests de composant ont tourné.
 
-**Effet de bord constaté :** les dépendances de pair ne s'installent plus
-toutes seules. `@testing-library/dom` a dû être ajouté à la main le jour où les
-premiers tests de composant ont tourné. Si un module se dit introuvable alors
-qu'il devrait venir avec un autre, c'est la première piste.
+**Retiré le 2026-10-27**, et pas pour la raison prévue. L'entrée annonçait un
+retrait « une fois passé sous Node 22 » ; l'essai a été fait sur le même Node
+20.19.6 et le même npm 10.8.2, et une installation propre depuis zéro passe
+sans le drapeau. Ce n'était donc pas la version de Node qui bloquait, mais
+l'arbre de dépendances de l'époque. **La leçon :** une condition de levée
+écrite dans un journal est une hypothèse, pas un fait ; elle se vérifie par
+l'essai avant d'être tenue pour vraie.
 
 ### 2026-10-19 — « Dialogues guidés », pas « Conversation IA »
 Sans clé d'API, il n'y a pas d'IA dans l'application. Le module sera fait

@@ -1,7 +1,7 @@
 {
  "format": "mandarine-contenu",
  "version": 1,
- "generatedAt": "2026-10-21T14:52:07.217Z",
+ "generatedAt": "2026-10-27T15:19:33.378Z",
  "level": 2,
  "examTrack": "hsk3_2025",
  "count": 200,
@@ -273,7 +273,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 60,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "过-guo5",
@@ -295,7 +295,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 60,
-   "unit": "outils"
+   "unit": "actions"
   },
   {
    "id": "从-cong2",
@@ -955,7 +955,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": true,
    "freqRank": 172,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "一起-yi1qi3",
@@ -1138,7 +1138,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 246,
-   "unit": "couleurs"
+   "unit": "travail"
   },
   {
    "id": "告诉-gao4su5",
@@ -1185,7 +1185,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 254,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "事情-shi4qing5",
@@ -1342,7 +1342,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 299,
-   "unit": "divers"
+   "unit": "outils"
   },
   {
    "id": "头-tou2",
@@ -1564,7 +1564,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 382,
-   "unit": "divers"
+   "unit": "sentiments"
   },
   {
    "id": "不错-bu4cuo4",
@@ -1831,7 +1831,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": true,
    "freqRank": 480,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "球-qiu2",
@@ -1855,7 +1855,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 518,
-   "unit": "divers"
+   "unit": "loisirs"
   },
   {
    "id": "错-cuo4",
@@ -2384,7 +2384,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 779,
-   "unit": "divers"
+   "unit": "transports"
   },
   {
    "id": "介绍-jie4shao4",
@@ -2486,7 +2486,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 822,
-   "unit": "divers"
+   "unit": "lieux"
   },
   {
    "id": "下去-xia4qu4",
@@ -2539,7 +2539,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 912,
-   "unit": "divers"
+   "unit": "lieux"
   },
   {
    "id": "经常-jing1chang2",
@@ -2715,7 +2715,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 1119,
-   "unit": "divers"
+   "unit": "loisirs"
   },
   {
    "id": "运动-yun4dong4",
@@ -2767,7 +2767,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": true,
    "freqRank": 1160,
-   "unit": "divers"
+   "unit": "actions"
   },
   {
    "id": "妻子-qi1zi5",
@@ -2957,7 +2957,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 1239,
-   "unit": "divers"
+   "unit": "degre"
   },
   {
    "id": "笔-bi3",
@@ -3441,7 +3441,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 1770,
-   "unit": "divers"
+   "unit": "degre"
   },
   {
    "id": "前面-qian2mian4",
@@ -4135,7 +4135,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 3067,
-   "unit": "divers"
+   "unit": "calendrier"
   },
   {
    "id": "爷爷-ye2ye5",
@@ -4375,7 +4375,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 4093,
-   "unit": "divers"
+   "unit": "achats"
   },
   {
    "id": "外国-wai4guo2",
@@ -4656,7 +4656,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 6179,
-   "unit": "divers"
+   "unit": "nombres"
   },
   {
    "id": "出国-chu1guo2",
@@ -4724,7 +4724,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 9052,
-   "unit": "divers"
+   "unit": "lieux"
   },
   {
    "id": "晴-qing2",
@@ -4837,7 +4837,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 11321,
-   "unit": "divers"
+   "unit": "loisirs"
   },
   {
    "id": "书包-shu1bao1",
@@ -4859,7 +4859,7 @@
    "contentStatus": "auto_checked",
    "glossApprox": false,
    "freqRank": 11861,
-   "unit": "divers"
+   "unit": "ecole"
   },
   {
    "id": "本子-ben3zi5",

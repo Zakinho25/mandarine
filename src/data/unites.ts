@@ -33,7 +33,7 @@ export interface Unite {
 
 export const DIVERS_ID = 'divers'
 
-export const UNITES: readonly Unite[] = [
+const REGLES: readonly Unite[] = [
   {
     id: 'essentiels',
     title: 'Les verbes essentiels',
@@ -296,6 +296,79 @@ export const UNITES: readonly Unite[] = [
     ],
   },
 ]
+
+/**
+ * Rattrapage : les mots que la règle ne sait pas classer.
+ *
+ * La règle fait le gros du travail — plus de huit cents mots sur mille —
+ * mais elle laisse une queue qu'aucun mot-clé n'attrape : 室 « salle », 卡
+ * « carte », 刮 « gratter ». Allonger les mots-clés pour les rattraper
+ * attirerait des mots qui n'ont rien à y faire, parce qu'un mot-clé large
+ * agit sur les mille mots à la fois et pas seulement sur celui qu'on vise.
+ *
+ * Ces affectations sont donc écrites une par une. C'est exactement ce que le
+ * passage par l'unité « divers » sert à révéler : la liste ci-dessous est la
+ * facture de ce que la règle ne couvre pas.
+ */
+const RATTRAPAGE: Readonly<Record<string, readonly string[]>> = {
+  degre: ['新', '少', '坏', '慢', '突然', '一般', '好多', '常见', '常用'],
+  idees: [
+    '关系', '安全', '服务', '看来', '发展', '差', '主要', '环境', '习惯',
+    '变化', '文化', '奇怪', '合适', '有用', '有名', '安静',
+  ],
+  outils: ['为什么', '子', '来自'],
+  nombres: ['一半', '手表'],
+  calendrier: [
+    '上午', '星期天', '星期日', '小时候', '最后', '以前', '刚才', '周末',
+    '直到', '平时', '迟到',
+  ],
+  presentation: ['不客气', '欢迎', '做客'],
+  famille: ['姐姐', '女朋友', '姐妹', '夫妻', '结婚'],
+  nourriture: [
+    '鸡蛋', '杯子', '饺子', '包子', '冰', '新鲜', '碗', '饮料', '饱', '香蕉',
+    '瓶子', '西瓜', '筷子', '勺子', '冰激凌',
+  ],
+  achats: ['商场', '卡', '信用卡'],
+  transports: ['飞', '船', '地图', '行李', '起飞', '路口', '护照', '红绿灯'],
+  lieux: ['书店', '近', '离', '药店', '方向', '室', '外地'],
+  maison: ['电', '纸', '灯', '刷', '扫', '冰箱', '空调', '楼梯', '伞', '打扫', '搬家'],
+  ecole: [
+    '小学生', '书包', '练', '数学', '练习', '校园', '学期', '复习', '课本',
+    '字典', '词典', '课文',
+  ],
+  travail: ['长', '经理'],
+  corps: ['休息', '脸', '身高'],
+  vetements: ['上衣', '短裤', '雨衣'],
+  couleurs: ['漂亮', '难看'],
+  meteo: ['刮'],
+  loisirs: [
+    '好玩儿', '没意思', '球', '画', '跳', '运动员', '晚会', '锻炼', '网球',
+    '体育馆', '运动会', '羽毛球',
+  ],
+  communication: [
+    '新闻', '声音', '语言', '网站', '报纸', '对话', '邮件', '耳机',
+  ],
+  sentiments: [
+    '笑', '坚持', '感到', '可爱', '哭', '关心', '急', '满意', '聪明',
+    '热情', '放心', '着急',
+  ],
+  nature: ['牛', '鸡', '羊', '月亮', '草地', '开花', '大熊猫'],
+  gens: ['游客', '画家'],
+  actions: [
+    '看见', '过', '起来', '出来', '回来', '回去', '发生', '受', '加', '检查',
+    '办', '收', '查', '收到', '养', '丢', '提高', '出生', '搬', '不见',
+    '分开',
+  ],
+}
+
+/**
+ * Les unités telles que l'application les emploie : la règle, complétée par
+ * le rattrapage.
+ */
+export const UNITES: readonly Unite[] = REGLES.map((unite) => ({
+  ...unite,
+  words: [...(unite.words ?? []), ...(RATTRAPAGE[unite.id] ?? [])],
+}))
 
 export interface Classifiable {
   readonly simplified: string
