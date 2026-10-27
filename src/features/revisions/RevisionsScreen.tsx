@@ -347,7 +347,11 @@ export function RevisionsScreen() {
       <p className="mt-4 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
         Chaque mot donne {ACTIVE_SKILLS.length} cartes :{' '}
         {ACTIVE_SKILLS.map((skill) => SKILL_LABELS[skill].toLowerCase()).join(' et ')}.
-        Les cartes d’écoute arrivent avec le module audio du jalon 4.
+        Les cartes d’écoute et de tons existent dans le modèle, mais elles ne sont pas
+        encore planifiées : il leur faut un affichage qui ne montre pas le caractère,
+        faute de quoi l’exercice s’annule tout seul. En attendant, les tons se
+        travaillent dans le module de prononciation. Ce temps-là compte dans tes
+        minutes d’écoute, pas dans tes révisions.
       </p>
     </div>
   )

@@ -105,6 +105,33 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-27 — Une barrière d'erreur, rendue nécessaire par le découpage
+Depuis que les écrans sont chargés à la demande, un fichier qui n'arrive pas
+fait remonter l'exception jusqu'à la racine : React démonte tout et
+l'utilisateur voit une page blanche. `BarriereErreur` distingue deux cas. Un
+**écran introuvable** se répare en rechargeant, donc on recharge — une seule
+fois, un drapeau en `sessionStorage` empêchant la boucle. **Toute autre
+erreur** est un défaut : on l'affiche, avec de quoi revenir au tableau de
+bord. La barrière porte la route en clé, sinon un écran en échec resterait
+affiché après un changement d'onglet.
+
+### 2026-10-27 — La mise à jour est proposée, plus imposée
+`registerType` passe de `autoUpdate` à `prompt`, et `injectRegister` à `null` :
+c'est un composant React qui enregistre le service worker et montre le
+bandeau. **Pourquoi :** la bascule silencieuse pouvait laisser tourner du code
+périmé sans aucun signe, et surtout remplacer les fichiers en cours de session.
+Un écran pas encore visité devenait alors introuvable — exactement la panne que
+la barrière ci-dessus doit rattraper. L'attente explicite supprime la cause.
+
+### 2026-10-27 — Un message de l'application mentait
+L'écran de révisions annonçait « les cartes d'écoute arrivent avec le module
+audio du jalon 4 », une semaine après la livraison du jalon 4. La raison a
+changé entre-temps et personne n'avait rafraîchi la phrase. Elle dit
+maintenant ce qui est vrai : ces cartes existent dans le modèle mais leur
+manque un affichage qui ne montre pas le caractère. **La leçon :** une
+promesse datée dans l'interface devient un mensonge à la date suivante. Mieux
+vaut décrire l'état présent et sa raison.
+
 ### 2026-10-27 — Un écran par fichier, chargé à la demande
 Toutes les routes passent par `React.lazy`, sauf le tableau de bord qu'on voit
 en arrivant. **Résultat mesuré :** le paquet initial passe de 540 à 363 ko

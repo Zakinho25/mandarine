@@ -85,6 +85,25 @@ test.describe('navigation', () => {
     }
   })
 
+  test('affiche un message plutôt qu’une page blanche si un écran manque', async ({
+    page,
+  }) => {
+    // La panne que le découpage des écrans a rendue possible : un fichier qui
+    // n'arrive pas. La barrière recharge une fois, puis explique, au lieu de
+    // laisser React démonter toute l'application.
+    await page.route('**/assets/GrammaireScreen-*.js', async (route) => route.abort())
+
+    await allerA(page, '/')
+    await page.getByRole('link', { name: 'Grammaire', exact: true }).click()
+
+    await expect(
+      page.getByRole('heading', { name: 'Cet écran n’a pas pu être chargé' }),
+    ).toBeVisible()
+    await expect(
+      page.getByRole('link', { name: 'Revenir au tableau de bord' }),
+    ).toBeVisible()
+  })
+
   test('donne un lien d’évitement au clavier', async ({ page, browserName }) => {
     // Safari n'amène pas le focus sur les liens avec Tab tant que « naviguer
     // entre les éléments avec Tab » n'est pas activé dans ses réglages. C'est

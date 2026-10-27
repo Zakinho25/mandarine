@@ -1,6 +1,8 @@
 import { Suspense, useEffect } from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useSettings } from '@/store/useSettings'
+import { BandeauMiseAJour } from './BandeauMiseAJour'
+import { BarriereErreur } from './BarriereErreur'
 
 interface Tab {
   readonly to: string
@@ -31,6 +33,7 @@ const TABS: readonly Tab[] = [
 
 export function Layout() {
   const hydrate = useSettings((state) => state.hydrate)
+  const location = useLocation()
 
   useEffect(() => {
     // Les préférences sont lues après le premier rendu, jamais avant : si
@@ -58,23 +61,32 @@ export function Layout() {
 
       <main id="contenu" tabIndex={-1} className="flex-1 pb-24">
         {/*
-          Les écrans sont chargés à la demande. Le repli annonce l'attente au
-          lecteur d'écran plutôt que de laisser un blanc silencieux.
+          La barrière est remontée à chaque changement d'écran : sans cette
+          clé, un écran en échec resterait affiché même après avoir changé
+          d'onglet, puisque la navigation est en dehors d'elle.
         */}
-        <Suspense
-          fallback={
-            <p
-              role="status"
-              className="mx-auto max-w-xl px-4 py-8 text-sm"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              Chargement…
-            </p>
-          }
-        >
-          <Outlet />
-        </Suspense>
+        <BarriereErreur key={location.pathname}>
+          {/*
+            Les écrans sont chargés à la demande. Le repli annonce l'attente
+            au lecteur d'écran plutôt que de laisser un blanc silencieux.
+          */}
+          <Suspense
+            fallback={
+              <p
+                role="status"
+                className="mx-auto max-w-xl px-4 py-8 text-sm"
+                style={{ color: 'var(--text-muted)' }}
+              >
+                Chargement…
+              </p>
+            }
+          >
+            <Outlet />
+          </Suspense>
+        </BarriereErreur>
       </main>
+
+      <BandeauMiseAJour />
 
       <nav
         aria-label="Navigation principale"

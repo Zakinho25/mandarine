@@ -33,9 +33,15 @@ export const SKILL_PROMPTS: Record<CardSkill, string> = {
 /**
  * Compétences effectivement révisées aujourd'hui.
  *
- * `audio_fr` et `tone` attendent le module audio du jalon 4 : une carte
- * d'écoute sans son fiable serait une carte cassée. `write` reste désactivée,
- * le nouveau HSK n'exigeant pas l'écriture manuscrite avant le niveau 5.
+ * `audio_fr` et `tone` ne sont toujours pas planifiées, et la raison a changé
+ * depuis le jalon 4 : la synthèse vocale existe, mais l'écran de révision ne
+ * distingue que la production du reste. Une carte d'écoute y afficherait donc
+ * le caractère, ce qui annulerait l'exercice. Les activer demande une
+ * présentation à elles, pas un changement de cette liste.
+ *
+ * `write` reste désactivée pour une raison de programme et non de code : le
+ * nouveau HSK n'exige pas l'écriture manuscrite avant le niveau 5. Le traçage
+ * existe sur les fiches de caractères, hors planification.
  */
 export const ACTIVE_SKILLS: readonly CardSkill[] = ['zh_fr', 'fr_zh']
 

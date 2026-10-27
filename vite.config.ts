@@ -17,7 +17,15 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // Attente explicite plutot que bascule silencieuse : le bandeau de
+      // mise a jour demande a l'utilisateur quand basculer. Depuis que les
+      // ecrans sont charges a la demande, un service worker qui prend la
+      // main en cours de session peut rendre introuvable un ecran pas
+      // encore visite.
+      registerType: 'prompt',
+      // Enregistrement fait par le composant React, pas par un script
+      // injecte dans la page : c'est lui qui sait quand montrer le bandeau.
+      injectRegister: null,
       manifest: {
         name: 'Mandarine - chinois jusqu’au HSK 3',
         short_name: 'Mandarine',
