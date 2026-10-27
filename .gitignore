@@ -34,3 +34,8 @@ scripts/data/raw/
 # Donnees brutes et intermediaires du pipeline (jalon 2)
 scripts/data/raw/
 scripts/data/work/
+
+# Playwright (jalon 11)
+test-results/
+playwright-report/
+blob-report/

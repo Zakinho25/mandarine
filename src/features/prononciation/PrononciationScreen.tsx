@@ -48,7 +48,7 @@ function GroupeDeSons({
             </span>
             <span className="min-w-0 flex-1">
               <span className="flex items-baseline gap-2">
-                <span className="hanzi text-xl">{entry.example}</span>
+                <span lang="zh-Hans" className="hanzi text-xl">{entry.example}</span>
                 <Pinyin numbered={entry.examplePinyin} className="text-sm" />
                 <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
                   {entry.exampleGloss}
@@ -160,7 +160,7 @@ export function PrononciationScreen() {
               className="flex items-center gap-3 px-4 py-3"
               style={{ borderColor: 'var(--border)' }}
             >
-              <span className="hanzi text-2xl">{entry.character}</span>
+              <span lang="zh-Hans" className="hanzi text-2xl">{entry.character}</span>
               <span className="min-w-0 flex-1">
                 <Pinyin
                   numbered={entry.pinyinNum}
@@ -214,7 +214,7 @@ export function PrononciationScreen() {
               className="flex items-start gap-3 px-4 py-3"
               style={{ borderColor: 'var(--border)' }}
             >
-              <span className="hanzi text-xl">{example.characters}</span>
+              <span lang="zh-Hans" className="hanzi text-xl">{example.characters}</span>
               <span className="min-w-0 flex-1 text-sm">
                 <span className="block">
                   <span style={{ color: 'var(--text-muted)' }}>écrit </span>

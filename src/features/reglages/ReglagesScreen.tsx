@@ -171,7 +171,7 @@ export function ReglagesScreen() {
           }}
         />
         <div className="px-5 py-4">
-          <p className="hanzi text-4xl">学习 中国 女儿</p>
+          <p lang="zh-Hans" className="hanzi text-4xl">学习 中国 女儿</p>
           <p className="mt-1 text-xs" style={{ color: 'var(--text-muted)' }}>
             Aperçu de la taille choisie.
           </p>

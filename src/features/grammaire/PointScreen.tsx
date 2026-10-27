@@ -144,7 +144,7 @@ export function PointScreen() {
         <>
           <h1 className="mt-3 text-2xl font-semibold">{point.titre}</h1>
           {point.markers.length > 0 && (
-            <p className="hanzi mt-2 text-xl" style={{ color: 'var(--accent)' }}>
+            <p lang="zh-Hans" className="hanzi mt-2 text-xl" style={{ color: 'var(--accent)' }}>
               {point.markers.join('   ')}
             </p>
           )}
@@ -242,7 +242,7 @@ export function PointScreen() {
                     retirer(morceau)
                   }}
                   aria-label={`Retirer ${morceau.text}, en position ${String(index + 1)}`}
-                  className="hanzi min-h-11 rounded-xl border px-3 text-lg"
+                  lang="zh-Hans" className="hanzi min-h-11 rounded-xl border px-3 text-lg"
                   style={{
                     borderColor: 'var(--accent)',
                     background: 'var(--accent-soft)',
@@ -262,7 +262,7 @@ export function PointScreen() {
                     placer(morceau)
                   }}
                   aria-label={`Placer ${morceau.text}`}
-                  className="hanzi min-h-11 rounded-xl border px-3 text-lg"
+                  lang="zh-Hans" className="hanzi min-h-11 rounded-xl border px-3 text-lg"
                   style={{ borderColor: 'var(--border)' }}
                 >
                   {morceau.text}

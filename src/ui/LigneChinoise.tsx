@@ -23,7 +23,7 @@ export function LigneChinoise({
   className,
 }: LigneChinoiseProps) {
   return (
-    <span className={`hanzi ${className ?? ''}`}>
+    <span lang="zh-Hans" className={`hanzi ${className ?? ''}`}>
       {tokens.map((token, index) => {
         const lexeme = token.lexemeId === null ? undefined : lexemes.get(token.lexemeId)
         const key = `${String(index)}-${token.text}`

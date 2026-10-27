@@ -109,7 +109,7 @@ export function TexteScreen() {
   function renderToken(token: TexteToken, key: string) {
     if (token.lexemeId === null) {
       return (
-        <span key={key} className="hanzi">
+        <span key={key} lang="zh-Hans" className="hanzi">
           {token.text}
         </span>
       )
@@ -129,7 +129,7 @@ export function TexteScreen() {
           setSelected(token.lexemeId ?? undefined)
           say(token.text)
         }}
-        className="hanzi inline rounded px-0.5 align-baseline"
+        lang="zh-Hans" className="hanzi inline rounded px-0.5 align-baseline"
         style={{
           background:
             statut === 'en-cours' ? 'var(--accent-soft)' : 'transparent',
@@ -176,7 +176,7 @@ export function TexteScreen() {
         </p>
       ) : (
         <>
-          <h1 className="hanzi mt-3 text-2xl font-semibold">{data.texte.titleZh}</h1>
+          <h1 lang="zh-Hans" className="hanzi mt-3 text-2xl font-semibold">{data.texte.titleZh}</h1>
           <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
             {data.texte.titleFr} · HSK {data.texte.level}
           </p>
@@ -191,7 +191,7 @@ export function TexteScreen() {
             {data.texte.paragraphs.map((paragraph, index) => (
               <li key={index}>
                 <div className="flex items-start gap-3">
-                  <p className="hanzi flex-1 text-xl leading-loose">
+                  <p lang="zh-Hans" className="hanzi flex-1 text-xl leading-loose">
                     {paragraph.tokens.map((token, position) =>
                       renderToken(token, `${String(index)}-${String(position)}`),
                     )}
@@ -259,7 +259,7 @@ export function TexteScreen() {
         >
           <div className="mx-auto max-w-xl">
             <div className="flex items-start gap-3">
-              <span className="hanzi text-3xl">{selectedLexeme.simplified}</span>
+              <span lang="zh-Hans" className="hanzi text-3xl">{selectedLexeme.simplified}</span>
               <span className="min-w-0 flex-1">
                 <Pinyin
                   numbered={selectedLexeme.pinyinNum}
@@ -319,7 +319,7 @@ export function TexteScreen() {
                 <Link
                   key={`${character}-${String(position)}`}
                   to={`/caractere/${encodeURIComponent(character)}`}
-                  className="hanzi flex min-h-11 items-center rounded-xl border px-3 text-lg"
+                  lang="zh-Hans" className="hanzi flex min-h-11 items-center rounded-xl border px-3 text-lg"
                   style={{ borderColor: 'var(--border)' }}
                 >
                   {character}

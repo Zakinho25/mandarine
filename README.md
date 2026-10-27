@@ -6,7 +6,7 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 10 sur 11 terminés.** L'application enseigne : les
+> **État : les onze jalons sont terminés.** L'application enseigne : les
 > **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
 > plus courant au moins courant, répartis en 27 unités thématiques. Le module
 > de prononciation couvre les tons et le sandhi, les **655 caractères** ont
@@ -35,12 +35,20 @@ Ouvre l'adresse affichée dans le terminal.
 ## Commandes
 
 ```bash
-npm run check      # lint + pureté du domaine + typage + tests (avant chaque commit)
-npm test           # tests unitaires
+npm run check      # lint + pureté du domaine + accessibilité + typage + tests
+npm test           # tests unitaires et de composants
+npm run test:e2e   # tests de bout en bout, dans Chromium et WebKit
 npm run coverage   # tests + seuils de couverture de la logique pédagogique
 npm run build      # build de production
 npm run preview    # sert le build de production
 npm run data       # régénère tout le vocabulaire depuis les sources
+```
+
+Les tests de bout en bout ont besoin des navigateurs de Playwright, à
+installer une fois :
+
+```bash
+npx playwright install chromium webkit
 ```
 
 ## D'où vient le vocabulaire
@@ -125,7 +133,9 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
 - [x] **10. Grammaire et examens blancs** — 48 fiches avec exercice de remise
       en ordre, examens chronométrés fabriqués à partir du contenu vérifié,
       points faibles renvoyés vers les révisions
-- [ ] **11. Finitions** — performance, accessibilité, tests de bout en bout
+- [x] **11. Finitions** — écrans chargés à la demande, chinois étiqueté pour
+      les lecteurs d'écran, couche de stockage testée, tests de bout en bout
+      dans Chromium et Safari
 
 ## Ce que l'application ne fait pas
 

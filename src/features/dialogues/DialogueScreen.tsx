@@ -121,7 +121,7 @@ export function DialogueScreen() {
       <Link to="/dialogues" className="text-sm" style={{ color: 'var(--accent)' }}>
         ← Dialogues
       </Link>
-      <h1 className="hanzi mt-3 text-2xl font-semibold">{dialogue.titleZh}</h1>
+      <h1 lang="zh-Hans" className="hanzi mt-3 text-2xl font-semibold">{dialogue.titleZh}</h1>
       <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
         {dialogue.titleFr} · HSK {dialogue.level}
       </p>

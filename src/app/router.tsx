@@ -1,22 +1,24 @@
 import { createHashRouter } from 'react-router-dom'
 import { Layout } from './Layout'
+import {
+  CaractereScreen,
+  DialogueScreen,
+  DialoguesScreen,
+  EcouteScreen,
+  ExamenScreen,
+  ExamensScreen,
+  GrammaireScreen,
+  LectureScreen,
+  NiveauScreen,
+  PointScreen,
+  PrononcerScreen,
+  PrononciationScreen,
+  ReglagesScreen,
+  RevisionsScreen,
+  TexteScreen,
+  UniteScreen,
+} from './ecrans'
 import { ParcoursScreen } from '@/features/parcours/ParcoursScreen'
-import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
-import { CaractereScreen } from '@/features/caracteres/CaractereScreen'
-import { DialogueScreen } from '@/features/dialogues/DialogueScreen'
-import { DialoguesScreen } from '@/features/dialogues/DialoguesScreen'
-import { ExamenScreen } from '@/features/examens/ExamenScreen'
-import { ExamensScreen } from '@/features/examens/ExamensScreen'
-import { GrammaireScreen } from '@/features/grammaire/GrammaireScreen'
-import { PointScreen } from '@/features/grammaire/PointScreen'
-import { LectureScreen } from '@/features/lecture/LectureScreen'
-import { TexteScreen } from '@/features/lecture/TexteScreen'
-import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
-import { PrononcerScreen } from '@/features/prononciation/PrononcerScreen'
-import { PrononciationScreen } from '@/features/prononciation/PrononciationScreen'
-import { RevisionsScreen } from '@/features/revisions/RevisionsScreen'
-import { NiveauScreen } from '@/features/vocabulaire/NiveauScreen'
-import { UniteScreen } from '@/features/vocabulaire/UniteScreen'
 
 /**
  * Routage par ancre (`/#/revisions`).
@@ -25,6 +27,9 @@ import { UniteScreen } from '@/features/vocabulaire/UniteScreen'
  * vers `index.html`, donc un lien profond en routage classique renverrait une
  * 404 au premier chargement. L'ancre évite ce problème sans serveur, sans
  * fichier de redirection et sans coût.
+ *
+ * Tous les écrans sont chargés à la demande sauf le tableau de bord ; le
+ * détail est dans `ecrans.tsx`.
  */
 export const router = createHashRouter([
   {

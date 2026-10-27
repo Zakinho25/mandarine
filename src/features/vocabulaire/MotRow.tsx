@@ -32,7 +32,7 @@ export function MotRow({ lexeme, showPinyin, say, muet, showLevel = false }: Mot
         className="flex cursor-pointer list-none items-center gap-3 px-5 py-3"
         style={{ minHeight: '3.5rem' }}
       >
-        <span className="hanzi text-2xl">{lexeme.simplified}</span>
+        <span lang="zh-Hans" className="hanzi text-2xl">{lexeme.simplified}</span>
         <span className="min-w-0 flex-1">
           {showPinyin && (
             <Pinyin
@@ -124,7 +124,7 @@ export function MotRow({ lexeme, showPinyin, say, muet, showLevel = false }: Mot
                 // distingue les deux entrées.
                 key={`${character}-${String(position)}`}
                 to={`/caractere/${encodeURIComponent(character)}`}
-                className="hanzi rounded-lg border px-2 py-1 text-xl"
+                lang="zh-Hans" className="hanzi rounded-lg border px-2 py-1 text-xl"
                 style={{ borderColor: 'var(--border)' }}
               >
                 {character}
@@ -135,7 +135,7 @@ export function MotRow({ lexeme, showPinyin, say, muet, showLevel = false }: Mot
           {lexeme.traditional !== null && lexeme.traditional !== lexeme.simplified && (
             <>
               <dt style={{ color: 'var(--text-muted)' }}>Traditionnel</dt>
-              <dd className="hanzi">{lexeme.traditional}</dd>
+              <dd lang="zh-Hant" className="hanzi">{lexeme.traditional}</dd>
             </>
           )}
 

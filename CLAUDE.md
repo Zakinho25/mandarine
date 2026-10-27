@@ -9,9 +9,11 @@ aucun service payant, aucun compte.
 | Commande | Effet |
 | --- | --- |
 | `npm run dev` | Serveur de développement (Vite) |
-| `npm run check` | Lint + pureté du domaine + typage + tests. **À lancer avant chaque commit.** |
-| `npm test` | Tests unitaires |
+| `npm run check` | Lint + pureté du domaine + accessibilité + typage + tests. **À lancer avant chaque commit.** |
+| `npm test` | Tests unitaires et de composants |
 | `npm run test:watch` | Tests en continu pendant le développement |
+| `npm run test:e2e` | Tests de bout en bout, sur le build, dans Chromium et WebKit |
+| `npm run test:e2e:ui` | Les mêmes, en mode pas à pas |
 | `npm run coverage` | Tests + seuils de couverture sur `src/domain` |
 | `npm run build` | Build de production, service worker compris |
 | `npm run preview` | Sert le build de production localement |
@@ -29,8 +31,21 @@ src/
   app/        navigation et mise en page
   features/   un dossier par écran
 scripts/      outils en ligne de commande (icônes, vérifications, pipeline de données)
+e2e/          tests de bout en bout (Playwright), sur le build de production
 public/content/  contenu pédagogique en JSON statique
 ```
+
+### Les quatre étages de tests
+
+| Où | Quoi | Ce que ça prouve |
+| --- | --- | --- |
+| `src/domain/**/*.test.ts` | logique pure | la pédagogie est juste |
+| `scripts/data/*.test.ts` | contenu généré | les données tiennent leurs promesses |
+| `src/**/*.test.tsx` | écrans, dans jsdom | l'interface réagit comme prévu |
+| `e2e/*.spec.ts` | build réel, vrai navigateur | IndexedDB, chargement différé et liens profonds fonctionnent |
+
+Chaque étage prouve ce que le précédent ne peut pas. Monter un test d'un
+étage à l'autre le rend plus lent sans le rendre plus vrai.
 
 ### La règle la plus importante
 
@@ -89,6 +104,47 @@ mot — une correction devenue inutile serait un bug silencieux.
 
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
+
+### 2026-10-27 — Un écran par fichier, chargé à la demande
+Toutes les routes passent par `React.lazy`, sauf le tableau de bord qu'on voit
+en arrivant. **Résultat mesuré :** le paquet initial passe de 540 à 363 ko
+(164 à 115 ko compressés), et l'avertissement de Vite sur les gros morceaux
+disparaît. `hanzi-writer` et ses 892 ko sur disque ne partent plus qu'avec la
+fiche de caractère. **Ce que ça ne change pas :** le service worker précharge
+les trente fichiers, donc hors ligne tout reste disponible.
+
+### 2026-10-27 — Le chinois affiché porte un attribut `lang`
+Les 31 endroits qui affichent du chinois déclarent `lang="zh-Hans"` (ou
+`zh-Hant` pour la forme traditionnelle). **Pourquoi :** sans lui, un lecteur
+d'écran prononce 你好 avec la voix française de l'interface, ce qui ne
+ressemble à rien — et rien à l'écran ne le signale. `npm run check:a11y`
+échoue si un nouvel affichage oublie l'attribut : c'est typiquement le genre
+de détail qu'une relecture laisse passer six mois plus tard.
+
+### 2026-10-27 — La couche de stockage est enfin testée
+`fake-indexeddb` en dépendance de développement, et 30 tests sur la base
+locale. **Pourquoi maintenant :** c'était le seul étage sans filet. Les tests
+de composants remplacent la couche de données par des simulacres, les tests du
+domaine ne la touchent pas — et c'est là que vit la progression, la seule
+donnée du projet qui ne se régénère pas. La migration de version 1 vers 2 est
+éprouvée sur une vraie base de version 1 remplie, pas sur une base vide : les
+deux ne prennent pas le même chemin.
+
+### 2026-10-27 — Les tests de bout en bout tournent sur le build, dans deux moteurs
+Playwright contre `vite preview`, en Chromium et en **WebKit**. **Pourquoi le
+build :** c'est ce qui sera déployé, chargement différé compris. **Pourquoi
+WebKit :** c'est le moteur de Safari, donc celui de l'iPhone où
+l'application est réellement installée, et celui dont les contraintes de
+stockage sont les plus dures. **Pourquoi pas Firefox :** l'application
+n'emploie aucune API exotique ; un troisième moteur coûterait du temps sans
+rien apprendre.
+
+### 2026-10-27 — Le chrono est annoncé par paliers, pas à la seconde
+Le compte à rebours visible est `aria-hidden` ; une région `status` annonce
+cinq minutes, une minute, trente secondes. **Pourquoi :** une zone live qui
+change chaque seconde couvre la question qu'on essaie de lire. Ne rien
+annoncer du tout priverait l'utilisateur d'une information que les autres ont
+sous les yeux.
 
 ### 2026-10-27 — Les examens blancs sont fabriqués, jamais écrits
 Aucun item n'est rédigé à la main : tout est construit au moment de l'épreuve

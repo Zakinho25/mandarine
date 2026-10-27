@@ -59,7 +59,7 @@ export function DialoguesScreen() {
                       style={card}
                     >
                       <div className="flex items-baseline justify-between gap-3">
-                        <span className="hanzi text-lg font-semibold">
+                        <span lang="zh-Hans" className="hanzi text-lg font-semibold">
                           {dialogue.titleZh}
                         </span>
                         <span

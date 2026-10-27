@@ -27,6 +27,9 @@ jobs:
       - name: Pureté de la couche domaine
         run: npm run check:domain
 
+      - name: Accessibilité
+        run: npm run check:a11y
+
       - name: Typage
         run: npx tsc -b
 
@@ -35,3 +38,20 @@ jobs:
 
       - name: Build de production
         run: npm run build
+
+      # Chromium et WebKit seulement. WebKit est le moteur de Safari, donc
+      # celui de l'iPhone sur lequel l'application est réellement installée :
+      # c'est le navigateur où une régression coûterait le plus cher.
+      - name: Navigateurs de test
+        run: npx playwright install --with-deps chromium webkit
+
+      - name: Tests de bout en bout
+        run: npm run test:e2e
+
+      - name: Rapport Playwright en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-playwright
+          path: playwright-report/
+          retention-days: 7

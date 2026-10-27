@@ -112,9 +112,18 @@ export function GrammaireScreen() {
                               <span style={{ color: 'var(--tone-4)' }}>à revoir</span>
                             )}
                             {couvert && (
-                              <span aria-label="point couvert" style={{ color: 'var(--tone-3)' }}>
-                                ✓
-                              </span>
+                              <>
+                                {/*
+                                  Le signe seul n'est pas un libellé : un
+                                  `aria-label` sur un span sans rôle est ignoré
+                                  par la plupart des lecteurs d'écran. On donne
+                                  donc le texte, et on cache le signe.
+                                */}
+                                <span className="sr-only">point couvert</span>
+                                <span aria-hidden="true" style={{ color: 'var(--tone-3)' }}>
+                                  ✓
+                                </span>
+                              </>
                             )}
                           </span>
                         </div>
@@ -125,7 +134,7 @@ export function GrammaireScreen() {
                           {point.resume}
                         </p>
                         {point.markers.length > 0 && (
-                          <p className="hanzi mt-2 text-sm">
+                          <p lang="zh-Hans" className="hanzi mt-2 text-sm">
                             {point.markers.join(' · ')}
                           </p>
                         )}

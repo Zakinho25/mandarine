@@ -36,6 +36,20 @@ function estLongueur(valeur: string | undefined): valeur is Longueur {
   return valeur === 'court' || valeur === 'complet'
 }
 
+/**
+ * Palier de temps à annoncer, ou `null` entre deux paliers.
+ *
+ * Les fenêtres font plus d'une seconde parce que le battement du chrono n'est
+ * pas aligné sur les secondes : viser une valeur exacte raterait l'annonce une
+ * fois sur quatre.
+ */
+function seuilAnnonce(restant: number): string | null {
+  if (restant <= 30 && restant >= 28) return 'trente secondes'
+  if (restant <= 60 && restant >= 58) return 'une minute'
+  if (restant <= 300 && restant >= 298) return 'cinq minutes'
+  return null
+}
+
 export function ExamenScreen() {
   const params = useParams<{ level: string; longueur: string; seed: string }>()
   const level = Number(params.level ?? '3')
@@ -295,6 +309,7 @@ export function ExamenScreen() {
   const repondu = reponses[item.id] ?? null
   const dernier = position + 1 >= items.length
   const presse = restant <= 30
+  const palier = seuilAnnonce(restant)
 
   return (
     <div className="mx-auto max-w-xl px-4 py-8">
@@ -303,11 +318,20 @@ export function ExamenScreen() {
           {SECTION_TITRES[section]}
         </span>
         <span
-          aria-live="off"
+          aria-hidden="true"
           className="font-mono text-sm"
           style={{ color: presse ? 'var(--tone-4)' : 'var(--text-muted)' }}
         >
           {chrono(restant)}
+        </span>
+        {/*
+          Le chrono visible est masqué au lecteur d'écran : annoncer chaque
+          seconde couvrirait la question. Ce qui est annoncé, c'est le
+          franchissement des paliers — une minute, trente secondes — pour que
+          l'information arrive sans occuper la parole en continu.
+        */}
+        <span className="sr-only" role="status">
+          {palier === null ? '' : `Il reste ${palier}.`}
         </span>
       </header>
 
@@ -377,7 +401,7 @@ export function ExamenScreen() {
                 }}
               >
                 {choix.zh !== null ? (
-                  <span className="hanzi text-lg">{choix.zh}</span>
+                  <span lang="zh-Hans" className="hanzi text-lg">{choix.zh}</span>
                 ) : (
                   <span className="text-sm">{choix.fr}</span>
                 )}

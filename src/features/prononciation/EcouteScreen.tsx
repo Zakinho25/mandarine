@@ -230,7 +230,7 @@ export function EcouteScreen() {
 
           {picked !== undefined && (
             <div className="mt-6 text-center">
-              <p className="hanzi text-4xl">{question.character}</p>
+              <p lang="zh-Hans" className="hanzi text-4xl">{question.character}</p>
               <Pinyin numbered={question.pinyinNum} className="mt-2 block text-lg" />
               <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
                 {question.gloss}

@@ -177,7 +177,7 @@ export function BilanExamen({ examen, resultat, reponses, lexemes }: BilanProps)
                   {definitionDe(item.partie).titre}
                 </p>
                 {item.audio !== null && (
-                  <p className="hanzi mt-2 text-lg">{item.audio}</p>
+                  <p lang="zh-Hans" className="hanzi mt-2 text-lg">{item.audio}</p>
                 )}
                 {item.enonce !== null && (
                   <LigneChinoise

@@ -139,7 +139,7 @@ export function PrononcerScreen() {
       {entry !== undefined && (
         <section className="mt-5 rounded-2xl border p-5" style={card}>
           <div className="flex items-center gap-4">
-            <span className="hanzi text-4xl">{entry.character}</span>
+            <span lang="zh-Hans" className="hanzi text-4xl">{entry.character}</span>
             <span className="min-w-0 flex-1">
               <Pinyin numbered={entry.pinyinNum} className="block text-lg" />
               <span className="block text-sm" style={{ color: 'var(--text-muted)' }}>

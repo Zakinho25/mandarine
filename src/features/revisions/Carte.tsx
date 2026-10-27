@@ -75,7 +75,7 @@ function BarreNotes({
 function Reponse({ lexeme }: { lexeme: Lexeme }) {
   return (
     <div className="mt-6 text-center">
-      <p className="hanzi text-4xl">{lexeme.simplified}</p>
+      <p lang="zh-Hans" className="hanzi text-4xl">{lexeme.simplified}</p>
       <Pinyin
         numbered={lexeme.pinyinNum}
         marked={lexeme.pinyinMark}
@@ -111,7 +111,7 @@ function CarteReconnaissance({ cardId, lexeme, pool, onAnswered }: CarteProps) {
       <p className="text-center text-sm" style={{ color: 'var(--text-muted)' }}>
         {SKILL_PROMPTS.zh_fr}
       </p>
-      <p className="hanzi mt-4 text-center text-5xl">{lexeme.simplified}</p>
+      <p lang="zh-Hans" className="hanzi mt-4 text-center text-5xl">{lexeme.simplified}</p>
 
       <ul className="mt-8 space-y-2">
         {choices.map((choice) => {

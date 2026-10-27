@@ -14,7 +14,7 @@
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
     "check:domain": "node scripts/check-domain-purity.mjs",
-    "check": "npm run lint && npm run check:domain && tsc -b && npm run test",
+    "check": "npm run lint && npm run check:domain && npm run check:a11y && tsc -b && npm run test",
     "icons": "node scripts/make-icons.mjs",
     "data:fetch": "tsx scripts/data/01-fetch.ts",
     "data:normalize": "tsx scripts/data/02-normalize.ts",
@@ -24,7 +24,10 @@
     "data:hanzi": "tsx scripts/data/05-hanzi.ts",
     "data:textes": "tsx scripts/data/06-textes.ts",
     "data:dialogues": "tsx scripts/data/07-dialogues.ts",
-    "data:grammaire": "tsx scripts/data/08-grammaire.ts"
+    "data:grammaire": "tsx scripts/data/08-grammaire.ts",
+    "check:a11y": "node scripts/check-accessibilite.mjs",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "hanzi-writer": "^3.7.3",
@@ -36,6 +39,7 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
@@ -46,6 +50,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "@vitest/coverage-v8": "^4.1.12",
+    "fake-indexeddb": "^6.2.6",
     "jsdom": "^29.1.1",
     "oxlint": "^1.88.0",
     "prettier": "^3.9.10",

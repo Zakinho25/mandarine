@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { Suspense, useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { useSettings } from '@/store/useSettings'
 
@@ -43,8 +43,37 @@ export function Layout() {
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <main className="flex-1 pb-24">
-        <Outlet />
+      {/*
+        Lien d'évitement : premier élément focalisable de la page, invisible
+        tant qu'il n'a pas le focus. Sans lui, naviguer au clavier impose de
+        traverser les six onglets à chaque changement d'écran.
+      */}
+      <a
+        href="#contenu"
+        className="sr-only rounded-xl px-4 py-3 text-sm font-medium focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50"
+        style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+      >
+        Aller au contenu
+      </a>
+
+      <main id="contenu" tabIndex={-1} className="flex-1 pb-24">
+        {/*
+          Les écrans sont chargés à la demande. Le repli annonce l'attente au
+          lecteur d'écran plutôt que de laisser un blanc silencieux.
+        */}
+        <Suspense
+          fallback={
+            <p
+              role="status"
+              className="mx-auto max-w-xl px-4 py-8 text-sm"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              Chargement…
+            </p>
+          }
+        >
+          <Outlet />
+        </Suspense>
       </main>
 
       <nav

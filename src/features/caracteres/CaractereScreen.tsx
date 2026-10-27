@@ -101,7 +101,7 @@ export function CaractereScreen() {
       </Link>
 
       <header className="mt-4 flex items-center gap-4">
-        <span className="hanzi text-6xl leading-none">{character}</span>
+        <span lang="zh-Hans" className="hanzi text-6xl leading-none">{character}</span>
         <span className="min-w-0 flex-1">
           {asWord !== undefined && (
             <>
@@ -148,7 +148,7 @@ export function CaractereScreen() {
               <Ligne label="Traits">{entry.strokeCount}</Ligne>
               {entry.radical !== null && (
                 <Ligne label="Clé">
-                  <span className="hanzi">{entry.radical}</span>
+                  <span lang="zh-Hans" className="hanzi">{entry.radical}</span>
                   {resolveComponent(entry.radical, wordMeaning).meaning !== null && (
                     <span style={{ color: 'var(--text-muted)' }}>
                       {' '}
@@ -185,7 +185,7 @@ export function CaractereScreen() {
                     >
                       <Link
                         to={`/caractere/${encodeURIComponent(component.character)}`}
-                        className="hanzi text-2xl"
+                        lang="zh-Hans" className="hanzi text-2xl"
                       >
                         {component.character}
                       </Link>
@@ -248,7 +248,7 @@ export function CaractereScreen() {
                     className="flex items-center gap-3 px-4 py-3"
                     style={{ borderColor: 'var(--border)' }}
                   >
-                    <span className="hanzi text-xl">{word.simplified}</span>
+                    <span lang="zh-Hans" className="hanzi text-xl">{word.simplified}</span>
                     <span className="min-w-0 flex-1">
                       <Pinyin
                         numbered={word.pinyinNum}
