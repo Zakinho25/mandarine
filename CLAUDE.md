@@ -105,6 +105,33 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-27 — Cartes d'écoute : créées partout, proposées où il y a une voix
+Trois distinctions, là où il n'y avait qu'`ACTIVE_SKILLS` :
+
+- `SKILLS_PLANIFIEES` — ce pour quoi une carte existe. Ne dépend **pas** du
+  matériel : une sauvegarde du téléphone doit se relire entière sur
+  l'ordinateur.
+- `skillsRevisables(aUneVoix)` — ce que cet appareil peut proposer. Sans voix
+  chinoise, les cartes sonores sont écartées de la file et du compteur de
+  cartes dues, pas supprimées. Elles reviennent intactes le jour où une voix
+  est installée.
+- `ACTIVE_SKILLS` — ce qui définit la **maîtrise**, inchangé à « reconnaître et
+  produire ». **Pourquoi ne pas y ajouter l'écoute :** le compteur de mots
+  maîtrisés s'effondrerait sur une machine sans voix, pour une raison sans
+  rapport avec ce que l'utilisateur sait. Un chiffre qui change de sens selon
+  l'appareil ne veut rien dire.
+
+`tone` et `write` restent hors plan, chacun pour sa raison : le premier ferait
+double emploi avec le module de prononciation, le second est un apprentissage à
+part que le HSK 3 n'exige pas à ce niveau.
+
+### 2026-10-27 — `say` est stable, et c'est une nécessité
+`useSpeech` renvoyait une fonction neuve à chaque rendu. La carte d'écoute
+prononce le mot à l'arrivée, dans un effet : avec une fonction instable, cet
+effet se rejouait sans fin et le mot tournait en boucle. `useCallback` sur la
+voix, pas sur l'état complet — sinon le compilateur React refuse de préserver
+la mémoïsation.
+
 ### 2026-10-27 — L'unité « divers » est vidée, mais elle reste
 Les 178 mots qu'aucune règle n'attrapait sont affectés un par un, dans
 `RATTRAPAGE`. **Pourquoi pas des mots-clés :** un mot-clé agit sur les mille

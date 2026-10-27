@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { ACTIVE_SKILLS, cardKey, seedsForLexeme } from './cards'
+import {
+  ACTIVE_SKILLS,
+  cardKey,
+  seedsForLexeme,
+  SKILLS_PLANIFIEES,
+  skillsRevisables,
+} from './cards'
 import { buildSession, type QueueCard } from './queue'
 import { createScheduler, type SrsState } from './scheduler'
 
@@ -25,10 +31,30 @@ function dueCard(targetId: string, due: string): QueueCard {
 }
 
 describe('cartes par compétence', () => {
-  it('crée une carte par compétence active', () => {
+  it('crée une carte par compétence planifiée', () => {
+    // La création ne dépend pas de ce que l’appareil sait faire : une
+    // sauvegarde du téléphone doit se relire entière sur l’ordinateur.
     const seeds = seedsForLexeme('爱-ai4')
-    expect(seeds).toHaveLength(ACTIVE_SKILLS.length)
-    expect(seeds.map((seed) => seed.skill)).toEqual([...ACTIVE_SKILLS])
+    expect(seeds).toHaveLength(SKILLS_PLANIFIEES.length)
+    expect(seeds.map((seed) => seed.skill)).toEqual([...SKILLS_PLANIFIEES])
+  })
+
+  it('écarte les cartes sonores quand aucune voix n’est installée', () => {
+    const avec = skillsRevisables(true)
+    const sans = skillsRevisables(false)
+    expect(avec).toContain('audio_fr')
+    expect(sans).not.toContain('audio_fr')
+    // Rien d’autre ne bouge : le silence ne retire que ce qui a besoin du son.
+    expect(sans).toEqual(['zh_fr', 'fr_zh'])
+  })
+
+  it('ne compte pas l’écoute dans la définition de la maîtrise', () => {
+    // Sinon le compteur de mots maîtrisés vaudrait autre chose selon
+    // l’appareil, ce qui le rendrait ininterprétable.
+    expect(ACTIVE_SKILLS).not.toContain('audio_fr')
+    expect(ACTIVE_SKILLS.every((skill) => SKILLS_PLANIFIEES.includes(skill))).toBe(
+      true,
+    )
   })
 
   it('donne une clé stable et distincte par compétence', () => {

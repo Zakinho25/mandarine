@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { Lexeme } from '@/data/content'
 import { hashString, seededRandom, shuffle } from '@/domain/random'
 import { pickDistractors, type DistractorItem } from '@/domain/srs/distractors'
@@ -11,7 +11,9 @@ import {
 } from '@/domain/srs/grading'
 import { SKILL_PROMPTS, type CardSkill } from '@/domain/srs/cards'
 import { NOTE_LABELS, NOTES, type Note } from '@/domain/srs/scheduler'
+import { BoutonEcouter } from '@/ui/BoutonEcouter'
 import { Pinyin } from '@/ui/Pinyin'
+import { useSpeech } from '@/ui/useSpeech'
 
 export interface CarteProps {
   readonly cardId: string
@@ -162,6 +164,115 @@ function CarteReconnaissance({ cardId, lexeme, pool, onAnswered }: CarteProps) {
   )
 }
 
+/**
+ * Carte « comprendre à l'oral » : on entend le mot, on choisit le sens.
+ *
+ * Rien n'est écrit à l'écran avant la réponse, et c'est tout l'exercice :
+ * afficher le caractère en ferait une carte de reconnaissance avec du son en
+ * décoration. Les propositions sont choisies par le même calcul de proximité
+ * que les autres cartes, ce qui tombe bien — même schéma tonal, même initiale,
+ * ce sont exactement les confusions qu'on fait à l'oreille.
+ *
+ * Le mot est prononcé à l'arrivée, puis autant de fois qu'on le demande.
+ */
+function CarteEcoute({ cardId, lexeme, pool, onAnswered }: CarteProps) {
+  const [picked, setPicked] = useState<string | undefined>(undefined)
+  const { status, say } = useSpeech()
+  const muet = status?.voice == null
+
+  const choices = useMemo(() => {
+    const random = seededRandom(hashString(cardId))
+    const target: DistractorItem = {
+      id: lexeme.id,
+      simplified: lexeme.simplified,
+      pinyinNum: lexeme.pinyinNum,
+      glossFr: lexeme.glossFr,
+    }
+    const distractors = pickDistractors(target, pool, random, { count: 3 })
+    return shuffle([target, ...distractors], random)
+  }, [cardId, lexeme, pool])
+
+  // Première écoute automatique : sur une carte sonore, attendre un clic pour
+  // entendre quoi que ce soit ajoute un geste à chaque carte sans rien
+  // apporter.
+  useEffect(() => {
+    if (!muet) say(lexeme.simplified)
+    // Volontairement déclenché par la carte, pas par `say` : cette fonction
+    // change d'identité à chaque rendu, et l'inscrire ici rejouerait le mot
+    // en boucle.
+  }, [cardId, muet, lexeme.simplified, say])
+
+  const correct = picked === lexeme.id
+
+  return (
+    <>
+      <p className="text-center text-sm" style={{ color: 'var(--text-muted)' }}>
+        {SKILL_PROMPTS.audio_fr}
+      </p>
+
+      <div className="mt-6 flex flex-col items-center gap-3">
+        <BoutonEcouter
+          onClick={() => {
+            say(lexeme.simplified)
+          }}
+          disabled={muet}
+          label="Réécouter le mot"
+          size="grand"
+        />
+        <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+          {muet ? 'Pas de voix chinoise disponible.' : 'Touche pour réécouter.'}
+        </span>
+      </div>
+
+      <ul className="mt-8 space-y-2">
+        {choices.map((choice) => {
+          const isTarget = choice.id === lexeme.id
+          const chosen = picked === choice.id
+          const revealed = picked !== undefined
+          return (
+            <li key={choice.id}>
+              <button
+                type="button"
+                disabled={revealed}
+                onClick={() => {
+                  setPicked(choice.id)
+                }}
+                className="w-full rounded-xl border px-4 py-3 text-left text-sm"
+                style={{
+                  borderColor:
+                    revealed && isTarget
+                      ? 'var(--tone-3)'
+                      : chosen
+                        ? 'var(--tone-1)'
+                        : 'var(--border)',
+                  background:
+                    revealed && isTarget
+                      ? 'color-mix(in srgb, var(--tone-3) 12%, transparent)'
+                      : 'var(--surface-raised)',
+                }}
+              >
+                {choice.glossFr.slice(0, 3).join(', ')}
+              </button>
+            </li>
+          )
+        })}
+      </ul>
+
+      {picked !== undefined && (
+        <>
+          <Reponse lexeme={lexeme} />
+          <BarreNotes
+            suggestion={correct ? 'correct' : 'encore'}
+            onPick={(note) => {
+              onAnswered({ note, answer: picked })
+            }}
+          />
+        </>
+      )}
+    </>
+  )
+}
+
 /** Carte « produire » : on voit le sens, on écrit le pinyin. */
 function CarteProduction({ lexeme, onAnswered }: CarteProps) {
   const [answer, setAnswer] = useState('')
@@ -255,5 +366,6 @@ export function Carte(props: CarteProps) {
   // La clé force le remontage à chaque carte : sans elle, la réponse tapée et
   // le choix fait resteraient à l'écran d'une carte à la suivante.
   if (props.skill === 'fr_zh') return <CarteProduction key={props.cardId} {...props} />
+  if (props.skill === 'audio_fr') return <CarteEcoute key={props.cardId} {...props} />
   return <CarteReconnaissance key={props.cardId} {...props} />
 }

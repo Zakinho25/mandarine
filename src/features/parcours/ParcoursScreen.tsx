@@ -7,9 +7,11 @@ import {
   type GrammaireProgression,
 } from '@/data/points'
 import { computeProgress, type Progress } from '@/data/progress'
+import { skillsRevisables } from '@/domain/srs/cards'
 import { ESTIMATE_MESSAGES } from '@/domain/progress'
 import { useSettings } from '@/store/useSettings'
 import { LEVEL_GOALS, levelTitle } from '@/ui/levels'
+import { useSpeech } from '@/ui/useSpeech'
 
 function formatDate(iso: string): string {
   return new Date(`${iso}T12:00:00Z`).toLocaleDateString('fr-FR', {
@@ -33,6 +35,8 @@ function Stat({ value, label }: { value: string; label: string }) {
 
 export function ParcoursScreen() {
   const dailyGoalMin = useSettings((state) => state.settings.dailyGoalMin)
+  const { status } = useSpeech()
+  const aUneVoix = status?.voice != null
 
   const [index, setIndex] = useState<ContentIndex | undefined>(undefined)
   const [unites, setUnites] = useState<UnitesFile | undefined>(undefined)
@@ -50,7 +54,12 @@ export function ParcoursScreen() {
           loadGrammaireIndex(),
         ])
         const target = file.levels.at(-1)?.cumulative ?? 1000
-        const stats = await computeProgress(target, dailyGoalMin * 60_000)
+        const stats = await computeProgress(
+          target,
+          dailyGoalMin * 60_000,
+          new Date(),
+          skillsRevisables(aUneVoix),
+        )
         const points = await computeGrammaireProgression(grammaireIndex.count)
         if (cancelled) return
         setIndex(file)
@@ -64,7 +73,7 @@ export function ParcoursScreen() {
     return () => {
       cancelled = true
     }
-  }, [dailyGoalMin])
+  }, [aUneVoix, dailyGoalMin])
 
   const card = { background: 'var(--surface-raised)', borderColor: 'var(--border)' }
   const total = index?.levels.at(-1)?.cumulative ?? 1000

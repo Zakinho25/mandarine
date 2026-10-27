@@ -4,7 +4,12 @@ import {
   type DayRecord,
   type Estimate,
 } from '@/domain/progress'
-import { ACTIVE_SKILLS, cardKey } from '@/domain/srs/cards'
+import {
+  ACTIVE_SKILLS,
+  cardKey,
+  SKILLS_PLANIFIEES,
+  type CardSkill,
+} from '@/domain/srs/cards'
 import { isMastered } from '@/domain/srs/scheduler'
 import { allCards, allDailyStats, localDay, scheduler, todayStat } from './cards'
 
@@ -39,6 +44,12 @@ export async function computeProgress(
   target: number,
   goalMs: number,
   now: Date = new Date(),
+  /**
+   * Compétences révisables sur cet appareil. Le compteur de cartes dues ne
+   * doit annoncer que ce qui peut réellement être révisé : promettre des
+   * cartes muettes enverrait sur une session vide.
+   */
+  revisables: readonly CardSkill[] = SKILLS_PLANIFIEES,
 ): Promise<Progress> {
   const cards = await allCards()
   const stat = await todayStat(now)
@@ -66,7 +77,11 @@ export async function computeProgress(
   }
 
   const dueNow = cards.filter(
-    (card) => card.state !== 0 && card.suspendedAt === null && card.due <= iso,
+    (card) =>
+      card.state !== 0 &&
+      card.suspendedAt === null &&
+      card.due <= iso &&
+      revisables.includes(card.skill),
   ).length
 
   const days: DayRecord[] = stats.map((day) => ({

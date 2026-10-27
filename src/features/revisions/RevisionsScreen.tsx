@@ -9,11 +9,12 @@ import {
 import { loadIndex, loadLevel, type Lexeme } from '@/data/content'
 import { loadPriorities } from '@/data/priorites'
 import type { CardRecord } from '@/data/types'
-import { ACTIVE_SKILLS, SKILL_LABELS } from '@/domain/srs/cards'
+import { SKILL_LABELS, skillsRevisables } from '@/domain/srs/cards'
 import type { Verdict } from '@/domain/srs/grading'
 import { buildSession, type QueueCard, type SessionPlan } from '@/domain/srs/queue'
 import type { Note } from '@/domain/srs/scheduler'
 import { useSettings } from '@/store/useSettings'
+import { useSpeech } from '@/ui/useSpeech'
 import { Carte } from './Carte'
 
 type Phase = 'chargement' | 'pret' | 'session' | 'termine' | 'erreur'
@@ -49,6 +50,17 @@ function formatDue(iso: string, now: Date): string {
 
 export function RevisionsScreen() {
   const dailyGoalMin = useSettings((state) => state.settings.dailyGoalMin)
+  const { status } = useSpeech()
+
+  /**
+   * Ce que cet appareil peut réviser. Tant que la détection de voix n'a pas
+   * répondu, on s'en tient aux compétences silencieuses : afficher une carte
+   * sonore puis la retirer serait pire que de la faire attendre un instant.
+   */
+  const revisables = useMemo(
+    () => skillsRevisables(status?.voice != null),
+    [status?.voice],
+  )
 
   const [phase, setPhase] = useState<Phase>('chargement')
   const [error, setError] = useState<string | undefined>(undefined)
@@ -113,7 +125,7 @@ export function RevisionsScreen() {
     const result: QueueCard[] = []
 
     for (const lexeme of prepared.ordered) {
-      for (const skill of ACTIVE_SKILLS) {
+      for (const skill of revisables) {
         const card = byKey.get(`lexeme:${lexeme.id}:${skill}`)
         if (card === undefined) continue
         result.push({
@@ -126,7 +138,7 @@ export function RevisionsScreen() {
       }
     }
     return result
-  }, [prepared])
+  }, [prepared, revisables])
 
   const preview = useMemo(() => {
     if (prepared === undefined) return undefined
@@ -345,13 +357,14 @@ export function RevisionsScreen() {
       </section>
 
       <p className="mt-4 text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-        Chaque mot donne {ACTIVE_SKILLS.length} cartes :{' '}
-        {ACTIVE_SKILLS.map((skill) => SKILL_LABELS[skill].toLowerCase()).join(' et ')}.
-        Les cartes d’écoute et de tons existent dans le modèle, mais elles ne sont pas
-        encore planifiées : il leur faut un affichage qui ne montre pas le caractère,
-        faute de quoi l’exercice s’annule tout seul. En attendant, les tons se
-        travaillent dans le module de prononciation. Ce temps-là compte dans tes
-        minutes d’écoute, pas dans tes révisions.
+        Sur cet appareil, chaque mot donne {revisables.length} cartes :{' '}
+        {revisables.map((skill) => SKILL_LABELS[skill].toLowerCase()).join(', ')}.
+        {status?.voice == null
+          ? ' Les cartes d’écoute sont mises de côté tant qu’aucune voix chinoise n’est installée : elles seraient muettes. Elles réapparaîtront sans rien perdre dès qu’une voix sera disponible.'
+          : ' Les cartes d’écoute ne montrent rien avant ta réponse, sinon l’exercice s’annulerait tout seul.'}{' '}
+        Un mot compte comme maîtrisé dès que tu sais le reconnaître et le produire :
+        l’écoute ajoute de l’entraînement, elle ne déplace pas la cible. Les tons, eux,
+        se travaillent dans le module de prononciation.
       </p>
     </div>
   )

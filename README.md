@@ -146,9 +146,17 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
   l'application le dit et désactive les boutons d'écoute.
 - **Il n'y a aucune intelligence artificielle dedans.** Les dialogues sont des
   arbres écrits à l'avance, et l'interface le dit.
-- Les cartes d'écoute ne sont pas encore dans les révisions : deux compétences
-  sur cinq sont actives. Les exercices de tons sont pour l'instant un module à
-  part, qui compte dans le temps d'écoute mais pas dans la planification.
+- **Les cartes d'écoute dépendent de ton appareil.** Elles sont créées partout,
+  mais ne te sont proposées que là où une voix chinoise est installée : sans
+  elle, la carte serait muette. L'iPhone en a une d'origine ; sous Windows, il
+  faut ajouter le chinois simplifié dans les réglages de langue. Rien n'est
+  perdu entre-temps, les cartes attendent.
+- Un mot reste **maîtrisé** quand tu sais le reconnaître et le produire : la
+  définition n'inclut pas l'écoute, pour que le compteur veuille dire la même
+  chose sur le téléphone et sur l'ordinateur.
+- Les exercices de tons et l'écriture manuscrite ne sont pas planifiés. Les
+  tons se travaillent dans le module de prononciation, qui compte dans le temps
+  d'écoute ; le tracé des caractères reste libre, sur leurs fiches.
 - **Elle ne peut pas t'envoyer de notification.** Une application web ne sait
   pas programmer un rappel quand elle est fermée : il faudrait un serveur de
   push. Les réglages produisent à la place un événement d'agenda quotidien, que

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { detectSpeech, speak, type SpeechStatus } from '@/data/speech'
 
 /**
@@ -31,11 +31,23 @@ export function useSpeech(): Speech {
     }
   }, [])
 
+  /**
+   * Stable tant que la voix ne change pas. C'est nécessaire, pas cosmétique :
+   * une carte d'écoute prononce le mot à l'arrivée, dans un effet. Avec une
+   * fonction recréée à chaque rendu, cet effet se rejouerait sans fin et le
+   * mot tournerait en boucle.
+   */
+  const voice = state?.voice ?? null
+  const say = useCallback(
+    (text: string) => {
+      if (voice == null) return
+      speak(text, { voice })
+    },
+    [voice],
+  )
+
   return {
     status: state,
-    say: (text: string) => {
-      if (state?.voice == null) return
-      speak(text, { voice: state.voice })
-    },
+    say,
   }
 }

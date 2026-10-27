@@ -31,19 +31,49 @@ export const SKILL_PROMPTS: Record<CardSkill, string> = {
 }
 
 /**
- * Compétences effectivement révisées aujourd'hui.
+ * Compétences pour lesquelles une carte est créée, sur tous les appareils.
  *
- * `audio_fr` et `tone` ne sont toujours pas planifiées, et la raison a changé
- * depuis le jalon 4 : la synthèse vocale existe, mais l'écran de révision ne
- * distingue que la production du reste. Une carte d'écoute y afficherait donc
- * le caractère, ce qui annulerait l'exercice. Les activer demande une
- * présentation à elles, pas un changement de cette liste.
+ * La création ne dépend pas du matériel, et c'est voulu : une sauvegarde
+ * exportée depuis le téléphone doit pouvoir être relue sur l'ordinateur
+ * sans que des cartes y manquent. C'est la **sélection** qui tient compte
+ * de ce que l'appareil sait faire, pas le stockage.
+ */
+export const SKILLS_PLANIFIEES: readonly CardSkill[] = ['zh_fr', 'fr_zh', 'audio_fr']
+
+/** Compétences qui ont besoin d’une voix chinoise installée. */
+export const SKILLS_SONORES: readonly CardSkill[] = ['audio_fr', 'tone']
+
+/**
+ * Compétences qui définissent la **maîtrise** d'un mot.
  *
- * `write` reste désactivée pour une raison de programme et non de code : le
- * nouveau HSK n'exige pas l'écriture manuscrite avant le niveau 5. Le traçage
- * existe sur les fiches de caractères, hors planification.
+ * L'écoute n'en fait pas partie, et ce n'est pas un oubli. Si elle comptait,
+ * le compteur de mots maîtrisés vaudrait autre chose selon l'appareil — il
+ * s'effondrerait sur une machine sans voix chinoise, pour une raison qui n'a
+ * rien à voir avec ce que l'utilisateur sait. La définition reste donc
+ * « reconnaître et produire », identique partout et comparable dans le temps.
+ * L'écoute ajoute de l'entraînement, elle ne déplace pas la cible.
  */
 export const ACTIVE_SKILLS: readonly CardSkill[] = ['zh_fr', 'fr_zh']
+
+/**
+ * Compétences révisables sur cet appareil.
+ *
+ * Sans voix chinoise, une carte d'écoute est une carte muette : elle ne
+ * teste rien et bloque la session. On l'écarte de la file plutôt que de ne
+ * pas la créer.
+ */
+export function skillsRevisables(aUneVoix: boolean): readonly CardSkill[] {
+  if (aUneVoix) return SKILLS_PLANIFIEES
+  return SKILLS_PLANIFIEES.filter((skill) => !SKILLS_SONORES.includes(skill))
+}
+
+/*
+ * `tone` et `write` restent hors de la planification, pour deux raisons
+ * différentes. `tone` ferait double emploi avec le module de prononciation,
+ * qui entraîne déjà l'identification des tons avec de meilleurs outils qu'une
+ * carte. `write` demande un apprentissage à part entière, et le programme du
+ * HSK 3.0 n'exige pas l'écriture manuscrite à ce niveau.
+ */
 
 /**
  * Clé stable d'une carte : même cible, même compétence, même carte.
@@ -69,7 +99,7 @@ export interface CardSeed {
 /** Les cartes à créer pour un mot, une par compétence active. */
 export function seedsForLexeme(
   lexemeId: string,
-  skills: readonly CardSkill[] = ACTIVE_SKILLS,
+  skills: readonly CardSkill[] = SKILLS_PLANIFIEES,
 ): CardSeed[] {
   return skills.map((skill) => ({
     key: cardKey('lexeme', lexemeId, skill),
