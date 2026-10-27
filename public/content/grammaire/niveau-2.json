@@ -1,0 +1,3086 @@
+{
+ "format": "mandarine-grammaire-niveau",
+ "version": 1,
+ "generatedAt": "2026-10-27T09:52:58.479Z",
+ "level": 2,
+ "contentStatus": "auto_checked",
+ "count": 15,
+ "points": [
+  {
+   "id": "guo-experience",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "过 : l’expérience, au moins une fois",
+   "markers": [
+    "过"
+   ],
+   "resume": "过 après le verbe dit qu’on a déjà fait la chose, sans dire quand.",
+   "explication": [
+    "我去过中国 veut dire « je suis déjà allé en Chine ». Ce qui compte n’est pas le moment mais le fait d’en avoir l’expérience : 你去过中国吗 cherche à savoir si tu connais le pays.",
+    "La négation est 没 et 过 reste en place : 我没去过中国. C’est une différence importante avec 了, qui disparaît à la négative."
+   ],
+   "piege": "了 et 过 se traduisent tous deux par un passé français, mais ils ne disent pas la même chose. 我吃了 répond à « as-tu mangé ? » ; 我吃过 répond à « as-tu déjà goûté ? ».",
+   "exemples": [
+    {
+     "fr": "Je suis déjà allé en Chine.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "过",
+       "lexemeId": "过-guo4"
+      },
+      {
+       "text": "中国",
+       "lexemeId": "中国-Zhong1guo2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "As-tu déjà mangé chinois ?",
+     "tokens": [
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "吃",
+       "lexemeId": "吃-chi1"
+      },
+      {
+       "text": "过",
+       "lexemeId": "过-guo4"
+      },
+      {
+       "text": "中国",
+       "lexemeId": "中国-Zhong1guo2"
+      },
+      {
+       "text": "菜",
+       "lexemeId": "菜-cai4"
+      },
+      {
+       "text": "吗",
+       "lexemeId": "吗-ma5"
+      },
+      {
+       "text": "？",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je ne suis jamais allé à l’étranger.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "没有",
+       "lexemeId": "没有-mei2you3"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "过",
+       "lexemeId": "过-guo4"
+      },
+      {
+       "text": "外国",
+       "lexemeId": "外国-wai4guo2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "你",
+      "tokens": [
+       {
+        "text": "你",
+        "lexemeId": "你-ni3"
+       }
+      ]
+     },
+     {
+      "text": "吃过",
+      "tokens": [
+       {
+        "text": "吃",
+        "lexemeId": "吃-chi1"
+       },
+       {
+        "text": "过",
+        "lexemeId": "过-guo4"
+       }
+      ]
+     },
+     {
+      "text": "这个",
+      "tokens": [
+       {
+        "text": "这个",
+        "lexemeId": "这个-zhe4ge5"
+       }
+      ]
+     },
+     {
+      "text": "饭馆的",
+      "tokens": [
+       {
+        "text": "饭馆",
+        "lexemeId": "饭馆-fan4guan3"
+       },
+       {
+        "text": "的",
+        "lexemeId": "的-de5"
+       }
+      ]
+     },
+     {
+      "text": "鱼",
+      "tokens": [
+       {
+        "text": "鱼",
+        "lexemeId": "鱼-yu2"
+       }
+      ]
+     },
+     {
+      "text": "吗",
+      "tokens": [
+       {
+        "text": "吗",
+        "lexemeId": "吗-ma5"
+       }
+      ]
+     }
+    ],
+    "fr": "As-tu déjà mangé le poisson de ce restaurant ?",
+    "acceptes": [
+     "你吃过这个饭馆的鱼吗"
+    ],
+    "tokens": [
+     {
+      "text": "你",
+      "lexemeId": "你-ni3"
+     },
+     {
+      "text": "吃",
+      "lexemeId": "吃-chi1"
+     },
+     {
+      "text": "过",
+      "lexemeId": "过-guo4"
+     },
+     {
+      "text": "这个",
+      "lexemeId": "这个-zhe4ge5"
+     },
+     {
+      "text": "饭馆",
+      "lexemeId": "饭馆-fan4guan3"
+     },
+     {
+      "text": "的",
+      "lexemeId": "的-de5"
+     },
+     {
+      "text": "鱼",
+      "lexemeId": "鱼-yu2"
+     },
+     {
+      "text": "吗",
+      "lexemeId": "吗-ma5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "zai-progressif",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "在 et 正在 : l’action en cours",
+   "markers": [
+    "在",
+    "正在",
+    "正"
+   ],
+   "resume": "在 devant le verbe : « être en train de ».",
+   "explication": [
+    "他在吃饭 veut dire « il est en train de manger ». 正在 insiste sur le moment précis. On ajoute souvent 呢 à la fin : 他在吃饭呢.",
+    "Cette construction ne va pas avec 了 : une action en cours n’est pas achevée."
+   ],
+   "piege": "Ne confonds pas les deux 在. Devant un lieu, il situe (他在家) ; devant un verbe, il indique le déroulement (他在吃饭). Les deux peuvent coexister : 他在家吃饭呢.",
+   "exemples": [
+    {
+     "fr": "Il est en train de manger.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "正在",
+       "lexemeId": "正在-zheng4zai4"
+      },
+      {
+       "text": "吃",
+       "lexemeId": "吃-chi1"
+      },
+      {
+       "text": "饭",
+       "lexemeId": "饭-fan4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis en train de regarder la télévision.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "在",
+       "lexemeId": "在-zai4"
+      },
+      {
+       "text": "看",
+       "lexemeId": "看-kan4"
+      },
+      {
+       "text": "电视",
+       "lexemeId": "电视-dian4shi4"
+      },
+      {
+       "text": "呢",
+       "lexemeId": "呢-ne5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Maman est en train de laver le linge.",
+     "tokens": [
+      {
+       "text": "妈妈",
+       "lexemeId": "妈妈-ma1ma5"
+      },
+      {
+       "text": "在",
+       "lexemeId": "在-zai4"
+      },
+      {
+       "text": "洗",
+       "lexemeId": "洗-xi3"
+      },
+      {
+       "text": "衣服",
+       "lexemeId": "衣服-yi1fu5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我弟弟",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       },
+       {
+        "text": "弟弟",
+        "lexemeId": "弟弟-di4di5"
+       }
+      ]
+     },
+     {
+      "text": "正在",
+      "tokens": [
+       {
+        "text": "正在",
+        "lexemeId": "正在-zheng4zai4"
+       }
+      ]
+     },
+     {
+      "text": "房间里",
+      "tokens": [
+       {
+        "text": "房间",
+        "lexemeId": "房间-fang2jian1"
+       },
+       {
+        "text": "里",
+        "lexemeId": "里-li3"
+       }
+      ]
+     },
+     {
+      "text": "看",
+      "tokens": [
+       {
+        "text": "看",
+        "lexemeId": "看-kan4"
+       }
+      ]
+     },
+     {
+      "text": "书",
+      "tokens": [
+       {
+        "text": "书",
+        "lexemeId": "书-shu1"
+       }
+      ]
+     }
+    ],
+    "fr": "Mon petit frère est en train de lire dans sa chambre.",
+    "acceptes": [
+     "我弟弟正在房间里看书"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "弟弟",
+      "lexemeId": "弟弟-di4di5"
+     },
+     {
+      "text": "正在",
+      "lexemeId": "正在-zheng4zai4"
+     },
+     {
+      "text": "房间",
+      "lexemeId": "房间-fang2jian1"
+     },
+     {
+      "text": "里",
+      "lexemeId": "里-li3"
+     },
+     {
+      "text": "看",
+      "lexemeId": "看-kan4"
+     },
+     {
+      "text": "书",
+      "lexemeId": "书-shu1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "zhe-duratif",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "着 : l’état qui dure",
+   "markers": [
+    "着"
+   ],
+   "resume": "着 après le verbe décrit une position ou un état maintenu, pas une action qui avance.",
+   "explication": [
+    "他坐着 veut dire « il est assis ». Le verbe désigne le geste, 着 indique qu’on en est resté là : 门开着, la porte est ouverte.",
+    "Il sert aussi à dire qu’une action accompagne une autre : 他笑着说, « il a dit en souriant ». Le verbe porteur de 着 est la manière, celui qui suit est l’action principale."
+   ],
+   "piege": "在 et 着 se traduisent tous deux par « être en train de », mais 在 décrit une action qui progresse et 着 un état qui dure. 他在穿衣服 : il s’habille. 他穿着红色的衣服 : il porte du rouge.",
+   "exemples": [
+    {
+     "fr": "Il lit assis.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "坐",
+       "lexemeId": "坐-zuo4"
+      },
+      {
+       "text": "着",
+       "lexemeId": "着-zhe5"
+      },
+      {
+       "text": "看",
+       "lexemeId": "看-kan4"
+      },
+      {
+       "text": "书",
+       "lexemeId": "书-shu1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "La porte est ouverte.",
+     "tokens": [
+      {
+       "text": "门",
+       "lexemeId": "门-men2"
+      },
+      {
+       "text": "开",
+       "lexemeId": "开-kai1"
+      },
+      {
+       "text": "着",
+       "lexemeId": "着-zhe5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Elle me l’a dit en souriant.",
+     "tokens": [
+      {
+       "text": "她",
+       "lexemeId": "她-ta1"
+      },
+      {
+       "text": "笑",
+       "lexemeId": "笑-xiao4"
+      },
+      {
+       "text": "着",
+       "lexemeId": "着-zhe5"
+      },
+      {
+       "text": "告诉",
+       "lexemeId": "告诉-gao4su5"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "她",
+      "tokens": [
+       {
+        "text": "她",
+        "lexemeId": "她-ta1"
+       }
+      ]
+     },
+     {
+      "text": "穿着",
+      "tokens": [
+       {
+        "text": "穿",
+        "lexemeId": "穿-chuan1"
+       },
+       {
+        "text": "着",
+        "lexemeId": "着-zhe5"
+       }
+      ]
+     },
+     {
+      "text": "一件",
+      "tokens": [
+       {
+        "text": "一",
+        "lexemeId": "一-yi1"
+       },
+       {
+        "text": "件",
+        "lexemeId": "件-jian4"
+       }
+      ]
+     },
+     {
+      "text": "白色的",
+      "tokens": [
+       {
+        "text": "白色",
+        "lexemeId": "白色-bai2se4"
+       },
+       {
+        "text": "的",
+        "lexemeId": "的-de5"
+       }
+      ]
+     },
+     {
+      "text": "衣服",
+      "tokens": [
+       {
+        "text": "衣服",
+        "lexemeId": "衣服-yi1fu5"
+       }
+      ]
+     }
+    ],
+    "fr": "Elle porte un vêtement blanc.",
+    "acceptes": [
+     "她穿着一件白色的衣服"
+    ],
+    "tokens": [
+     {
+      "text": "她",
+      "lexemeId": "她-ta1"
+     },
+     {
+      "text": "穿",
+      "lexemeId": "穿-chuan1"
+     },
+     {
+      "text": "着",
+      "lexemeId": "着-zhe5"
+     },
+     {
+      "text": "一",
+      "lexemeId": "一-yi1"
+     },
+     {
+      "text": "件",
+      "lexemeId": "件-jian4"
+     },
+     {
+      "text": "白色",
+      "lexemeId": "白色-bai2se4"
+     },
+     {
+      "text": "的",
+      "lexemeId": "的-de5"
+     },
+     {
+      "text": "衣服",
+      "lexemeId": "衣服-yi1fu5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yijing-le",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "已经…了 : c’est déjà fait",
+   "markers": [
+    "已经",
+    "了",
+    "快要"
+   ],
+   "resume": "已经 devant le verbe, 了 à la fin : la situation a changé.",
+   "explication": [
+    "他已经走了 : il est déjà parti. Le 了 final n’est pas celui du verbe accompli, il marque le changement d’état par rapport à avant.",
+    "Le pendant à l’autre bout du temps est 快要…了 : 他快要来了, « il va bientôt arriver »."
+   ],
+   "piege": "La négation n’est pas 已经不 mais 还没 : 他还没走, « il n’est pas encore parti ». 已经 et 还没 fonctionnent en paire dans la conversation.",
+   "exemples": [
+    {
+     "fr": "Il est déjà parti.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "已经",
+       "lexemeId": "已经-yi3jing1"
+      },
+      {
+       "text": "走",
+       "lexemeId": "走-zou3"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "J’ai déjà mangé.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "已经",
+       "lexemeId": "已经-yi3jing1"
+      },
+      {
+       "text": "吃",
+       "lexemeId": "吃-chi1"
+      },
+      {
+       "text": "过",
+       "lexemeId": "过-guo4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Il n’est toujours pas là.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "还",
+       "lexemeId": "还-hai2"
+      },
+      {
+       "text": "没有",
+       "lexemeId": "没有-mei2you3"
+      },
+      {
+       "text": "来",
+       "lexemeId": "来-lai2"
+      },
+      {
+       "text": "呢",
+       "lexemeId": "呢-ne5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "已经",
+      "tokens": [
+       {
+        "text": "已经",
+        "lexemeId": "已经-yi3jing1"
+       }
+      ]
+     },
+     {
+      "text": "看过",
+      "tokens": [
+       {
+        "text": "看",
+        "lexemeId": "看-kan4"
+       },
+       {
+        "text": "过",
+        "lexemeId": "过-guo4"
+       }
+      ]
+     },
+     {
+      "text": "这个",
+      "tokens": [
+       {
+        "text": "这个",
+        "lexemeId": "这个-zhe4ge5"
+       }
+      ]
+     },
+     {
+      "text": "电影",
+      "tokens": [
+       {
+        "text": "电影",
+        "lexemeId": "电影-dian4ying3"
+       }
+      ]
+     },
+     {
+      "text": "了",
+      "tokens": [
+       {
+        "text": "了",
+        "lexemeId": "了-le5"
+       }
+      ]
+     }
+    ],
+    "fr": "J’ai déjà vu ce film.",
+    "acceptes": [
+     "我已经看过这个电影了"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "已经",
+      "lexemeId": "已经-yi3jing1"
+     },
+     {
+      "text": "看",
+      "lexemeId": "看-kan4"
+     },
+     {
+      "text": "过",
+      "lexemeId": "过-guo4"
+     },
+     {
+      "text": "这个",
+      "lexemeId": "这个-zhe4ge5"
+     },
+     {
+      "text": "电影",
+      "lexemeId": "电影-dian4ying3"
+     },
+     {
+      "text": "了",
+      "lexemeId": "了-le5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bi-comparaison",
+   "level": 2,
+   "categorie": "comparaison",
+   "titre": "比 : comparer deux choses",
+   "markers": [
+    "比"
+   ],
+   "resume": "A 比 B + adjectif. Et surtout : plus de 很.",
+   "explication": [
+    "他比我高 : il est plus grand que moi. L’adjectif reste nu, sans 很, parce que la comparaison fait déjà le travail que 很 faisait.",
+    "Pour dire de combien, on l’ajoute après l’adjectif : 他比我高一点儿.",
+    "La négation habituelle n’est pas 不比 mais 没有 : 我没有他高, « je ne suis pas aussi grand que lui »."
+   ],
+   "piege": "他比我很高 est faux, et c’est l’erreur la plus fréquente sur ce point. Dès que 比 apparaît, 很 doit partir.",
+   "exemples": [
+    {
+     "fr": "Il est plus grand que moi.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "比",
+       "lexemeId": "比-bi3"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "高",
+       "lexemeId": "高-gao1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Il fait plus chaud aujourd’hui qu’hier.",
+     "tokens": [
+      {
+       "text": "今天",
+       "lexemeId": "今天-jin1tian1"
+      },
+      {
+       "text": "比",
+       "lexemeId": "比-bi3"
+      },
+      {
+       "text": "昨天",
+       "lexemeId": "昨天-zuo2tian1"
+      },
+      {
+       "text": "热",
+       "lexemeId": "热-re4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Celui-ci est un peu moins cher que celui-là.",
+     "tokens": [
+      {
+       "text": "这个",
+       "lexemeId": "这个-zhe4ge5"
+      },
+      {
+       "text": "比",
+       "lexemeId": "比-bi3"
+      },
+      {
+       "text": "那个",
+       "lexemeId": "那个-na4ge5"
+      },
+      {
+       "text": "便宜",
+       "lexemeId": "便宜-pian2yi5"
+      },
+      {
+       "text": "一点儿",
+       "lexemeId": "一点儿-yi1dian3r5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "这件",
+      "tokens": [
+       {
+        "text": "这",
+        "lexemeId": "这-zhe4"
+       },
+       {
+        "text": "件",
+        "lexemeId": "件-jian4"
+       }
+      ]
+     },
+     {
+      "text": "衣服",
+      "tokens": [
+       {
+        "text": "衣服",
+        "lexemeId": "衣服-yi1fu5"
+       }
+      ]
+     },
+     {
+      "text": "比",
+      "tokens": [
+       {
+        "text": "比",
+        "lexemeId": "比-bi3"
+       }
+      ]
+     },
+     {
+      "text": "那件",
+      "tokens": [
+       {
+        "text": "那",
+        "lexemeId": "那-na4"
+       },
+       {
+        "text": "件",
+        "lexemeId": "件-jian4"
+       }
+      ]
+     },
+     {
+      "text": "贵",
+      "tokens": [
+       {
+        "text": "贵",
+        "lexemeId": "贵-gui4"
+       }
+      ]
+     },
+     {
+      "text": "一点儿",
+      "tokens": [
+       {
+        "text": "一点儿",
+        "lexemeId": "一点儿-yi1dian3r5"
+       }
+      ]
+     }
+    ],
+    "fr": "Ce vêtement est un peu plus cher que celui-là.",
+    "acceptes": [
+     "这件衣服比那件贵一点儿"
+    ],
+    "tokens": [
+     {
+      "text": "这",
+      "lexemeId": "这-zhe4"
+     },
+     {
+      "text": "件",
+      "lexemeId": "件-jian4"
+     },
+     {
+      "text": "衣服",
+      "lexemeId": "衣服-yi1fu5"
+     },
+     {
+      "text": "比",
+      "lexemeId": "比-bi3"
+     },
+     {
+      "text": "那",
+      "lexemeId": "那-na4"
+     },
+     {
+      "text": "件",
+      "lexemeId": "件-jian4"
+     },
+     {
+      "text": "贵",
+      "lexemeId": "贵-gui4"
+     },
+     {
+      "text": "一点儿",
+      "lexemeId": "一点儿-yi1dian3r5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "zui-superlatif",
+   "level": 2,
+   "categorie": "comparaison",
+   "titre": "最 : le superlatif",
+   "markers": [
+    "最"
+   ],
+   "resume": "最 devant l’adjectif ou le verbe : le plus, le mieux.",
+   "explication": [
+    "最 se place comme les autres adverbes, entre le sujet et ce qu’il qualifie : 这个最贵, 我最喜欢这个.",
+    "Pas besoin d’article ni de « de tous » : 最 suffit. Pour préciser le groupe, il passe devant : 我们班他最高."
+   ],
+   "piege": "Comme avec 比, l’adjectif perd son 很 : 最很贵 n’existe pas.",
+   "exemples": [
+    {
+     "fr": "C’est le moins cher.",
+     "tokens": [
+      {
+       "text": "这个",
+       "lexemeId": "这个-zhe4ge5"
+      },
+      {
+       "text": "最",
+       "lexemeId": "最-zui4"
+      },
+      {
+       "text": "便宜",
+       "lexemeId": "便宜-pian2yi5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "C’est la couleur que je préfère.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "最",
+       "lexemeId": "最-zui4"
+      },
+      {
+       "text": "喜欢",
+       "lexemeId": "喜欢-xi3huan5"
+      },
+      {
+       "text": "这个",
+       "lexemeId": "这个-zhe4ge5"
+      },
+      {
+       "text": "颜色",
+       "lexemeId": "颜色-yan2se4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "C’est le plus grand de notre classe.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "是",
+       "lexemeId": "是-shi4"
+      },
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "班",
+       "lexemeId": "班-ban1"
+      },
+      {
+       "text": "最",
+       "lexemeId": "最-zui4"
+      },
+      {
+       "text": "高",
+       "lexemeId": "高-gao1"
+      },
+      {
+       "text": "的",
+       "lexemeId": "的-de5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "最",
+      "tokens": [
+       {
+        "text": "最",
+        "lexemeId": "最-zui4"
+       }
+      ]
+     },
+     {
+      "text": "喜欢",
+      "tokens": [
+       {
+        "text": "喜欢",
+        "lexemeId": "喜欢-xi3huan5"
+       }
+      ]
+     },
+     {
+      "text": "这个",
+      "tokens": [
+       {
+        "text": "这个",
+        "lexemeId": "这个-zhe4ge5"
+       }
+      ]
+     },
+     {
+      "text": "饭馆的",
+      "tokens": [
+       {
+        "text": "饭馆",
+        "lexemeId": "饭馆-fan4guan3"
+       },
+       {
+        "text": "的",
+        "lexemeId": "的-de5"
+       }
+      ]
+     },
+     {
+      "text": "鱼",
+      "tokens": [
+       {
+        "text": "鱼",
+        "lexemeId": "鱼-yu2"
+       }
+      ]
+     }
+    ],
+    "fr": "Ce que je préfère, c’est le poisson de ce restaurant.",
+    "acceptes": [
+     "我最喜欢这个饭馆的鱼"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "最",
+      "lexemeId": "最-zui4"
+     },
+     {
+      "text": "喜欢",
+      "lexemeId": "喜欢-xi3huan5"
+     },
+     {
+      "text": "这个",
+      "lexemeId": "这个-zhe4ge5"
+     },
+     {
+      "text": "饭馆",
+      "lexemeId": "饭馆-fan4guan3"
+     },
+     {
+      "text": "的",
+      "lexemeId": "的-de5"
+     },
+     {
+      "text": "鱼",
+      "lexemeId": "鱼-yu2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yinwei-suoyi",
+   "level": 2,
+   "categorie": "connecteur",
+   "titre": "因为…所以 : la cause et sa conséquence",
+   "markers": [
+    "因为",
+    "所以"
+   ],
+   "resume": "Les deux mots se disent, là où le français n’en garde qu’un.",
+   "explication": [
+    "因为下雨，所以我没去 : « comme il pleuvait, je n’y suis pas allé ». Le chinois pose la cause d’abord, la conséquence ensuite, et marque les deux bouts.",
+    "On peut n’employer que l’un des deux, mais garder la paire est plus naturel à ce niveau. L’ordre inverse existe aussi : 我没去，因为下雨."
+   ],
+   "piege": "En français, « parce que… donc » serait une faute. En chinois c’est la norme : ne coupe pas la paire par réflexe.",
+   "exemples": [
+    {
+     "fr": "Comme il pleuvait, je n’y suis pas allé.",
+     "tokens": [
+      {
+       "text": "因为",
+       "lexemeId": "因为-yin1wei4"
+      },
+      {
+       "text": "下雨",
+       "lexemeId": "下雨-xia4yu3"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "所以",
+       "lexemeId": "所以-suo3yi3"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "没有",
+       "lexemeId": "没有-mei2you3"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Comme il est très occupé, il ne peut pas venir.",
+     "tokens": [
+      {
+       "text": "因为",
+       "lexemeId": "因为-yin1wei4"
+      },
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "忙",
+       "lexemeId": "忙-mang2"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "所以",
+       "lexemeId": "所以-suo3yi3"
+      },
+      {
+       "text": "不",
+       "lexemeId": "不-bu4"
+      },
+      {
+       "text": "能",
+       "lexemeId": "能-neng2"
+      },
+      {
+       "text": "来",
+       "lexemeId": "来-lai2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je suis fatigué aujourd’hui, parce que je n’ai pas dormi hier.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "今天",
+       "lexemeId": "今天-jin1tian1"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "累",
+       "lexemeId": "累-lei4"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "因为",
+       "lexemeId": "因为-yin1wei4"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "昨天",
+       "lexemeId": "昨天-zuo2tian1"
+      },
+      {
+       "text": "没有",
+       "lexemeId": "没有-mei2you3"
+      },
+      {
+       "text": "睡觉",
+       "lexemeId": "睡觉-shui4jiao4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "因为",
+      "tokens": [
+       {
+        "text": "因为",
+        "lexemeId": "因为-yin1wei4"
+       }
+      ]
+     },
+     {
+      "text": "下雨，",
+      "tokens": [
+       {
+        "text": "下雨",
+        "lexemeId": "下雨-xia4yu3"
+       },
+       {
+        "text": "，",
+        "lexemeId": null
+       }
+      ]
+     },
+     {
+      "text": "所以",
+      "tokens": [
+       {
+        "text": "所以",
+        "lexemeId": "所以-suo3yi3"
+       }
+      ]
+     },
+     {
+      "text": "我们",
+      "tokens": [
+       {
+        "text": "我们",
+        "lexemeId": "我们-wo3men5"
+       }
+      ]
+     },
+     {
+      "text": "没有",
+      "tokens": [
+       {
+        "text": "没有",
+        "lexemeId": "没有-mei2you3"
+       }
+      ]
+     },
+     {
+      "text": "出门",
+      "tokens": [
+       {
+        "text": "出门",
+        "lexemeId": "出门-chu1men2"
+       }
+      ]
+     }
+    ],
+    "fr": "Comme il pleuvait, nous ne sommes pas sortis.",
+    "acceptes": [
+     "因为下雨，所以我们没有出门"
+    ],
+    "tokens": [
+     {
+      "text": "因为",
+      "lexemeId": "因为-yin1wei4"
+     },
+     {
+      "text": "下雨",
+      "lexemeId": "下雨-xia4yu3"
+     },
+     {
+      "text": "，",
+      "lexemeId": null
+     },
+     {
+      "text": "所以",
+      "lexemeId": "所以-suo3yi3"
+     },
+     {
+      "text": "我们",
+      "lexemeId": "我们-wo3men5"
+     },
+     {
+      "text": "没有",
+      "lexemeId": "没有-mei2you3"
+     },
+     {
+      "text": "出门",
+      "lexemeId": "出门-chu1men2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "suiran-danshi",
+   "level": 2,
+   "categorie": "connecteur",
+   "titre": "虽然…但是 : concéder, puis s’opposer",
+   "markers": [
+    "虽然",
+    "但是",
+    "但"
+   ],
+   "resume": "Même fonctionnement en paire que 因为…所以.",
+   "explication": [
+    "虽然很贵，但是很好吃 : « c’est cher, mais c’est très bon ». 虽然 annonce la concession, 但是 apporte l’opposition.",
+    "但 est la forme courte, un peu plus écrite. 还是 renforce volontiers la seconde partie : 虽然很累，但是我还是去了."
+   ],
+   "piege": "但是 ouvre la seconde proposition, il ne s’insère pas en incise au milieu d’une phrase comme le « mais » français peut le faire.",
+   "exemples": [
+    {
+     "fr": "C’est cher, mais c’est très bon.",
+     "tokens": [
+      {
+       "text": "虽然",
+       "lexemeId": "虽然-sui1ran2"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "贵",
+       "lexemeId": "贵-gui4"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "但是",
+       "lexemeId": "但是-dan4shi4"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "好吃",
+       "lexemeId": "好吃-hao3chi1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Il est très occupé, mais il fait du sport tous les jours.",
+     "tokens": [
+      {
+       "text": "虽然",
+       "lexemeId": "虽然-sui1ran2"
+      },
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "忙",
+       "lexemeId": "忙-mang2"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "但是",
+       "lexemeId": "但是-dan4shi4"
+      },
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "每",
+       "lexemeId": "每-mei3"
+      },
+      {
+       "text": "天",
+       "lexemeId": "天-tian1"
+      },
+      {
+       "text": "都",
+       "lexemeId": "都-dou1"
+      },
+      {
+       "text": "运动",
+       "lexemeId": "运动-yun4dong4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "J’étais fatigué, mais j’y suis allé quand même.",
+     "tokens": [
+      {
+       "text": "虽然",
+       "lexemeId": "虽然-sui1ran2"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "累",
+       "lexemeId": "累-lei4"
+      },
+      {
+       "text": "，",
+       "lexemeId": null
+      },
+      {
+       "text": "但是",
+       "lexemeId": "但是-dan4shi4"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "还是",
+       "lexemeId": "还是-hai2shi5"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "虽然",
+      "tokens": [
+       {
+        "text": "虽然",
+        "lexemeId": "虽然-sui1ran2"
+       }
+      ]
+     },
+     {
+      "text": "天气",
+      "tokens": [
+       {
+        "text": "天气",
+        "lexemeId": "天气-tian1qi4"
+       }
+      ]
+     },
+     {
+      "text": "很冷，",
+      "tokens": [
+       {
+        "text": "很",
+        "lexemeId": "很-hen3"
+       },
+       {
+        "text": "冷",
+        "lexemeId": "冷-leng3"
+       },
+       {
+        "text": "，",
+        "lexemeId": null
+       }
+      ]
+     },
+     {
+      "text": "但是",
+      "tokens": [
+       {
+        "text": "但是",
+        "lexemeId": "但是-dan4shi4"
+       }
+      ]
+     },
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "很快乐",
+      "tokens": [
+       {
+        "text": "很",
+        "lexemeId": "很-hen3"
+       },
+       {
+        "text": "快乐",
+        "lexemeId": "快乐-kuai4le4"
+       }
+      ]
+     }
+    ],
+    "fr": "Il fait froid, mais je suis heureux.",
+    "acceptes": [
+     "虽然天气很冷，但是我很快乐"
+    ],
+    "tokens": [
+     {
+      "text": "虽然",
+      "lexemeId": "虽然-sui1ran2"
+     },
+     {
+      "text": "天气",
+      "lexemeId": "天气-tian1qi4"
+     },
+     {
+      "text": "很",
+      "lexemeId": "很-hen3"
+     },
+     {
+      "text": "冷",
+      "lexemeId": "冷-leng3"
+     },
+     {
+      "text": "，",
+      "lexemeId": null
+     },
+     {
+      "text": "但是",
+      "lexemeId": "但是-dan4shi4"
+     },
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "很",
+      "lexemeId": "很-hen3"
+     },
+     {
+      "text": "快乐",
+      "lexemeId": "快乐-kuai4le4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rang-causatif",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "让 : faire faire, laisser faire",
+   "markers": [
+    "让",
+    "帮",
+    "教"
+   ],
+   "resume": "让 + quelqu’un + verbe. La personne au milieu est à la fois objet et sujet.",
+   "explication": [
+    "妈妈让我洗手 : « maman m’a dit de me laver les mains ». 我 est l’objet de 让 et le sujet de 洗手 en même temps.",
+    "帮 et 教 se construisent de la même façon : 他帮我打车, 老师教我们说汉语."
+   ],
+   "piege": "Rien ne vient entre 让 et la personne, rien entre la personne et le verbe. Le français intercale « de » ou « à » ; le chinois enchaîne directement.",
+   "exemples": [
+    {
+     "fr": "Maman m’a dit de me laver les mains.",
+     "tokens": [
+      {
+       "text": "妈妈",
+       "lexemeId": "妈妈-ma1ma5"
+      },
+      {
+       "text": "让",
+       "lexemeId": "让-rang4"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "洗",
+       "lexemeId": "洗-xi3"
+      },
+      {
+       "text": "手",
+       "lexemeId": "手-shou3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Il m’a aidé à prendre un taxi.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "帮",
+       "lexemeId": "帮-bang1"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "打车",
+       "lexemeId": "打车-da3che1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Le professeur nous apprend à parler chinois.",
+     "tokens": [
+      {
+       "text": "老师",
+       "lexemeId": "老师-lao3shi1"
+      },
+      {
+       "text": "教",
+       "lexemeId": "教-jiao1"
+      },
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "说",
+       "lexemeId": "说-shuo1"
+      },
+      {
+       "text": "汉语",
+       "lexemeId": "汉语-Han4yu3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我妈妈",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       },
+       {
+        "text": "妈妈",
+        "lexemeId": "妈妈-ma1ma5"
+       }
+      ]
+     },
+     {
+      "text": "不让",
+      "tokens": [
+       {
+        "text": "不",
+        "lexemeId": "不-bu4"
+       },
+       {
+        "text": "让",
+        "lexemeId": "让-rang4"
+       }
+      ]
+     },
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "晚上",
+      "tokens": [
+       {
+        "text": "晚上",
+        "lexemeId": "晚上-wan3shang5"
+       }
+      ]
+     },
+     {
+      "text": "上网",
+      "tokens": [
+       {
+        "text": "上网",
+        "lexemeId": "上网-shang4wang3"
+       }
+      ]
+     }
+    ],
+    "fr": "Ma mère ne me laisse pas aller sur Internet le soir.",
+    "acceptes": [
+     "我妈妈不让我晚上上网"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "妈妈",
+      "lexemeId": "妈妈-ma1ma5"
+     },
+     {
+      "text": "不",
+      "lexemeId": "不-bu4"
+     },
+     {
+      "text": "让",
+      "lexemeId": "让-rang4"
+     },
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "晚上",
+      "lexemeId": "晚上-wan3shang5"
+     },
+     {
+      "text": "上网",
+      "lexemeId": "上网-shang4wang3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cong-dao-li",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "从…到 et 离 : le trajet et la distance",
+   "markers": [
+    "从",
+    "到",
+    "离"
+   ],
+   "resume": "从 le départ, 到 l’arrivée, 离 l’écart entre les deux.",
+   "explication": [
+    "从我家到学校很远 : « de chez moi à l’école, c’est loin ». La paire fonctionne pour l’espace comme pour le temps : 从早上到晚上.",
+    "离 mesure un écart. Ce qui le suit est le point de référence, et l’adjectif vient en dernier : 我家离车站很近."
+   ],
+   "piege": "Ne traduis pas « loin de l’école » par 远离学校. L’ordre chinois est : ce qu’on situe, 离, le repère, puis 远 ou 近.",
+   "exemples": [
+    {
+     "fr": "De chez moi à l’école, c’est loin.",
+     "tokens": [
+      {
+       "text": "从",
+       "lexemeId": "从-cong2"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "家",
+       "lexemeId": "家-jia1"
+      },
+      {
+       "text": "到",
+       "lexemeId": "到-dao4"
+      },
+      {
+       "text": "学校",
+       "lexemeId": "学校-xue2xiao4"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "远",
+       "lexemeId": "远-yuan3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Ma maison est près de la gare.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "家",
+       "lexemeId": "家-jia1"
+      },
+      {
+       "text": "离",
+       "lexemeId": "离-li2"
+      },
+      {
+       "text": "车站",
+       "lexemeId": "车站-che1zhan4"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "近",
+       "lexemeId": "近-jin4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je travaille de neuf heures du matin à six heures du soir.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "从",
+       "lexemeId": "从-cong2"
+      },
+      {
+       "text": "早上",
+       "lexemeId": "早上-zao3shang5"
+      },
+      {
+       "text": "九",
+       "lexemeId": "九-jiu3"
+      },
+      {
+       "text": "点",
+       "lexemeId": "点-dian3"
+      },
+      {
+       "text": "工作",
+       "lexemeId": "工作-gong1zuo4"
+      },
+      {
+       "text": "到",
+       "lexemeId": "到-dao4"
+      },
+      {
+       "text": "晚上",
+       "lexemeId": "晚上-wan3shang5"
+      },
+      {
+       "text": "六",
+       "lexemeId": "六-liu4"
+      },
+      {
+       "text": "点",
+       "lexemeId": "点-dian3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我们的",
+      "tokens": [
+       {
+        "text": "我们",
+        "lexemeId": "我们-wo3men5"
+       },
+       {
+        "text": "的",
+        "lexemeId": "的-de5"
+       }
+      ]
+     },
+     {
+      "text": "教室",
+      "tokens": [
+       {
+        "text": "教室",
+        "lexemeId": "教室-jiao4shi4"
+       }
+      ]
+     },
+     {
+      "text": "离",
+      "tokens": [
+       {
+        "text": "离",
+        "lexemeId": "离-li2"
+       }
+      ]
+     },
+     {
+      "text": "洗手间",
+      "tokens": [
+       {
+        "text": "洗手间",
+        "lexemeId": "洗手间-xi3shou3jian1"
+       }
+      ]
+     },
+     {
+      "text": "很近",
+      "tokens": [
+       {
+        "text": "很",
+        "lexemeId": "很-hen3"
+       },
+       {
+        "text": "近",
+        "lexemeId": "近-jin4"
+       }
+      ]
+     }
+    ],
+    "fr": "Notre salle de classe est près des toilettes.",
+    "acceptes": [
+     "我们的教室离洗手间很近"
+    ],
+    "tokens": [
+     {
+      "text": "我们",
+      "lexemeId": "我们-wo3men5"
+     },
+     {
+      "text": "的",
+      "lexemeId": "的-de5"
+     },
+     {
+      "text": "教室",
+      "lexemeId": "教室-jiao4shi4"
+     },
+     {
+      "text": "离",
+      "lexemeId": "离-li2"
+     },
+     {
+      "text": "洗手间",
+      "lexemeId": "洗手间-xi3shou3jian1"
+     },
+     {
+      "text": "很",
+      "lexemeId": "很-hen3"
+     },
+     {
+      "text": "近",
+      "lexemeId": "近-jin4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "complement-resultat",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "Le résultat se colle au verbe : 完, 到, 错, 懂, 见",
+   "markers": [
+    "完",
+    "到",
+    "错",
+    "懂",
+    "见",
+    "开"
+   ],
+   "resume": "Un second verbe collé au premier dit comment l’action a fini.",
+   "explication": [
+    "看 c’est regarder, 看见 c’est voir ; 听 c’est écouter, 听懂 c’est comprendre. Le premier verbe porte l’action, le second son résultat : 吃完, avoir fini de manger ; 买到, avoir réussi à acheter.",
+    "La négation est 没 devant tout le groupe : 我没听懂, « je n’ai pas compris ». Le résultat n’a pas été atteint."
+   ],
+   "piege": "Le français a un seul verbe là où le chinois en a deux. « Je n’ai pas compris » n’est pas 我不懂, qui dit une incompréhension durable, mais 我没听懂, « je n’ai pas réussi à comprendre ce qui vient d’être dit ».",
+   "exemples": [
+    {
+     "fr": "J’ai fini de manger.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "吃",
+       "lexemeId": "吃-chi1"
+      },
+      {
+       "text": "完",
+       "lexemeId": "完-wan2"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je n’ai pas compris.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "没有",
+       "lexemeId": "没有-mei2you3"
+      },
+      {
+       "text": "听",
+       "lexemeId": "听-ting1"
+      },
+      {
+       "text": "懂",
+       "lexemeId": "懂-dong3"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je l’ai vu dans la rue.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "在",
+       "lexemeId": "在-zai4"
+      },
+      {
+       "text": "路上",
+       "lexemeId": "路上-lu4shang5"
+      },
+      {
+       "text": "看见",
+       "lexemeId": "看见-kan4jian4"
+      },
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "昨天",
+      "tokens": [
+       {
+        "text": "昨天",
+        "lexemeId": "昨天-zuo2tian1"
+       }
+      ]
+     },
+     {
+      "text": "没有",
+      "tokens": [
+       {
+        "text": "没有",
+        "lexemeId": "没有-mei2you3"
+       }
+      ]
+     },
+     {
+      "text": "做完",
+      "tokens": [
+       {
+        "text": "做",
+        "lexemeId": "做-zuo4"
+       },
+       {
+        "text": "完",
+        "lexemeId": "完-wan2"
+       }
+      ]
+     },
+     {
+      "text": "那些",
+      "tokens": [
+       {
+        "text": "那些",
+        "lexemeId": "那些-na4xie1"
+       }
+      ]
+     },
+     {
+      "text": "题",
+      "tokens": [
+       {
+        "text": "题",
+        "lexemeId": "题-ti2"
+       }
+      ]
+     }
+    ],
+    "fr": "Hier, je n’ai pas fini ces exercices.",
+    "acceptes": [
+     "我昨天没有做完那些题",
+     "昨天我没有做完那些题"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "昨天",
+      "lexemeId": "昨天-zuo2tian1"
+     },
+     {
+      "text": "没有",
+      "lexemeId": "没有-mei2you3"
+     },
+     {
+      "text": "做",
+      "lexemeId": "做-zuo4"
+     },
+     {
+      "text": "完",
+      "lexemeId": "完-wan2"
+     },
+     {
+      "text": "那些",
+      "lexemeId": "那些-na4xie1"
+     },
+     {
+      "text": "题",
+      "lexemeId": "题-ti2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "direction-lai-qu",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "来 et 去 après le verbe : vers moi, ou loin de moi",
+   "markers": [
+    "来",
+    "去",
+    "进来",
+    "出去",
+    "回来"
+   ],
+   "resume": "来 si l’action vient vers celui qui parle, 去 si elle s’en éloigne.",
+   "explication": [
+    "进来 et 进去 décrivent le même geste vu de deux endroits. Si tu es dans la pièce, tu dis 进来 ; si tu es dehors, 进去. Même logique pour 上来 et 上去, 回来 et 回去, 出来 et 出去.",
+    "Le point de référence est celui qui parle, pas celui qui bouge. C’est pourquoi la même action change de mot selon qui la raconte."
+   ],
+   "piege": "Le français ne fait pas cette distinction : « entre ! » se dit 进来 ou 进去 selon où tu te trouves. Demande-toi toujours où est le locuteur.",
+   "exemples": [
+    {
+     "fr": "Entrez.",
+     "tokens": [
+      {
+       "text": "请",
+       "lexemeId": "请-qing3"
+      },
+      {
+       "text": "进来",
+       "lexemeId": "进来-jin4lai2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Il est sorti.",
+     "tokens": [
+      {
+       "text": "他",
+       "lexemeId": "他-ta1"
+      },
+      {
+       "text": "出去",
+       "lexemeId": "出去-chu1qu4"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Je rentre demain.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "明天",
+       "lexemeId": "明天-ming2tian1"
+      },
+      {
+       "text": "回来",
+       "lexemeId": "回来-hui2lai2"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "他",
+      "tokens": [
+       {
+        "text": "他",
+        "lexemeId": "他-ta1"
+       }
+      ]
+     },
+     {
+      "text": "已经",
+      "tokens": [
+       {
+        "text": "已经",
+        "lexemeId": "已经-yi3jing1"
+       }
+      ]
+     },
+     {
+      "text": "从",
+      "tokens": [
+       {
+        "text": "从",
+        "lexemeId": "从-cong2"
+       }
+      ]
+     },
+     {
+      "text": "外面",
+      "tokens": [
+       {
+        "text": "外面",
+        "lexemeId": "外面-wai4mian4"
+       }
+      ]
+     },
+     {
+      "text": "回来",
+      "tokens": [
+       {
+        "text": "回来",
+        "lexemeId": "回来-hui2lai2"
+       }
+      ]
+     },
+     {
+      "text": "了",
+      "tokens": [
+       {
+        "text": "了",
+        "lexemeId": "了-le5"
+       }
+      ]
+     }
+    ],
+    "fr": "Il est déjà rentré du dehors.",
+    "acceptes": [
+     "他已经从外面回来了"
+    ],
+    "tokens": [
+     {
+      "text": "他",
+      "lexemeId": "他-ta1"
+     },
+     {
+      "text": "已经",
+      "lexemeId": "已经-yi3jing1"
+     },
+     {
+      "text": "从",
+      "lexemeId": "从-cong2"
+     },
+     {
+      "text": "外面",
+      "lexemeId": "外面-wai4mian4"
+     },
+     {
+      "text": "回来",
+      "lexemeId": "回来-hui2lai2"
+     },
+     {
+      "text": "了",
+      "lexemeId": "了-le5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "verbe-redouble",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "Redoubler le verbe : essayer un peu",
+   "markers": [],
+   "resume": "看看, 走走 : faire la chose brièvement, sans y mettre de poids.",
+   "explication": [
+    "你看看 est plus léger que 你看 : « jette un œil ». Le redoublement adoucit la demande et raccourcit l’action. 我们走走吧 : « marchons un peu ».",
+    "Avec un verbe de deux syllabes, on redouble le groupe entier : 休息休息. On peut aussi glisser 一 au milieu : 看一看."
+   ],
+   "piege": "C’est le moyen le plus simple de ne pas sonner sec. Une demande au verbe nu passe facilement pour un ordre ; redouble, ou ajoute 吧.",
+   "exemples": [
+    {
+     "fr": "Regarde un peu ça.",
+     "tokens": [
+      {
+       "text": "你",
+       "lexemeId": "你-ni3"
+      },
+      {
+       "text": "看",
+       "lexemeId": "看-kan4"
+      },
+      {
+       "text": "看",
+       "lexemeId": "看-kan4"
+      },
+      {
+       "text": "这个",
+       "lexemeId": "这个-zhe4ge5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Reposons-nous un peu.",
+     "tokens": [
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "休息",
+       "lexemeId": "休息-xiu1xi5"
+      },
+      {
+       "text": "休息",
+       "lexemeId": "休息-xiu1xi5"
+      },
+      {
+       "text": "吧",
+       "lexemeId": "吧-ba5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "J’aimerais poser une petite question.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "想",
+       "lexemeId": "想-xiang3"
+      },
+      {
+       "text": "问",
+       "lexemeId": "问-wen4"
+      },
+      {
+       "text": "一",
+       "lexemeId": "一-yi1"
+      },
+      {
+       "text": "问",
+       "lexemeId": "问-wen4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我们",
+      "tokens": [
+       {
+        "text": "我们",
+        "lexemeId": "我们-wo3men5"
+       }
+      ]
+     },
+     {
+      "text": "出去",
+      "tokens": [
+       {
+        "text": "出去",
+        "lexemeId": "出去-chu1qu4"
+       }
+      ]
+     },
+     {
+      "text": "走走",
+      "tokens": [
+       {
+        "text": "走",
+        "lexemeId": "走-zou3"
+       },
+       {
+        "text": "走",
+        "lexemeId": "走-zou3"
+       }
+      ]
+     },
+     {
+      "text": "吧",
+      "tokens": [
+       {
+        "text": "吧",
+        "lexemeId": "吧-ba5"
+       }
+      ]
+     }
+    ],
+    "fr": "Sortons marcher un peu.",
+    "acceptes": [
+     "我们出去走走吧"
+    ],
+    "tokens": [
+     {
+      "text": "我们",
+      "lexemeId": "我们-wo3men5"
+     },
+     {
+      "text": "出去",
+      "lexemeId": "出去-chu1qu4"
+     },
+     {
+      "text": "走",
+      "lexemeId": "走-zou3"
+     },
+     {
+      "text": "走",
+      "lexemeId": "走-zou3"
+     },
+     {
+      "text": "吧",
+      "lexemeId": "吧-ba5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "compter-les-fois",
+   "level": 2,
+   "categorie": "mesure",
+   "titre": "次 : compter les occurrences",
+   "markers": [
+    "次",
+    "一会儿",
+    "一下"
+   ],
+   "resume": "Le nombre de fois se place après le verbe, pas avant.",
+   "explication": [
+    "我去过两次 : « j’y suis allé deux fois ». 两次 vient après le verbe parce qu’il mesure l’action, pas le sujet.",
+    "Avec un complément, l’ordre le plus simple est verbe, nombre de fois, complément : 我看过两次这个电影.",
+    "一下 et 一会儿 occupent la même place : 等一下, 休息一会儿."
+   ],
+   "piege": "Le français place « deux fois » à peu près où il veut ; le chinois l’exige après le verbe. 我两次去过 est faux.",
+   "exemples": [
+    {
+     "fr": "J’y suis allé deux fois.",
+     "tokens": [
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "去",
+       "lexemeId": "去-qu4"
+      },
+      {
+       "text": "过",
+       "lexemeId": "过-guo4"
+      },
+      {
+       "text": "两",
+       "lexemeId": "两-liang3"
+      },
+      {
+       "text": "次",
+       "lexemeId": "次-ci4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Attendez un instant.",
+     "tokens": [
+      {
+       "text": "请",
+       "lexemeId": "请-qing3"
+      },
+      {
+       "text": "等",
+       "lexemeId": "等-deng3"
+      },
+      {
+       "text": "一下",
+       "lexemeId": "一下-yi1xia4"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Reposons-nous un moment.",
+     "tokens": [
+      {
+       "text": "我们",
+       "lexemeId": "我们-wo3men5"
+      },
+      {
+       "text": "休息",
+       "lexemeId": "休息-xiu1xi5"
+      },
+      {
+       "text": "一会儿",
+       "lexemeId": "一会儿-yi1hui4r5"
+      },
+      {
+       "text": "吧",
+       "lexemeId": "吧-ba5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "我",
+      "tokens": [
+       {
+        "text": "我",
+        "lexemeId": "我-wo3"
+       }
+      ]
+     },
+     {
+      "text": "看过",
+      "tokens": [
+       {
+        "text": "看",
+        "lexemeId": "看-kan4"
+       },
+       {
+        "text": "过",
+        "lexemeId": "过-guo4"
+       }
+      ]
+     },
+     {
+      "text": "两次",
+      "tokens": [
+       {
+        "text": "两",
+        "lexemeId": "两-liang3"
+       },
+       {
+        "text": "次",
+        "lexemeId": "次-ci4"
+       }
+      ]
+     },
+     {
+      "text": "这个",
+      "tokens": [
+       {
+        "text": "这个",
+        "lexemeId": "这个-zhe4ge5"
+       }
+      ]
+     },
+     {
+      "text": "电影",
+      "tokens": [
+       {
+        "text": "电影",
+        "lexemeId": "电影-dian4ying3"
+       }
+      ]
+     }
+    ],
+    "fr": "J’ai vu ce film deux fois.",
+    "acceptes": [
+     "我看过两次这个电影"
+    ],
+    "tokens": [
+     {
+      "text": "我",
+      "lexemeId": "我-wo3"
+     },
+     {
+      "text": "看",
+      "lexemeId": "看-kan4"
+     },
+     {
+      "text": "过",
+      "lexemeId": "过-guo4"
+     },
+     {
+      "text": "两",
+      "lexemeId": "两-liang3"
+     },
+     {
+      "text": "次",
+      "lexemeId": "次-ci4"
+     },
+     {
+      "text": "这个",
+      "lexemeId": "这个-zhe4ge5"
+     },
+     {
+      "text": "电影",
+      "lexemeId": "电影-dian4ying3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "de-adverbial-di",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "地 : transformer un adjectif en manière",
+   "markers": [
+    "地"
+   ],
+   "resume": "Adjectif + 地 + verbe : c’est le « -ment » du français.",
+   "explication": [
+    "慢慢地说 : « parler lentement ». 地 accroche la manière au verbe, et le groupe reste devant le verbe comme tous les compléments de ce type.",
+    "Avec un adjectif redoublé, 地 est presque obligatoire. Avec un adjectif court seul, on peut souvent s’en passer : 快走."
+   ],
+   "piege": "Trois mots se prononcent « de » et ne s’écrivent pas pareil. Retiens la place : 的 devant un nom, 地 devant un verbe. Le troisième, 得, arrive au niveau 3.",
+   "exemples": [
+    {
+     "fr": "Parle lentement, s’il te plaît.",
+     "tokens": [
+      {
+       "text": "请",
+       "lexemeId": "请-qing3"
+      },
+      {
+       "text": "慢",
+       "lexemeId": "慢-man4"
+      },
+      {
+       "text": "慢",
+       "lexemeId": "慢-man4"
+      },
+      {
+       "text": "地",
+       "lexemeId": "地-de5"
+      },
+      {
+       "text": "说",
+       "lexemeId": "说-shuo1"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Elle a fini d’écrire très vite.",
+     "tokens": [
+      {
+       "text": "她",
+       "lexemeId": "她-ta1"
+      },
+      {
+       "text": "很",
+       "lexemeId": "很-hen3"
+      },
+      {
+       "text": "快",
+       "lexemeId": "快-kuai4"
+      },
+      {
+       "text": "地",
+       "lexemeId": "地-de5"
+      },
+      {
+       "text": "写",
+       "lexemeId": "写-xie3"
+      },
+      {
+       "text": "完",
+       "lexemeId": "完-wan2"
+      },
+      {
+       "text": "了",
+       "lexemeId": "了-le5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    },
+    {
+     "fr": "Elle m’a annoncé la nouvelle avec joie.",
+     "tokens": [
+      {
+       "text": "她",
+       "lexemeId": "她-ta1"
+      },
+      {
+       "text": "高兴",
+       "lexemeId": "高兴-gao1xing4"
+      },
+      {
+       "text": "地",
+       "lexemeId": "地-de5"
+      },
+      {
+       "text": "告诉",
+       "lexemeId": "告诉-gao4su5"
+      },
+      {
+       "text": "我",
+       "lexemeId": "我-wo3"
+      },
+      {
+       "text": "这",
+       "lexemeId": "这-zhe4"
+      },
+      {
+       "text": "件",
+       "lexemeId": "件-jian4"
+      },
+      {
+       "text": "事情",
+       "lexemeId": "事情-shi4qing5"
+      },
+      {
+       "text": "。",
+       "lexemeId": null
+      }
+     ]
+    }
+   ],
+   "ordre": {
+    "morceaux": [
+     {
+      "text": "请",
+      "tokens": [
+       {
+        "text": "请",
+        "lexemeId": "请-qing3"
+       }
+      ]
+     },
+     {
+      "text": "你",
+      "tokens": [
+       {
+        "text": "你",
+        "lexemeId": "你-ni3"
+       }
+      ]
+     },
+     {
+      "text": "慢慢地",
+      "tokens": [
+       {
+        "text": "慢",
+        "lexemeId": "慢-man4"
+       },
+       {
+        "text": "慢",
+        "lexemeId": "慢-man4"
+       },
+       {
+        "text": "地",
+        "lexemeId": "地-de5"
+       }
+      ]
+     },
+     {
+      "text": "说",
+      "tokens": [
+       {
+        "text": "说",
+        "lexemeId": "说-shuo1"
+       }
+      ]
+     },
+     {
+      "text": "这个",
+      "tokens": [
+       {
+        "text": "这个",
+        "lexemeId": "这个-zhe4ge5"
+       }
+      ]
+     },
+     {
+      "text": "词",
+      "tokens": [
+       {
+        "text": "词",
+        "lexemeId": "词-ci2"
+       }
+      ]
+     }
+    ],
+    "fr": "Prononce ce mot lentement, s’il te plaît.",
+    "acceptes": [
+     "请你慢慢地说这个词"
+    ],
+    "tokens": [
+     {
+      "text": "请",
+      "lexemeId": "请-qing3"
+     },
+     {
+      "text": "你",
+      "lexemeId": "你-ni3"
+     },
+     {
+      "text": "慢",
+      "lexemeId": "慢-man4"
+     },
+     {
+      "text": "慢",
+      "lexemeId": "慢-man4"
+     },
+     {
+      "text": "地",
+      "lexemeId": "地-de5"
+     },
+     {
+      "text": "说",
+      "lexemeId": "说-shuo1"
+     },
+     {
+      "text": "这个",
+      "lexemeId": "这个-zhe4ge5"
+     },
+     {
+      "text": "词",
+      "lexemeId": "词-ci2"
+     }
+    ]
+   }
+  }
+ ]
+}

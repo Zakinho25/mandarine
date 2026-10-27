@@ -124,7 +124,7 @@ export function ReglagesScreen() {
       const summary = await importBackup(JSON.parse(await file.text()))
       setMessage(
         `Importé : ${String(summary.cards)} cartes, ${String(summary.reviews)} révisions,` +
-          ` ${String(summary.days)} journées.`,
+          ` ${String(summary.days)} journées, ${String(summary.examens)} examens.`,
       )
       await useSettings.getState().hydrate()
     } catch (cause: unknown) {

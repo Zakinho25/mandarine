@@ -6,13 +6,17 @@ francophone, du tout premier ton jusqu'au HSK 3.
 Tout se passe dans le navigateur : pas de compte, pas de serveur, pas
 d'abonnement. Les révisions et la lecture fonctionnent hors ligne.
 
-> **État : jalons 1 à 9 sur 11 terminés.** L'application enseigne : les
+> **État : jalons 1 à 10 sur 11 terminés.** L'application enseigne : les
 > **1 000 mots du HSK 3** sont révisables en répétition espacée et classés du
 > plus courant au moins courant, répartis en 27 unités thématiques. Le module
 > de prononciation couvre les tons et le sandhi, les **655 caractères** ont
 > leur fiche avec l'ordre des traits animé, le tableau de bord suit la
-> progression réelle, et **10 textes de lecture** se lisent mot par mot avec
-> leur définition au toucher, et 4 dialogues guidés mettent en situation. Un exercice de prononciation compare la courbe de ta voix au contour du ton visé.
+> progression réelle, **10 textes de lecture** se lisent mot par mot avec leur
+> définition au toucher, et 4 dialogues guidés mettent en situation. Un
+> exercice de prononciation compare la courbe de ta voix au contour du ton
+> visé. **48 fiches de grammaire** expliquent chaque point du programme avec
+> le piège qu'il tend aux francophones, et des **examens blancs** chronométrés
+> se fabriquent à la demande à partir de tout ce contenu.
 
 ## Prérequis
 
@@ -118,7 +122,9 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
       tour, corrections rassemblées à la fin de l'échange
 - [x] **9. Prononciation** — enregistrement au micro, détection de hauteur par
       YIN, comparaison au contour attendu
-- [ ] **10. Grammaire et examens blancs**
+- [x] **10. Grammaire et examens blancs** — 48 fiches avec exercice de remise
+      en ordre, examens chronométrés fabriqués à partir du contenu vérifié,
+      points faibles renvoyés vers les révisions
 - [ ] **11. Finitions** — performance, accessibilité, tests de bout en bout
 
 ## Ce que l'application ne fait pas
@@ -147,5 +153,14 @@ licences sont dans [DATA_LICENSES.md](DATA_LICENSES.md).
   locuteur : assez pour voir qu'un troisième ton ne redescend pas, pas assez
   pour juger un niveau avancé. Un service d'évaluation payant ferait mieux,
   mais le projet tient à zéro euro.
+- **Le score d'un examen blanc n'est pas une note officielle.** C'est un
+  pourcentage de bonnes réponses sur un examen fabriqué à partir du contenu de
+  l'application. Aucun sujet officiel n'est reproduit : ils sont protégés.
+  Seul le seuil de 60 % est emprunté au barème réel. La structure s'inspire de
+  l'épreuve publiée du HSK 3 ; le syllabus 3.0 de novembre 2025 n'a pas encore
+  publié de nouvelle répartition des items.
+- **L'épreuve d'écriture n'est pas couverte** : elle demande de tracer des
+  caractères à la main. Sa première partie, la remise en ordre d'une phrase, se
+  travaille dans les fiches de grammaire.
 - Elle ne synchronise rien entre plusieurs appareils. La sauvegarde manuelle en
   JSON est le moyen de transférer sa progression.

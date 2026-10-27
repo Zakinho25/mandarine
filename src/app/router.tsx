@@ -5,6 +5,10 @@ import { ReglagesScreen } from '@/features/reglages/ReglagesScreen'
 import { CaractereScreen } from '@/features/caracteres/CaractereScreen'
 import { DialogueScreen } from '@/features/dialogues/DialogueScreen'
 import { DialoguesScreen } from '@/features/dialogues/DialoguesScreen'
+import { ExamenScreen } from '@/features/examens/ExamenScreen'
+import { ExamensScreen } from '@/features/examens/ExamensScreen'
+import { GrammaireScreen } from '@/features/grammaire/GrammaireScreen'
+import { PointScreen } from '@/features/grammaire/PointScreen'
 import { LectureScreen } from '@/features/lecture/LectureScreen'
 import { TexteScreen } from '@/features/lecture/TexteScreen'
 import { EcouteScreen } from '@/features/prononciation/EcouteScreen'
@@ -39,6 +43,10 @@ export const router = createHashRouter([
       { path: 'lecture/:id', element: <TexteScreen /> },
       { path: 'dialogues', element: <DialoguesScreen /> },
       { path: 'dialogues/:id', element: <DialogueScreen /> },
+      { path: 'grammaire', element: <GrammaireScreen /> },
+      { path: 'grammaire/:id', element: <PointScreen /> },
+      { path: 'examens', element: <ExamensScreen /> },
+      { path: 'examens/:level/:longueur/:seed', element: <ExamenScreen /> },
       { path: 'reglages', element: <ReglagesScreen /> },
     ],
   },

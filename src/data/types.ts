@@ -13,6 +13,7 @@
  * chose dans cette application qui ne se régénère pas.
  */
 
+import type { Longueur, Section } from '@/domain/examen/format'
 import type { Verdict } from '@/domain/srs/grading'
 import type { Note, SrsState, SrsStateKind } from '@/domain/srs/scheduler'
 import type { CardSkill, CardTargetKind } from '@/domain/srs/cards'
@@ -89,6 +90,58 @@ export interface DailyStatRecord {
   readonly listeningMs: number
   readonly readingMs: number
   readonly goalMet: boolean
+  readonly updatedAt: Timestamp
+}
+
+/**
+ * Résultat d'un examen blanc, en **ajout seul** comme le journal de
+ * révisions : un examen passé est un fait daté, pas un état modifiable.
+ *
+ * Les items eux-mêmes ne sont pas conservés. Ils se régénèrent à l'identique
+ * depuis la graine, le niveau et la longueur, et les stocker ferait grossir
+ * la sauvegarde avec du contenu qui n'est pas de la progression.
+ */
+export interface ExamResultRecord {
+  readonly id: string
+  readonly examenId: string
+  readonly seed: number
+  readonly level: number
+  readonly longueur: Longueur
+  readonly commenceA: Timestamp
+  readonly termineA: Timestamp
+  readonly posees: number
+  readonly justes: number
+  readonly pourcentage: number
+  readonly reussi: boolean
+  readonly sections: readonly {
+    readonly section: Section
+    readonly posees: number
+    readonly justes: number
+  }[]
+  readonly pointsFaibles: readonly {
+    readonly pointId: string
+    readonly rates: number
+    readonly poses: number
+  }[]
+  readonly createdAt: Timestamp
+}
+
+/**
+ * Travail accompli sur un point de grammaire.
+ *
+ * Un point compte comme **couvert** dès que son exercice de remise en ordre a
+ * été réussi au moins une fois. Le critère est affiché à l'utilisateur :
+ * compter les fiches ouvertes aurait été plus flatteur et n'aurait rien
+ * mesuré.
+ */
+export interface GrammarStatRecord {
+  readonly pointId: string
+  readonly essais: number
+  readonly reussites: number
+  readonly premiereReussiteA: Timestamp | null
+  readonly dernierEssaiA: Timestamp
+  /** Daté par un examen blanc qui a trouvé ce point en échec. */
+  readonly aRevoirDepuis: Timestamp | null
   readonly updatedAt: Timestamp
 }
 

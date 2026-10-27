@@ -72,6 +72,13 @@ npm run data      # les quatre étapes, depuis le réseau jusqu'à public/conten
 | 2 | `npm run data:normalize` | Ramène chaque source à des structures typées, sans rien joindre |
 | 3 | `npm run data:merge` | Joint, réaligne les tons, écrit `docs/rapport-donnees.md` |
 | 4 | `npm run data:build` | Écrit `public/content/` |
+| 5 | `npm run data:hanzi` | Extrait les tracés et les composants des caractères |
+| 6 | `npm run data:textes` | Découpe et vérifie les textes de lecture |
+| 7 | `npm run data:dialogues` | Découpe et vérifie les dialogues guidés |
+| 8 | `npm run data:grammaire` | Découpe et vérifie les fiches de grammaire |
+
+Les étapes 6 à 8 partagent `scripts/data/lib/vocabulaire.ts` : un contenu qui
+emploie un mot au-dessus de son niveau fait échouer la génération.
 
 Les fichiers de `public/content/` ne se modifient **jamais** à la main : ils
 sont régénérés. Une correction va dans `scripts/data/overrides.ts`, avec sa
@@ -82,6 +89,68 @@ mot — une correction devenue inutile serait un bug silencieux.
 
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
+
+### 2026-10-27 — Les examens blancs sont fabriqués, jamais écrits
+Aucun item n'est rédigé à la main : tout est construit au moment de l'épreuve
+à partir du vocabulaire du syllabus, des exemples de grammaire, des tours de
+dialogue et des paragraphes de lecture. **Pourquoi :** les sujets officiels
+sont protégés, et un corpus d'examens écrits à la main aurait vieilli avec le
+contenu. Effet secondaire recherché : les examens sont en nombre illimité, et
+chaque item porte l'identifiant de sa source vérifiée (`Item.source`).
+**Pour revenir en arrière :** il faudrait écrire des sujets, donc accepter de
+les maintenir en parallèle du contenu.
+
+### 2026-10-27 — La structure vient de l'épreuve publiée, pas du syllabus 3.0
+40 items d'écoute, 30 de lecture, 180 sur 300 pour être reçu : ce sont les
+chiffres de la structure publiée du HSK 3, concordants sur plusieurs sources
+secondaires. **Le syllabus 3.0 de novembre 2025 n'a pas publié de nouvelle
+répartition** au moment où ceci est écrit, et les pages officielles de niveau
+décrivent encore celle-ci. Le vocabulaire, lui, vient bien du syllabus 2025.
+L'écran le dit à l'utilisateur plutôt que de laisser croire à une équivalence.
+
+### 2026-10-27 — Le score est un pourcentage, jamais une note sur 300
+`corriger` ne rend qu'un pourcentage de bonnes réponses. **Pourquoi :** nos
+items ne sont pas calibrés, nos deux épreuves ne couvrent pas l'écriture, et
+afficher « 174 sur 300 » laisserait croire à une équivalence que cet examen
+n'a pas. Seul le **seuil** de 60 % est emprunté au barème officiel, parce
+qu'il reste un repère utile.
+
+### 2026-10-27 — Deux propositions ne peuvent pas s'afficher pareil
+`construireChoix` écarte tout distracteur dont le texte affiché est déjà
+présent. **Pourquoi :** 这 et 那个 se glosent tous deux « ce, cet » ; l'item
+devenait insoluble et c'est l'élève qui payait. La règle d'équité de
+`sharesMeaning` ne suffisait pas : elle compare chaque candidat à la bonne
+réponse, jamais les candidats entre eux. Trouvé par un test sur le contenu
+réel, pas par relecture.
+
+### 2026-10-27 — La vérification de niveau s'arrête aux exemples
+Le script vérifie le vocabulaire des **exemples** et de la phrase à remettre
+en ordre, pas le chinois cité dans le texte explicatif. **Pourquoi :** les
+explications contiennent exprès des formes fautives (« 他比我很高 est faux »),
+qu'un contrôle de niveau rejetterait à tort. **Prix à payer :** ces citations
+ne sont vérifiées que par la relecture, et l'écran de grammaire le dit.
+
+### 2026-10-27 — Migration IndexedDB en version 2
+Deux magasins ajoutés, `exam_result` et `grammar_stat`. La version 1 avait
+créé tous les magasins d'un coup pour éviter une migration ; la manœuvre
+atteint sa limite ici, parce que prévoir un magasin suppose d'en connaître la
+forme. La migration est **additive** et ne touche à rien d'existant : les
+données de progression ne se régénèrent pas. La sauvegarde passe en version 2
+et complète à vide les sections absentes d'un fichier plus ancien.
+
+### 2026-10-27 — Le chrono part d'une échéance, pas d'un décompte
+Le temps restant est recalculé depuis `Date.now()` à chaque battement, au lieu
+d'être décrémenté. **Pourquoi :** tous les navigateurs ralentissent les
+minuteurs d'un onglet en arrière-plan, ce qui offrirait du temps gratuit
+pendant une épreuve chronométrée.
+
+### 2026-10-27 — L'écoute d'un examen compte au temps réel, et seulement si on entend
+L'épreuve d'écoute crédite le temps **réellement passé**, pas le budget de
+l'épreuve, et ne crédite rien si l'appareil n'a pas de voix chinoise.
+**Pourquoi :** le compteur de minutes d'écoute est une mesure d'effort réel.
+Créditer six minutes à une épreuve traversée en vingt secondes sans aucun son
+en faisait une décoration. Défaut constaté dans le navigateur, pas dans un
+test.
 
 ### 2026-10-26 — On mesure la forme du contour, pas la hauteur
 La courbe produite et la courbe de référence sont toutes deux ramenées en

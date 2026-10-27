@@ -1,8 +1,15 @@
 import { getDb } from './db'
-import type { CardRecord, DailyStatRecord, ReviewLogRecord, Timestamp } from './types'
+import type {
+  CardRecord,
+  DailyStatRecord,
+  ExamResultRecord,
+  GrammarStatRecord,
+  ReviewLogRecord,
+  Timestamp,
+} from './types'
 
 export const BACKUP_FORMAT = 'mandarine-sauvegarde'
-export const BACKUP_VERSION = 1
+export const BACKUP_VERSION = 2
 
 export interface BackupFile {
   readonly format: typeof BACKUP_FORMAT
@@ -12,6 +19,9 @@ export interface BackupFile {
   readonly cards: readonly CardRecord[]
   readonly reviewLog: readonly ReviewLogRecord[]
   readonly dailyStats: readonly DailyStatRecord[]
+  /** Ajoutés en version 2 : absents d'une sauvegarde plus ancienne. */
+  readonly examResults: readonly ExamResultRecord[]
+  readonly grammarStats: readonly GrammarStatRecord[]
 }
 
 export class BackupError extends Error {
@@ -31,12 +41,15 @@ export class BackupError extends Error {
  */
 export async function exportBackup(): Promise<BackupFile> {
   const db = await getDb()
-  const [settingRows, cards, reviewLog, dailyStats] = await Promise.all([
-    db.getAll('settings'),
-    db.getAll('card'),
-    db.getAll('review_log'),
-    db.getAll('daily_stat'),
-  ])
+  const [settingRows, cards, reviewLog, dailyStats, examResults, grammarStats] =
+    await Promise.all([
+      db.getAll('settings'),
+      db.getAll('card'),
+      db.getAll('review_log'),
+      db.getAll('daily_stat'),
+      db.getAll('exam_result'),
+      db.getAll('grammar_stat'),
+    ])
 
   return {
     format: BACKUP_FORMAT,
@@ -46,6 +59,8 @@ export async function exportBackup(): Promise<BackupFile> {
     cards,
     reviewLog,
     dailyStats,
+    examResults,
+    grammarStats,
   }
 }
 
@@ -82,13 +97,26 @@ export function parseBackup(raw: unknown): BackupFile {
   if (!isRecord(raw['settings'])) {
     throw new BackupError('Sauvegarde incomplète : les préférences sont absentes.')
   }
-  return raw as unknown as BackupFile
+
+  // Les sections apparues en version 2 manquent dans une sauvegarde plus
+  // ancienne, et c'est normal : on les complète à vide plutôt que de refuser
+  // un fichier parfaitement valable pour son époque.
+  return {
+    ...(raw as unknown as BackupFile),
+    examResults: Array.isArray(raw['examResults'])
+      ? (raw['examResults'] as ExamResultRecord[])
+      : [],
+    grammarStats: Array.isArray(raw['grammarStats'])
+      ? (raw['grammarStats'] as GrammarStatRecord[])
+      : [],
+  }
 }
 
 export interface ImportSummary {
   readonly cards: number
   readonly reviews: number
   readonly days: number
+  readonly examens: number
 }
 
 /**
@@ -103,7 +131,7 @@ export async function importBackup(raw: unknown): Promise<ImportSummary> {
   const db = await getDb()
 
   const tx = db.transaction(
-    ['settings', 'card', 'review_log', 'daily_stat'],
+    ['settings', 'card', 'review_log', 'daily_stat', 'exam_result', 'grammar_stat'],
     'readwrite',
   )
   await Promise.all([
@@ -111,6 +139,8 @@ export async function importBackup(raw: unknown): Promise<ImportSummary> {
     tx.objectStore('card').clear(),
     tx.objectStore('review_log').clear(),
     tx.objectStore('daily_stat').clear(),
+    tx.objectStore('exam_result').clear(),
+    tx.objectStore('grammar_stat').clear(),
   ])
 
   const settings = tx.objectStore('settings')
@@ -123,6 +153,10 @@ export async function importBackup(raw: unknown): Promise<ImportSummary> {
   for (const entry of backup.reviewLog) await log.put(entry)
   const days = tx.objectStore('daily_stat')
   for (const day of backup.dailyStats) await days.put(day)
+  const examens = tx.objectStore('exam_result')
+  for (const examen of backup.examResults) await examens.put(examen)
+  const grammaire = tx.objectStore('grammar_stat')
+  for (const stat of backup.grammarStats) await grammaire.put(stat)
 
   await tx.done
 
@@ -130,6 +164,7 @@ export async function importBackup(raw: unknown): Promise<ImportSummary> {
     cards: backup.cards.length,
     reviews: backup.reviewLog.length,
     days: backup.dailyStats.length,
+    examens: backup.examResults.length,
   }
 }
 

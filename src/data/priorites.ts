@@ -36,6 +36,23 @@ export async function togglePriority(lexemeId: string): Promise<boolean> {
   return added
 }
 
+/**
+ * Ajoute des mots à la file, sans jamais en retirer.
+ *
+ * Sert aux examens blancs : un mot raté passe en tête, et un mot déjà là y
+ * reste. L'opération est idempotente, pour qu'un même examen rejoué ne
+ * gonfle pas la file.
+ */
+export async function addPriorities(lexemeIds: readonly string[]): Promise<number> {
+  if (lexemeIds.length === 0) return 0
+  const ids = await loadPriorities()
+  const avant = ids.size
+  for (const lexemeId of lexemeIds) ids.add(lexemeId)
+  if (ids.size === avant) return 0
+  await save(ids)
+  return ids.size - avant
+}
+
 export async function clearPriority(lexemeId: string): Promise<void> {
   const ids = await loadPriorities()
   if (!ids.delete(lexemeId)) return

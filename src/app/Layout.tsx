@@ -19,6 +19,11 @@ const TABS: readonly Tab[] = [
     label: 'Révisions',
     path: 'M4 7h11a3 3 0 0 1 3 3v7M4 7l3-3M4 7l3 3M20 17H9a3 3 0 0 1-3-3',
   },
+  {
+    to: '/grammaire',
+    label: 'Grammaire',
+    path: 'M4 6h16M4 12h10M4 18h13M17 10l3 3-3 3',
+  },
   { to: '/lecture', label: 'Lecture', path: 'M12 7v12M12 7a5 3 0 0 0-8-1v11a5 3 0 0 1 8 1M12 7a5 3 0 0 1 8-1v11a5 3 0 0 0-8 1' },
   { to: '/dialogues', label: 'Dialogues', path: 'M20 12a7 7 0 0 1-7 7H8l-4 3v-9a7 7 0 0 1 7-7h2a7 7 0 0 1 7 6z' },
   { to: '/reglages', label: 'Réglages', path: 'M4 7h16M4 12h16M4 17h16M9 7v0M15 12v0M7 17v0' },

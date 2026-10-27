@@ -4,11 +4,13 @@ import type {
   CardSkill,
   CardTargetKind,
   DailyStatRecord,
+  ExamResultRecord,
+  GrammarStatRecord,
   ReviewLogRecord,
 } from './types'
 
 export const DB_NAME = 'mandarine'
-export const DB_VERSION = 1
+export const DB_VERSION = 2
 
 interface StoredValue {
   readonly key: string
@@ -34,6 +36,14 @@ export interface MandarineDB extends DBSchema {
     indexes: { 'by-card': string }
   }
   daily_stat: { key: string; value: DailyStatRecord }
+  /** Résultats des examens blancs, en ajout seul. */
+  exam_result: {
+    key: string
+    value: ExamResultRecord
+    indexes: { 'by-date': string }
+  }
+  /** Un enregistrement par point de grammaire travaillé. */
+  grammar_stat: { key: string; value: GrammarStatRecord }
 }
 
 let connection: Promise<IDBPDatabase<MandarineDB>> | undefined
@@ -41,28 +51,41 @@ let connection: Promise<IDBPDatabase<MandarineDB>> | undefined
 /**
  * Ouvre la base locale, en la créant au premier lancement.
  *
- * Tous les magasins sont créés dès la version 1, y compris ceux que seuls les
- * jalons suivants utiliseront : une migration IndexedDB coûte plus cher qu'un
- * magasin vide.
+ * Les magasins de la version 1 avaient été créés d'un coup pour éviter une
+ * migration. La grammaire et les examens blancs en ont tout de même demandé
+ * une : prévoir des magasins vides suppose de connaître leur forme, et celle
+ * d'un résultat d'examen n'était pas connue au premier jalon.
+ *
+ * La migration est additive — elle crée ce qui manque et ne touche à rien
+ * d'existant. C'est la seule forme sûre ici : les données de progression ne
+ * se régénèrent pas.
  */
 export function getDb(): Promise<IDBPDatabase<MandarineDB>> {
   connection ??= openDB<MandarineDB>(DB_NAME, DB_VERSION, {
-    upgrade(db) {
-      db.createObjectStore('meta', { keyPath: 'key' })
-      db.createObjectStore('settings', { keyPath: 'key' })
+    upgrade(db, ancienne) {
+      if (ancienne < 1) {
+        db.createObjectStore('meta', { keyPath: 'key' })
+        db.createObjectStore('settings', { keyPath: 'key' })
 
-      const cards = db.createObjectStore('card', { keyPath: 'id' })
-      cards.createIndex('by-due', 'due')
-      // Une seule carte par couple (cible, compétence) : c'est l'unicité qui
-      // garantit qu'on n'étudie pas deux fois la même chose.
-      cards.createIndex('by-target', ['targetKind', 'targetId', 'skill'], {
-        unique: true,
-      })
+        const cards = db.createObjectStore('card', { keyPath: 'id' })
+        cards.createIndex('by-due', 'due')
+        // Une seule carte par couple (cible, compétence) : c'est l'unicité
+        // qui garantit qu'on n'étudie pas deux fois la même chose.
+        cards.createIndex('by-target', ['targetKind', 'targetId', 'skill'], {
+          unique: true,
+        })
 
-      const log = db.createObjectStore('review_log', { keyPath: 'id' })
-      log.createIndex('by-card', 'cardId')
+        const log = db.createObjectStore('review_log', { keyPath: 'id' })
+        log.createIndex('by-card', 'cardId')
 
-      db.createObjectStore('daily_stat', { keyPath: 'day' })
+        db.createObjectStore('daily_stat', { keyPath: 'day' })
+      }
+
+      if (ancienne < 2) {
+        const examens = db.createObjectStore('exam_result', { keyPath: 'id' })
+        examens.createIndex('by-date', 'termineA')
+        db.createObjectStore('grammar_stat', { keyPath: 'pointId' })
+      }
     },
   })
   return connection

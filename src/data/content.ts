@@ -155,6 +155,24 @@ export async function loadLevel(level: number): Promise<ContentFile> {
   )) as ContentFile
 }
 
+/**
+ * Tous les mots du programme, indexés par identifiant.
+ *
+ * Plusieurs écrans ont besoin de remonter d'un jeton à son pinyin et à sa
+ * définition. Ils chargeaient chacun l'index puis tous les niveaux ; ce
+ * raccourci évite de répéter l'assemblage, et le cache du navigateur fait le
+ * reste.
+ */
+export async function loadLexemeMap(): Promise<Map<string, Lexeme>> {
+  const index = await loadIndex()
+  const files = await Promise.all(
+    index.levels.map(async (level) => loadLevel(level.level)),
+  )
+  return new Map(
+    files.flatMap((file) => file.lexemes).map((lexeme) => [lexeme.id, lexeme]),
+  )
+}
+
 /** Les classes grammaticales d'un mot, lisibles : « nom, verbe (secondaire) ». */
 export function describeParts(parts: readonly PartOfSpeech[]): string {
   return parts

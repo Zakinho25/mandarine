@@ -1,0 +1,554 @@
+{
+ "format": "mandarine-grammaire",
+ "version": 1,
+ "generatedAt": "2026-10-27T09:52:58.483Z",
+ "count": 48,
+ "contentStatus": "auto_checked",
+ "points": [
+  {
+   "id": "ordre-de-base",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "L’ordre de base : qui, fait quoi, sur quoi",
+   "markers": [],
+   "resume": "Sujet, puis verbe, puis complément. Cet ordre ne bouge presque jamais."
+  },
+  {
+   "id": "verbe-invariable",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "Le verbe ne change jamais",
+   "markers": [],
+   "resume": "Pas de conjugaison : la même forme pour je, tu, il, hier et demain."
+  },
+  {
+   "id": "shi-deux-noms",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "是 relie deux noms, jamais un adjectif",
+   "markers": [
+    "是"
+   ],
+   "resume": "是 veut dire « être » entre deux noms. Devant un adjectif, il disparaît."
+  },
+  {
+   "id": "adjectif-hen",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "很 + adjectif : le 很 qui ne veut pas dire « très »",
+   "markers": [
+    "很",
+    "太",
+    "非常",
+    "真"
+   ],
+   "resume": "Un adjectif seul sonne comme une comparaison inachevée. 很 le rend neutre."
+  },
+  {
+   "id": "negation-bu",
+   "level": 1,
+   "categorie": "negation",
+   "titre": "不 : nier ce qui n’a pas lieu",
+   "markers": [
+    "不"
+   ],
+   "resume": "不 devant le verbe, pour le présent, le futur, le goût et l’habitude."
+  },
+  {
+   "id": "negation-mei",
+   "level": 1,
+   "categorie": "negation",
+   "titre": "没 : ce qui n’a pas eu lieu, et ce qu’on n’a pas",
+   "markers": [
+    "没有",
+    "没"
+   ],
+   "resume": "没 nie le passé et la possession. Il fait aussi tomber le 了."
+  },
+  {
+   "id": "question-ma",
+   "level": 1,
+   "categorie": "question",
+   "titre": "吗 : la question qui ne change rien à la phrase",
+   "markers": [
+    "吗",
+    "吧",
+    "呢"
+   ],
+   "resume": "Garde la phrase telle quelle et ajoute 吗 à la fin."
+  },
+  {
+   "id": "question-mot-interrogatif",
+   "level": 1,
+   "categorie": "question",
+   "titre": "Les mots interrogatifs restent à leur place",
+   "markers": [
+    "什么",
+    "谁",
+    "哪里",
+    "几",
+    "多少"
+   ],
+   "resume": "Mets le mot interrogatif exactement là où se trouverait la réponse."
+  },
+  {
+   "id": "question-a-pas-a",
+   "level": 1,
+   "categorie": "question",
+   "titre": "去不去 : la question par répétition",
+   "markers": [],
+   "resume": "Verbe, puis 不, puis le même verbe : « tu y vas ou pas ? »"
+  },
+  {
+   "id": "de-determination",
+   "level": 1,
+   "categorie": "determination",
+   "titre": "的 : tout ce qui précise vient avant le nom",
+   "markers": [
+    "的"
+   ],
+   "resume": "Le possesseur, l’adjectif, la précision : tout passe devant le nom, relié par 的."
+  },
+  {
+   "id": "classificateurs",
+   "level": 1,
+   "categorie": "mesure",
+   "titre": "Les classificateurs : un mot entre le nombre et le nom",
+   "markers": [
+    "个",
+    "本",
+    "件",
+    "块",
+    "口"
+   ],
+   "resume": "Jamais de nombre directement devant un nom : il faut un classificateur."
+  },
+  {
+   "id": "place-du-temps",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "Le temps se dit avant le verbe, du plus grand au plus petit",
+   "markers": [
+    "今天",
+    "明天",
+    "现在"
+   ],
+   "resume": "Le moment vient en tête de phrase ou juste après le sujet, jamais à la fin."
+  },
+  {
+   "id": "zai-lieu",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "在 : où l’on est, où l’on fait",
+   "markers": [
+    "在"
+   ],
+   "resume": "在 + lieu. Seul, il veut dire « se trouver » ; devant un verbe, il situe l’action."
+  },
+  {
+   "id": "le-accompli",
+   "level": 1,
+   "categorie": "aspect",
+   "titre": "了 : l’action est allée au bout",
+   "markers": [
+    "了"
+   ],
+   "resume": "了 après le verbe marque l’achèvement, et non le passé."
+  },
+  {
+   "id": "ye-dou",
+   "level": 1,
+   "categorie": "phrase",
+   "titre": "也 et 都 se placent avant le verbe",
+   "markers": [
+    "也",
+    "都",
+    "还",
+    "只"
+   ],
+   "resume": "Les adverbes courts vivent entre le sujet et le verbe."
+  },
+  {
+   "id": "modaux-de-base",
+   "level": 1,
+   "categorie": "modal",
+   "titre": "想, 要, 能, 可以 : vouloir et pouvoir",
+   "markers": [
+    "想",
+    "要",
+    "能",
+    "可以"
+   ],
+   "resume": "Quatre verbes qui se placent devant un autre verbe, avec quatre nuances."
+  },
+  {
+   "id": "guo-experience",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "过 : l’expérience, au moins une fois",
+   "markers": [
+    "过"
+   ],
+   "resume": "过 après le verbe dit qu’on a déjà fait la chose, sans dire quand."
+  },
+  {
+   "id": "zai-progressif",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "在 et 正在 : l’action en cours",
+   "markers": [
+    "在",
+    "正在",
+    "正"
+   ],
+   "resume": "在 devant le verbe : « être en train de »."
+  },
+  {
+   "id": "zhe-duratif",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "着 : l’état qui dure",
+   "markers": [
+    "着"
+   ],
+   "resume": "着 après le verbe décrit une position ou un état maintenu, pas une action qui avance."
+  },
+  {
+   "id": "yijing-le",
+   "level": 2,
+   "categorie": "aspect",
+   "titre": "已经…了 : c’est déjà fait",
+   "markers": [
+    "已经",
+    "了",
+    "快要"
+   ],
+   "resume": "已经 devant le verbe, 了 à la fin : la situation a changé."
+  },
+  {
+   "id": "bi-comparaison",
+   "level": 2,
+   "categorie": "comparaison",
+   "titre": "比 : comparer deux choses",
+   "markers": [
+    "比"
+   ],
+   "resume": "A 比 B + adjectif. Et surtout : plus de 很."
+  },
+  {
+   "id": "zui-superlatif",
+   "level": 2,
+   "categorie": "comparaison",
+   "titre": "最 : le superlatif",
+   "markers": [
+    "最"
+   ],
+   "resume": "最 devant l’adjectif ou le verbe : le plus, le mieux."
+  },
+  {
+   "id": "yinwei-suoyi",
+   "level": 2,
+   "categorie": "connecteur",
+   "titre": "因为…所以 : la cause et sa conséquence",
+   "markers": [
+    "因为",
+    "所以"
+   ],
+   "resume": "Les deux mots se disent, là où le français n’en garde qu’un."
+  },
+  {
+   "id": "suiran-danshi",
+   "level": 2,
+   "categorie": "connecteur",
+   "titre": "虽然…但是 : concéder, puis s’opposer",
+   "markers": [
+    "虽然",
+    "但是",
+    "但"
+   ],
+   "resume": "Même fonctionnement en paire que 因为…所以."
+  },
+  {
+   "id": "rang-causatif",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "让 : faire faire, laisser faire",
+   "markers": [
+    "让",
+    "帮",
+    "教"
+   ],
+   "resume": "让 + quelqu’un + verbe. La personne au milieu est à la fois objet et sujet."
+  },
+  {
+   "id": "cong-dao-li",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "从…到 et 离 : le trajet et la distance",
+   "markers": [
+    "从",
+    "到",
+    "离"
+   ],
+   "resume": "从 le départ, 到 l’arrivée, 离 l’écart entre les deux."
+  },
+  {
+   "id": "complement-resultat",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "Le résultat se colle au verbe : 完, 到, 错, 懂, 见",
+   "markers": [
+    "完",
+    "到",
+    "错",
+    "懂",
+    "见",
+    "开"
+   ],
+   "resume": "Un second verbe collé au premier dit comment l’action a fini."
+  },
+  {
+   "id": "direction-lai-qu",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "来 et 去 après le verbe : vers moi, ou loin de moi",
+   "markers": [
+    "来",
+    "去",
+    "进来",
+    "出去",
+    "回来"
+   ],
+   "resume": "来 si l’action vient vers celui qui parle, 去 si elle s’en éloigne."
+  },
+  {
+   "id": "verbe-redouble",
+   "level": 2,
+   "categorie": "phrase",
+   "titre": "Redoubler le verbe : essayer un peu",
+   "markers": [],
+   "resume": "看看, 走走 : faire la chose brièvement, sans y mettre de poids."
+  },
+  {
+   "id": "compter-les-fois",
+   "level": 2,
+   "categorie": "mesure",
+   "titre": "次 : compter les occurrences",
+   "markers": [
+    "次",
+    "一会儿",
+    "一下"
+   ],
+   "resume": "Le nombre de fois se place après le verbe, pas avant."
+  },
+  {
+   "id": "de-adverbial-di",
+   "level": 2,
+   "categorie": "complement",
+   "titre": "地 : transformer un adjectif en manière",
+   "markers": [
+    "地"
+   ],
+   "resume": "Adjectif + 地 + verbe : c’est le « -ment » du français."
+  },
+  {
+   "id": "ba-objet",
+   "level": 3,
+   "categorie": "phrase",
+   "titre": "把 : agir sur l’objet, et dire ce qu’il devient",
+   "markers": [
+    "把"
+   ],
+   "resume": "把 fait remonter l’objet devant le verbe, pour dire ce qui lui arrive."
+  },
+  {
+   "id": "bei-passif",
+   "level": 3,
+   "categorie": "phrase",
+   "titre": "被 : le passif, et pourquoi on l’évite",
+   "markers": [
+    "被"
+   ],
+   "resume": "被 met en tête ce qui subit. Plus rare qu’en français, et souvent négatif."
+  },
+  {
+   "id": "trois-de",
+   "level": 3,
+   "categorie": "determination",
+   "titre": "的, 得, 地 : trois mots, une seule prononciation",
+   "markers": [
+    "的",
+    "得",
+    "地"
+   ],
+   "resume": "La place les distingue : 的 devant un nom, 地 devant un verbe, 得 après un verbe."
+  },
+  {
+   "id": "complement-degre",
+   "level": 3,
+   "categorie": "complement",
+   "titre": "得 : dire comment l’action est faite",
+   "markers": [
+    "得"
+   ],
+   "resume": "Verbe + 得 + appréciation. Notre adverbe, mais placé après."
+  },
+  {
+   "id": "direction-composee",
+   "level": 3,
+   "categorie": "complement",
+   "titre": "Les directions composées : 拿出来, 走进去",
+   "markers": [
+    "出来",
+    "进去",
+    "回来",
+    "起来"
+   ],
+   "resume": "Un verbe, puis l’axe (出, 进, 上, 下, 回), puis 来 ou 去."
+  },
+  {
+   "id": "complement-potentiel",
+   "level": 3,
+   "categorie": "complement",
+   "titre": "听得懂 et 听不懂 : le pouvoir, dans le résultat",
+   "markers": [
+    "得",
+    "不"
+   ],
+   "resume": "得 entre le verbe et son résultat : c’est possible. 不 à la même place : ce n’est pas possible."
+  },
+  {
+   "id": "ruguo-jiu",
+   "level": 3,
+   "categorie": "connecteur",
+   "titre": "如果…的话，就… : l’hypothèse",
+   "markers": [
+    "如果",
+    "的话",
+    "就"
+   ],
+   "resume": "如果 ouvre l’hypothèse, 就 introduit la conséquence."
+  },
+  {
+   "id": "zhiyao-zhiyou",
+   "level": 3,
+   "categorie": "connecteur",
+   "titre": "只要…就 et 只有…才 : il suffit, ou il faut",
+   "markers": [
+    "只要",
+    "只有",
+    "才",
+    "就"
+   ],
+   "resume": "只要…就 : il suffit que. 只有…才 : il faut absolument que."
+  },
+  {
+   "id": "budan-erqie",
+   "level": 3,
+   "categorie": "connecteur",
+   "titre": "不但…而且 : non seulement, mais encore",
+   "markers": [
+    "不但",
+    "而且",
+    "还"
+   ],
+   "resume": "Deux qualités du même sujet, la seconde plus forte que la première."
+  },
+  {
+   "id": "chule-yiwai",
+   "level": 3,
+   "categorie": "connecteur",
+   "titre": "除了…以外 : à part, ou en plus",
+   "markers": [
+    "除了",
+    "以外",
+    "都",
+    "还"
+   ],
+   "resume": "La suite décide du sens : 都 exclut, 还 ajoute."
+  },
+  {
+   "id": "yue-yue",
+   "level": 3,
+   "categorie": "comparaison",
+   "titre": "越…越 : plus… plus…",
+   "markers": [
+    "越"
+   ],
+   "resume": "Deux 越, un dans chaque partie : la seconde suit la première."
+  },
+  {
+   "id": "gen-yiyang",
+   "level": 3,
+   "categorie": "comparaison",
+   "titre": "跟…一样 : être pareil",
+   "markers": [
+    "跟",
+    "一样",
+    "像",
+    "好像"
+   ],
+   "resume": "A 跟 B 一样 + adjectif. L’égalité, là où 比 disait la différence."
+  },
+  {
+   "id": "bijiao-geng",
+   "level": 3,
+   "categorie": "comparaison",
+   "titre": "比较 et 更 : nuancer sans vraiment comparer",
+   "markers": [
+    "比较",
+    "更",
+    "挺"
+   ],
+   "resume": "比较 atténue, 更 renforce une comparaison déjà posée."
+  },
+  {
+   "id": "cai-jiu",
+   "level": 3,
+   "categorie": "phrase",
+   "titre": "才 et 就 : trop tard, ou déjà",
+   "markers": [
+    "才",
+    "就"
+   ],
+   "resume": "就 dit que c’est arrivé tôt ou facilement, 才 que ça a tardé ou coûté."
+  },
+  {
+   "id": "you-zai-hai",
+   "level": 3,
+   "categorie": "phrase",
+   "titre": "又, 再, 还 : trois façons de refaire",
+   "markers": [
+    "又",
+    "再",
+    "还"
+   ],
+   "resume": "又 pour ce qui est déjà refait, 再 pour ce qui reste à refaire."
+  },
+  {
+   "id": "hui-neng-keyi",
+   "level": 3,
+   "categorie": "modal",
+   "titre": "会, 能, 可以 : trois « pouvoir »",
+   "markers": [
+    "会",
+    "能",
+    "可以"
+   ],
+   "resume": "会 c’est appris, 能 c’est possible maintenant, 可以 c’est permis."
+  },
+  {
+   "id": "bixu-yinggai",
+   "level": 3,
+   "categorie": "modal",
+   "titre": "必须, 应该, 需要 : trois « devoir »",
+   "markers": [
+    "必须",
+    "应该",
+    "需要",
+    "不用"
+   ],
+   "resume": "必须 l’obligation, 应该 le conseil, 需要 le besoin."
+  }
+ ]
+}
