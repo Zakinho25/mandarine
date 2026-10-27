@@ -109,20 +109,35 @@ export function Layout() {
                   fontWeight: isActive ? 600 : 400,
                 })}
               >
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  width="22"
-                  height="22"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.7"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d={tab.path} />
-                </svg>
-                {tab.label}
+                {({ isActive }) => (
+                  <>
+                    {/* Pastille derrière l'icône active. La couleur seule
+                        signalait déjà l'onglet courant ; la pastille le rend
+                        lisible d'un coup d'œil, et sans elle six onglets
+                        orangeables se ressemblent trop. */}
+                    <span
+                      className="flex h-7 w-12 items-center justify-center rounded-full transition-colors"
+                      style={{
+                        background: isActive ? 'var(--accent-soft)' : 'transparent',
+                      }}
+                    >
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 24 24"
+                        width="22"
+                        height="22"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={isActive ? 2 : 1.7}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d={tab.path} />
+                      </svg>
+                    </span>
+                    {tab.label}
+                  </>
+                )}
               </NavLink>
             </li>
           ))}

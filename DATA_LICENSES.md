@@ -126,3 +126,20 @@ Chaque élément porte un `contentStatus` visible dans l'interface :
 Les 9 définitions absentes de CFDICT ont été rédigées à la main dans
 `scripts/data/overrides.ts`, chacune avec sa justification, et portent le
 statut `reviewed_human`.
+
+## Polices de caractères
+
+| Police | Usage | Auteur | Licence |
+| --- | --- | --- | --- |
+| [Figtree](https://github.com/erikdkennedy/figtree) | interface | Erik Kennedy | SIL Open Font License 1.1 |
+| [Bricolage Grotesque](https://github.com/ateliertriay/bricolage) | titres et logotype | Mathieu Triay, Atelier Triay | SIL Open Font License 1.1 |
+
+Les deux sont hébergées dans `public/fonts/`, en sous-ensembles latin et
+latin-ext, plutôt qu'appelées chez Google. Deux raisons : l'application doit
+fonctionner hors ligne, et aucune requête ne doit partir vers un tiers.
+
+Le sous-ensemble **latin-ext est indispensable** : le pinyin s'écrit avec
+ā ǎ ē ě ī ǐ ō ǒ ū ǔ ǖ ǚ, qui n'appartiennent pas au latin de base.
+
+La licence OFL autorise cet hébergement et cette redistribution, y compris
+dans un projet modifié, tant que les polices ne sont pas vendues seules.

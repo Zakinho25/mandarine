@@ -1,17 +1,25 @@
 /**
  * Génère les icônes de l'application, sans dépendance ni service en ligne.
  *
- * Le motif est le contour du 3e ton — descendant puis montant — parce que
- * c'est le ton qui pose le plus de difficulté aux francophones et le sujet
- * central de l'application.
+ * Le motif est la marque de l'application : un quartier de mandarine, aux
+ * mêmes coordonnées que le tracé SVG de src/ui/Logo.tsx.
+ *
+ * Le dessin est donc écrit deux fois, en SVG là-bas et en arithmétique ici,
+ * faute d'outil de rendu installé et pour tenir la promesse de zéro
+ * dépendance. Toute retouche du logo doit être reportée ici, sans quoi
+ * l'icône et l'en-tête finiraient par diverger.
  *
  * Usage : node scripts/make-icons.mjs
  */
 import { deflateSync } from 'node:zlib'
 import { mkdir, writeFile } from 'node:fs/promises'
 
-const BACKGROUND = [224, 122, 47] // orange mandarine
-const STROKE = [255, 252, 248]
+const TUILE = [255, 232, 214] // pêche doux : le fond de la tuile
+const ECORCE_COULEUR = [255, 248, 240] // presque blanc, pour que l'écorce
+// se détache de la tuile. Les confondre ferait disparaître la bande claire,
+// qui est ce qui fait lire « agrume » plutôt que « triangle ».
+const CHAIR_SOMBRE = [194, 65, 12] // l'accent
+const CHAIR_CLAIRE = [255, 122, 61] // l'accent vif
 
 // ---------------------------------------------------------------------------
 // Encodeur PNG minimal (couleur vraie 8 bits, sans canal alpha).
@@ -68,33 +76,70 @@ function encodePng(width, height, pixels) {
 }
 
 // ---------------------------------------------------------------------------
-// Motif : contour du 3e ton, tracé par distance au point le plus proche.
+// Motif : le quartier de mandarine, dans le repère de 32 unités du logo.
 // ---------------------------------------------------------------------------
-function toneCurveIcon(size, padding) {
+
+/** Pointe du quartier, d'où partent le rayon et les nervures. */
+const APEX = [6.5, 26.5]
+const RAYON = 22
+const ANGLE_DEBUT = -97
+const ANGLE_FIN = -12
+const ECORCE = 1.7
+
+const NERVURES = [
+  [6.85, 22.52, 7.63, 13.55],
+  [8.79, 23.22, 13.96, 15.85],
+  [10.13, 24.81, 18.28, 21.01],
+]
+
+/** Distance au carré d'un point à un segment. */
+function distanceSegment2(px, py, ax, ay, bx, by) {
+  const dx = bx - ax
+  const dy = by - ay
+  const longueur = dx * dx + dy * dy
+  const t =
+    longueur === 0
+      ? 0
+      : Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / longueur))
+  const qx = ax + t * dx
+  const qy = ay + t * dy
+  return (px - qx) ** 2 + (py - qy) ** 2
+}
+
+function mandarineIcon(size, padding) {
   const inner = size * (1 - 2 * padding)
-  const left = size * padding
-  const amplitude = inner * 0.34
-  const top = size / 2 - amplitude / 2
-  const thickness = Math.max(2, size * 0.075)
-
-  /** Ordonnée de la courbe pour une abscisse normalisée t dans [0, 1]. */
-  const curveY = (t) => top + amplitude * (1 - (2 * t - 1) ** 2)
-
-  // Échantillonnage dense : plus simple et plus robuste qu'un calcul exact de
-  // distance à une parabole, pour un coût négligeable à cette taille.
-  const samples = []
-  for (let i = 0; i <= 600; i += 1) {
-    const t = i / 600
-    samples.push([left + t * inner, curveY(t)])
-  }
+  const echelle = inner / 32
+  const marge = size * padding
 
   return (x, y) => {
-    let best = Infinity
-    for (const [sx, sy] of samples) {
-      const d = (x - sx) ** 2 + (y - sy) ** 2
-      if (d < best) best = d
+    // Retour dans le repère du logo, où le tracé est exprimé.
+    const u = (x - marge) / echelle
+    const v = (y - marge) / echelle
+    const du = u - APEX[0]
+    const dv = v - APEX[1]
+    const d = Math.hypot(du, dv)
+    const angle = (Math.atan2(dv, du) * 180) / Math.PI
+
+    if (angle < ANGLE_DEBUT || angle > ANGLE_FIN || d > RAYON) return TUILE
+
+    // L'écorce : la bande claire le long de l'arc extérieur.
+    if (d >= RAYON - ECORCE) return ECORCE_COULEUR
+
+    for (const [ax, ay, bx, by] of NERVURES) {
+      if (distanceSegment2(u, v, ax, ay, bx, by) <= 0.55 ** 2) {
+        // Les nervures sont atténuées, comme dans le SVG : à pleine clarté
+        // elles dessineraient une patte plutôt que des fibres.
+        return [0, 1, 2].map((i) =>
+          Math.round((ECORCE_COULEUR[i] + CHAIR_CLAIRE[i]) / 2),
+        )
+      }
     }
-    return Math.sqrt(best) <= thickness / 2 ? STROKE : BACKGROUND
+
+    // La chair, en dégradé de la pointe vers l'écorce.
+    const t = Math.min(1, d / RAYON)
+    return [0, 1, 2].map((i) =>
+      Math.round(CHAIR_SOMBRE[i] + (CHAIR_CLAIRE[i] - CHAIR_SOMBRE[i]) * t),
+    )
   }
 }
 
@@ -107,7 +152,7 @@ const TARGETS = [
 
 await mkdir('public/icons', { recursive: true })
 for (const { file, size, padding } of TARGETS) {
-  const png = encodePng(size, size, toneCurveIcon(size, padding))
+  const png = encodePng(size, size, mandarineIcon(size, padding))
   await writeFile(`public/icons/${file}`, png)
   console.log(`public/icons/${file} — ${size}x${size}, ${png.length} octets`)
 }

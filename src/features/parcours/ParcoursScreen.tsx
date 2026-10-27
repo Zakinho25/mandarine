@@ -11,6 +11,7 @@ import { skillsRevisables } from '@/domain/srs/cards'
 import { ESTIMATE_MESSAGES } from '@/domain/progress'
 import { useSettings } from '@/store/useSettings'
 import { LEVEL_GOALS, levelTitle } from '@/ui/levels'
+import { Logotype } from '@/ui/Logo'
 import { useSpeech } from '@/ui/useSpeech'
 
 function formatDate(iso: string): string {
@@ -28,7 +29,7 @@ function Stat({ value, label }: { value: string; label: string }) {
       <dt className="mt-1 text-xs" style={{ color: 'var(--text-muted)' }}>
         {label}
       </dt>
-      <dd className="text-2xl font-semibold">{value}</dd>
+      <dd className="chiffre text-[1.75rem] leading-none">{value}</dd>
     </div>
   )
 }
@@ -82,14 +83,16 @@ export function ParcoursScreen() {
 
   return (
     <div className="mx-auto max-w-xl px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-3xl font-semibold tracking-tight">Mandarine</h1>
-        <p className="mt-1 text-sm" style={{ color: 'var(--text-muted)' }}>
+      <header className="mb-7">
+        <h1>
+          <Logotype />
+        </h1>
+        <p className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>
           Du premier ton au HSK 3, en français.
         </p>
       </header>
 
-      <section className="mb-6 rounded-2xl border p-5" style={card}>
+      <section className="lavis mb-6 rounded-3xl border p-5" style={card}>
         <div className="mb-1 flex items-baseline justify-between gap-3">
           <h2 className="text-sm font-semibold tracking-wide uppercase">
             Ta progression
@@ -107,7 +110,8 @@ export function ParcoursScreen() {
             className="h-full rounded-full transition-all"
             style={{
               width: `${String(Math.min(100, (100 * mastered) / Math.max(total, 1)))}%`,
-              background: 'var(--accent)',
+              background:
+                'linear-gradient(90deg, var(--accent), var(--accent-vif))',
             }}
           />
         </div>
@@ -181,7 +185,7 @@ export function ParcoursScreen() {
         <Link
           to="/grammaire"
           className="mb-6 block rounded-2xl border p-4 text-sm"
-          style={{ ...card, borderColor: 'var(--tone-4)' }}
+          style={{ ...card, borderColor: 'var(--accent)' }}
         >
           <span className="font-medium">
             {grammaire.aRevoir.length} point

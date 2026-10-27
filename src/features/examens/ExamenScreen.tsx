@@ -320,7 +320,7 @@ export function ExamenScreen() {
         <span
           aria-hidden="true"
           className="font-mono text-sm"
-          style={{ color: presse ? 'var(--tone-4)' : 'var(--text-muted)' }}
+          style={{ color: presse ? 'var(--tone-1)' : 'var(--text-muted)' }}
         >
           {chrono(restant)}
         </span>

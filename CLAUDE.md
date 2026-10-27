@@ -105,6 +105,45 @@ mot — une correction devenue inutile serait un bug silencieux.
 Chaque entrée dit ce qui a été décidé, pourquoi, et ce qu'il faudrait changer
 pour revenir en arrière.
 
+### 2026-10-27 — Une identité : la mandarine prise au mot
+Le nom jouait déjà sur le fruit et la langue ; la palette et la marque le
+disent enfin. Orange de mandarine sur papier chaud, encre brunie plutôt que
+grise, et un quartier d'agrume pour logo.
+
+**Deux oranges, et la distinction n'est pas décorative.** `--accent` (#c2410c)
+est assez sombre pour servir de texte sur fond clair (5,0) comme de fond sous
+du blanc (5,2). `--accent-vif` (#ff7a3d) est le ton de la marque : il ne porte
+jamais de texte, il ne sert qu'aux dégradés, au logo et au lavis. Les
+confondre casserait les contrastes, qui ont tous été recalculés.
+
+**Les couleurs de tons ne servent plus d'interface.** Le bleu du quatrième ton
+faisait office de « à revoir » et de « piège » ; sur une palette agrume il
+jure, et surtout il mentait sur ce que les couleurs de tons signifient.
+L'attention passe à l'accent, l'urgence au rouge.
+
+### 2026-10-27 — Deux polices, hébergées ici
+Figtree pour l'interface, Bricolage Grotesque pour les titres et le logotype.
+Téléchargées dans `public/fonts/` plutôt qu'appelées chez Google : hors ligne
+d'abord, et aucune requête vers un tiers. 138 ko pour les quatre fichiers.
+
+**Le sous-ensemble latin-ext est indispensable**, et ce n'est pas évident :
+le pinyin s'écrit avec ā ǎ ē ě ī ǐ ō ǒ ū ǔ ǖ ǚ, qui n'appartiennent pas au
+latin de base. Sans lui, la moitié des voyelles tonales retomberait sur une
+police système et le pinyin changerait de dessin au milieu d'un mot.
+
+### 2026-10-27 — Le logo est écrit deux fois, et il faut le savoir
+`src/ui/Logo.tsx` le trace en SVG, `scripts/make-icons.mjs` le recalcule en
+arithmétique pour produire les PNG. **Pourquoi :** aucun outil de rendu n'est
+installé et le projet tient à zéro dépendance pour ses icônes. Les deux
+fichiers partagent les mêmes coordonnées dans un repère de 32 unités. Toute
+retouche du dessin doit être reportée des deux côtés, sans quoi l'icône et
+l'en-tête finiront par diverger.
+
+L'écorce claire le long de l'arc n'est pas un ornement : sans elle, la forme
+se lit comme un triangle quelconque. Elle est d'un crème fixe et non du jeton
+de contraste, qui bascule avec le thème — une marque ne change pas de dessin
+entre le jour et la nuit.
+
 ### 2026-10-27 — Cartes d'écoute : créées partout, proposées où il y a une voix
 Trois distinctions, là où il n'y avait qu'`ACTIVE_SKILLS` :
 

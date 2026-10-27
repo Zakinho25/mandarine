@@ -1,16 +1,81 @@
 @import 'tailwindcss';
 
 /* ===========================================================================
-   Jetons de typographie
+   Typographie
 
-   Aucune police n'est téléchargée : on s'appuie sur les polices chinoises
-   déjà présentes sur le système (PingFang SC sur iPhone et Mac, Microsoft
-   YaHei sur Windows). Elles sont d'excellente qualité, s'affichent hors ligne
-   et ne coûtent ni octet de téléchargement ni euro.
+   Deux familles téléchargées, hébergées ici plutôt qu'appelées chez Google :
+   l'application doit fonctionner hors ligne, et aucune requête ne doit partir
+   vers un tiers. Les quatre fichiers pèsent 138 ko au total et sont
+   préchargés par le service worker.
+
+   Bricolage Grotesque ne sert qu'aux titres, au logotype et aux grands
+   chiffres : c'est elle qui donne son caractère à l'application. Figtree
+   porte tout le reste, parce qu'elle reste lisible à 11 px dans une barre
+   d'onglets.
+
+   Le sous-ensemble **latin-ext est indispensable** : le pinyin s'écrit avec
+   ā ǎ ē ě ī ǐ ō ǒ ū ǔ ǖ ǚ, qui n'appartiennent pas au latin de base. Sans
+   lui, la moitié des voyelles tonales retomberait sur une police système et
+   le pinyin changerait de dessin au milieu d'un mot.
+
+   Les caractères chinois restent aux polices du système (PingFang SC sur
+   iPhone, Microsoft YaHei sur Windows) : elles sont excellentes, déjà
+   installées, et une police chinoise complète pèserait plusieurs mégaoctets.
    =========================================================================== */
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('/fonts/figtree-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('/fonts/figtree-latin-ext.woff2') format('woff2');
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/bricolage-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/bricolage-latin-ext.woff2') format('woff2');
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 @theme {
   --font-sans:
-    system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display:
+    'Bricolage Grotesque', 'Figtree', system-ui, -apple-system, sans-serif;
   --font-hanzi:
     'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC',
     'Source Han Sans SC', sans-serif;
@@ -18,26 +83,38 @@
 
 /* ===========================================================================
    Couleurs — thème clair par défaut
+
+   L'application s'appelle Mandarine, et la palette le dit enfin : un orange
+   de mandarine mûre, posé sur un papier chaud plutôt que sur du blanc. Le
+   noir est teinté de brun, parce qu'un gris neutre à côté d'un orange vif
+   donne toujours l'air d'un formulaire.
+
+   Deux oranges, et la distinction compte. `--accent` est assez sombre pour
+   servir de texte sur fond clair (5,0 contre le papier) comme de fond sous du
+   blanc (5,2). `--accent-vif` est le ton de la marque, plus lumineux : il ne
+   porte jamais de texte, il ne sert qu'aux dégradés, au logo et aux surfaces
+   décoratives. Confondre les deux casserait les contrastes.
    =========================================================================== */
 :root {
   color-scheme: light;
 
-  --surface: #fbfaf7;
+  --surface: #fffbf6;
   --surface-raised: #ffffff;
-  --surface-sunken: #f2efe8;
-  --border: #e2ddd3;
-  --text: #1c1917;
-  --text-muted: #6b6560;
-  --accent: #a8481a;
-  --accent-soft: #fbeade;
+  --surface-sunken: #f6efe6;
+  --border: #eadfd1;
+  --text: #1f1a1c;
+  --text-muted: #6b5f5a;
+  --accent: #c2410c;
+  --accent-vif: #ff7a3d;
+  --accent-soft: #ffede0;
   --accent-contrast: #ffffff;
 
   /* Couleurs des tons — convention la plus répandue (Pleco, MDBG) */
   --tone-1: #c62828;
   --tone-2: #8a5a00;
-  --tone-3: #15803d;
+  --tone-3: #166534;
   --tone-4: #1d4ed8;
-  --tone-5: #6b6560;
+  --tone-5: #6b5f5a;
 
   /* Échelle de la police chinoise, réglable dans les préférences */
   --hanzi-scale: 1;
@@ -47,42 +124,44 @@
   :root:not([data-theme='light']) {
     color-scheme: dark;
 
-    --surface: #0b0d12;
-    --surface-raised: #151922;
-    --surface-sunken: #080a0e;
-    --border: #262c38;
-    --text: #f1efea;
-    --text-muted: #a0a0a8;
-    --accent: #f08a4b;
-    --accent-soft: #2a1d14;
-    --accent-contrast: #16110c;
+    --surface: #14100e;
+    --surface-raised: #1f1916;
+    --surface-sunken: #0d0a09;
+    --border: #342b25;
+    --text: #f7f0e8;
+    --text-muted: #a89b92;
+    --accent: #ff8a4c;
+    --accent-vif: #ffa06b;
+    --accent-soft: #351f12;
+    --accent-contrast: #1a0f08;
 
     --tone-1: #ff8a80;
     --tone-2: #e0a33a;
     --tone-3: #5ddb8e;
     --tone-4: #8ab4ff;
-    --tone-5: #a0a0a8;
+    --tone-5: #a89b92;
   }
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
 
-  --surface: #0b0d12;
-  --surface-raised: #151922;
-  --surface-sunken: #080a0e;
-  --border: #262c38;
-  --text: #f1efea;
-  --text-muted: #a0a0a8;
-  --accent: #f08a4b;
-  --accent-soft: #2a1d14;
-  --accent-contrast: #16110c;
+  --surface: #14100e;
+  --surface-raised: #1f1916;
+  --surface-sunken: #0d0a09;
+  --border: #342b25;
+  --text: #f7f0e8;
+  --text-muted: #a89b92;
+  --accent: #ff8a4c;
+  --accent-vif: #ffa06b;
+  --accent-soft: #351f12;
+  --accent-contrast: #1a0f08;
 
   --tone-1: #ff8a80;
   --tone-2: #e0a33a;
   --tone-3: #5ddb8e;
   --tone-4: #8ab4ff;
-  --tone-5: #a0a0a8;
+  --tone-5: #a89b92;
 }
 
 /* ---------------------------------------------------------------------------
@@ -94,7 +173,7 @@
   --tone-2: #0f766e;
   --tone-3: #b45309;
   --tone-4: #a21caf;
-  --tone-5: #6b6560;
+  --tone-5: #6b5f5a;
 }
 
 /* Même palette, éclaircie pour le fond sombre. Les deux sélecteurs ci-dessous
@@ -105,7 +184,7 @@
     --tone-2: #5ecfc0;
     --tone-3: #f0b64b;
     --tone-4: #e879f9;
-    --tone-5: #a0a0a8;
+    --tone-5: #a89b92;
   }
 }
 
@@ -114,7 +193,7 @@
   --tone-2: #5ecfc0;
   --tone-3: #f0b64b;
   --tone-4: #e879f9;
-  --tone-5: #a0a0a8;
+  --tone-5: #a89b92;
 }
 
 /* ---------------------------------------------------------------------------
@@ -162,11 +241,50 @@ body {
     env(safe-area-inset-left);
 }
 
+/*
+ * Les titres passent à la police d'affichage, avec un crénage resserré.
+ * Appliqué ici plutôt que classe par classe : un titre ajouté demain hérite
+ * de l'identité sans qu'on y pense.
+ */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Les grands nombres du tableau de bord méritent la même voix que les titres. */
+.chiffre {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Caractères chinois : taille pilotée par la préférence de l'utilisateur */
 .hanzi {
   font-family: var(--font-hanzi);
   font-size: calc(1em * var(--hanzi-scale));
   line-height: 1.5;
+}
+
+/*
+ * Lavis d'agrumes, pour les en-têtes. Décoratif et uniquement décoratif :
+ * aucun texte ne repose dessus, donc il n'entre dans aucun calcul de
+ * contraste.
+ */
+.lavis {
+  background-image:
+    radial-gradient(
+      120% 100% at 0% 0%,
+      color-mix(in srgb, var(--accent-vif) 22%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(
+      90% 90% at 100% 0%,
+      color-mix(in srgb, var(--tone-2) 14%, transparent),
+      transparent 55%
+    );
 }
 
 /* L'anneau est dessiné 2 px EN DEHORS de l'élément, donc sur le fond de

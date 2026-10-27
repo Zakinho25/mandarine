@@ -158,7 +158,7 @@ export function PointScreen() {
 
           <section
             className="mt-5 rounded-2xl border p-4"
-            style={{ ...card, borderColor: 'var(--tone-4)' }}
+            style={{ ...card, borderColor: 'var(--accent)' }}
           >
             <h2 className="text-xs font-semibold tracking-wide uppercase">
               Le piège pour un francophone
@@ -226,7 +226,7 @@ export function PointScreen() {
                     ? 'var(--border)'
                     : resultat.juste
                       ? 'var(--tone-3)'
-                      : 'var(--tone-4)',
+                      : 'var(--tone-1)',
               }}
             >
               {ligne.length === 0 && (
@@ -318,7 +318,7 @@ export function PointScreen() {
                   </>
                 ) : (
                   <>
-                    <p className="text-sm font-medium" style={{ color: 'var(--tone-4)' }}>
+                    <p className="text-sm font-medium" style={{ color: 'var(--tone-1)' }}>
                       Ce n’est pas encore ça.
                     </p>
                     <p className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>

@@ -8,7 +8,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#0b0d12" />
+    <!-- La barre système suit le thème : papier chaud le jour, brun sombre
+         la nuit. Un seul theme-color laisserait une bande blanche en haut
+         de l'écran en mode sombre. -->
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#fffbf6"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#14100e"
+    />
     <meta
       name="description"
       content="Apprentissage du chinois mandarin pour francophones, des premiers tons au HSK 3."

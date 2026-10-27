@@ -62,7 +62,7 @@ export function BilanExamen({ examen, resultat, reponses, lexemes }: BilanProps)
           <span className="text-4xl font-semibold">{resultat.pourcentage} %</span>
           <span
             className="text-sm font-medium"
-            style={{ color: resultat.reussi ? 'var(--tone-3)' : 'var(--tone-4)' }}
+            style={{ color: resultat.reussi ? 'var(--tone-3)' : 'var(--tone-1)' }}
           >
             {resultat.reussi ? 'Au-dessus du seuil' : 'En dessous du seuil'}
           </span>
@@ -135,7 +135,7 @@ export function BilanExamen({ examen, resultat, reponses, lexemes }: BilanProps)
                   <Link
                     to={`/grammaire/${faible.pointId}`}
                     className="flex items-baseline justify-between gap-3 rounded-xl border p-3 text-sm"
-                    style={{ ...card, borderColor: 'var(--tone-4)' }}
+                    style={{ ...card, borderColor: 'var(--accent)' }}
                   >
                     <span>{point?.titre ?? faible.pointId}</span>
                     <span className="shrink-0 text-xs" style={{ color: 'var(--text-muted)' }}>
@@ -188,7 +188,7 @@ export function BilanExamen({ examen, resultat, reponses, lexemes }: BilanProps)
                   />
                 )}
                 <p className="mt-3 text-sm">
-                  <span style={{ color: 'var(--tone-4)' }}>Ta réponse : </span>
+                  <span style={{ color: 'var(--tone-1)' }}>Ta réponse : </span>
                   {texteDuChoix(item, reponses[item.id] ?? null)}
                 </p>
                 <p className="mt-1 text-sm">

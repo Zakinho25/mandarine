@@ -102,14 +102,14 @@ export function GrammaireScreen() {
                         className="block rounded-2xl border p-4"
                         style={{
                           ...card,
-                          borderColor: aRevoir ? 'var(--tone-4)' : 'var(--border)',
+                          borderColor: aRevoir ? 'var(--accent)' : 'var(--border)',
                         }}
                       >
                         <div className="flex items-baseline justify-between gap-3">
                           <span className="font-medium">{point.titre}</span>
                           <span className="flex shrink-0 items-center gap-2 text-xs">
                             {aRevoir && (
-                              <span style={{ color: 'var(--tone-4)' }}>à revoir</span>
+                              <span style={{ color: 'var(--accent)' }}>à revoir</span>
                             )}
                             {couvert && (
                               <>
